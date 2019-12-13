@@ -963,6 +963,18 @@
     "color": "greybox"
   },
   {
+    "name": "Eclipser",
+    "year": 2019,
+    "author": [ "Jaeseung Choi", "Joonun Jang", "Choongwoo Han", "Sang Kil Cha" ],
+    "title": "Grey-box Concolic Testing on Binary Code",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "toolurl": "https://github.com/SoftSec-KAIST/Eclipser",
+    "miscurl": [ "https://softsec.kaist.ac.kr/~jschoi/data/icse2019.pdf" ],
+    "targets": [ "argument", "file" ],
+    "references": [ "AFL", "SAGE" ],
+    "color": "greybox"
+  },
+  {
     "name": "Narada",
     "year": 2015,
     "author": [ "Malavika Samak", "Murali Krishna Ramanathan", "Suresh Jagannathan" ],
