@@ -1,1 +1,80 @@
-Under construction
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Fuzzing Survey</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/asefuzz.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Fuzzing Survey</a>
+        <div class="searchform">
+          <input class="form-control" type="search" value=""
+                 id="js-searchform-text"
+                 placeholder="Type keywords" />
+          <ul class="list-group searchform__result" id="js-searchform-result">
+            <!-- li class="list-group-item py-1">AAA</li-->
+          </ul>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbar-collapse"
+                aria-controls="navbar-collapse"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link"
+                 href="https://github.com/SoftSec-KAIST/Fuzzing-Survey">
+                Want to Contribute?</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main role="main" class="main">
+      <div class="canvas" id="js-canvas"></div>
+    </main>
+
+    <footer class="footer py-3 fixed-bottom">
+      <div class="container text-center">
+        <span class="text-muted">
+          This site is maintained by
+          <a href="https://softsec.kaist.ac.kr/">SoftSec Lab.</a> and
+          <a href="http://csrc.kaist.ac.kr">CSRC</a>, KAIST
+        </span>
+      </div>
+    </footer>
+
+    <div id="js-infobox" class="modal fade infobox">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div id="js-infobox-header" class="modal-header infobox__header">
+            <h4 id="js-infobox-title" class="modal-title">Settings</h4>
+            <button type="button" class="close" data-dismiss="modal"
+                    aria-hidden="true">&times;</button>
+          </div>
+          <div id="js-infobox-content" class="modal-body"></div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary"
+                    data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/d3.min.js"></script>
+    <script src="js/asefuzz.js"></script>
+  </body>
+</html>
