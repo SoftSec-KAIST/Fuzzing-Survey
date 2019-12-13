@@ -17,6 +17,9 @@ const yearHeight = 100;
 // The width of each year bar. Set this value big enough to handle many fuzzers!
 const yearWidth = 100000;
 
+// The minimum scale that we can set.
+const minScale = 0.2;
+
 function createCanvas(width, height) {
   return d3.select("#js-canvas")
     .append("svg")
@@ -235,10 +238,10 @@ function computeMaxYear(d) {
 function installZoomHandler(height, canvas, g, d) {
   const maxX = yearWidth / 4;
   const maxY = (yearHeight + 2) * (computeMaxYear(d.nodes) - theFirstYear + 1);
-  const marginY = height / 2;
+  const marginY = height / 2 / minScale;
   const zoomHandler =
     d3.zoom()
-      .scaleExtent([0.2, 5])
+      .scaleExtent([minScale, 5])
       .translateExtent([[-maxX, -yearHeight - marginY], [maxX, maxY + marginY]])
       .on("zoom", function () {
         g.attr("transform", d3.event.transform)
@@ -344,5 +347,5 @@ d3.json("data/fuzzers.json")
     installInfoboxHandler();
     installSearchHandler(width, height, canvas, zoom, nodes);
     initSimulation(d, simulation, width, height, links, nodes);
-    zoom.scaleTo(canvas, 0.2);
+    zoom.scaleTo(canvas, minScale);
   });
