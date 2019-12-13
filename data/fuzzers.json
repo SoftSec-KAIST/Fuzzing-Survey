@@ -564,7 +564,7 @@
     "title" : "DIFUZE: Interface Aware Fuzzing for Kernel Drivers",
     "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
     "toolurl": "https://github.com/ucsb-seclab/difuze",
-    "references": [ "Trinity", "syzkaller" ],
+    "references": [ "syzkaller" ],
     "targets": [ "kernel" ],
     "color": "blackbox"
   },
@@ -577,7 +577,7 @@
     "toolurl": "https://github.com/SoftSec-KAIST/IMF",
     "miscurl": [ "https://daramg.gift/paper/han-ccs2017.pdf" ],
     "targets": [ "kernel" ],
-    "references": [ "syzkaller", "Trinity" ],
+    "references": [ "syzkaller" ],
     "color": "blackbox"
   },
   {
@@ -700,6 +700,7 @@
     "author": [ "Dmitry Vyukov" ],
     "toolurl": "https://github.com/dvyukov/syzkaller",
     "targets": [ "kernel" ],
+    "references": [ "Trinity", "perf_fuzzer" ],
     "color": "greybox"
   },
   {
