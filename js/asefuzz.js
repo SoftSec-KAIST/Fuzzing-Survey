@@ -247,8 +247,8 @@ function installZoomHandler(height, canvas, g, d) {
   return zoomHandler;
 }
 
-function fieldMatch(field, s) {
-  if (field !== undefined) return field.includes(s);
+function fieldMatch(field, re) {
+  if (field !== undefined) return field.match(re);
   return false;
 }
 
@@ -264,19 +264,21 @@ function installSearchHandler(width, height, canvas, zoom, nodes) {
   txt.keyup(function (e) {
     if (e.shiftKey) return;
     const s = txt.val();
+    const re = new RegExp(s, "i");
     clearSearchResults(nodes, resultList);
     if (s === "") return;
     const matches = nodes.filter(function (n) {
-      return n.name.includes(s)
-        || fieldMatch(n.year.toString(), s)
-        || fieldMatch(n.author, s)
-        || fieldMatch(n.title, s)
-        || fieldMatch(n.booktitle, s)
-        || fieldMatch(n.journal, s)
-        || (n.author !== undefined ? fieldMatch(n.author.join(" "), s) : false)
+      return n.name.match(re)
+        || fieldMatch(n.year.toString(), re)
+        || fieldMatch(n.title, re)
+        || fieldMatch(n.booktitle, re)
+        || fieldMatch(n.journal, re)
+        || (n.author !== undefined ? fieldMatch(n.author.join(" "), re) : false)
     });
     matches.select(".node").classed("node-found", true);
+    const maxShow = 10;
     matches.each(function (d, i) {
+      if (i >= maxShow) return;
       resultList.append("li")
         .classed("list-group-item", true)
         .classed("py-1", true)
