@@ -54,7 +54,7 @@ Other fields are *optional*, but try to provide as much information as possible:
 
 - **Indentation = 2**: We always use two space characters for indentations.
 
-#### Specific Rules for JSON
+#### Specific Rules for JSON Syntax
 
 ##### List
 
