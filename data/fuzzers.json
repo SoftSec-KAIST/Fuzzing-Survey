@@ -227,6 +227,7 @@
     "author": [ "CERT" ],
     "toolurl": "https://resources.sei.cmu.edu/library/asset-view.cfm?assetID=507974",
     "targets": [ "file" ],
+    "references": [ "zzuf" ],
     "color": "blackbox"
   },
   {
