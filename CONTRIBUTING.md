@@ -3,6 +3,13 @@ Contribution Guideline
 
 Please read this guideline before creating a PR (Pull Request) or an issue.
 
+### Selection Criteria
+
+In order to maintain the quality of the survey and to keep the graph simple, we
+will have the same acceptance criteria we had in the paper.  A paper should be
+published in a top-tier venue: Oakland, USENIX Security, CCS, NDSS, ICSE, FSE,
+or ASE. Otherwise, an open-sourced tools should have gathered 100 stars or more.
+
 ### Git Commit Messages
 
 We follow the convention described in [this article](https://chris.beams.io/posts/git-commit/).
