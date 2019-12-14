@@ -53,18 +53,10 @@ Other fields are *optional*, but try to provide as much information as possible:
 
 - Further miscellaneous links can be given in `miscurl`.
 
-#### Basic Rules
+### Basic Rules for JSON
 
-- **No tabs**: We do *not* use `tab` for spacing.
-
-- **Indentation = 2**: We always use two space characters for indentations.
-
-#### Specific Rules for JSON Syntax
-
-##### List
-
-We prefer to have space chars for list. For example,
-```json
-"author": [ "foo1", "foo2" ] // Good
-"author": ["foo1", "foo2"]   // Not good
-```
+- The `fuzzers.json` file must be formatted with the following
+  [`jq`](https://stedolan.github.io/jq/) command:
+    ```
+    jq "sort_by(.name)" fuzzers.json
+    ```
