@@ -216,11 +216,13 @@ function drawNodes(g, d, simulation) {
     })
     .attr("dominant-baseline", "middle")
     .text(function (d) { return d.name })
-    .on("click", onClick)
-    .call(d3.drag()
-            .on("start", dragStart)
-            .on("drag", dragMiddle)
-            .on("end", dragEnd));
+    .on("click", onClick);
+
+  const dragHandler = d3.drag()
+    .on("start", dragStart)
+    .on("drag", dragMiddle)
+    .on("end", dragEnd);
+  dragHandler(nodes);
 
   return nodes;
 }
