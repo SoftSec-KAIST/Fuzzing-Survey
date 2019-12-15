@@ -200,6 +200,7 @@ function drawNodes(g, d, simulation) {
     if (!d3.event.active) simulation.alphaTarget(0.3).restart()
     d.fx = d.x;
     d.fy = d.y;
+    d.isDragging = true;
   }
 
   function dragMiddle(d) {
@@ -211,6 +212,7 @@ function drawNodes(g, d, simulation) {
     if (!d3.event.active) simulation.alphaTarget(0);
     d.fx = null;
     d.fy = null;
+    d.isDragging = false;
   }
 
   nodes.append("ellipse")
@@ -329,7 +331,9 @@ function computeYPos(year) {
 function ticked(links, nodes, simulation) {
   return function (e) {
     nodes.attr("transform", function (d) {
-      d.y += (computeYPos(d.year) - d.y) * simulation.alpha();
+      if (!d.isDragging) {
+        d.y += (computeYPos(d.year) - d.y) * simulation.alpha();
+      }
       return "translate(" + d.x + "," + d.y + ")";
     });
     links
