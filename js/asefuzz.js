@@ -56,14 +56,20 @@ function drawEdges(g, d) {
       .classed("link", true);
 }
 
+function buildAuthors(node) {
+  let s = "";
+  $.each(node.author, function (i, a) {
+    if (i == node.author.length - 1 && node.author.length > 1)
+      s += ", and " + a;
+    else s += ", " + a;
+  });
+  return s;
+}
+
 function buildRef(node) {
   let s = "\"" + node.title + "\"";
   if (node.author !== undefined) {
-    $.each(node.author, function (i, a) {
-      if (i == node.author.length - 1 && node.author.length > 1)
-        s += ", and " + a;
-      else s += ", " + a;
-    });
+    s += buildAuthors(node);
   }
   if (node.booktitle !== undefined) {
     s += ". In " + node.booktitle;
@@ -77,11 +83,15 @@ function buildRef(node) {
   return s;
 }
 
-function appendPublication(list, node) {
+function appendPublicationOrCredit(list, node) {
   if (node.title !== undefined)
     list.append("li")
       .classed("list-group-item", true)
       .text(buildRef(node));
+  else if (node.author !== undefined)
+    list.append("li")
+      .classed("list-group-item", true)
+      .text(node.name + buildAuthors(node) + ", " + node.year);
 }
 
 function constructIcon(faName, title) {
@@ -151,9 +161,21 @@ function setTitle(node) {
   d3.select("#js-infobox-title")
     .text("[" + node.color + "] " + node.name + getPubYear(node));
   switch (node.color) {
-    case "blackbox": header.classed("infobox-header-blackbox", true); break;
-    case "whitebox": header.classed("infobox-header-whitebox", true); break;
-    default: header.classed("infobox-header-greybox", true); break;
+  case "blackbox":
+    header.classed("infobox-header-whitebox", false);
+    header.classed("infobox-header-blackbox", true);
+    header.classed("infobox-header-greybox", false);
+    break;
+  case "whitebox":
+    header.classed("infobox-header-whitebox", true);
+    header.classed("infobox-header-blackbox", false);
+    header.classed("infobox-header-greybox", false);
+    break;
+  default:
+    header.classed("infobox-header-whitebox", false);
+    header.classed("infobox-header-blackbox", false);
+    header.classed("infobox-header-greybox", true);
+    break;
   }
 }
 
@@ -161,7 +183,7 @@ function onClick(node) {
   let list =
     d3.select("#js-infobox-content").html("")
       .append("ul").classed("list-group", true);
-  appendPublication(list, node);
+  appendPublicationOrCredit(list, node);
   appendIcons(list, node);
   setTitle(node);
   $("#js-infobox").modal();
