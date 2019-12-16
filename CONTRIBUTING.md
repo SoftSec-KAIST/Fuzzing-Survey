@@ -8,10 +8,10 @@ Please read this guideline before creating a PR (Pull Request) or an issue.
 In order to maintain the quality of the survey and to keep the graph simple, we
 will have the same acceptance criteria we had in the paper.  A paper should be
 published in a top-tier venue: Oakland, USENIX Security, CCS, NDSS, ICSE, FSE,
-or ASE. Otherwise, an open-sourced tools should have gathered 100 stars or
-more. We do *not* accept papers that only present theorectical aspects without
-implementing a tool because this database is all about the lineage of fuzzing
-tools. For example, our [survey
+ASE, PLDI, Black Hat or DefCon. Otherwise, an open-sourced tools should have
+gathered 100 stars or more. We do *not* accept papers that only present
+theorectical aspects without implementing a tool because this database is all
+about the lineage of fuzzing tools. For example, our [survey
 paper](https://ieeexplore.ieee.org/document/8863940) should not be included in
 the database.
 
@@ -47,9 +47,9 @@ Other fields are *optional*, but try to provide as much information as possible:
   the `title` and the name of the `journal` along with its `volume` and
   `number`.
 
-- `references` to other fuzzers `name`. It indicates this entry is
-  implemented on top, or heavily inspired by these references. Try not to add
-  too many entries here as the graph would become unnecessarily complex.
+- `references` to other fuzzers `name`. It indicates this entry is implemented
+  on top, or heavily inspired by these references. Do not add more than **two**
+  entries as that would make the graph unnecessarily complex.
 
 - Further miscellaneous links can be given in `miscurl`.
 

@@ -758,6 +758,10 @@
     ],
     "title": "Exposing Vulnerabilities in Media Software",
     "booktitle": "Proceedings of the Black Hat USA",
+    "toolurl": "https://github.com/iSECPartners/fuzzbox",
+    "misc": [
+      "https://www.nccgroup.trust/globalassets/our-research/us/whitepapers/isec_thiel_exposing_vulnerabilities_media_software_0.pdf"
+    ],
     "targets": [
       "network"
     ],
