@@ -3,7 +3,7 @@
     "name": "AFL",
     "year": 2014,
     "author": [
-      "Michał Zaleski"
+      "Michał Zalewski"
     ],
     "toolurl": "http://lcamtuf.coredump.cx/afl/",
     "targets": [
@@ -1942,7 +1942,7 @@
     "name": "cross_fuzz",
     "year": "2010",
     "author": [
-      "Michał Zaleski"
+      "Michał Zalewski"
     ],
     "toolurl": "http://lcamtuf.coredump.cx/cross_fuzz/",
     "targets": [
@@ -2134,7 +2134,7 @@
     "name": "ref_fuzz",
     "year": "2008",
     "author": [
-      "Michał Zaleski"
+      "Michał Zalewski"
     ],
     "toolurl": "http://lcamtuf.coredump.cx/ref_fuzz5.html",
     "miscurl": [
