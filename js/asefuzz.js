@@ -132,16 +132,12 @@ function appendTargetInfo(item, node) {
 
 function appendMiscURL(item, node) {
   if (node.miscurl !== undefined)
-    item
-      .selectAll("a")
-      .data(node.miscurl)
-      .enter()
-        .append("a")
-        .attr("href", function (url) { return url; })
-        .classed("infobox__icon", true)
-        .html(function (url) {
-          return constructIcon("fa-link", url);
-        });
+    $.each(node.miscurl, function (_, url) {
+      item.append("a")
+          .attr("href", url)
+          .classed("infobox__icon", true)
+          .html(constructIcon("fa-link", url));
+    });
 }
 
 function appendIcons(list, node) {
