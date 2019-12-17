@@ -19,14 +19,16 @@ graph of fuzzers.
 
 It uses a [force-directed graph layout
 algorithm](https://en.wikipedia.org/wiki/Force-directed_graph_drawing) with
-several tweaks. At a high-level, each node tends to be sorted by its published
-year, and nodes with links would tend to be clustered. Also, white-box fuzzers
-tend to stay at the right-hand side of the display.
+several tweaks. At a high-level, each node tends to be vertically sorted by its
+published year, and nodes with links would tend to be clustered. Also, white-box
+fuzzers tend to stay at the right-hand side of the display.
 
 ### Contribution
 
-You can contribute to this project to keep the database up-to-date. Please see
-the [contribution guideline](CONTRIBUTING.md) carefully before you make a PR.
+The website is initially built based on our original paper. Therefore it may
+miss recent papers and tools. But you can contribute to this project to keep it
+up-to-date. Please see the [contribution guideline](CONTRIBUTING.md) carefully
+before you make a PR.
 
 ### Maintenance
 
