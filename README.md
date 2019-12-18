@@ -20,8 +20,7 @@ graph of fuzzers.
 It uses a [force-directed graph layout
 algorithm](https://en.wikipedia.org/wiki/Force-directed_graph_drawing) with
 several tweaks. At a high-level, each node tends to be vertically sorted by its
-published year, and nodes with links would tend to be clustered. Also, white-box
-fuzzers tend to stay at the right-hand side of the display.
+published year, and nodes with links would tend to be clustered.
 
 ### Contribution
 
