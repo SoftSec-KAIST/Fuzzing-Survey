@@ -372,4 +372,11 @@ d3.json("data/fuzzers.json")
     installSearchHandler(width, height, canvas, zoom, nodes);
     initSimulation(d, simulation, width, height, links, nodes);
     zoom.scaleTo(canvas, minScale);
+    // Center the graph after a sec.
+    setTimeout(function () {
+      const gBox = g.node().getBBox();
+      const graphScale = d3.zoomTransform(g.node()).k;
+      const y = height / 2 / graphScale;
+      zoom.translateTo(canvas, 0, y);
+    }, 1000);
   });
