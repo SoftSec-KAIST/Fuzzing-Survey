@@ -1,62 +1,78 @@
-Contribution Guideline
-===
+# Contribution Guideline
 
-Please read this guideline before creating a PR (Pull Request) or an issue.
+Please read this guideline before creating a pull request (PR) or an issue on
+this repository.
 
-### Selection Criteria
+## Inclusion Criteria
 
-In order to maintain the quality of the survey and to keep the graph simple, we
-will have the same acceptance criteria we had in the paper.  A paper should be
-published in a top-tier venue: Oakland, USENIX Security, CCS, NDSS, ICSE, FSE,
-ASE or PLDI. Otherwise, an open-sourced tools should have gathered 100 stars or
-more, or have been presented at Black Hat or DefCon. We do *not* accept papers
-that only present theorectical aspects without implementing a tool because this
-database is all about the lineage of fuzzing tools. For example, our [survey
-paper](https://ieeexplore.ieee.org/document/8863940) should not be included in
-the database.
+In order to ensure the quality of our database and to keep the genealogy graph
+simple, we adopt the inclusion criteria we used in our survey. For a conference
+paper, it should have been published in one of the following top-tier venues:
 
-### Git Commit Messages
+* ASE
+* CCS
+* FSE
+* ICSE
+* NDSS
+* PLDI
+* S&P
+* USENIX Security
 
-We follow the convention described in [this article](https://chris.beams.io/posts/git-commit/).
+For an open-sourced tool, it should either have gathered at least 100 stars in
+GitHub/GitLab or have been presented at Black Hat or DefCon. We do *not* include
+papers that present only theoretical aspects without implementing a fuzzing tool
+because this database is about the lineage of fuzzing tools. For example, our
+[survey](https://ieeexplore.ieee.org/document/8863940) itself should not be
+included in this database.
 
-### Adding a new fuzzer
+## Git Commit Messages
 
-Add an entry into`data/fuzzers.json` to get new element displayed in the fuzzer
-tree.  The **required** fields are:
+We follow the convention described in [this
+article](https://chris.beams.io/posts/git-commit/).
 
-- `name` of the fuzzer. This is the key by which this fuzzer is referred to and
-  must be *unique*.
+## Adding a New Fuzzer
 
-- The `year` it was published.
+The database is stored in [`/data/fuzzers.json`](/data/fuzzers.json) using the
+following schema. The **required** fields of each entry are:
 
-- Possible `targets` of the fuzzer, such as `file`, `network`, `kernel`,
-  `argument`, etc.
+- `name`: The name of this fuzzer. This is the key by which this fuzzer is
+  referred to and must be *unique*.
 
-- The `color` of the fuzzer depends on its intrumentation: blackbox, greybox or
+- `year`: The year when this fuzzer was published.
+
+- `targets`: The supported targets of this fuzzer. Examples include `file`,
+  `network`, `kernel`, `argument`, etc.
+
+- `color`: The degree of instrumentation of this fuzzer---blackbox, greybox, or
   whitebox.
 
-Other fields are *optional*, but try to provide as much information as possible:
+The following fields are *optional*, but please try to provide as much
+information as possible:
 
-- The `author` of this fuzzer. When possible, spell the *full name* and not the
-  initials.
+- `author`: The author(s) of this fuzzer. When possible, please spell the *full
+  name(s)* and not just the initials.
 
-- `toolurl` A link to the source (or otherwise the executable) of the fuzzer.
+- `toolurl`: A URL to the source (preferred) or the executable of this fuzzer.
 
-- If it is a published paper in a conference, provide the `title` and the
-  `booktitle` of the publication venue. If it is a journal paper, then provide
-  the `title` and the name of the `journal` along with its `volume` and
-  `number`.
+- `title`: The title of the conference publication/talk or the journal
+  publication that presented this fuzzer.
 
-- `references` to other fuzzers `name`. It indicates this entry is implemented
-  on top, or heavily inspired by these references. Do not add more than **two**
-  entries as that would make the graph unnecessarily complex.
+- `booktitle`: The book title of the conference proceedings if this fuzzer first
+  appeared at a conference.
 
-- Further miscellaneous links can be given in `miscurl`.
+- `journal`, `volume`, `number`: The journal title, volume, and number of the
+  publication if this fuzzer first appeared in a journal.
 
-### Basic Rules for JSON
+- `references`: The `name`(s) of highly-related fuzzers, meaning other fuzzers
+  that this fuzzer was implemented on top of or was heavily inspired by. To
+  maintain simplicity, we limit this field to **two** entries in our database.
 
-- The `fuzzers.json` file must be formatted with the following
-  [`jq`](https://stedolan.github.io/jq/) command:
-    ```
-    jq "sort_by(.name)" fuzzers.json
-    ```
+- `miscurl`: Miscellaneous links, e.g., URLs to papers or presentations.
+
+## Basic Rules for JSON
+
+- For effective version control, please format `/data/fuzzers.json` with the
+  following [`jq`](https://stedolan.github.io/jq/) command:
+  ```
+  jq "sort_by(.name)" fuzzers.json
+  ```
