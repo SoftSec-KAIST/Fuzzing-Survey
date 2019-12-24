@@ -1,51 +1,59 @@
-Fuzzing Tools and Literature Database
-===
+# Genealogy Database of Fuzzers
 
-This is a repository for maintaining the genealogy database of fuzzers and
-relevant papers. This is the continuation of the initial effort made by Manes et
-al.: "The Art, Science, and Engineering of Fuzzing: A Survey", *IEEE
-Transactions on Software Engineering*. You can visit https://fuzzing-survey.org
-to understand what this repository is for.
+This repository is our attempt to maintain an up-to-date genealogy database of
+fuzzers and relevant papers. It is the continuation of an initial effort made by
+Manès et al. in ["The Art, Science, and Engineering of Fuzzing: A
+Survey"](https://ieeexplore.ieee.org/document/8863940), published in 2019 in
+*IEEE Transactions on Software Engineering*. You can visit
+https://fuzzing-survey.org to see an interactive site backed by this database.
 
-### What Does the Survey about?
+## What is this survey about?
 
-It is about fuzzers and relevant literature. Since the term `fuzzing` is a
-largely overloaded term, we preciesely define what fuzzing is, and
-split its process into several steps to systematically categorize fuzzers into
-groups. This repository maintains one of its outcomes, which is a genealogy
-graph of fuzzers.
+Our survey is about fuzzers and the relevant literature. Since "fuzzing" is a
+largely overloaded term, a primary goal of our survey is to precisely define
+what fuzzing is and to characterize various fuzzers. To this end, we split the
+process of fuzzing into several steps and use them to systematically categorize
+fuzzers based on their features. This repository maintains one of the major
+outcomes of this effort, namely a genealogy graph of fuzzers.
 
-### How Does the Graph Render?
+## How is this genealogy graph rendered?
 
-It uses a [force-directed graph layout
+We use a [force-directed graph layout
 algorithm](https://en.wikipedia.org/wiki/Force-directed_graph_drawing) with
-several tweaks. At a high-level, each node tends to be vertically sorted by its
-published year, and nodes with links would tend to be clustered.
+several tweaks. In our current layout, nodes tend to be sorted vertically based
+on their year of publication and inter-linked nodes tend to be spatially
+clustered together.
 
-### Contribution
+## How can I contribute?
 
-The website is initially built based on our original paper. Therefore it may
-miss recent papers and tools. But you can contribute to this project to keep it
-up-to-date. Please see the [contribution guideline](CONTRIBUTING.md) carefully
-before you make a PR.
+We have seeded this repository with the data we collected for our 2019 survey.
+Due to the rapid development in fuzzing, we realize our database will quickly
+become outdated due to missing papers and tools. It is our hope that, by hosting
+this repository in public, you can contribute to this database and help keep it
+up-to-date. Please proceed to the [contribution guideline](CONTRIBUTING.md) if
+you wish to contribute.
 
-### Maintenance
+## Who are the maintainers of this database?
 
-This database is currently maintained by
+This database is currently maintained by:
 - [Cyber Security Research Center (CSRC) at KAIST](https://csrc.kaist.ac.kr/)
 - [SoftSec Lab. at KAIST](https://softsec.kaist.ac.kr/)
 
-### Citation
+## How do I cite this work?
 
-If you plan to refer to our work, please consider citing our
-[paper](https://softsec.kaist.ac.kr/~sangkilc/papers/manes-tse19.pdf):
+If you plan to refer to this work, please consider citing our 2019 survey using
+the following BibTeX entry. Thank you!
+
+(We are hosting a [pre-print of our
+survey](https://softsec.kaist.ac.kr/~sangkilc/papers/manes-tse19.pdf) until the
+final version is published at IEEE.)
 
 ```bibtex
 @ARTICLE{manes:tse:2019,
   author = {Valentin J. M. Man{\`{e}}s and HyungSeok Han and Choongwoo Han and Sang Kil Cha and Manuel Egele and Edward J. Schwartz and Maverick Woo},
   title = {The Art, Science, and Engineering of Fuzzing: A Survey},
-  journal = {{IEEE} Transactions on Software Engineering},
-  doi={10.1109/TSE.2019.2946563},
+  journal = {IEEE Transactions on Software Engineering},
+  doi = {10.1109/TSE.2019.2946563},
   year = 2019
 }
 ```
