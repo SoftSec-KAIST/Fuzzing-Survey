@@ -2146,6 +2146,34 @@
     "color": "blackbox"
   },
   {
+      "name": "SAVIOR",
+      "year": 2020,
+      "author": [
+          "Yaohui Chen",
+          "Peng Li",
+          "Jun Xu",
+          "Shengjian Guo",
+          "Rundong Zhou",
+          "Yulong Zhang",
+          "Tao Wei",
+          "Long Lu"
+      ],
+    "title": "SAVIOR: Towards Bug-Driven Hybrid Testing",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+        "https://arxiv.org/abs/1906.07327"
+    ],
+    "references": [
+        "KLEE",
+        "QSYM"
+    ],
+    "targets": [
+      "argument",
+      "file"
+    ],
+      "color": "whitebox"
+  },
+  {
     "name": "syzkaller",
     "year": 2015,
     "author": [
