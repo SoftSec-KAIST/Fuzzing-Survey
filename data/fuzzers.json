@@ -62,6 +62,46 @@
     "color": "greybox"
   },
   {
+    "name": "AFL++",
+    "year": 2019,
+    "author": [
+      "Marc Heuse"
+    ],
+    "toolurl": "https://github.com/vanhauser-thc/AFLplusplus",
+    "targets": [
+      "file"
+    ],
+    "references": [
+      "AFLFast",
+      "MOPT"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "AFLSmart",
+    "year": 2019,
+    "author": [
+      "Van-Thuan Pham",
+      "Marcel Böhme",
+      "Andrew E. Santosa",
+      "Alexandru Razvan Caciulescu",
+      "Abhik Roychoudhury"
+    ],
+    "title": "Smart Greybox Fuzzing",
+    "booktitle": "IEEE Transactions on Software Engineering",
+    "toolurl": "https://github.com/aflsmart/aflsmart",
+    "miscurl": [
+      "https://thuanpv.github.io/publications/TSE19_aflsmart.pdf"
+    ],
+    "references": [
+      "AFL"
+    ],
+    "targets": [
+      "file"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "Angora",
     "year": 2018,
     "author": [
@@ -768,6 +808,22 @@
     "color": "blackbox"
   },
   {
+      "name": "Fuzzilli",
+      "year": 2019,
+      "author": [
+        "Samuel Groß"
+      ],
+      "target": [
+        "file"
+      ],
+      "toolurl": "https://github.com/googleprojectzero/fuzzilli",
+      "miscurl": [
+        "https://saelo.github.io/presentations/offensivecon_19_fuzzilli.pdf",
+        "https://saelo.github.io/papers/thesis.pdf"
+      ],
+      "color": "greybox"
+  },
+  {
     "name": "GLADE",
     "year": 2015,
     "author": [
@@ -803,6 +859,31 @@
       "network"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "Grimoire",
+    "year": 2019,
+    "author": [
+      "Tim Blazytko",
+      "Cornelius Aschermann",
+      "Moritz Schlögel",
+      "Ali Abbasi",
+      "Sergej Schumilo",
+      "Simon Wörner",
+      "Thorsten Holz"
+    ],
+    "title": "GRIMOIRE: Synthesizing Structure while Fuzzing",
+    "booktitle": "Proceedings of the USENIX Annual Technical Conference",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec19-blazytko.pdf"
+    ],
+    "target": [
+      "file"
+    ],
+    "references": [
+      "Redqueen"
+    ],
+    "color": "greybox"
   },
   {
     "name": "GRR",
@@ -1219,6 +1300,32 @@
     "color": "blackbox"
   },
   {
+    "name": "MOPT",
+    "year": 2019,
+    "author": [
+      "Chenyang Lyu",
+      "Shouling Ji",
+      "Chao Zhang",
+      "Yuwei Li",
+      "Wei-Han Lee",
+      "Yu Song",
+      "Raheem Beyah"
+    ],
+    "title": "MOPT: Optimized Mutation Scheduling for Fuzzers",
+    "booktitle": "Proceedings of the USENIX Annual Technical Conference",
+    "toolurl": "https://github.com/puppet-meteor/MOpt-AFL",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec19-lyu.pdf"
+    ],
+    "targets": [
+      "file"
+    ],
+    "references": [
+      "AFL"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "MoWF",
     "year": 2016,
     "author": [
@@ -1524,7 +1631,8 @@
       "file"
     ],
     "references": [
-      "AFL"
+      "AFL",
+      "kAFL"
     ],
     "color": "greybox"
   },
@@ -2172,6 +2280,23 @@
       "file"
     ],
       "color": "whitebox"
+  },
+  {
+    "name": "Superion",
+    "year": 2019,
+    "aurthor": [
+      "Junjie Wang", "Bihuan Chen", "Lei Wei", "Yang Liu"
+    ],
+    "title": "Superion: Grammar-Aware Greybox Fuzzing",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "toolurl": "https://github.com/zhunki/Superion",
+    "miscurl": [
+      "https://arxiv.org/pdf/1812.01197.pdf"
+    ],
+    "references": [
+      "AFL"
+    ],
+    "color": "greybox"
   },
   {
     "name": "syzkaller",
