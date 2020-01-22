@@ -387,5 +387,5 @@ d3.json("data/fuzzers.json")
       const graphScale = d3.zoomTransform(g.node()).k;
       const y = height / 2 / graphScale;
       zoom.translateTo(canvas, 0, y);
-    }, 1000);
+    }, 500);
   });
