@@ -69,6 +69,9 @@ information as possible:
 
 - `miscurl`: Miscellaneous links, e.g., URLs to papers or presentations.
 
+- `keywords`: Extra keywords describing this fuzzer. Make the list as concise as
+  possible.
+
 ## Basic Rules for JSON
 
 - For effective version control, please format `/data/fuzzers.json` with the

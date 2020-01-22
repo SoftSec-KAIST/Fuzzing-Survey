@@ -277,7 +277,7 @@ function fieldMatch(field, re) {
   return false;
 }
 
-function targetMatch(targets, re) {
+function arrayMatch(targets, re) {
   if (targets === undefined) return false;
   for (let i = 0; i < targets.length; i++) {
     if (fieldMatch(targets[i], re)) return true;
@@ -306,7 +306,8 @@ function installSearchHandler(width, height, canvas, zoom, nodes) {
         || fieldMatch(n.title, re)
         || fieldMatch(n.booktitle, re)
         || fieldMatch(n.journal, re)
-        || targetMatch(n.targets, re)
+        || arrayMatch(n.targets, re)
+        || arrayMatch(n.keywords, re)
         || (n.author !== undefined ? fieldMatch(n.author.join(" "), re) : false)
     });
     matches.select(".node").classed("node-found", true);
