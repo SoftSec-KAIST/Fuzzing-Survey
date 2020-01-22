@@ -277,6 +277,14 @@ function fieldMatch(field, re) {
   return false;
 }
 
+function targetMatch(targets, re) {
+  if (targets === undefined) return false;
+  for (let i = 0; i < targets.length; i++) {
+    if (fieldMatch(targets[i], re)) return true;
+  }
+  return false;
+}
+
 function clearSearchResults(nodes, resultList) {
   nodes.select(".node").classed("node-found", false);
   resultList.html("");
@@ -298,6 +306,7 @@ function installSearchHandler(width, height, canvas, zoom, nodes) {
         || fieldMatch(n.title, re)
         || fieldMatch(n.booktitle, re)
         || fieldMatch(n.journal, re)
+        || targetMatch(n.targets, re)
         || (n.author !== undefined ? fieldMatch(n.author.join(" "), re) : false)
     });
     matches.select(".node").classed("node-found", true);
