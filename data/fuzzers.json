@@ -1567,7 +1567,7 @@
     ],
     "title": "QuickFuzz: An Automatic Random Fuzzer for Common File Formats",
     "booktitle": "Proceedings of the 9th International Symposium on Haskell",
-    "toolurl": "://github.com/CIFASIS/QuickFuzz",
+    "toolurl": "https://github.com/CIFASIS/QuickFuzz",
     "targets": [
       "file"
     ],
