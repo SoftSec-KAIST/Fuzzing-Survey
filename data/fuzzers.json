@@ -2089,12 +2089,14 @@
       "Joshua Pereyda"
     ],
     "title": "Fuzzing for Humans: Real Fuzzing in the Real World",
+    "booktitle": "Proceedings of DefCon",
     "toolurl": "https://github.com/jtpereyda/boofuzz",
     "targets": [
       "network"
     ],
     "references": [
-      "Sulley"
+      "Sulley",
+      "fuzzowski"
     ],
     "color": "blackbox"
   },
@@ -2163,6 +2165,7 @@
       "Mario Rivas"
     ],
     "title": "Why You Should Fear Your mundane Office Equipment",
+    "booktitle": "Proceedings of DefCon",
     "toolurl": "https://github.com/nccgroup/fuzzowski",
     "target": [
       "network"
