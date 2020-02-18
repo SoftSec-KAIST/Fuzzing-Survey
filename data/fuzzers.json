@@ -2083,6 +2083,22 @@
     "color": "blackbox"
   },
   {
+    "name": "boofuzz",
+    "year": 2016,
+    "author": [
+      "Joshua Pereyda"
+    ],
+    "title": "Fuzzing for Humans: Real Fuzzing in the Real World",
+    "toolurl": "https://github.com/jtpereyda/boofuzz",
+    "targets": [
+      "network"
+    ],
+    "references": [
+      "Sulley"
+    ],
+    "color": "blackbox"
+  },
+  {
     "name": "classfuzz",
     "year": 2016,
     "author": [
@@ -2137,6 +2153,22 @@
     "toolurl": "https://github.com/sughodke/fsfuzzer",
     "targets": [
       "kernel"
+    ],
+    "color": "blackbox"
+  },
+  {
+    "name": "fuzzowski",
+    "year": 2019,
+    "author": [
+      "Mario Rivas"
+    ],
+    "title": "Why You Should Fear Your mundane Office Equipment",
+    "toolurl": "https://github.com/nccgroup/fuzzowski",
+    "target": [
+      "network"
+    ],
+    "references": [
+      "boofuzz"
     ],
     "color": "blackbox"
   },
