@@ -137,6 +137,8 @@ function appendTargetInfo(list, node) {
             return constructCharSpan("A", "Argument fuzzing");
           case "kernel":
             return constructCharSpan("K", "Kernel fuzzing");
+          case "lib":
+            return constructCharSpan("L", "Library fuzzing");
           default:
             return constructIcon("fa-question", "Other kinds of fuzzing");
           }

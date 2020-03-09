@@ -1195,7 +1195,7 @@
       "AFL"
     ],
     "targets": [
-      "api"
+      "lib"
     ],
     "color": "greybox"
   },
@@ -1263,7 +1263,7 @@
       "SAGE"
     ],
     "targets": [
-      "api"
+      "lib"
     ],
     "color": "whitebox"
   },
@@ -2186,7 +2186,7 @@
       "LibFuzzer"
     ],
     "targets": [
-      "api"
+      "lib"
     ],
     "miscurl": [
       "https://github.com/dvyukov/go-fuzz/tree/master/slides"
