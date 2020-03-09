@@ -161,6 +161,14 @@ function appendMiscURL(list, node) {
     item.append("span").text("Not available.");
 }
 
+function appendSharableLink(list, node) {
+  const item = list.append("li").classed("list-group-item", true);
+  const url = location.protocol + "//" + location.host + location.pathname;
+  item.append("b").text("Share: ");
+  item.append("a").attr("href", url + "?k=" + node.name)
+    .html(constructIcon("fa-share", node.name));
+}
+
 function getPubYear(node) {
   if (node.year !== undefined) return " (" + node.year + ")";
   else return "";
@@ -194,6 +202,7 @@ function onClick(node) {
   appendTargetInfo(list, node);
   appendToolURL(list, node);
   appendMiscURL(list, node);
+  appendSharableLink(list, node);
   setTitle(node);
   currentSelection = node.name;
   showInfobox();
@@ -306,6 +315,18 @@ function clearSearchResults(nodes, resultList) {
   resultList.html("");
 }
 
+function showFuzzer(node, nodes, zoom, canvas, width, height) {
+  const resultList = d3.select("#js-searchform-result");
+  const k = 2.0;
+  const x = - node.x * k + width / 2;
+  const y = - node.y * k + height / 2;
+  onClick(node);
+  clearSearchResults(nodes, resultList);
+  canvas.transition().duration(750)
+    .call(zoom.transform,
+          d3.zoomIdentity.translate(x, y).scale(k));
+}
+
 function installSearchHandler(width, height, canvas, zoom, nodes) {
   const txt = $("#js-searchform-text");
   const resultList = d3.select("#js-searchform-result");
@@ -335,14 +356,7 @@ function installSearchHandler(width, height, canvas, zoom, nodes) {
         .classed("py-1", true)
         .text(d.name)
         .on("click", function () {
-          onClick(d);
-          clearSearchResults(nodes, resultList);
-          const k = 2.0;
-          const x = - d.x * k + width / 2;
-          const y = - d.y * k + height / 2;
-          canvas.transition().duration(750)
-            .call(zoom.transform,
-                  d3.zoomIdentity.translate(x, y).scale(k));
+          showFuzzer(d, nodes, zoom, canvas, width, height);
         });
     });
   });
@@ -411,6 +425,18 @@ function initSimulation(d, simulation, width, height, links, nodes) {
   simulation.force("link").links(d.links);
 }
 
+function getQueryVariable(variable) {
+  var query = window.location.search.substring(1);
+  var vars = query.split('&');
+  for (var i = 0; i < vars.length; i++) {
+    var pair = vars[i].split('=');
+    if (decodeURIComponent(pair[0]) == variable) {
+      return decodeURIComponent(pair[1]);
+    }
+  }
+  return undefined;
+}
+
 d3.json("data/fuzzers.json")
   .then(function(json) {
     const width = $("#js-canvas").width();
@@ -430,9 +456,16 @@ d3.json("data/fuzzers.json")
     zoom.scaleTo(canvas, minScale);
     // Center the graph after a sec.
     setTimeout(function () {
-      const gBox = g.node().getBBox();
-      const graphScale = d3.zoomTransform(g.node()).k;
-      const y = height / 2 / graphScale;
-      zoom.translateTo(canvas, 0, y);
+      const key = getQueryVariable("k");
+      const data = d.nodes.find(function (d) { return (d.name === key); });
+      if (key === undefined || data === undefined) {
+        const graphScale = d3.zoomTransform(g.node()).k;
+        const y = height / 2 / graphScale;
+        zoom.translateTo(canvas, 0, y);
+      } else {
+        setTimeout(function () {
+          showFuzzer(data, nodes, zoom, canvas, width, height);
+        }, 1000);
+      }
     }, 500);
   });
