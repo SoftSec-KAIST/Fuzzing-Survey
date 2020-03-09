@@ -34,7 +34,7 @@
       <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Fuzzing Survey</a>
         <div class="searchform">
-          <input class="form-control" type="search" value=""
+          <input class="form-control" type="search" value="" autofocus
                  id="js-searchform-text"
                  placeholder="Type keywords" />
           <ul class="list-group searchform__result" id="js-searchform-result">
@@ -62,6 +62,16 @@
 
     <main role="main" class="main">
       <div class="canvas" id="js-canvas"></div>
+      <div class="separator" id="js-separator"></div>
+      <div class="infobox" id="js-infobox">
+        <div class="infobox__header" id="js-infobox-header">
+          <h4 id="js-infobox-title">Select a fuzzer</h4>
+        </div>
+        <div id="js-infobox-content"></div>
+        <div class="infobox__close">
+          <button id="js-infobox-close">Close</button>
+        </div>
+      </div>
     </main>
 
     <footer class="footer py-3 fixed-bottom">
@@ -73,23 +83,6 @@
         </span>
       </div>
     </footer>
-
-    <div id="js-infobox" class="modal fade" tabindex="-1">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div id="js-infobox-header" class="modal-header infobox__header">
-            <h4 id="js-infobox-title" class="modal-title">Settings</h4>
-            <button type="button" class="close" data-dismiss="modal"
-                    aria-hidden="true">&times;</button>
-          </div>
-          <div id="js-infobox-content" class="modal-body"></div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary"
-                    data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery-ui.min.js"></script>

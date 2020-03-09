@@ -20,11 +20,14 @@ const yearWidth = 100000;
 // The minimum scale that we can set.
 const minScale = 0.2;
 
+// The currently selected node's name.
+var currentSelection = undefined;
+
 function createCanvas(width, height) {
   return d3.select("#js-canvas")
     .append("svg")
-      .attr("width", width)
-      .attr("height", height);
+      .attr("width", "100%")
+      .attr("height", "100%");
 }
 
 function parseJSONData(arr) {
@@ -98,16 +101,26 @@ function constructIcon(faName, title) {
   return "<i class=\"fa " + faName + "\" title = \"" + title + "\"></i> ";
 }
 
-function appendToolURL(item, node) {
+function constructCharSpan(ch, title) {
+  return "<i title = \"" + title + "\">" + ch + "</span> ";
+}
+
+function appendToolURL(list, node) {
+  const item = list.append("li").classed("list-group-item", true);
+  item.append("b").text("Tool URL: ");
   if (node.toolurl !== undefined)
     item.append("a")
       .classed("infobox__icon", true)
       .attr("href", node.toolurl)
       .html(constructIcon("fa-wrench", "Tool available"));
+  else
+    item.append("span").text("Not available.");
 }
 
-function appendTargetInfo(item, node) {
-  if (node.targets !== undefined)
+function appendTargetInfo(list, node) {
+  const item = list.append("li").classed("list-group-item", true);
+  item.append("b").text("Targets: ");
+  if (node.targets !== undefined && node.targets.length > 0)
     item
       .selectAll("span")
       .data(node.targets)
@@ -121,16 +134,20 @@ function appendTargetInfo(item, node) {
           case "network":
             return constructIcon("fa-wifi", "Network fuzzing");
           case "argument":
-            return constructIcon("fa-font", "Argument fuzzing");
+            return constructCharSpan("A", "Argument fuzzing");
           case "kernel":
-            return constructIcon("fa-bug", "Kernel fuzzing");
+            return constructCharSpan("K", "Kernel fuzzing");
           default:
             return constructIcon("fa-question", "Other kinds of fuzzing");
           }
         });
+  else
+    item.append("span").text("Unknown");
 }
 
-function appendMiscURL(item, node) {
+function appendMiscURL(list, node) {
+  const item = list.append("li").classed("list-group-item", true);
+  item.append("b").text("Misc. URLs: ");
   if (node.miscurl !== undefined)
     $.each(node.miscurl, function (_, url) {
       item.append("a")
@@ -138,13 +155,8 @@ function appendMiscURL(item, node) {
           .classed("infobox__icon", true)
           .html(constructIcon("fa-link", url));
     });
-}
-
-function appendIcons(list, node) {
-  const item = list.append("li").classed("list-group-item", true);
-  appendToolURL(item, node);
-  appendTargetInfo(item, node);
-  appendMiscURL(item, node);
+  else
+    item.append("span").text("Not available.");
 }
 
 function getPubYear(node) {
@@ -154,35 +166,35 @@ function getPubYear(node) {
 
 function setTitle(node) {
   const header = d3.select("#js-infobox-header");
-  d3.select("#js-infobox-title")
-    .text("[" + node.color + "] " + node.name + getPubYear(node));
-  switch (node.color) {
-  case "blackbox":
-    header.classed("infobox-header-whitebox", false);
-    header.classed("infobox-header-blackbox", true);
-    header.classed("infobox-header-greybox", false);
-    break;
-  case "whitebox":
-    header.classed("infobox-header-whitebox", true);
-    header.classed("infobox-header-blackbox", false);
-    header.classed("infobox-header-greybox", false);
-    break;
-  default:
-    header.classed("infobox-header-whitebox", false);
-    header.classed("infobox-header-blackbox", false);
-    header.classed("infobox-header-greybox", true);
-    break;
+  if (node === undefined) {
+    d3.select("#js-infobox-title").text("Select a fuzzer");
+  } else {
+    d3.select("#js-infobox-title")
+      .text("[" + node.color + "] " + node.name + getPubYear(node));
   }
 }
 
+function clearContents() {
+  return d3.select("#js-infobox-content").html("");
+}
+
+function showInfobox() {
+  d3.select("#js-infobox").style("display", "block");
+}
+
+function hideInfobox() {
+  d3.select("#js-infobox").style("display", "none");
+}
+
 function onClick(node) {
-  let list =
-    d3.select("#js-infobox-content").html("")
-      .append("ul").classed("list-group", true);
+  let list = clearContents().append("ul").classed("list-group", true);
   appendPublicationOrCredit(list, node);
-  appendIcons(list, node);
+  appendTargetInfo(list, node);
+  appendToolURL(list, node);
+  appendMiscURL(list, node);
   setTitle(node);
-  $("#js-infobox").modal();
+  currentSelection = node.name;
+  showInfobox();
 }
 
 function drawNodes(g, d, simulation) {
@@ -247,10 +259,6 @@ function drawNodes(g, d, simulation) {
   return nodes;
 }
 
-function installInfoboxHandler() {
-  $("#js-infobox").draggable({ handle: ".modal-header" });
-}
-
 function computeMaxYear(d) {
   return d.reduce(function (acc, obj) {
     return Math.max(acc, obj.year);
@@ -285,18 +293,24 @@ function arrayMatch(targets, re) {
   return false;
 }
 
+function escapeRegExp(string) {
+  return string.replace(/[.*+\-?^${}()|[\]\\]/g, '\\$&');
+}
+
 function clearSearchResults(nodes, resultList) {
-  nodes.select(".node").classed("node-found", false);
+  nodes.select(".node").classed("node-found", function (node) {
+    return (currentSelection === node.name);
+  });
   resultList.html("");
 }
 
 function installSearchHandler(width, height, canvas, zoom, nodes) {
   const txt = $("#js-searchform-text");
   const resultList = d3.select("#js-searchform-result");
-  txt.click(function () { clearSearchResults(nodes, resultList); });
+  txt.click(function (e) { clearSearchResults(nodes, resultList); });
   txt.keyup(function (e) {
     if (e.shiftKey) return;
-    const s = txt.val();
+    const s = escapeRegExp(txt.val());
     const re = new RegExp(s, "i");
     clearSearchResults(nodes, resultList);
     if (s === "") return;
@@ -319,7 +333,9 @@ function installSearchHandler(width, height, canvas, zoom, nodes) {
         .classed("py-1", true)
         .text(d.name)
         .on("click", function () {
-          const k = 1.0;
+          onClick(d);
+          clearSearchResults(nodes, resultList);
+          const k = 2.0;
           const x = - d.x * k + width / 2;
           const y = - d.y * k + height / 2;
           canvas.transition().duration(750)
@@ -328,6 +344,32 @@ function installSearchHandler(width, height, canvas, zoom, nodes) {
         });
     });
   });
+}
+
+function installClickHandler(nodes) {
+  const resultList = d3.select("#js-searchform-result");
+  $(document).on("click", "svg", function (evt) {
+    clearSearchResults(nodes, resultList);
+  });
+}
+
+function installDragHandler() {
+  const infobox = d3.select("#js-infobox");
+  $("#js-infobox").resizable({
+    handles: { w: $("#js-separator") },
+    resize: function (_e, ui) {
+      const orig = ui.originalSize.width;
+      const now = ui.size.width;
+      const width = orig + orig - now;
+      infobox.style("flex-basis", width + "px");
+      infobox.style("width", null);
+      infobox.style("height", null);
+    }
+  });
+}
+
+function installInfoBoxCloseHandler() {
+  $("#js-infobox-close").click(function () { hideInfobox(); });
 }
 
 function computeYPos(year) {
@@ -378,8 +420,10 @@ d3.json("data/fuzzers.json")
     const links = drawEdges(g, d);
     const nodes = drawNodes(g, d, simulation);
     const zoom = installZoomHandler(height, canvas, g, d);
-    installInfoboxHandler();
     installSearchHandler(width, height, canvas, zoom, nodes);
+    installClickHandler(nodes);
+    installDragHandler();
+    installInfoBoxCloseHandler();
     initSimulation(d, simulation, width, height, links, nodes);
     zoom.scaleTo(canvas, minScale);
     // Center the graph after a sec.

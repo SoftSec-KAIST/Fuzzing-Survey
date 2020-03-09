@@ -15,7 +15,7 @@ body {
 
 .searchform {
   overflow: auto;
-  width: 50%;
+  flex: 1;
 }
 
 .searchform__result {
@@ -26,24 +26,62 @@ body {
 
 .searchform__result > li {
   overflow: hidden;
+  border: none;
+  cursor: pointer;
+}
+
+.searchform__result > li:hover {
+  background-color: var(--yellow);
 }
 
 .canvas {
   flex: 1;
 }
 
+.separator {
+  display: none;
+}
+
+.infobox {
+  position: absoulte;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding: 0px;
+  display: none;
+}
+
+.infobox__close {
+  padding-top: 10px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .separator {
+    display: initial;
+    flex-basis: 4px;
+    background-color: darkgrey;
+    cursor: col-resize;
+  }
+
+  .infobox {
+    display: initial;
+    height: 100%;
+    flex-basis: 400px;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding: 0px;
+  }
+
+  .infobox__close {
+    display: none;
+  }
+}
+
 .infobox__header {
-  cursor: move;
-}
-
-.infobox-header-blackbox {
-  color: white;
-  background: black;
-}
-
-.infobox-header-greybox {
-  color: white;
-  background: var(--gray);
+  background-color: lightgrey;
+  padding: 5px;
 }
 
 .infobox__icon,
@@ -82,6 +120,11 @@ body {
 
 .node-found {
   fill: var(--red) !important;
+}
+
+.node-selected {
+  fill: var(--green) !important;
+  stroke: var(--green) !important;
 }
 
 .nodetext {
