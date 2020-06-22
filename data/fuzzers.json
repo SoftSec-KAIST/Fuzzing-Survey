@@ -120,6 +120,29 @@
     "color": "greybox"
   },
   {
+    "name": "Ankou",
+    "year": 2020,
+    "author": [
+      "Valentin J. M. Manès",
+      "Soomin Kim",
+      "Sang Kil Cha"
+    ],
+    "title": "Ankou: Guiding Grey-box Fuzzing towards Combinatorial Difference",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "miscurl": [
+      "https://softsec.kaist.ac.kr/~sangkilc/papers/manes-icse20.pdf"
+    ],
+    "targets": [
+      "file"
+    ],
+    "toolurl": "https://github.com/SoftSec-KAIST/ankou",
+    "references": [
+      "AFL",
+      "AFLFast"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "AssetFuzzer",
     "year": 2010,
     "author": [
