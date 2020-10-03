@@ -1102,7 +1102,8 @@
     ],
     "references": [
       "NEUZZ",
-      "ContractFuzzer"
+      "ContractFuzzer",
+      "Learn&Fuzz"
     ],
     "color": "greybox"
   },
@@ -1287,6 +1288,24 @@
     "keywords": [
       "javascript"
     ]
+  },
+  {
+    "name": "Learn&Fuzz",
+    "year": 2017,
+    "author": [
+      "Patrice Godefroid",
+      "Hila Peleg",
+      "Rishabh Singh"
+    ],
+    "title": "Learn&Fuzz: Machine Learning for Input Fuzzing",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "targets": [
+      "file"
+    ],
+    "references": [
+      "SAGE"
+    ],
+    "color": "greybox"
   },
   {
     "name": "LibFuzzer",
@@ -1497,7 +1516,8 @@
       "file"
     ],
     "references": [
-      "AFL"
+      "AFL",
+      "Learn&Fuzz"
     ],
     "color": "greybox"
   },
