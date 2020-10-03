@@ -451,6 +451,9 @@
     "targets": [
       "evm"
     ],
+    "references": [
+      "Echidna"
+    ],
     "color": "blackbox"
   },
   {
@@ -705,6 +708,18 @@
     ],
     "miscurl": [
       "https://www.defcon.org/images/defcon-15/dc15-presentations/dc-15-demott_enbody_and_punch.pdf"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "Echidna",
+    "year": 2018,
+    "author": [
+      "Crytic"
+    ],
+    "toolurl": "https://github.com/crytic/echidna",
+    "targets": [
+      "evm"
     ],
     "color": "greybox"
   },
@@ -1086,7 +1101,8 @@
       "evm"
     ],
     "references": [
-      "NEUZZ"
+      "NEUZZ",
+      "ContractFuzzer"
     ],
     "color": "greybox"
   },
