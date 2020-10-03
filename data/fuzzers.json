@@ -718,6 +718,29 @@
     "color": "greybox"
   },
   {
+    "name": "FIRM-AFL",
+    "year": 2019,
+    "author": [
+      "Yaowen Zheng",
+      "Ali Davanian",
+      "Heng Yin",
+      "Chengyu Song",
+      "Hongsong Zhu",
+      "Limin Sun"
+    ],
+    "title": "FIRM-AFL: High-Throughput Greybox Fuzzing of IoT Firmware via Augmented Process Emulation",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "toolurl": "https://github.com/zyw-200/FirmAFL",
+    "targets": [
+      "firmware"
+    ],
+    "references": [
+      "AFL",
+      "TriforceAFL"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "FLAX",
     "year": 2010,
     "author": [
@@ -2035,6 +2058,22 @@
     ],
     "targets": [
       "kernel"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "TriforceAFL",
+    "year": 2016,
+    "author": [
+      "Jesse Hertz",
+      "Tim Newsham"
+    ],
+    "toolurl": "https://github.com/nccgroup/TriforceAFL",
+    "references": [
+      "AFL"
+    ],
+    "targets": [
+      "file"
     ],
     "color": "greybox"
   },
