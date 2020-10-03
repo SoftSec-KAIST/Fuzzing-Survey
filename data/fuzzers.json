@@ -2476,6 +2476,28 @@
     "color": "blackbox"
   },
   {
+    "name": "sFuzz",
+    "year": 2020,
+    "author": [
+      "Tai D. Nguyen",
+      "Long H. Pham",
+      "Jun Sun",
+      "Yun Lin",
+      "Quang Tran Minh"
+    ],
+    "title": "sFuzz: An Efficient Adaptive Fuzzer for Solidity Smart Contracts",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "targets": [
+      "evm"
+    ],
+    "toolurl": "https://sfuzz.github.io/",
+    "references": [
+      "AFL",
+      "ContractFuzzer"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "syzkaller",
     "year": 2015,
     "author": [
