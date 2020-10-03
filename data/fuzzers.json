@@ -438,6 +438,22 @@
     "color": "greybox"
   },
   {
+    "name": "ContractFuzzer",
+    "year": 2018,
+    "author": [
+      "Bo Jiang",
+      "Ye Liu",
+      "Wing-Kwong Chan"
+    ],
+    "title": "ContractFuzzer: Fuzzing Smart Contracts for Vulnerability Detection",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "toolurl": "https://github.com/gongbell/ContractFuzzer",
+    "targets": [
+      "evm"
+    ],
+    "color": "blackbox"
+  },
+  {
     "name": "DELTA",
     "year": 2017,
     "author": [
@@ -1051,6 +1067,30 @@
     ]
   },
   {
+    "name": "ILF",
+    "year": 2019,
+    "author": [
+      "Jingxuan He",
+      "Mislav Balunović",
+      "Nodar Ambroladze",
+      "Petar Tsankov",
+      "Martin Vechev"
+    ],
+    "title": "Learning to Fuzz from Symbolic Execution with Application to Smart Contracts",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://files.sri.inf.ethz.ch/website/papers/ccs19-ilf.pdf"
+    ],
+    "toolurl": "https://github.com/eth-sri/ilf",
+    "targets": [
+      "evm"
+    ],
+    "references": [
+      "NEUZZ"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "IMF",
     "year": 2017,
     "author": [
@@ -1422,6 +1462,28 @@
       "file"
     ],
     "color": "whitebox"
+  },
+  {
+    "name": "NEUZZ",
+    "year": 2019,
+    "author": [
+      "Dongdong She",
+      "Kexin Pei",
+      "Dave Epstein",
+      "Junfeng Yang",
+      "Baishakhi Ray",
+      "Suman Jana"
+    ],
+    "title": "NEUZZ: Efficient Fuzzing with Neural Program Smoothing",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "toolurl": "https://github.com/Dongdongshe/neuzz",
+    "targets": [
+      "file"
+    ],
+    "references": [
+      "AFL"
+    ],
+    "color": "greybox"
   },
   {
     "name": "Narada",
