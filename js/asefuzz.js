@@ -102,7 +102,7 @@ function constructIcon(faName, title) {
 }
 
 function constructCharSpan(ch, title) {
-  return "<i title = \"" + title + "\">" + ch + "</span> ";
+  return "<i title = \"" + title + "\">" + ch + "</i> ";
 }
 
 function appendToolURL(list, node) {
@@ -140,7 +140,7 @@ function appendTargetInfo(list, node) {
           case "lib":
             return constructCharSpan("L", "Library fuzzing");
           default:
-            return constructIcon("fa-question", "Other kinds of fuzzing");
+            return "<i title=\"" + target + "\">" + target + "</i> ";
           }
         });
   else
