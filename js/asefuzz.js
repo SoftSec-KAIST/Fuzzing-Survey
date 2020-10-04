@@ -330,13 +330,14 @@ function showFuzzer(node, nodes, zoom, canvas, width, height) {
 function installSearchHandler(width, height, canvas, zoom, nodes) {
   const txt = $("#js-searchform-text");
   const resultList = d3.select("#js-searchform-result");
-  txt.click(function (e) { clearSearchResults(nodes, resultList); });
-  txt.keyup(function (e) {
-    if (e.shiftKey) return;
-    const s = escapeRegExp(txt.val());
-    const re = new RegExp(s, "i");
+  let items = null;
+  let itemidx = -1;
+  function performSearch(s) {
+    const escaped = escapeRegExp(s);
+    const re = new RegExp(escaped, "i");
+    itemidx = -1;
     clearSearchResults(nodes, resultList);
-    if (s === "") return;
+    if (escaped === "") return;
     const matches = nodes.filter(function (n) {
       return n.name.match(re)
         || fieldMatch(n.year.toString(), re)
@@ -359,6 +360,39 @@ function installSearchHandler(width, height, canvas, zoom, nodes) {
           showFuzzer(d, nodes, zoom, canvas, width, height);
         });
     });
+  };
+  function getCurrentResult() {
+    return resultList.selectAll(".list-group-item")
+        .classed("active", false).nodes();
+  };
+  txt.click(function (e) { clearSearchResults(nodes, resultList); });
+  txt.keydown(function (e) {
+    if (e.key === "ArrowDown" || e.key === "ArrowUp") return false;
+    else return true;
+  });
+  txt.keyup(function (e) {
+    if (e.shiftKey || e.ctrlKey || e.altKey) return;
+    if (e.key === "Enter" || e.keyCode === 13) {
+      if (itemidx >= 0 && itemidx <= items.length - 1) {
+        $(items[itemidx]).trigger("click");
+        itemidx = -1;
+      } else {
+        // TODO: show search results here.
+        console.log("TODO");
+      }
+    } else if (e.key === "ArrowUp" || e.keyCode === 38) {
+      items = getCurrentResult();
+      itemidx = Math.max(itemidx - 1, 0);
+      d3.select(items[itemidx]).classed("active", true);
+      return false;
+    } else if (e.key === "ArrowDown" || e.keyCode === 40) {
+      items = getCurrentResult();
+      itemidx = Math.min(itemidx + 1, items.length - 1);
+      d3.select(items[itemidx]).classed("active", true);
+      return false;
+    } else {
+      performSearch(txt.val());
+    }
   });
 }
 

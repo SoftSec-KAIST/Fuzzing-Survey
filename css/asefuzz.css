@@ -30,6 +30,11 @@ body {
   cursor: pointer;
 }
 
+.searchform__result > li.active {
+  color: var(--dark);
+  background-color: var(--yellow);
+}
+
 .searchform__result > li:hover {
   background-color: var(--yellow);
 }
