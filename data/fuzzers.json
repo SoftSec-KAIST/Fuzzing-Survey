@@ -1158,6 +1158,30 @@
     "color": "blackbox"
   },
   {
+    "name": "Janus",
+    "year": 2019,
+    "author": [
+      "Wen xu",
+      "Hyungon Moon",
+      "Sanidhya Kashyap",
+      "Po-Ning Tseng",
+      "Taesoo Kim"
+    ],
+    "title": "Fuzzing File Systems via Two-Dimensional Input Space Exploration",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "targets": [
+      "kernel"
+    ],
+    "miscurl": [
+      "https://taesoo.kim/pubs/2019/xu:janus.pdf"
+    ],
+    "references": [
+      "fsfuzzer",
+      "kAFL"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "KLEE",
     "year": 2008,
     "author": [
