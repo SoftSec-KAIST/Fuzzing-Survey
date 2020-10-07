@@ -1248,6 +1248,25 @@
     "color": "blackbox"
   },
   {
+    "name": "LTEFuzz",
+    "year": 2019,
+    "author": [
+      "Hongil Kim",
+      "Jiho Lee",
+      "Eunkyu Lee",
+      "Yongdae Kim"
+    ],
+    "title": "Touching the Untouchables: Dynamic Security Analysis of the LTE Control Plane",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "targets": [
+      "LTE"
+    ],
+    "references": [
+      "PROTOS"
+    ],
+    "color": "blackbox"
+  },
+  {
     "name": "LZfuzz",
     "year": 2008,
     "author": [
