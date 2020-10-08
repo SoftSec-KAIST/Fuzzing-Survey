@@ -148,3 +148,40 @@ body {
   stroke: var(--gray);
   stroke-width: 2px;
 }
+
+.stats-body__filter {
+  display: block;
+  width: 100%;
+  padding: 7px 10px;
+  border: 2px solid var(--gray);
+  border-radius: 15px;
+  outline: 0;
+}
+
+.modal.fade {
+  overflow: hidden;
+}
+
+.modal-content .modal-body {
+  height: 80vh;
+  overflow-y: scroll;
+}
+
+.accordion .card {
+  border: 0px;
+}
+
+.card .card-header {
+  padding: 5px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.modal-body .accordion {
+  height: 200px;
+  overflow-y: scroll;
+}
+
+.space-top {
+  margin-top: 15px;
+}

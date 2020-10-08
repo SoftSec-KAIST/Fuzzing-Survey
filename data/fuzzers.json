@@ -893,7 +893,7 @@
     "author": [
       "Samuel Groß"
     ],
-    "target": [
+    "targets": [
       "file"
     ],
     "toolurl": "https://github.com/googleprojectzero/fuzzilli",
@@ -996,7 +996,7 @@
     "miscurl": [
       "https://www.usenix.org/system/files/sec19-blazytko.pdf"
     ],
-    "target": [
+    "targets": [
       "file"
     ],
     "references": [
@@ -2075,6 +2075,9 @@
     "miscurl": [
       "https://arxiv.org/pdf/1812.01197.pdf"
     ],
+    "targets": [
+      "file"
+    ],
     "references": [
       "AFL"
     ],
@@ -2373,7 +2376,7 @@
     "title": "Why You Should Fear Your mundane Office Equipment",
     "booktitle": "Proceedings of DefCon",
     "toolurl": "https://github.com/nccgroup/fuzzowski",
-    "target": [
+    "targets": [
       "network"
     ],
     "references": [

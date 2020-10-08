@@ -70,7 +70,12 @@ function buildAuthors(node) {
 }
 
 function buildRef(node) {
-  let s = "\"" + node.title + "\"";
+  let s = "";
+  if (node.title !== undefined) {
+    s += "\"" + node.title + "\"";
+  } else {
+    s += "\"" + node.name + "\"";
+  }
   if (node.author !== undefined) {
     s += buildAuthors(node);
   }
@@ -459,6 +464,171 @@ function initSimulation(d, simulation, width, height, links, nodes) {
   simulation.force("link").links(d.links);
 }
 
+function addStatItem(dict, key, id) {
+  if (key in dict) dict[key].push(id);
+  else dict[key] = [ id ];
+}
+
+function sortByCount(stats) {
+  const items = Object.keys(stats).map(function (k) { return [k, stats[k]]; });
+  items.sort(function (fst, snd) {
+    const sndLen = snd[1].length;
+    const fstLen = fst[1].length;
+    if (sndLen == fstLen) {
+      return fst[0].localeCompare(snd[0]); // lexicographical sorting
+    } else {
+      return sndLen - fstLen;
+    }
+  });
+  return items;
+}
+
+function sortFuzzersByYear(fuzzerMap, fuzzers) {
+  fuzzers.sort(function (fst, snd) {
+    return fuzzerMap[snd].year - fuzzerMap[fst].year;
+  });
+  return fuzzers;
+}
+
+function makeAccordionElm(data, handle, myid, header, fuzzers, fnLink) {
+  const card = d3.select(handle)
+                 .append("div").classed("card", true);
+  card
+    .append("div").classed("card-header", true).attr("role", "tab")
+    .append("h6").classed("mb-0", true).classed("small", true)
+    .append("div")
+      .attr("role", "button")
+      .attr("data-toggle", "collapse")
+      .attr("data-target", "#" + myid)
+      .html(header);
+  card
+    .append("div").classed("collapse", true).attr("id", myid)
+    .append("div").classed("card-body", true)
+    .append("h6").classed("small", true)
+    .append("ul").classed("list-group", true)
+    .selectAll("li")
+    .data(fuzzers)
+    .enter()
+    .append("li").html(function (f) { return fnLink(f); });
+  return $(card.node()).detach();
+}
+
+function fuzzerToString(fuzzer) {
+  let s = fuzzer.name;
+  if (fuzzer.year !== undefined) s += fuzzer.year;
+  if (fuzzer.author !== undefined) s += fuzzer.author.join();
+  if (fuzzer.title !== undefined) s += fuzzer.title;
+  if (fuzzer.booktitle !== undefined) s += fuzzer.booktitle;
+  if (fuzzer.targets !== undefined) s += fuzzer.targets.join();
+  return s;
+}
+
+function makeAnchor(fuzzerMap, f) {
+  const fuzzer = fuzzerMap[f];
+  return "<a href=\"./?k=" + f + "\">" + buildRef(fuzzer) + "</a>"
+    + "<span style=\"display: none\">"
+    + fuzzerToString(fuzzerMap[f]) + "</span>";
+}
+
+function makeAccordion(fuzzerMap, data, id, handle) {
+  const stats = [];
+  const sorted = sortByCount(data);
+  sorted.forEach(function (data) {
+    const name = data[0];
+    const fuzzers = data[1];
+    const myid = "js-" + id + "-" + name.replace(/\s/g, "");
+    const header = name + " (<span>" + fuzzers.length + "</span>)";
+    const fnLink = function (f) { return makeAnchor(fuzzerMap, f); };
+    stats.push(
+      makeAccordionElm(data, handle, myid, header,
+                       sortFuzzersByYear(fuzzerMap, fuzzers), fnLink));
+  });
+  return stats;
+}
+
+function makeVenueAccordion(fuzzerMap, venues) {
+  return makeAccordion(fuzzerMap, venues, "venue", "#js-stats-body__venues");
+}
+
+function makeTargetAccordion(fuzzerMap, targets) {
+  return makeAccordion(fuzzerMap, targets, "target", "#js-stats-body__targets");
+}
+
+function makeAuthorAccordion(fuzzerMap, authors) {
+  return makeAccordion(fuzzerMap, authors, "author", "#js-stats-body__authors");
+}
+
+function filterAndSortAccordion(acc, str, container) {
+  const elms = [];
+  acc.forEach(function (elm) {
+    let matches = 0;
+    elm.find("ul > li").each(function () {
+      const listElm = $(this);
+      const m = listElm.find("span:contains('" + str + "')");
+      if (m.length) {
+        matches += 1;
+        $(this).show();
+      }
+    });
+    if (matches > 0) {
+      elms.push([ matches, elm ]);
+      elm.find("div > span").text(matches);
+    }
+  });
+  elms.sort(function (fst, snd) {
+    return snd[0] - fst[0];
+  });
+  elms.forEach(function (elm) {
+    container.append(elm[1]);
+  });
+}
+
+function registerStatsFilter(venueAcc, targetAcc, authorAcc) {
+  $("#js-stats-body__filter").on("change keyup paste click", function () {
+    const t = $(this).val();
+    $(".card li").each(function () { $(this).hide(); });
+    $("#js-stats-body__venues").empty();
+    $("#js-stats-body__targets").empty();
+    $("#js-stats-body__authors").empty();
+    filterAndSortAccordion(venueAcc, t, $("#js-stats-body__venues"));
+    filterAndSortAccordion(targetAcc, t, $("#js-stats-body__targets"));
+    filterAndSortAccordion(authorAcc, t, $("#js-stats-body__authors"));
+  });
+}
+
+function initStats(data) {
+  const fuzzerMap = {};
+  const venues = {};
+  const targets = {};
+  const authors = {};
+  data.forEach(function (v) {
+    fuzzerMap[v.name] = v;
+    if (v.author !== undefined)
+      v.author.forEach(function (a) { addStatItem(authors, a, v.name); });
+    if (v.booktitle !== undefined)
+      addStatItem(venues, v.booktitle, v.name);
+    v.targets.forEach(function (t) { addStatItem(targets, t, v.name); });
+  });
+  d3.select("#js-stats-body__summary").append("p")
+    .text("There are a total of "
+          + data.length
+          + " fuzzers and "
+          + Object.keys(authors).length
+          + " authors in the DB, collected from "
+          + Object.keys(venues).length
+          + " different venues.");
+  const venueAcc = makeVenueAccordion(fuzzerMap, venues);
+  const targetAcc = makeTargetAccordion(fuzzerMap, targets);
+  const authorAcc = makeAuthorAccordion(fuzzerMap, authors);
+  $.expr[':'].contains = function (n, i, m) {
+    return jQuery(n).text().toUpperCase().indexOf(m[3].toUpperCase()) >= 0;
+  };
+  filterAndSortAccordion(venueAcc, "", $("#js-stats-body__venues"));
+  filterAndSortAccordion(targetAcc, "", $("#js-stats-body__targets"));
+  filterAndSortAccordion(authorAcc, "", $("#js-stats-body__authors"));
+  registerStatsFilter(venueAcc, targetAcc, authorAcc);
+}
+
 function getQueryVariable(variable) {
   var query = window.location.search.substring(1);
   var vars = query.split('&');
@@ -472,7 +642,7 @@ function getQueryVariable(variable) {
 }
 
 d3.json("data/fuzzers.json")
-  .then(function(json) {
+  .then(function (json) {
     const width = $("#js-canvas").width();
     const height = $("#js-canvas").height();
     const canvas = createCanvas(width, height);
@@ -487,6 +657,7 @@ d3.json("data/fuzzers.json")
     installDragHandler();
     installInfoBoxCloseHandler();
     initSimulation(d, simulation, width, height, links, nodes);
+    initStats(d.nodes);
     zoom.scaleTo(canvas, minScale);
     // Center the graph after a sec.
     setTimeout(function () {
