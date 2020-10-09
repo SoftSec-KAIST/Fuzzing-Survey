@@ -515,11 +515,11 @@ function makeAccordionElm(data, handle, myid, header, fuzzers, fnLink) {
 
 function fuzzerToString(fuzzer) {
   let s = fuzzer.name;
-  if (fuzzer.year !== undefined) s += fuzzer.year;
-  if (fuzzer.author !== undefined) s += fuzzer.author.join();
-  if (fuzzer.title !== undefined) s += fuzzer.title;
-  if (fuzzer.booktitle !== undefined) s += fuzzer.booktitle;
-  if (fuzzer.targets !== undefined) s += fuzzer.targets.join();
+  if (fuzzer.year !== undefined) s += " " + fuzzer.year;
+  if (fuzzer.author !== undefined) s += " " + fuzzer.author.join();
+  if (fuzzer.title !== undefined) s += " " + fuzzer.title;
+  if (fuzzer.booktitle !== undefined) s += " " + fuzzer.booktitle;
+  if (fuzzer.targets !== undefined) s += " " + fuzzer.targets.join();
   return s;
 }
 
@@ -610,7 +610,7 @@ function initStats(data) {
     v.targets.forEach(function (t) { addStatItem(targets, t, v.name); });
   });
   d3.select("#js-stats-body__summary").append("p")
-    .text("There are a total of "
+    .text("Currently, there are a total of "
           + data.length
           + " fuzzers and "
           + Object.keys(authors).length
