@@ -749,6 +749,34 @@
     "color": "greybox"
   },
   {
+    "name": "EnFuzz",
+    "year": 2019,
+    "author": [
+      "Yuanliang Chen",
+      "Yu Jiang",
+      "Fuchen Ma",
+      "Jie Liang",
+      "Mingzhe Wang",
+      "Chijin Zhou",
+      "Xun Jiao",
+      "Zhuo Su"
+    ],
+    "title": "EnFuzz: Ensemble Fuzzing with Seed Synchronization among Diverse Fuzzers",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "toolurl": "https://github.com/enfuzz/enfuzz",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec19-chen-yuanliang.pdf"
+    ],
+    "targets": [
+      "file"
+    ],
+    "references": [
+      "FairFuzz",
+      "QSYM"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "FIRM-AFL",
     "year": 2019,
     "author": [
@@ -1129,6 +1157,29 @@
     "color": "blackbox"
   },
   {
+    "name": "Intriguer",
+    "year": 2019,
+    "author": [
+      "Mingi Cho",
+      "Seoyoung Kim",
+      "Taekyoung Kwon"
+    ],
+    "title": "Intriguer: Field-Level Constraint Solving for Hybrid Fuzzing",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "toolurl": "Intriguer: Field-Level Constraint Solving for Hybrid Fuzzing",
+    "miscurl": [
+      "https://wcventure.github.io/FuzzingPaper/Paper/CCS19_Intriguer.pdf"
+    ],
+    "targets": [
+      "file"
+    ],
+    "references": [
+      "AFL",
+      "QSYM"
+    ],
+    "color": "whitebox"
+  },
+  {
     "name": "IoTFuzzer",
     "year": 2018,
     "author": [
@@ -1455,6 +1506,28 @@
     "color": "greybox"
   },
   {
+    "name": "Matryoshka",
+    "year": 2019,
+    "author": [
+      "Peng Chen",
+      "Jianzhong Liu",
+      "Hao Chen"
+    ],
+    "title": "Matryoshka: Fuzzing Deeply Nested Branches",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://kms.shanghaitech.edu.cn/bitstream/2MSLDSTB/104875/1/10.1145%403319535.3363225.pdf"
+    ],
+    "targets": [
+      "file"
+    ],
+    "references": [
+      "Angora",
+      "SLF"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "Melkor",
     "year": 2014,
     "author": [
@@ -1723,6 +1796,32 @@
     "color": "greybox"
   },
   {
+    "name": "ProFuzzer",
+    "year": 2019,
+    "author": [
+      "Wei You",
+      "Xueqiang Wang",
+      "Shiqing Ma",
+      "Jianjun Huang",
+      "Xiangyu Zhang",
+      "XiaoFeng Wang",
+      "Bin Liang"
+    ],
+    "title": "ProFuzzer: On-the-fly Input Type Probing for Better Zero-day Vulnerability Discovery",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://wcventure.github.io/FuzzingPaper/Paper/SP19_Profuzz.pdf"
+    ],
+    "targets": [
+      "file"
+    ],
+    "references": [
+      "VUzzer",
+      "Angora"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "QSYM",
     "year": 2018,
     "author": [
@@ -1784,6 +1883,31 @@
     ],
     "references": [
       "CalFuzzer"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "Razzer",
+    "year": 2019,
+    "author": [
+      "Dae R. Jeong",
+      "Kyungtae Kim",
+      "Basavesh Shivakumar",
+      "Byoungyoung Lee",
+      "Insik Shin"
+    ],
+    "title": "Razzer: Finding Kernel Race Bugs through Fuzzing",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "toolurl": "https://github.com/compsec-snu/razzer",
+    "miscurl": [
+      "https://lifeasageek.github.io/papers/jeong-razzer.pdf"
+    ],
+    "targets": [
+      "kernel"
+    ],
+    "references": [
+      "syzkaller",
+      "RaceFuzzer"
     ],
     "color": "greybox"
   },
@@ -1854,6 +1978,33 @@
     "color": "blackbox"
   },
   {
+    "name": "RVFuzzer",
+    "year": 2019,
+    "author": [
+      "Taegyu Kim",
+      "Chung Hwan Kim",
+      "Junghwan Rhee",
+      "Fan Fei",
+      "Zhan Tu",
+      "Gregory Walkup",
+      "Xiangyu Zhang",
+      "Xinyan Deng",
+      "Dongyan Xu"
+    ],
+    "title": "RVFUZZER: Finding Input Validation Bugs in Robotic Vehicles Through Control-Guided Testing",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec19-kim.pdf"
+    ],
+    "targets": [
+      "Robot Vehicle"
+    ],
+    "references": [
+      "LibFuzzer"
+    ],
+    "color": "blackbox"
+  },
+  {
     "name": "SAGE",
     "year": 2008,
     "author": [
@@ -1895,6 +2046,30 @@
       "file"
     ],
     "color": "whitebox"
+  },
+  {
+    "name": "SLF",
+    "year": 2019,
+    "author": [
+      "Wei You",
+      "Xuwei Liu",
+      "Shiqing Ma",
+      "David Perry",
+      "Ziangyu Zhang",
+      "Bin Liang"
+    ],
+    "title": "SLF: Fuzzing without Valid Seed Inputs",
+    "booktitle": "Proceedings of the International Conference on Information Security",
+    "miscurl": [
+      "https://www.cs.rutgers.edu/~sm2283/papers/ICSE19.pdf"
+    ],
+    "targets": [
+      "file"
+    ],
+    "references": [
+      "AFL"
+    ],
+    "color": "greybox"
   },
   {
     "name": "SNOOZE",
