@@ -394,7 +394,7 @@
       "https://cposkitt.github.io/files/publications/Chen-Poskitt-et_al.ASE.2019.pdf"
     ],
     "targets": [
-      "Cyber-Physical System"
+      "Network"
     ],
     "color": "greybox"
   },
@@ -819,8 +819,7 @@
       "file"
     ],
     "references": [
-      "FairFuzz",
-      "QSYM"
+      "radamsa"
     ],
     "color": "greybox"
   },
