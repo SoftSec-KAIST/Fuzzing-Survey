@@ -102,6 +102,31 @@
     "color": "greybox"
   },
   {
+    "name": "APE",
+    "year": 2019,
+    "author": [
+      "Tianxiao Gu",
+      "Chengnian Sun",
+      "Xiaoxing Ma",
+      "Chun Cao",
+      "Chang Xu",
+      "Yuan Yao",
+      "Qirun Zhang",
+      "Jian Lu",
+      "Zhendong Su"
+    ],
+    "title": "Practical GUI Testing of Android Applications via Model Abstraction and Refinement",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "toolurl": "https://github.com/tianxiaogu/ape",
+    "miscurl": [
+      "http://gutianxiao.com/static/ape-icse-2019.pdf"
+    ],
+    "targets": [
+      "UI"
+    ],
+    "color": "blackbox"
+  },
+  {
     "name": "Angora",
     "year": 2018,
     "author": [
@@ -141,31 +166,6 @@
       "AFLFast"
     ],
     "color": "greybox"
-  },
-  {
-    "name": "APE",
-    "year": 2019,
-    "author": [
-      "Tianxiao Gu",
-      "Chengnian Sun",
-      "Xiaoxing Ma",
-      "Chun Cao",
-      "Chang Xu",
-      "Yuan Yao",
-      "Qirun Zhang",
-      "Jian Lu",
-      "Zhendong Su"
-    ],
-    "title": "Practical GUI Testing of Android Applications via Model Abstraction and Refinement",
-    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
-    "toolurl": "https://github.com/tianxiaogu/ape",
-    "miscurl": [
-      "http://gutianxiao.com/static/ape-icse-2019.pdf"
-    ],
-    "targets": [
-      "UI"
-    ],
-    "color": "blackbox"
   },
   {
     "name": "AssetFuzzer",
@@ -468,27 +468,6 @@
     "color": "greybox"
   },
   {
-    "name": "classming",
-    "year": 2019,
-    "author": [
-      "Yuting Chen",
-      "Ting Su",
-      "Zhendong Su"
-    ],
-    "title": "Deep Differential Testing of JVM Implementations",
-    "booktitle": "Proceedings of the International Conference on Software Engineering",
-    "miscurl": [
-      "https://tingsu.github.io/files/icse19-classming.pdf"
-    ],
-    "targets": [
-      "file"
-    ],
-    "references": [
-      "classfuzz"
-    ],
-    "color": "greybox"
-  },
-  {
     "name": "CodeAlchemist",
     "year": 2019,
     "author": [
@@ -574,28 +553,6 @@
       "network"
     ],
     "color": "blackbox"
-  },
-  {
-    "name": "DifFuzz",
-    "year": 2019,
-    "author": [
-      "Shirin Nilizadeh",
-      "Yannic Noller",
-      "Corina. S. Pasareanu"
-    ],
-    "title": "DIFFUZZ: Differential Fuzzing for Side-Channel Analysis",
-    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
-    "toolurl": "https://github.com/isstac/diffuzz",
-    "miscurl": [
-      "https://yannicnoller.github.io/publications/icse2019_nilizadeh_diffuzz.pdf"
-    ],
-    "targets": [
-      "file"
-    ],
-    "references": [
-      "AFL"
-    ],
-    "color": "greybox"
   },
   {
     "name": "DIFUZE",
@@ -693,6 +650,50 @@
       "network"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "Die",
+    "year": 2020,
+    "author": [
+      "Soyeon Park",
+      "Wen Xu",
+      "Insu Yun",
+      "Daehee Jang",
+      "Taesoo Kim"
+    ],
+    "title": "Fuzzing JavaScript Engines with Aspect-preserving Mutation",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "targets": [
+      "file",
+      "javascript"
+    ],
+    "references": [
+      "CodeAlchemist",
+      "Superion"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "DifFuzz",
+    "year": 2019,
+    "author": [
+      "Shirin Nilizadeh",
+      "Yannic Noller",
+      "Corina. S. Pasareanu"
+    ],
+    "title": "DIFFUZZ: Differential Fuzzing for Side-Channel Analysis",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "toolurl": "https://github.com/isstac/diffuzz",
+    "miscurl": [
+      "https://yannicnoller.github.io/publications/icse2019_nilizadeh_diffuzz.pdf"
+    ],
+    "targets": [
+      "file"
+    ],
+    "references": [
+      "AFL"
+    ],
+    "color": "greybox"
   },
   {
     "name": "DigFuzz",
@@ -1449,6 +1450,25 @@
       "SNOOZE"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "Krace",
+    "year": 2020,
+    "author": [
+      "Meng Xu",
+      "Sanidhya Kashyap",
+      "Hanqing Zhao",
+      "Taesoo Kim"
+    ],
+    "title": "KRACE: Data Race Fuzzing for Kernel File Systems",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "targets": [
+      "kernel"
+    ],
+    "references": [
+      "Razzer"
+    ],
+    "color": "greybox"
   },
   {
     "name": "LL-fuzzer",
@@ -2686,6 +2706,27 @@
     ],
     "targets": [
       "file"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "classming",
+    "year": 2019,
+    "author": [
+      "Yuting Chen",
+      "Ting Su",
+      "Zhendong Su"
+    ],
+    "title": "Deep Differential Testing of JVM Implementations",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "miscurl": [
+      "https://tingsu.github.io/files/icse19-classming.pdf"
+    ],
+    "targets": [
+      "file"
+    ],
+    "references": [
+      "classfuzz"
     ],
     "color": "greybox"
   },
