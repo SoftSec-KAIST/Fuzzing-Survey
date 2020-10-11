@@ -295,33 +295,6 @@
     "color": "whitebox"
   },
   {
-    "name": "Cerebro",
-    "year": 2019,
-    "author": [
-      "Yuekang Li",
-      "Yinxing Xue",
-      "Hongxu Chen",
-      "Xuheng Wu",
-      "Cen Zhang",
-      "Xiaofei Xie",
-      "Haijun Wang",
-      "Yang Liu"
-    ],
-    "title": "Cerebro: Context-Aware Adaptive Fuzzing for Effective Vulnerability Detection",
-    "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
-    "miscurl": [
-      "https://hongxuchen.github.io/pdf/cerebro.pdf"
-    ],
-    "targets": [
-      "file"
-    ],
-    "references": [
-      "AFLFast",
-      "CollAFL"
-    ],
-    "color": "greybox"
-  },
-  {
     "name": "CLSmith",
     "year": 2015,
     "author": [
@@ -375,6 +348,33 @@
     "toolurl": "https://github.com/ksen007/calfuzzer",
     "targets": [
       "concurrency"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "Cerebro",
+    "year": 2019,
+    "author": [
+      "Yuekang Li",
+      "Yinxing Xue",
+      "Hongxu Chen",
+      "Xuheng Wu",
+      "Cen Zhang",
+      "Xiaofei Xie",
+      "Haijun Wang",
+      "Yang Liu"
+    ],
+    "title": "Cerebro: Context-Aware Adaptive Fuzzing for Effective Vulnerability Detection",
+    "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
+    "miscurl": [
+      "https://hongxuchen.github.io/pdf/cerebro.pdf"
+    ],
+    "targets": [
+      "file"
+    ],
+    "references": [
+      "AFLFast",
+      "CollAFL"
     ],
     "color": "greybox"
   },
@@ -454,7 +454,8 @@
     "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
     "toolurl": "https://github.com/SoftSec-KAIST/CodeAlchemist",
     "targets": [
-      "file"
+      "file",
+      "javascript"
     ],
     "references": [
       "LangFuzz",
@@ -1490,6 +1491,27 @@
     "color": "greybox"
   },
   {
+    "name": "MCFuzz",
+    "year": 2019,
+    "author": [
+      "Chengyu Zhang",
+      "Ting Su",
+      "Yichen Yan",
+      "Fuyuan Zhang",
+      "Geguang Pu",
+      "Zhendong Su"
+    ],
+    "title": "Finding and Understanding Bugs in Software Model Checkers",
+    "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
+    "miscurl": [
+      "https://tingsu.github.io/files/fse19-MCFuzz.pdf"
+    ],
+    "targets": [
+      "model checker"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "MOPT",
     "year": 2019,
     "author": [
@@ -1596,27 +1618,6 @@
     "references": [
       "Angora",
       "SLF"
-    ],
-    "color": "greybox"
-  },
-  {
-    "name": "MCFuzz",
-    "year": 2019,
-    "author": [
-      "Chengyu Zhang",
-      "Ting Su",
-      "Yichen Yan",
-      "Fuyuan Zhang",
-      "Geguang Pu",
-      "Zhendong Su"
-    ],
-    "title": "Finding and Understanding Bugs in Software Model Checkers",
-    "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
-    "miscurl": [
-      "https://tingsu.github.io/files/fse19-MCFuzz.pdf"
-    ],
-    "targets": [
-      "model checker"
     ],
     "color": "greybox"
   },
@@ -1963,6 +1964,55 @@
     "color": "greybox"
   },
   {
+    "name": "RESTler",
+    "year": 2019,
+    "author": [
+      "Vaggelis Atlidakis",
+      "Patrice Godefroid",
+      "Marina Polishchuk"
+    ],
+    "title": "RESTler: Stateful REST API Fuzzing",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "miscurl": [
+      "https://patricegodefroid.github.io/public_psfiles/icse2019.pdf"
+    ],
+    "targets": [
+      "API"
+    ],
+    "references": [
+      "boofuzz",
+      "Sulley"
+    ],
+    "color": "blackbox"
+  },
+  {
+    "name": "RVFuzzer",
+    "year": 2019,
+    "author": [
+      "Taegyu Kim",
+      "Chung Hwan Kim",
+      "Junghwan Rhee",
+      "Fan Fei",
+      "Zhan Tu",
+      "Gregory Walkup",
+      "Xiangyu Zhang",
+      "Xinyan Deng",
+      "Dongyan Xu"
+    ],
+    "title": "RVFUZZER: Finding Input Validation Bugs in Robotic Vehicles Through Control-Guided Testing",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec19-kim.pdf"
+    ],
+    "targets": [
+      "Robot Vehicle"
+    ],
+    "references": [
+      "LibFuzzer"
+    ],
+    "color": "blackbox"
+  },
+  {
     "name": "RaceFuzzer",
     "year": 2008,
     "author": [
@@ -2067,33 +2117,6 @@
     ],
     "targets": [
       "network"
-    ],
-    "color": "blackbox"
-  },
-  {
-    "name": "RVFuzzer",
-    "year": 2019,
-    "author": [
-      "Taegyu Kim",
-      "Chung Hwan Kim",
-      "Junghwan Rhee",
-      "Fan Fei",
-      "Zhan Tu",
-      "Gregory Walkup",
-      "Xiangyu Zhang",
-      "Xinyan Deng",
-      "Dongyan Xu"
-    ],
-    "title": "RVFUZZER: Finding Input Validation Bugs in Robotic Vehicles Through Control-Guided Testing",
-    "booktitle": "Proceedings of the USENIX Security Symposium",
-    "miscurl": [
-      "https://www.usenix.org/system/files/sec19-kim.pdf"
-    ],
-    "targets": [
-      "Robot Vehicle"
-    ],
-    "references": [
-      "LibFuzzer"
     ],
     "color": "blackbox"
   },
@@ -2348,6 +2371,26 @@
     ],
     "references": [
       "AFL"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "Superion",
+    "year": 2019,
+    "author": [
+      "Junjie Wang",
+      "Bihuan Chen",
+      "Lei Wei",
+      "Yang Liu"
+    ],
+    "title": "Superion: Grammar-Aware Greybox Fuzzing",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "targets": [
+      "file",
+      "javascript"
+    ],
+    "references": [
+      "LangFuzz"
     ],
     "color": "greybox"
   },
