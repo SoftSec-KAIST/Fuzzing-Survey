@@ -2354,29 +2354,6 @@
   {
     "name": "Superion",
     "year": 2019,
-    "aurthor": [
-      "Junjie Wang",
-      "Bihuan Chen",
-      "Lei Wei",
-      "Yang Liu"
-    ],
-    "title": "Superion: Grammar-Aware Greybox Fuzzing",
-    "booktitle": "Proceedings of the International Conference on Software Engineering",
-    "toolurl": "https://github.com/zhunki/Superion",
-    "miscurl": [
-      "https://arxiv.org/pdf/1812.01197.pdf"
-    ],
-    "targets": [
-      "file"
-    ],
-    "references": [
-      "AFL"
-    ],
-    "color": "greybox"
-  },
-  {
-    "name": "Superion",
-    "year": 2019,
     "author": [
       "Junjie Wang",
       "Bihuan Chen",
@@ -2385,11 +2362,15 @@
     ],
     "title": "Superion: Grammar-Aware Greybox Fuzzing",
     "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "miscurl": [
+      "https://arxiv.org/pdf/1812.01197.pdf"
+    ],
     "targets": [
       "file",
       "javascript"
     ],
     "references": [
+      "AFL",
       "LangFuzz"
     ],
     "color": "greybox"
