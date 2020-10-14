@@ -2142,29 +2142,6 @@
     "color": "greybox"
   },
   {
-    "name": "Rebert et al.",
-    "year": 2014,
-    "author": [
-      "Alexandre Rebert",
-      "Sang Kil Cha",
-      "Thanassis Avgerinos",
-      "Jonathan Foote",
-      "David Warren",
-      "Gustavo Grieco",
-      "David Brumley"
-    ],
-    "title": "Optimizing Seed Selection for Fuzzing",
-    "booktitle": "Proceedings of the USENIX Security Symposium",
-    "targets": [
-      "file"
-    ],
-    "references": [
-      "Woo et al.",
-      "BFF"
-    ],
-    "color": "blackbox"
-  },
-  {
     "name": "Redqueen",
     "year": 2019,
     "author": [
@@ -2477,7 +2454,7 @@
       "file"
     ],
     "references": [
-      "Rebert et al."
+      "BFF"
     ],
     "color": "blackbox"
   },
@@ -2636,27 +2613,6 @@
       "AFL"
     ],
     "color": "greybox"
-  },
-  {
-    "name": "Woo et al.",
-    "year": 2013,
-    "author": [
-      "Maverick Woo",
-      "Sang Kil Cha",
-      "Samantha Gottlieb",
-      "David Brumley"
-    ],
-    "title": "Scheduling Black-box Mutational Fuzzing",
-    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
-    "targets": [
-      "file"
-    ],
-    "toolurl": "http://security.ece.cmu.edu/fuzzsim/",
-    "references": [
-      "BFF",
-      "Householder"
-    ],
-    "color": "blackbox"
   },
   {
     "name": "antiparser",
