@@ -320,6 +320,28 @@
     "color": "whitebox"
   },
   {
+    "name": "CHIPSEC",
+    "year": 2015,
+    "author": [
+      "Mikhail Gorobets",
+      "Oleksandr Bazhaniuk",
+      "Alex Matrosov",
+      "Andrew Furtak",
+      "Yuriy Bulygin"
+    ],
+    "title": "Attacking Hypervisors via Firmware and Hardware",
+    "booktitle": "Proceedings of the Black Hat USA",
+    "toolurl": "https://github.com/chipsec/chipsec",
+    "references": [
+      "Sulley"
+    ],
+    "targets": [
+      "firmware",
+      "hypervisor"
+    ],
+    "color": "blackbox"
+  },
+  {
     "name": "CLSmith",
     "year": 2015,
     "author": [
@@ -1145,6 +1167,47 @@
     ],
     "references": [
       "Redqueen"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "HFL",
+    "year": 2020,
+    "author": [
+      "Kyungtae Kim",
+      "Dae R. Jeong",
+      "Chung Hwan Kim",
+      "Yeongjin Jang",
+      "Insik Shin",
+      "Byoungyoung Lee"
+    ],
+    "title": "HFL: Hybrid Fuzzing on the Linux Kernel",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "targets": [
+      "kernel"
+    ],
+    "references": [
+      "syzkaller"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "HYPER-CUBE",
+    "year": 2020,
+    "author": [
+      "Sergej Schumilo",
+      "Cornelius Aschermann",
+      "Ali Abbasi",
+      "Simon Wörner",
+      "Thorsten Holz"
+    ],
+    "title": "HYPER-CUBE: High-Dimensional Hypervisor Fuzzing",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "targets": [
+      "hypervisor"
+    ],
+    "references": [
+      "CHIPSEC"
     ],
     "color": "greybox"
   },
