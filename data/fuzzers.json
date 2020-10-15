@@ -1272,6 +1272,29 @@
     "color": "blackbox"
   },
   {
+    "name": "HotFuzz",
+    "year": 2020,
+    "author": [
+      "William Blair",
+      "Andrea Mambretti",
+      "Sajjad Arshad",
+      "Michael Weissbacher",
+      "William Robertson",
+      "Engin Kirda",
+      "Manuel Egele"
+    ],
+    "title": "HotFuzz: Discovering Algorithmic Denial-of-Service Vulnerabilities Through Guided Micro-Fuzzing",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "toolurl": "https://arxiv.org/pdf/2002.03416.pdf",
+    "targets": [
+      "api"
+    ],
+    "references": [
+      "SlowFuzz"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "Householder",
     "year": 2012,
     "title": "Probability-Based Parameter Selection for Black-Box Fuzz Testing",
@@ -2421,6 +2444,29 @@
     "color": "greybox"
   },
   {
+    "name": "SlowFuzz",
+    "year": 2017,
+    "author": [
+      "Theofilos Petsios",
+      "Jason Zhao",
+      "Angelos D. Keromytis",
+      "Suman Jana"
+    ],
+    "title": "SlowFuzz: Automated Domain-Independent Detection of Algorithmic Complexity Vulnerabilities",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://dl.acm.org/doi/10.1145/3133956.3134073"
+    ],
+    "toolurl": "https://github.com/nettrino/slowfuzz",
+    "targets": [
+      "api"
+    ],
+    "references": [
+      "LibFuzzer"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "SmartFuzz",
     "year": 2009,
     "author": [
@@ -2610,6 +2656,31 @@
       "BuzzFuzz"
     ],
     "color": "whitebox"
+  },
+  {
+    "name": "TortoiseFuzz",
+    "year": 2020,
+    "author": [
+      "Yanhao Wang",
+      "Xiangkun Jia",
+      "Yuwei Liu",
+      "Kyle Zeng",
+      "Tiffany Bao",
+      "Dinghao Wu",
+      "Purui Su"
+    ],
+    "title": "Not All Coverage Measurements Are Equal: Fuzzing by Coverage Accounting for Input Prioritization",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/2020/02/24422-paper.pdf"
+    ],
+    "targets": [
+      "file"
+    ],
+    "references": [
+      "AFL"
+    ],
+    "color": "greybox"
   },
   {
     "name": "Triforce",
