@@ -1146,6 +1146,32 @@
     "color": "whitebox"
   },
   {
+    "name": "GreyOne",
+    "year": 2020,
+    "author": [
+      "Shuitao Gan",
+      "Chao Zhang",
+      "Peng Chen",
+      "Bodong Zhao",
+      "Xiaojun Qin",
+      "Dong Wu",
+      "Zuoning Chen"
+    ],
+    "title": "GREYONE: Data Flow Sensitive Fuzzing",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec20spring_gan_prepub.pdf"
+    ],
+    "targets": [
+      "file"
+    ],
+    "references": [
+      "VUzzer",
+      "Redqueen"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "Grimoire",
     "year": 2019,
     "author": [
@@ -1885,6 +1911,33 @@
     "color": "whitebox"
   },
   {
+    "name": "Muzz",
+    "year": 2020,
+    "author": [
+      "Hongxu Chen",
+      "Shengjian Guo",
+      "Yinxing Xue",
+      "Yulei Sui",
+      "Cen Zhang",
+      "Yuekang Li",
+      "Haijun Wang",
+      "Yang Liu"
+    ],
+    "title": "MUZZ: Thread-aware Grey-box Fuzzing for Effective Bug Hunting in Multithreaded Programs",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec20-chen-hongxu.pdf"
+    ],
+    "references": [
+      "AFL",
+      "Razzer"
+    ],
+    "targets": [
+      "concurrency"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "NEUZZ",
     "year": 2019,
     "author": [
@@ -2256,7 +2309,7 @@
     "name": "Ruiter et al.",
     "year": 2015,
     "author": [
-      "Joeri De Ruiter",
+      "Joeri de Ruiter",
       "Erik Poll"
     ],
     "title": "Protocol State Fuzzing of TLS Implementations",
@@ -2840,6 +2893,31 @@
     "keywords": [
       "DOM"
     ]
+  },
+  {
+    "name": "dtls-fuzzer",
+    "year": 2020,
+    "author": [
+      "Paul Fiterău-Broştean",
+      "Bengt Jonsson",
+      "Robert Merget",
+      "Joeri de Ruiter",
+      "Konstantinos Sagonas",
+      "Juraj Somorovsky"
+    ],
+    "title": "Analysis of DTLS Implementations Using Protocol State Fuzzing",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec20-fiterau-brostean.pdf"
+    ],
+    "toolurl": "https://github.com/assist-project/dtls-fuzzer/",
+    "references": [
+      "TLS-Attacker"
+    ],
+    "targets": [
+      "network"
+    ],
+    "color": "blackbox"
   },
   {
     "name": "fsfuzzer",
