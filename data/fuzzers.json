@@ -277,6 +277,25 @@
     "color": "blackbox"
   },
   {
+    "name": "Brennan et al.",
+    "year": 2020,
+    "author": [
+      "Tegan Brennan",
+      "Seemanta Saha",
+      "Tevfik Bultan"
+    ],
+    "title": "JVM Fuzzing for JIT-Induced Side-Channel Detection",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "targets": [
+      "side-channel"
+    ],
+    "references": [
+      "Kelinci",
+      "DifFuzz"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "BuzzFuzz",
     "year": 2009,
     "author": [
@@ -701,7 +720,7 @@
     "author": [
       "Shirin Nilizadeh",
       "Yannic Noller",
-      "Corina. S. Pasareanu"
+      "Corina S. Păsăreanu"
     ],
     "title": "DIFFUZZ: Differential Fuzzing for Side-Channel Analysis",
     "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
@@ -710,7 +729,7 @@
       "https://yannicnoller.github.io/publications/icse2019_nilizadeh_diffuzz.pdf"
     ],
     "targets": [
-      "file"
+      "side-channel"
     ],
     "references": [
       "AFL"
@@ -1238,6 +1257,24 @@
     "color": "greybox"
   },
   {
+    "name": "Harvey",
+    "year": 2020,
+    "author": [
+      "Valentin Wüstholz",
+      "Maria Christakis"
+    ],
+    "title": "Targeted Greybox Fuzzing with Static Lookahead Analysis",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "targets": [
+      "evm"
+    ],
+    "references": [
+      "AFLGo",
+      "ContractFuzzer"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "Hawkeye",
     "year": 2018,
     "author": [
@@ -1338,6 +1375,28 @@
       "BFF"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "HyDiff",
+    "year": 2020,
+    "author": [
+      "Yannic Noller",
+      "Corina S. Păsăreanu",
+      "Marcel Böhme",
+      "Youcheng Sun",
+      "Hoang Lam Nguyen",
+      "Lars Grunske"
+    ],
+    "title": "HyDiff: Hybrid Differential Software Analysis",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "targets": [
+      "side-channel"
+    ],
+    "toolurl": "https://github.com/yannicnoller/hydiff",
+    "references": [
+      "DifFuzz"
+    ],
+    "color": "greybox"
   },
   {
     "name": "IFuzzer",
@@ -1523,6 +1582,21 @@
       "network"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "Kelinci",
+    "year": 2018,
+    "author": [
+      "Rody Kersten"
+    ],
+    "references": [
+      "AFL"
+    ],
+    "toolurl": "https://github.com/isstac/kelinci",
+    "targets": [
+      "file"
+    ],
+    "color": "greybox"
   },
   {
     "name": "KernelFuzzer",
@@ -1834,6 +1908,32 @@
       "file"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "MemLock",
+    "year": 2020,
+    "author": [
+      "Cheng Wen",
+      "Haijun Wang",
+      "Yuekang Li",
+      "Shengchao Qin",
+      "Yang Liu",
+      "Zhiwu Xu",
+      "Hongxu Chen",
+      "Xiaofei Xie",
+      "Geguang Pu",
+      "Ting Liu"
+    ],
+    "title": "MemLock: Memory Usage Guided Fuzzing",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "targets": [
+      "file"
+    ],
+    "references": [
+      "SlowFuzz",
+      "AFL"
+    ],
+    "color": "greybox"
   },
   {
     "name": "Miller et al.",
@@ -2445,6 +2545,28 @@
     "color": "blackbox"
   },
   {
+    "name": "Sensei",
+    "year": 2020,
+    "author": [
+      "Xiang Gao",
+      "Ripon K. Saha",
+      "Mukul R. Prasad",
+      "Abhik Roychoudhury"
+    ],
+    "title": "Fuzz Testing based Data Augmentation to Improve Robustness of Deep Neural Networks",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "targets": [
+      "ai"
+    ],
+    "miscurl": [
+      "https://www.comp.nus.edu.sg/~abhik/pdf/ICSE20_Sensei.pdf"
+    ],
+    "references": [
+      "TensorFuzz"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "Sharefuzz",
     "year": 2001,
     "author": [
@@ -2711,6 +2833,25 @@
     "color": "whitebox"
   },
   {
+    "name": "TensorFuzz",
+    "year": 2019,
+    "author": [
+      "Augustus Odena",
+      "Catherine Olsson",
+      "David G. Andersen",
+      "Ian Goodfellow"
+    ],
+    "title": "TensorFuzz: Debugging Neural Networks with Coverage-Guided Fuzzing",
+    "booktitle": "Proceedings of the International Conference on Machine Learning",
+    "targets": [
+      "ai"
+    ],
+    "references": [
+      "AFL"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "TortoiseFuzz",
     "year": 2020,
     "author": [
@@ -2778,6 +2919,30 @@
       "kernel"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "UAFL",
+    "year": 2020,
+    "author": [
+      "Haijun Wang",
+      "Xiaofei Xie",
+      "Yi Li",
+      "Cheng Wen",
+      "Yuekang Li",
+      "Yang Liu",
+      "Shengchao Qin",
+      "Hongxu Chen",
+      "Yulei Sui"
+    ],
+    "title": "Typestate-Guided Fuzzer for Discovering Use-after-Free Vulnerabilities",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "targets": [
+      "file"
+    ],
+    "references": [
+      "AFL"
+    ],
+    "color": "greybox"
   },
   {
     "name": "VUzzer",
