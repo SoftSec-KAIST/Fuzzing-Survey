@@ -520,7 +520,6 @@
     "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
     "toolurl": "https://github.com/SoftSec-KAIST/CodeAlchemist",
     "targets": [
-      "file",
       "javascript"
     ],
     "references": [
@@ -705,7 +704,6 @@
     "title": "Fuzzing JavaScript Engines with Aspect-preserving Mutation",
     "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
     "targets": [
-      "file",
       "javascript"
     ],
     "references": [
@@ -1990,6 +1988,28 @@
     "color": "whitebox"
   },
   {
+    "name": "Montage",
+    "year": 2020,
+    "author": [
+      "Suyoung Lee",
+      "HyungSeok Han",
+      "Sang Kil Cha",
+      "Sooel Son"
+    ],
+    "title": "Montage: A Neural Network Language Model-Guided JavaScript Engine Fuzzer",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec20summer_lee-suyoung_prepub_0.pdf"
+    ],
+    "targets": [
+      "javascript"
+    ],
+    "references": [
+      "CodeAlchemist"
+    ],
+    "color": "blackbox"
+  },
+  {
     "name": "MutaGen",
     "year": 2015,
     "author": [
@@ -2714,7 +2734,6 @@
       "https://arxiv.org/pdf/1812.01197.pdf"
     ],
     "targets": [
-      "file",
       "javascript"
     ],
     "references": [
