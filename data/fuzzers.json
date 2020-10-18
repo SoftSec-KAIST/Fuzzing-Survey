@@ -1002,6 +1002,53 @@
     "color": "greybox"
   },
   {
+    "name": "FANS",
+    "year": 2020,
+    "author": [
+      "Baozheng Liu",
+      "Chao Zhang",
+      "Guang Gong",
+      "Yishun Zeng",
+      "Haifeng Ruan",
+      "Jianwei Zhuge"
+    ],
+    "title": "FANS: Fuzzing Android Native System Services via Automated Interface Analysis",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "toolurl": "https://github.com/iromise/fans",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec20fall_liu_prepub.pdf"
+    ],
+    "targets": [
+      "API"
+    ],
+    "references": [
+      "AFL"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "FIFUZZ",
+    "year": 2020,
+    "author": [
+      "Zu-Ming Jiang",
+      "Jia-Ju Bai",
+      "Kangjie Lu",
+      "Shi-Min Hu"
+    ],
+    "title": "Fuzzing Error Handling Code using Context-Sensitive Software Fault Injection",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "miscurl": [
+      "https://www-users.cs.umn.edu/~kjlu/papers/fifuzz.pdf"
+    ],
+    "targets": [
+      "file"
+    ],
+    "references": [
+      "AFL"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "FIRM-AFL",
     "year": 2019,
     "author": [
@@ -1070,53 +1117,6 @@
     "toolurl": "https://github.com/carolemieux/afl-rb/",
     "miscurl": [
       "https://www.carolemieux.com/fairfuzz-ase18.pdf"
-    ],
-    "targets": [
-      "file"
-    ],
-    "references": [
-      "AFL"
-    ],
-    "color": "greybox"
-  },
-  {
-    "name": "FANS",
-    "year": 2020,
-    "author": [
-      "Baozheng Liu",
-      "Chao Zhang",
-      "Guang Gong",
-      "Yishun Zeng",
-      "Haifeng Ruan",
-      "Jianwei Zhuge"
-    ],
-    "title": "FANS: Fuzzing Android Native System Services via Automated Interface Analysis",
-    "booktitle": "Proceedings of the USENIX Security Symposium",
-    "toolurl": "https://github.com/iromise/fans",
-    "miscurl": [
-      "https://www.usenix.org/system/files/sec20fall_liu_prepub.pdf"
-    ],
-    "targets": [
-      "API"
-    ],
-    "references": [
-      "AFL"
-    ],
-    "color": "greybox"
-  },
-  {
-    "name": "FIFUZZ",
-    "year": 2020,
-    "author": [
-      "Zu-Ming Jiang",
-      "Jia-Ju Bai",
-      "Kangjie Lu",
-      "Shi-Min Hu"
-    ],
-    "title": "Fuzzing Error Handling Code using Context-Sensitive Software Fault Injection",
-    "booktitle": "Proceedings of the USENIX Security Symposium",
-    "miscurl": [
-      "https://www-users.cs.umn.edu/~kjlu/papers/fifuzz.pdf"
     ],
     "targets": [
       "file"
@@ -2277,6 +2277,21 @@
     "color": "blackbox"
   },
   {
+    "name": "NeuralFuzzer",
+    "year": 2016,
+    "author": [
+      "CIFASIS"
+    ],
+    "toolurl": "https://github.com/CIFASIS/neural-fuzzer",
+    "references": [
+      "QuickFuzz"
+    ],
+    "targets": [
+      "file"
+    ],
+    "color": "blackbox"
+  },
+  {
     "name": "Neutaint",
     "year": 2020,
     "author": [
@@ -2297,21 +2312,6 @@
     "color": "whitebox"
   },
   {
-    "name": "NeuralFuzzer",
-    "year": 2016,
-    "author": [
-      "CIFASIS"
-    ],
-    "toolurl": "https://github.com/CIFASIS/neural-fuzzer",
-    "references": [
-      "QuickFuzz"
-    ],
-    "targets": [
-      "file"
-    ],
-    "color": "blackbox"
-  },
-  {
     "name": "Nightmare",
     "year": 2014,
     "author": [
@@ -2320,30 +2320,6 @@
     "toolurl": "https://github.com/joxeankoret/nightmare",
     "targets": [
       "unknown"
-    ],
-    "color": "greybox"
-  },
-  {
-    "name": "ParmeSan",
-    "year": 2020,
-    "author": [
-      "Sebastian Österlund",
-      "Kaveh Razavi",
-      "Herbert Bos",
-      "Cristiano Giuffrida"
-    ],
-    "title": "ParmeSan: Sanitizer-guided Greybox Fuzzing",
-    "booktitle": "Proceedings of the USENIX Security Symposium",
-    "toolurl": "https://github.com/vusec/parmesan",
-    "miscurl": [
-      "https://www.usenix.org/system/files/sec20fall_osterlund_prepub.pdf"
-    ],
-    "targets": [
-      "file"
-    ],
-    "references": [
-      "AFLGo",
-      "Angora"
     ],
     "color": "greybox"
   },
@@ -2359,6 +2335,30 @@
     "booktitle": "Proceedings of the IFIP TC 6/TC 11 International Conference on Communications and Multimedia Security",
     "targets": [
       "network"
+    ],
+    "color": "blackbox"
+  },
+  {
+    "name": "PULSAR",
+    "year": 2015,
+    "author": [
+      "Hugo Gascon",
+      "Christian Wressnegger",
+      "Fabian Yamaguchi",
+      "Daniel Arp",
+      "Konrad Rieck"
+    ],
+    "title": "PULSAR: Stateful Black-Box Fuzzing of Proprietary Network Protocols",
+    "booktitle": "Proceedings of the International Conference on Security and Privacy in Communication Systems",
+    "toolurl": "https://github.com/hgascon/pulsar",
+    "miscurl": [
+      "http://user.cs.uni-goettingen.de/~krieck/docs/2015-securecomm.pdf"
+    ],
+    "targets": [
+      "network"
+    ],
+    "references": [
+      "TFuzz"
     ],
     "color": "blackbox"
   },
@@ -2387,28 +2387,28 @@
     "color": "greybox"
   },
   {
-    "name": "PULSAR",
-    "year": 2015,
+    "name": "ParmeSan",
+    "year": 2020,
     "author": [
-      "Hugo Gascon",
-      "Christian Wressnegger",
-      "Fabian Yamaguchi",
-      "Daniel Arp",
-      "Konrad Rieck"
+      "Sebastian Österlund",
+      "Kaveh Razavi",
+      "Herbert Bos",
+      "Cristiano Giuffrida"
     ],
-    "title": "PULSAR: Stateful Black-Box Fuzzing of Proprietary Network Protocols",
-    "booktitle": "Proceedings of the International Conference on Security and Privacy in Communication Systems",
-    "toolurl": "https://github.com/hgascon/pulsar",
+    "title": "ParmeSan: Sanitizer-guided Greybox Fuzzing",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "toolurl": "https://github.com/vusec/parmesan",
     "miscurl": [
-      "http://user.cs.uni-goettingen.de/~krieck/docs/2015-securecomm.pdf"
+      "https://www.usenix.org/system/files/sec20fall_osterlund_prepub.pdf"
     ],
     "targets": [
-      "network"
+      "file"
     ],
     "references": [
-      "TFuzz"
+      "AFLGo",
+      "Angora"
     ],
-    "color": "blackbox"
+    "color": "greybox"
   },
   {
     "name": "Peach",
@@ -2664,33 +2664,6 @@
     "color": "whitebox"
   },
   {
-    "name": "Savior",
-    "year": 2020,
-    "author": [
-      "Yaohui Chen",
-      "Peng Li",
-      "Jun Xu",
-      "Shengjian Guo",
-      "Rundong Zhou",
-      "Yulong Zhang",
-      "Tao Wei",
-      "Long Lu"
-    ],
-    "title": "Savior: Towards Bug-Driven Hybrid Testing",
-    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
-    "miscurl": [
-      "https://ieeexplore.ieee.org/document/9152682"
-    ],
-    "targets": [
-      "file"
-    ],
-    "references": [
-      "AFL",
-      "KLEE"
-    ],
-    "color": "whitebox"
-  },
-  {
     "name": "SLF",
     "year": 2019,
     "author": [
@@ -2767,6 +2740,33 @@
       "FileFuzz"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "Savior",
+    "year": 2020,
+    "author": [
+      "Yaohui Chen",
+      "Peng Li",
+      "Jun Xu",
+      "Shengjian Guo",
+      "Rundong Zhou",
+      "Yulong Zhang",
+      "Tao Wei",
+      "Long Lu"
+    ],
+    "title": "Savior: Towards Bug-Driven Hybrid Testing",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://ieeexplore.ieee.org/document/9152682"
+    ],
+    "targets": [
+      "file"
+    ],
+    "references": [
+      "AFL",
+      "KLEE"
+    ],
+    "color": "whitebox"
   },
   {
     "name": "Sensei",
@@ -2885,6 +2885,26 @@
     "color": "whitebox"
   },
   {
+    "name": "SpecFuzz",
+    "year": 2020,
+    "author": [
+      "Oleksii Oleksenko",
+      "Bohdan Trach",
+      "Mark Silberstein",
+      "Christof Fetzer"
+    ],
+    "title": "SpecFuzz: Bringing Spectre-type vulnerabilities to the surface",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "toolurl": "https://github.com/tudinfse/SpecFuzz",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec20-oleksenko.pdf"
+    ],
+    "targets": [
+      "cpu"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "Steelix",
     "year": "2017",
     "author": [
@@ -2945,6 +2965,28 @@
       "LangFuzz"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "SymCC",
+    "year": 2020,
+    "author": [
+      "Sebastian Poeplau",
+      "Aurélien Francillon"
+    ],
+    "title": "Symbolic execution with SYMCC: Don’t interpret, compile!",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "toolurl": "http://www.s3. eurecom.fr/tools/symbolic_execution/symcc.html",
+    "miscurl": [
+      "http://www.s3.eurecom.fr/docs/usenixsec20_symcc.pdf"
+    ],
+    "targets": [
+      "file"
+    ],
+    "references": [
+      "KLEE",
+      "QSYM"
+    ],
+    "color": "whitebox"
   },
   {
     "name": "SymFuzz",
@@ -3033,6 +3075,29 @@
     "color": "blackbox"
   },
   {
+    "name": "TRRespass",
+    "year": 2020,
+    "author": [
+      "Pietro Frigo",
+      "Emanuele Vannacci",
+      "Hasan Hassan",
+      "Victor van der Veen",
+      "Onur Mutlu",
+      "Cristiano Giuffrida",
+      "Herbert Bos",
+      "Kaveh Razavi"
+    ],
+    "title": "TRRespass: Exploiting the Many Sides of Target Row Refresh",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://download.vusec.net/papers/trrespass_sp20.pdf"
+    ],
+    "targets": [
+      "RAM"
+    ],
+    "color": "blackbox"
+  },
+  {
     "name": "TaintScope",
     "year": 2010,
     "author": [
@@ -3100,6 +3165,29 @@
     "color": "greybox"
   },
   {
+    "name": "Transynther",
+    "year": 2020,
+    "author": [
+      "Daniel Moghimi",
+      "Moritz Lipp",
+      "Berk Sunar",
+      "Michael Schwarz"
+    ],
+    "title": "Medusa: Microarchitectural Data Leakage via Automated Attack Synthesis",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "toolurl": "https://github.com/vernamlab/Medusa",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec20fall_moghimi_prepub.pdf"
+    ],
+    "targets": [
+      "cpu"
+    ],
+    "references": [
+      "SpecFuzz"
+    ],
+    "color": "blackbox"
+  },
+  {
     "name": "Triforce",
     "year": 2016,
     "author": [
@@ -3164,6 +3252,28 @@
     ],
     "references": [
       "AFL"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "USBFuzz",
+    "year": 2020,
+    "author": [
+      "Hui Peng",
+      "Mathias Payer"
+    ],
+    "title": "USBFuzz: A Framework for Fuzzing USB Drivers by Device Emulation",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "toolurl": "https://github.com/HexHive/USBFuzz",
+    "miscurl": [
+      "https://nebelwelt.net/publications/files/20SEC3.pdf"
+    ],
+    "targets": [
+      "firmware"
+    ],
+    "references": [
+      "AFL",
+      "syzkaller"
     ],
     "color": "greybox"
   },
@@ -3539,48 +3649,6 @@
     "color": "greybox"
   },
   {
-    "name": "SpecFuzz",
-    "year": 2020,
-    "author": [
-      "Oleksii Oleksenko",
-      "Bohdan Trach",
-      "Mark Silberstein",
-      "Christof Fetzer"
-    ],
-    "title": "SpecFuzz: Bringing Spectre-type vulnerabilities to the surface",
-    "booktitle": "Proceedings of the USENIX Security Symposium",
-    "toolurl": "https://github.com/tudinfse/SpecFuzz",
-    "miscurl": [
-      "https://www.usenix.org/system/files/sec20-oleksenko.pdf"
-    ],
-    "targets": [
-      "cpu"
-    ],
-    "color": "greybox"
-  },
-  {
-    "name": "SymCC",
-    "year": 2020,
-    "author": [
-      "Sebastian Poeplau",
-      "Aurélien Francillon"
-    ],
-    "title": "Symbolic execution with SYMCC: Don’t interpret, compile!",
-    "booktitle": "Proceedings of the USENIX Security Symposium",
-    "toolurl": "http://www.s3. eurecom.fr/tools/symbolic_execution/symcc.html",
-    "miscurl": [
-      "http://www.s3.eurecom.fr/docs/usenixsec20_symcc.pdf"
-    ],
-    "targets": [
-      "file"
-    ],
-    "references": [
-      "KLEE",
-      "QSYM"
-    ],
-    "color": "whitebox"
-  },
-  {
     "name": "syzkaller",
     "year": 2015,
     "author": [
@@ -3619,74 +3687,6 @@
       "network"
     ],
     "color": "blackbox"
-  },
-  {
-    "name": "Transynther",
-    "year": 2020,
-    "author": [
-      "Daniel Moghimi",
-      "Moritz Lipp",
-      "Berk Sunar",
-      "Michael Schwarz"
-    ],
-    "title": "Medusa: Microarchitectural Data Leakage via Automated Attack Synthesis",
-    "booktitle": "Proceedings of the USENIX Security Symposium",
-    "toolurl": "https://github.com/vernamlab/Medusa",
-    "miscurl": [
-      "https://www.usenix.org/system/files/sec20fall_moghimi_prepub.pdf"
-    ],
-    "targets": [
-      "CPU"
-    ],
-    "references": [
-      "SpecFuzz"
-    ],
-    "color": "blackbox"
-  },
-  {
-    "name": "TRRespass",
-    "year": 2020,
-    "author": [
-      "Pietro Frigo",
-      "Emanuele Vannacci",
-      "Hasan Hassan",
-      "Victor van der Veen",
-      "Onur Mutlu",
-      "Cristiano Giuffrida",
-      "Herbert Bos",
-      "Kaveh Razavi"
-    ],
-    "title": "TRRespass: Exploiting the Many Sides of Target Row Refresh",
-    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
-    "miscurl": [
-      "https://download.vusec.net/papers/trrespass_sp20.pdf"
-    ],
-    "targets": [
-      "RAM"
-    ],
-    "color": "blackbox"
-  },
-  {
-    "name": "USBFuzz",
-    "year": 2020,
-    "author": [
-      "Hui Peng",
-      "Mathias Payer"
-    ],
-    "title": "USBFuzz: A Framework for Fuzzing USB Drivers by Device Emulation",
-    "booktitle": "Proceedings of the USENIX Security Symposium",
-    "toolurl": "https://github.com/HexHive/USBFuzz",
-    "miscurl": [
-      "https://nebelwelt.net/publications/files/20SEC3.pdf"
-    ],
-    "targets": [
-      "firmware"
-    ],
-    "references": [
-      "AFL",
-      "syzkaller"
-    ],
-    "color": "greybox"
   },
   {
     "name": "zzuf",
