@@ -845,6 +845,28 @@
     "color": "whitebox"
   },
   {
+    "name": "EASIER",
+    "year": 2020,
+    "author": [
+      "Ivan Pustogarov",
+      "Qian Wu",
+      "David Lie"
+    ],
+    "title": "Ex-vivo dynamic analysis framework for Android device drivers",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://security.csl.toronto.edu/wp-content/uploads/2020/05/pustogarov-oakland2020-easier.pdf"
+    ],
+    "targets": [
+      "kernel"
+    ],
+    "references": [
+      "syzkaller",
+      "kAFL"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "EFS",
     "year": 2007,
     "author": [
@@ -2255,6 +2277,26 @@
     "color": "blackbox"
   },
   {
+    "name": "Neutaint",
+    "year": 2020,
+    "author": [
+      "Dongdong She",
+      "Yizheng Chen",
+      "Abhishek Shah",
+      "Baishakhi Ray",
+      "Suman Jana"
+    ],
+    "title": "Neutaint: Efficient Dynamic Taint Analysis with Neural Networks",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://www.cs.columbia.edu/~ass/publication/neutaint/"
+    ],
+    "targets": [
+      "file"
+    ],
+    "color": "whitebox"
+  },
+  {
     "name": "NeuralFuzzer",
     "year": 2016,
     "author": [
@@ -2319,6 +2361,30 @@
       "network"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "Pangolin",
+    "year": 2020,
+    "author": [
+      "Heqing Huang",
+      "Peisen Yao",
+      "Rongxin Wu",
+      "Qingkai Shi",
+      "Charles Zhang"
+    ],
+    "title": "Pangolin: Incremental Hybrid Fuzzing with Polyhedral Path Abstraction",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://qingkaishi.github.io/public_pdfs/SP2020.pdf"
+    ],
+    "targets": [
+      "file"
+    ],
+    "references": [
+      "AFL",
+      "QSYM"
+    ],
+    "color": "greybox"
   },
   {
     "name": "PULSAR",
@@ -2598,7 +2664,7 @@
     "color": "whitebox"
   },
   {
-    "name": "SAVIOR",
+    "name": "Savior",
     "year": 2020,
     "author": [
       "Yaohui Chen",
@@ -2610,18 +2676,17 @@
       "Tao Wei",
       "Long Lu"
     ],
-    "title": "SAVIOR: Towards Bug-Driven Hybrid Testing",
+    "title": "Savior: Towards Bug-Driven Hybrid Testing",
     "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
     "miscurl": [
-      "https://arxiv.org/abs/1906.07327"
-    ],
-    "references": [
-      "KLEE",
-      "QSYM"
+      "https://ieeexplore.ieee.org/document/9152682"
     ],
     "targets": [
-      "argument",
       "file"
+    ],
+    "references": [
+      "AFL",
+      "KLEE"
     ],
     "color": "whitebox"
   },
@@ -3575,6 +3640,29 @@
     ],
     "references": [
       "SpecFuzz"
+    ],
+    "color": "blackbox"
+  },
+  {
+    "name": "TRRespass",
+    "year": 2020,
+    "author": [
+      "Pietro Frigo",
+      "Emanuele Vannacci",
+      "Hasan Hassan",
+      "Victor van der Veen",
+      "Onur Mutlu",
+      "Cristiano Giuffrida",
+      "Herbert Bos",
+      "Kaveh Razavi"
+    ],
+    "title": "TRRespass: Exploiting the Many Sides of Target Row Refresh",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://download.vusec.net/papers/trrespass_sp20.pdf"
+    ],
+    "targets": [
+      "RAM"
     ],
     "color": "blackbox"
   },
