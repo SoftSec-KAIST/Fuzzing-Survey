@@ -148,7 +148,7 @@
     "name": "Ankou",
     "year": 2020,
     "author": [
-      "Valentin J. M. Manès",
+      "Valentin J.M. Manès",
       "Soomin Kim",
       "Sang Kil Cha"
     ],
@@ -460,7 +460,7 @@
       "https://cposkitt.github.io/files/publications/Chen-Poskitt-et_al.ASE.2019.pdf"
     ],
     "targets": [
-      "Network"
+      "network"
     ],
     "color": "greybox"
   },
@@ -905,6 +905,32 @@
     "color": "greybox"
   },
   {
+    "name": "EcoFuzz",
+    "year": 2020,
+    "author": [
+      "Tai Yue",
+      "Pengfei Wang",
+      "Yong Tang",
+      "Enze Wang",
+      "Bo Yu",
+      "Kai Lu",
+      "Xu Zhou"
+    ],
+    "title": "EcoFuzz: Adaptive Energy-Saving Greybox Fuzzing as a Variant of the Adversarial Multi-Armed Bandit",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "toolurl": "https://github.com/MoonLight-SteinsGate/EcoFuzz",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec20-yue.pdf"
+    ],
+    "targets": [
+      "file"
+    ],
+    "references": [
+      "AFLFast"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "EnFuzz",
     "year": 2019,
     "author": [
@@ -928,6 +954,28 @@
     ],
     "references": [
       "radamsa"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "Entropic",
+    "year": 2020,
+    "author": [
+      "Marcel Böhme",
+      "Valentin J.M. Manès",
+      "Sang Kil Cha"
+    ],
+    "title": "Boosting Fuzzer Efficiency:An Information Theoretic Perspective",
+    "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
+    "toolurl": "https://github.com/llvm/llvm-project/commit/e2e38fca64e49d684de0b100437fe2f227f8fcdd",
+    "miscurl": [
+      "https://mboehme.github.io/paper/FSE20.Entropy.pdf"
+    ],
+    "targets": [
+      "lib"
+    ],
+    "references": [
+      "LibFuzzer"
     ],
     "color": "greybox"
   },
@@ -1010,6 +1058,53 @@
     "color": "greybox"
   },
   {
+    "name": "FANS",
+    "year": 2020,
+    "author": [
+      "Baozheng Liu",
+      "Chao Zhang",
+      "Guang Gong",
+      "Yishun Zeng",
+      "Haifeng Ruan",
+      "Jianwei Zhuge"
+    ],
+    "title": "FANS: Fuzzing Android Native System Services via Automated Interface Analysis",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "toolurl": "https://github.com/iromise/fans",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec20fall_liu_prepub.pdf"
+    ],
+    "targets": [
+      "API"
+    ],
+    "references": [
+      "AFL"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "FIFUZZ",
+    "year": 2020,
+    "author": [
+      "Zu-Ming Jiang",
+      "Jia-Ju Bai",
+      "Kangjie Lu",
+      "Shi-Min Hu"
+    ],
+    "title": "Fuzzing Error Handling Code using Context-Sensitive Software Fault Injection",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "miscurl": [
+      "https://www-users.cs.umn.edu/~kjlu/papers/fifuzz.pdf"
+    ],
+    "targets": [
+      "file"
+    ],
+    "references": [
+      "AFL"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "FileFuzz",
     "year": 2005,
     "author": [
@@ -1027,6 +1122,26 @@
       "SPIKEfile"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "Frankenstein",
+    "year": 2020,
+    "author": [
+      "Jan Ruge",
+      "Jiska Classen",
+      "Francesco Gringoli",
+      "Matthias Hollick"
+    ],
+    "title": "Frankenstein: Advanced Wireless Fuzzing to Exploit New Bluetooth Escalation Targets",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "toolurl": "",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec20-ruge.pdf"
+    ],
+    "targets": [
+      "firmware"
+    ],
+    "color": "greybox"
   },
   {
     "name": "FuzzBALL",
@@ -2163,6 +2278,30 @@
     "toolurl": "https://github.com/joxeankoret/nightmare",
     "targets": [
       "unknown"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "ParmeSan",
+    "year": 2020,
+    "author": [
+      "Sebastian Österlund",
+      "Kaveh Razavi",
+      "Herbert Bos",
+      "Cristiano Giuffrida"
+    ],
+    "title": "ParmeSan: Sanitizer-guided Greybox Fuzzing",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "toolurl": "https://github.com/vusec/parmesan",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec20fall_osterlund_prepub.pdf"
+    ],
+    "targets": [
+      "file"
+    ],
+    "references": [
+      "AFLGo",
+      "Angora"
     ],
     "color": "greybox"
   },
@@ -3335,6 +3474,48 @@
     "color": "greybox"
   },
   {
+    "name": "SpecFuzz",
+    "year": 2020,
+    "author": [
+      "Oleksii Oleksenko",
+      "Bohdan Trach",
+      "Mark Silberstein",
+      "Christof Fetzer"
+    ],
+    "title": "SpecFuzz: Bringing Spectre-type vulnerabilities to the surface",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "toolurl": "https://github.com/tudinfse/SpecFuzz",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec20-oleksenko.pdf"
+    ],
+    "targets": [
+      "cpu"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "SymCC",
+    "year": 2020,
+    "author": [
+      "Sebastian Poeplau",
+      "Aurélien Francillon"
+    ],
+    "title": "Symbolic execution with SYMCC: Don’t interpret, compile!",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "toolurl": "http://www.s3. eurecom.fr/tools/symbolic_execution/symcc.html",
+    "miscurl": [
+      "http://www.s3.eurecom.fr/docs/usenixsec20_symcc.pdf"
+    ],
+    "targets": [
+      "file"
+    ],
+    "references": [
+      "KLEE",
+      "QSYM"
+    ],
+    "color": "whitebox"
+  },
+  {
     "name": "syzkaller",
     "year": 2015,
     "author": [
@@ -3373,6 +3554,51 @@
       "network"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "Transynther",
+    "year": 2020,
+    "author": [
+      "Daniel Moghimi",
+      "Moritz Lipp",
+      "Berk Sunar",
+      "Michael Schwarz"
+    ],
+    "title": "Medusa: Microarchitectural Data Leakage via Automated Attack Synthesis",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "toolurl": "https://github.com/vernamlab/Medusa",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec20fall_moghimi_prepub.pdf"
+    ],
+    "targets": [
+      "CPU"
+    ],
+    "references": [
+      "SpecFuzz"
+    ],
+    "color": "blackbox"
+  },
+  {
+    "name": "USBFuzz",
+    "year": 2020,
+    "author": [
+      "Hui Peng",
+      "Mathias Payer"
+    ],
+    "title": "USBFuzz: A Framework for Fuzzing USB Drivers by Device Emulation",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "toolurl": "https://github.com/HexHive/USBFuzz",
+    "miscurl": [
+      "https://nebelwelt.net/publications/files/20SEC3.pdf"
+    ],
+    "targets": [
+      "firmware"
+    ],
+    "references": [
+      "AFL",
+      "syzkaller"
+    ],
+    "color": "greybox"
   },
   {
     "name": "zzuf",
