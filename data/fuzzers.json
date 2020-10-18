@@ -18,9 +18,15 @@
     "name": "AFL++",
     "year": 2019,
     "author": [
-      "Marc Heuse"
+      "Marc Heuse",
+      "Heiko Eißfeldt",
+      "Andrea Fioraldi",
+      "Dominik Maier"
     ],
-    "toolurl": "https://github.com/vanhauser-thc/AFLplusplus",
+    "toolurl": "https://github.com/AFLplusplus/AFLplusplus",
+    "miscurl": [
+      "https://aflplus.plus/"
+    ],
     "targets": [
       "file"
     ],
