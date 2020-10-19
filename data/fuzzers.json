@@ -3308,6 +3308,28 @@
     "color": "greybox"
   },
   {
+    "name": "Unicorefuzz",
+    "year": 2019,
+    "author": [
+      "Dominik Maier",
+      "Benedikt Radtke",
+      "Bastian Harren"
+    ],
+    "toolurl": "https://github.com/fgsect/unicorefuzz.git",
+    "miscurl": [
+      "https://www.usenix.org/system/files/woot19-paper_maier.pdf"
+    ],
+    "targets": [
+      "Kernel"
+    ],
+    "references": [
+      "AFL"
+    ],
+    "color": "greybox",
+    "title": "Unicorefuzz:On the Viability of Emulation for Kernelspace Fuzzing",
+    "booktitle": "13th USENIX Workshop on Offensive Technologies (WOOT 19)"
+  },
+  {
     "name": "USBFuzz",
     "year": 2020,
     "author": [
