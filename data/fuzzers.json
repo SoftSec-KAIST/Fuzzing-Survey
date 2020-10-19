@@ -312,7 +312,7 @@
     "title": "Taint-based Directed Whitebox Fuzzing",
     "booktitle": "Proceedings of the International Conference on Software Engineering",
     "targets": [
-      "unknown"
+      "File"
     ],
     "references": [
       "SAGE"
@@ -2349,7 +2349,10 @@
     ],
     "toolurl": "https://github.com/joxeankoret/nightmare",
     "targets": [
-      "unknown"
+      "File"
+    ],
+    "references": [
+      "radamsa"
     ],
     "color": "greybox"
   },
@@ -2865,7 +2868,7 @@
     "title": "Sidewinder: An Evolutionary Guidance System For Malicious Input Crafting",
     "booktitle": "Proceedings of the Black Hat USA",
     "targets": [
-      "unknown"
+      "File"
     ],
     "miscurl": [
       "https://www.blackhat.com/presentations/bh-usa-06/BH-US-06-Embleton.pdf"
@@ -3570,7 +3573,7 @@
     "title": "jFuzz: A Concolic Whitebox Fuzzer for Java",
     "booktitle": "Proceedings of the First NASA Forma Methods Symposium",
     "targets": [
-      "unknown"
+      "File"
     ],
     "references": [
       "SAGE"
@@ -3631,10 +3634,10 @@
       "Lingxiao Jiang",
       "Lucia"
     ],
-    "title": "kb-Anonymity}: A Model for Anonymized Behavior-Preserving Test and Debugging Data",
+    "title": "kb-Anonymity: A Model for Anonymized Behavior-Preserving Test and Debugging Data",
     "booktitle": "Proceedings of the ACM Conference on Programming Language Design and Implementation",
     "targets": [
-      "unknown"
+      "File"
     ],
     "references": [
       "jFuzz"
