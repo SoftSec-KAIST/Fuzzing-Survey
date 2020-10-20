@@ -3742,6 +3742,21 @@
     "color": "greybox"
   },
   {
+    "name": "harbian-qa",
+    "year": 2018,
+    "author": [
+      "HardenedLinux"
+    ],
+    "toolurl": "https://github.com/hardenedlinux/harbian-qa",
+    "targets": [
+      "Kernel"
+    ],
+    "references": [
+      "syzkaller"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "tavor",
     "year": 2014,
     "author": [
