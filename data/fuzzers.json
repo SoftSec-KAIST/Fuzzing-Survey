@@ -16,16 +16,19 @@
   },
   {
     "name": "AFL++",
-    "year": 2019,
+    "year": 2020,
     "author": [
-      "Marc Heuse",
+      "Andrea Fioraldi", 
+      "Dominik Maier", 
       "Heiko Eißfeldt",
-      "Andrea Fioraldi",
-      "Dominik Maier"
+      "Marc Heuse"
     ],
+    "title": "AFL++: Combining Incremental Steps of Fuzzing Research",
+    "booktitle": "14th USENIX Workshop on Offensive Technologies (WOOT 20)"
     "toolurl": "https://github.com/AFLplusplus/AFLplusplus",
     "miscurl": [
-      "https://aflplus.plus/"
+      "https://aflplus.plus/",
+      "https://www.usenix.org/system/files/woot20-paper-fioraldi.pdf"
     ],
     "targets": [
       "File"
