@@ -251,14 +251,17 @@
       "Rohan Padhye",
       "Miryung Kim"
     ],
-    "title": "BigFuzz: Efficient Fuzz Testing for Data Analytics UsingFramework Abstraction",
+    "title": "BigFuzz: Efficient Fuzz Testing for Data Analytics Using Framework Abstraction",
     "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
     "toolurl": "https://github.com/qianzhanghk/BigFuzz",
     "miscurl": [
       "https://rohan.padhye.org/files/bigfuzz-ase20.pdf"
     ],
     "targets": [
-      "File"
+      "DISC (Data-Intensive Scalable Computing) Systems"
+    ],
+    "references": [
+      "JQF"
     ],
     "color": "greybox"
   },
@@ -1273,24 +1276,6 @@
     "color": "greybox"
   },
   {
-    "name": "G-EvoSuite",
-    "year": 2020,
-    "author": [
-      "Mitchell Olsthoorn",
-      "Arie van Deursen",
-      "Annibale Panichella"
-    ],
-    "title": "Generating Highly-structured Input Data by Combining Search-based Testing and Grammar-based Fuzzing",
-    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
-    "miscurl": [
-      "https://apanichella.github.io/publication/ase2020-nier/"
-    ],
-    "targets": [
-      "File"
-    ],
-    "color": "greybox"
-  },
-  {
     "name": "GLADE",
     "year": 2015,
     "author": [
@@ -1723,6 +1708,28 @@
     "color": "blackbox"
   },
   {
+    "name": "JQF",
+    "year": 2019,
+    "author": [
+      "Rohan Padhye",
+      "Caroline Lemieux",
+      "Koushik Sen"
+    ],
+    "title": "JQF: Coverage-Guided Property-Based Testing in Java",
+    "booktitle": "Proceedings of the International Symposium on Software Testing and Analysis",
+    "toolurl": "https://github.com/rohanpadhye/JQF",
+    "miscurl": [
+      "https://people.eecs.berkeley.edu/~rohanpadhye/files/jqf-issta19.pdf"
+    ],
+    "targets": [
+      "Java"
+    ],
+    "references": [
+      "Kelinci"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "Janus",
     "year": 2019,
     "author": [
@@ -1796,7 +1803,7 @@
     ],
     "toolurl": "https://github.com/isstac/kelinci",
     "targets": [
-      "File"
+      "Java"
     ],
     "color": "greybox"
   },
@@ -1983,27 +1990,6 @@
     ],
     "targets": [
       "Model checker"
-    ],
-    "color": "greybox"
-  },
-  {
-    "name": "MoFuzz",
-    "year": 2020,
-    "author": [
-      "Hoang Lam Nguyen",
-      "Nebras Nassar",
-      "Timo Kehrer",
-      "Lars Grunske"
-    ],
-    "title": "MoFuzz: A Fuzzer Suite for Testing Model-Driven Software Engineering Tools",
-    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
-    "toolurl": "https://github.com/hub-se/MoFuzz",
-    "miscurl": [
-      "https://doi.org/10.18420/SE2021_29",
-      "https://github.com/rohanpadhye/jqf"
-    ],
-    "targets": [
-      "File"
     ],
     "color": "greybox"
   },
@@ -2213,6 +2199,30 @@
       "File"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "MoFuzz",
+    "year": 2020,
+    "author": [
+      "Hoang Lam Nguyen",
+      "Nebras Nassar",
+      "Timo Kehrer",
+      "Lars Grunske"
+    ],
+    "title": "MoFuzz: A Fuzzer Suite for Testing Model-Driven Software Engineering Tools",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "toolurl": "https://github.com/hub-se/MoFuzz",
+    "miscurl": [
+      "https://doi.org/10.18420/SE2021_29",
+      "https://github.com/rohanpadhye/jqf"
+    ],
+    "targets": [
+      "File"
+    ],
+    "references": [
+      "JQF"
+    ],
+    "color": "greybox"
   },
   {
     "name": "MoWF",
@@ -3042,6 +3052,31 @@
     "color": "greybox"
   },
   {
+    "name": "Squirrel",
+    "year": 2020,
+    "author": [
+      "Rui Zhong",
+      "Yongheng Chen",
+      "Hong Hu",
+      "Hangfan Zhang",
+      "Wenke Lee",
+      "Dinghao Wu"
+    ],
+    "title": "Squirrel: Testing Database Management Systems withLanguage Validity and Coverage Feedback",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "toolurl": "https://github.com/s3team/Squirrel",
+    "miscurl": [
+      "https://huhong789.github.io/papers/squirrel.pdf"
+    ],
+    "targets": [
+      "DBMS"
+    ],
+    "references": [
+      "AFL"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "Steelix",
     "year": 2017,
     "author": [
@@ -3393,28 +3428,6 @@
     "color": "greybox"
   },
   {
-    "name": "Unicorefuzz",
-    "year": 2019,
-    "author": [
-      "Dominik Maier",
-      "Benedikt Radtke",
-      "Bastian Harren"
-    ],
-    "toolurl": "https://github.com/fgsect/unicorefuzz.git",
-    "miscurl": [
-      "https://www.usenix.org/system/files/woot19-paper_maier.pdf"
-    ],
-    "targets": [
-      "Kernel"
-    ],
-    "references": [
-      "AFL"
-    ],
-    "color": "greybox",
-    "title": "Unicorefuzz:On the Viability of Emulation for Kernelspace Fuzzing",
-    "booktitle": "13th USENIX Workshop on Offensive Technologies (WOOT 19)"
-  },
-  {
     "name": "USBFuzz",
     "year": 2020,
     "author": [
@@ -3437,6 +3450,28 @@
     "color": "greybox"
   },
   {
+    "name": "Unicorefuzz",
+    "year": 2019,
+    "author": [
+      "Dominik Maier",
+      "Benedikt Radtke",
+      "Bastian Harren"
+    ],
+    "toolurl": "https://github.com/fgsect/unicorefuzz.git",
+    "miscurl": [
+      "https://www.usenix.org/system/files/woot19-paper_maier.pdf"
+    ],
+    "targets": [
+      "Kernel"
+    ],
+    "references": [
+      "AFL"
+    ],
+    "color": "greybox",
+    "title": "Unicorefuzz:On the Viability of Emulation for Kernelspace Fuzzing",
+    "booktitle": "Proceedings of the USENIX Workshop on Offensive Technologies"
+  },
+  {
     "name": "VUzzer",
     "year": 2017,
     "author": [
@@ -3455,6 +3490,30 @@
     ],
     "references": [
       "AFL"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "Zeror",
+    "year": 2020,
+    "author": [
+      "Chijinn Zhou",
+      "Mingzhe Wang",
+      "Jie Liang",
+      "Zhe Liu",
+      "Yu Jiang"
+    ],
+    "title": "Zeror: Speed Up Fuzzing with Coverage-sensitive Tracing and Scheduling",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "miscurl": [
+      "http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/ase20.pdf"
+    ],
+    "targets": [
+      "File"
+    ],
+    "references": [
+      "AFL",
+      "MOPT"
     ],
     "color": "greybox"
   },
@@ -3624,6 +3683,21 @@
     ],
     "miscurl": [
       "https://github.com/dvyukov/go-fuzz/tree/master/slides"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "harbian-qa",
+    "year": 2018,
+    "author": [
+      "HardenedLinux"
+    ],
+    "toolurl": "https://github.com/hardenedlinux/harbian-qa",
+    "targets": [
+      "Kernel"
+    ],
+    "references": [
+      "syzkaller"
     ],
     "color": "greybox"
   },
@@ -3808,31 +3882,6 @@
     "color": "greybox"
   },
   {
-    "name": "Squirrel",
-    "year": 2020,
-    "author": [
-      "Rui Zhong",
-      "Yongheng Chen",
-      "Hong Hu",
-      "Hangfan Zhang",
-      "Wenke Lee",
-      "Dinghao Wu"
-    ],
-    "title": "Squirrel: Testing Database Management Systems withLanguage Validity and Coverage Feedback",
-    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
-    "toolurl": "https://github.com/s3team/Squirrel",
-    "miscurl": [
-      "https://huhong789.github.io/papers/squirrel.pdf"
-    ],
-    "targets": [
-      "DBMS"
-    ],
-    "references": [
-      "AFL"
-    ],
-    "color": "greybox"
-  },
-  {
     "name": "syzkaller",
     "year": 2015,
     "author": [
@@ -3845,21 +3894,6 @@
     "references": [
       "Trinity",
       "perf_fuzzer"
-    ],
-    "color": "greybox"
-  },
-  {
-    "name": "harbian-qa",
-    "year": 2018,
-    "author": [
-      "HardenedLinux"
-    ],
-    "toolurl": "https://github.com/hardenedlinux/harbian-qa",
-    "targets": [
-      "Kernel"
-    ],
-    "references": [
-      "syzkaller"
     ],
     "color": "greybox"
   },
@@ -3886,30 +3920,6 @@
       "Network"
     ],
     "color": "blackbox"
-  },
-  {
-    "name": "Zeror",
-    "year": 2020,
-    "author": [
-      "Chijinn Zhou",
-      "Mingzhe Wang",
-      "Jie Liang",
-      "Zhe Liu",
-      "Yu Jiang"
-    ],
-    "title": "Zeror: Speed Up Fuzzing with Coverage-sensitive Tracing andScheduling",
-    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
-    "miscurl": [
-      "http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/ase20.pdf"
-    ],
-    "targets": [
-      "File"
-    ],
-    "references": [
-      "AFL",
-      "MOPT"
-    ],
-    "color": "greybox"
   },
   {
     "name": "zzuf",
