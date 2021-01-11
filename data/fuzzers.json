@@ -1847,6 +1847,27 @@
     "color": "blackbox"
   },
   {
+    "name": "Kitty",
+    "year": 2016,
+    "author": [
+      "Binyamin Sharet"
+    ],
+    "title": "Hello Kitty",
+    "booktitle": "Proceedings of BSides Knoxville",
+    "toolurl": "https://github.com/cisco-sas/kitty",
+    "miscurl": [
+      "https://www.youtube.com/watch?v=EKqqQbxZmA4"
+    ],
+    "targets": [
+      "Network"
+    ],
+    "references": [
+      "Peach",
+      "Sulley"
+    ],
+    "color": "blackbox"
+  },
+  {
     "name": "Krace",
     "year": 2020,
     "author": [
