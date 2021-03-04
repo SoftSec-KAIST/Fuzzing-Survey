@@ -1198,7 +1198,7 @@
     "title": "Favocado: Fuzzing the Binding Code of JavaScript Engines Using Semantically Correct Test Cases",
     "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
     "toolurl": "https://github.com/favocado/Favocado",
-    "miscurl" : [
+    "miscurl": [
       "https://sefcom.asu.edu/publications/favocado-ndss21.pdf"
     ],
     "targets": [
@@ -3598,8 +3598,8 @@
       "Jinho Jung",
       "Stephen Tong",
       "Hong Hu",
-      "Jungwoo Lim",
-      "Yonghwi Hin",
+      "Jungwon Lim",
+      "Yonghwi Jin",
       "Taesoo Kim"
     ],
     "title": "WINNIE: Fuzzing Windows Applications with Harness Synthesis and Fast Cloning",
@@ -3615,6 +3615,7 @@
       "AFL"
     ],
     "keywords": [
+      "GUI",
       "Windows"
     ],
     "color": "greybox"
