@@ -37,6 +37,29 @@
     "color": "greybox"
   },
   {
+    "name": "AFL-HIER",
+    "year": 2021,
+    "author": [
+      "Jinghan Wang",
+      "Chengyu Song",
+      "Heng Yin"
+    ],
+    "title": "Reinforcement Learning-based Hierarchical Seed Scheduling for Greybox Fuzzing",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "toolurl": "https://github.com/bitsecurerlab/aflplusplus-hier",
+    "miscurl": [
+      "https://www.cs.ucr.edu/~heng/pubs/afl-hier.pdf"
+    ],
+    "targets": [
+      "File"
+    ],
+    "references": [
+      "AFL",
+      "AFL++"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "AFLFast",
     "year": 2016,
     "author": [
@@ -104,29 +127,6 @@
     ],
     "targets": [
       "File"
-    ],
-    "color": "greybox"
-  },
-  {
-    "name": "AFL-HIER",
-    "year": 2021,
-    "author": [
-      "Jinghan Wang",
-      "Chengyu Song",
-      "Heng Yin"
-    ],
-    "title": "Reinforcement Learning-based Hierarchical Seed Scheduling for Greybox Fuzzing",
-    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
-    "toolurl": "https://github.com/bitsecurerlab/aflplusplus-hier",
-    "miscurl" : [
-      "https://www.cs.ucr.edu/~heng/pubs/afl-hier.pdf"
-    ],
-    "targets": [
-      "File"
-    ],
-    "references": [
-      "AFL",
-      "AFL++"
     ],
     "color": "greybox"
   },
@@ -2493,6 +2493,30 @@
     "color": "greybox"
   },
   {
+    "name": "PGFUZZ",
+    "year": 2021,
+    "author": [
+      "Hyungsub Kim",
+      "Muslum Ozgur Ozmen",
+      "Antonio Bianchi",
+      "Z. Berkay Celik",
+      "Dongyan Xu"
+    ],
+    "title": "PGFUZZ: Policy-Guided Fuzzing for Robotic Vehicles",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "toolurl": "https://github.com/purseclab/PGFUZZ",
+    "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/ndss2021_6A-1_24096_paper.pdf"
+    ],
+    "targets": [
+      "Robot Vehicle"
+    ],
+    "references": [
+      "RVFuzzer"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "PROTOS",
     "year": 2001,
     "author": [
@@ -3534,6 +3558,34 @@
     ],
     "references": [
       "AFL"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "WINNIE",
+    "year": 2021,
+    "author": [
+      "Jinho Jung",
+      "Stephen Tong",
+      "Hong Hu",
+      "Jungwoo Lim",
+      "Yonghwi Hin",
+      "Taesoo Kim"
+    ],
+    "title": "WINNIE: Fuzzing Windows Applications with Harness Synthesis and Fast Cloning",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "toolurl": "https://github.com/sslab-gatech/winnie",
+    "miscurl": [
+      "https://huhong789.github.io/papers/winnie-ndss2021.pdf"
+    ],
+    "targets": [
+      "File"
+    ],
+    "references": [
+      "AFL"
+    ],
+    "keywords": [
+      "Windows"
     ],
     "color": "greybox"
   },
