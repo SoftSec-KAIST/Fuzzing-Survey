@@ -1180,6 +1180,36 @@
     "color": "greybox"
   },
   {
+    "name": "Favocado",
+    "year": 2021,
+    "author": [
+      "Sung Ta Dinh",
+      "Haehyun Cho",
+      "Kyle Martin",
+      "Adam Oest",
+      "Kyle Zeng",
+      "Alexandros Kapravelos",
+      "Gail-Joon Ahn",
+      "Tiffany Bao",
+      "Ruoyu Wang",
+      "Adam Doupé",
+      "Yan Shoshitaishvili"
+    ],
+    "title": "Favocado: Fuzzing the Binding Code of JavaScript Engines Using Semantically Correct Test Cases",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "toolurl": "https://github.com/favocado/Favocado",
+    "miscurl" : [
+      "https://sefcom.asu.edu/publications/favocado-ndss21.pdf"
+    ],
+    "targets": [
+      "JavaScript"
+    ],
+    "references": [
+      "CodeAlchemist"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "FileFuzz",
     "year": 2005,
     "author": [
