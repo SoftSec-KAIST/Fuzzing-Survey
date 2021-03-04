@@ -108,6 +108,29 @@
     "color": "greybox"
   },
   {
+    "name": "AFL-HIER",
+    "year": 2021,
+    "author": [
+      "Jinghan Wang",
+      "Chengyu Song",
+      "Heng Yin"
+    ],
+    "title": "Reinforcement Learning-based Hierarchical Seed Scheduling for Greybox Fuzzing",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "toolurl": "https://github.com/bitsecurerlab/aflplusplus-hier",
+    "miscurl" : [
+      "https://www.cs.ucr.edu/~heng/pubs/afl-hier.pdf"
+    ],
+    "targets": [
+      "File"
+    ],
+    "references": [
+      "AFL",
+      "AFL++"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "APE",
     "year": 2019,
     "author": [
