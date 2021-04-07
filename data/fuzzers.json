@@ -7,7 +7,7 @@
     ],
     "toolurl": "http://lcamtuf.coredump.cx/afl/",
     "targets": [
-      "file"
+      "File"
     ],
     "miscurl": [
       "http://lcamtuf.coredump.cx/afl/technical_details.txt"
@@ -18,15 +18,44 @@
     "name": "AFL++",
     "year": 2019,
     "author": [
-      "Marc Heuse"
+      "Marc Heuse",
+      "Heiko Eißfeldt",
+      "Andrea Fioraldi",
+      "Dominik Maier"
     ],
-    "toolurl": "https://github.com/vanhauser-thc/AFLplusplus",
+    "toolurl": "https://github.com/AFLplusplus/AFLplusplus",
+    "miscurl": [
+      "https://aflplus.plus/"
+    ],
     "targets": [
-      "file"
+      "File"
     ],
     "references": [
       "AFLFast",
       "MOPT"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "AFL-HIER",
+    "year": 2021,
+    "author": [
+      "Jinghan Wang",
+      "Chengyu Song",
+      "Heng Yin"
+    ],
+    "title": "Reinforcement Learning-based Hierarchical Seed Scheduling for Greybox Fuzzing",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "toolurl": "https://github.com/bitsecurerlab/aflplusplus-hier",
+    "miscurl": [
+      "https://www.cs.ucr.edu/~heng/pubs/afl-hier.pdf"
+    ],
+    "targets": [
+      "File"
+    ],
+    "references": [
+      "AFL",
+      "AFL++"
     ],
     "color": "greybox"
   },
@@ -46,7 +75,7 @@
     ],
     "toolurl": "https://github.com/mboehme/aflfast",
     "targets": [
-      "file"
+      "File"
     ],
     "references": [
       "AFL"
@@ -69,7 +98,7 @@
     ],
     "toolurl": "https://github.com/aflgo/aflgo",
     "targets": [
-      "file"
+      "File"
     ],
     "references": [
       "AFL",
@@ -97,9 +126,34 @@
       "AFL"
     ],
     "targets": [
-      "file"
+      "File"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "APE",
+    "year": 2019,
+    "author": [
+      "Tianxiao Gu",
+      "Chengnian Sun",
+      "Xiaoxing Ma",
+      "Chun Cao",
+      "Chang Xu",
+      "Yuan Yao",
+      "Qirun Zhang",
+      "Jian Lu",
+      "Zhendong Su"
+    ],
+    "title": "Practical GUI Testing of Android Applications via Model Abstraction and Refinement",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "toolurl": "https://github.com/tianxiaogu/ape",
+    "miscurl": [
+      "http://gutianxiao.com/static/ape-icse-2019.pdf"
+    ],
+    "targets": [
+      "UI"
+    ],
+    "color": "blackbox"
   },
   {
     "name": "Angora",
@@ -112,7 +166,7 @@
     "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
     "toolurl": "https://github.com/AngoraFuzzer/Angora",
     "targets": [
-      "file"
+      "File"
     ],
     "references": [
       "AFL"
@@ -123,7 +177,7 @@
     "name": "Ankou",
     "year": 2020,
     "author": [
-      "Valentin J. M. Manès",
+      "Valentin J.M. Manès",
       "Soomin Kim",
       "Sang Kil Cha"
     ],
@@ -133,7 +187,7 @@
       "https://softsec.kaist.ac.kr/~sangkilc/papers/manes-icse20.pdf"
     ],
     "targets": [
-      "file"
+      "File"
     ],
     "toolurl": "https://github.com/SoftSec-KAIST/ankou",
     "references": [
@@ -153,7 +207,7 @@
     "title": "Detecting Atomic-Set Serializability Violations in Multithreaded Programs through Active Randomized Testing",
     "booktitle": "Proceedings of the International Conference on Software Engineering",
     "targets": [
-      "concurrency"
+      "Concurrency"
     ],
     "references": [
       "CalFuzzer"
@@ -171,7 +225,7 @@
     "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
     "toolurl": "https://github.com/ksen007/calfuzzer",
     "targets": [
-      "concurrency"
+      "Concurrency"
     ],
     "references": [
       "CalFuzzer"
@@ -203,12 +257,36 @@
     ],
     "toolurl": "https://resources.sei.cmu.edu/library/asset-view.cfm?assetID=507974",
     "targets": [
-      "file"
+      "File"
     ],
     "references": [
       "zzuf"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "BigFuzz",
+    "year": 2020,
+    "author": [
+      "Qian Zhang",
+      "Jiyuan Wang",
+      "Muhammad Ali Gulzar",
+      "Rohan Padhye",
+      "Miryung Kim"
+    ],
+    "title": "BigFuzz: Efficient Fuzz Testing for Data Analytics Using Framework Abstraction",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "toolurl": "https://github.com/qianzhanghk/BigFuzz",
+    "miscurl": [
+      "https://rohan.padhye.org/files/bigfuzz-ase20.pdf"
+    ],
+    "targets": [
+      "DISC (Data-Intensive Scalable Computing) Systems"
+    ],
+    "references": [
+      "JQF"
+    ],
+    "color": "greybox"
   },
   {
     "name": "BitFuzz",
@@ -226,7 +304,7 @@
       "http://bitblaze.cs.berkeley.edu/papers/restitching.pdf"
     ],
     "targets": [
-      "file"
+      "File"
     ],
     "color": "whitebox"
   },
@@ -247,9 +325,28 @@
       "LangFuzz"
     ],
     "targets": [
-      "file"
+      "File"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "Brennan et al.",
+    "year": 2020,
+    "author": [
+      "Tegan Brennan",
+      "Seemanta Saha",
+      "Tevfik Bultan"
+    ],
+    "title": "JVM Fuzzing for JIT-Induced Side-Channel Detection",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "targets": [
+      "Side-channel"
+    ],
+    "references": [
+      "Kelinci",
+      "DifFuzz"
+    ],
+    "color": "greybox"
   },
   {
     "name": "BuzzFuzz",
@@ -262,7 +359,7 @@
     "title": "Taint-based Directed Whitebox Fuzzing",
     "booktitle": "Proceedings of the International Conference on Software Engineering",
     "targets": [
-      "unknown"
+      "File"
     ],
     "references": [
       "SAGE"
@@ -287,12 +384,34 @@
       "https://www.usenix.org/system/files/conference/atc17/atc17-kim.pdf"
     ],
     "targets": [
-      "kernel"
+      "Kernel"
     ],
     "references": [
       "Trinity"
     ],
     "color": "whitebox"
+  },
+  {
+    "name": "CHIPSEC",
+    "year": 2015,
+    "author": [
+      "Mikhail Gorobets",
+      "Oleksandr Bazhaniuk",
+      "Alex Matrosov",
+      "Andrew Furtak",
+      "Yuriy Bulygin"
+    ],
+    "title": "Attacking Hypervisors via Firmware and Hardware",
+    "booktitle": "Proceedings of the Black Hat USA",
+    "toolurl": "https://github.com/chipsec/chipsec",
+    "references": [
+      "Sulley"
+    ],
+    "targets": [
+      "Firmware",
+      "Hypervisor"
+    ],
+    "color": "blackbox"
   },
   {
     "name": "CLSmith",
@@ -313,7 +432,7 @@
       "CSmith"
     ],
     "targets": [
-      "file"
+      "File"
     ],
     "color": "blackbox"
   },
@@ -333,7 +452,7 @@
       "http://www.cs.utah.edu/~regehr/papers/pldi11-preprint.pdf"
     ],
     "targets": [
-      "file"
+      "File"
     ],
     "color": "blackbox"
   },
@@ -347,7 +466,54 @@
     "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
     "toolurl": "https://github.com/ksen007/calfuzzer",
     "targets": [
-      "concurrency"
+      "Concurrency"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "Cerebro",
+    "year": 2019,
+    "author": [
+      "Yuekang Li",
+      "Yinxing Xue",
+      "Hongxu Chen",
+      "Xuheng Wu",
+      "Cen Zhang",
+      "Xiaofei Xie",
+      "Haijun Wang",
+      "Yang Liu"
+    ],
+    "title": "Cerebro: Context-Aware Adaptive Fuzzing for Effective Vulnerability Detection",
+    "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
+    "miscurl": [
+      "https://hongxuchen.github.io/pdf/cerebro.pdf"
+    ],
+    "targets": [
+      "File"
+    ],
+    "references": [
+      "AFLFast",
+      "CollAFL"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "Chen et al",
+    "year": 2019,
+    "author": [
+      "Yuqi Chen",
+      "Christopher M. Poskitt",
+      "Jun Sun",
+      "Sridhar Adepu",
+      "Fan Zhang"
+    ],
+    "title": "Learning-Guided Network Fuzzing for Testing Cyber-Physical System Defences",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "miscurl": [
+      "https://cposkitt.github.io/files/publications/Chen-Poskitt-et_al.ASE.2019.pdf"
+    ],
+    "targets": [
+      "Network"
     ],
     "color": "greybox"
   },
@@ -367,8 +533,8 @@
       "https://www.cs.tau.ac.il/~maon/pubs/2018-icse.pdf"
     ],
     "targets": [
-      "argument",
-      "file"
+      "Argument",
+      "File"
     ],
     "references": [
       "KLEE"
@@ -388,7 +554,7 @@
       "Sidewinder"
     ],
     "targets": [
-      "file"
+      "File"
     ],
     "miscurl": [
       "https://census-labs.com/media/choronzon-zeronights-2015.pdf"
@@ -407,7 +573,7 @@
     "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
     "toolurl": "https://github.com/SoftSec-KAIST/CodeAlchemist",
     "targets": [
-      "file"
+      "JavaScript"
     ],
     "references": [
       "LangFuzz",
@@ -430,12 +596,31 @@
     "title": "CollAFL: Path Sensitive Fuzzing",
     "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
     "targets": [
-      "file"
+      "File"
     ],
     "references": [
       "AFL"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "ContractFuzzer",
+    "year": 2018,
+    "author": [
+      "Bo Jiang",
+      "Ye Liu",
+      "Wing-Kwong Chan"
+    ],
+    "title": "ContractFuzzer: Fuzzing Smart Contracts for Vulnerability Detection",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "toolurl": "https://github.com/gongbell/ContractFuzzer",
+    "targets": [
+      "EVM"
+    ],
+    "references": [
+      "Echidna"
+    ],
+    "color": "blackbox"
   },
   {
     "name": "DELTA",
@@ -458,7 +643,7 @@
       "BFF"
     ],
     "targets": [
-      "network"
+      "Network"
     ],
     "color": "blackbox"
   },
@@ -481,7 +666,7 @@
       "syzkaller"
     ],
     "targets": [
-      "kernel"
+      "Kernel"
     ],
     "color": "blackbox"
   },
@@ -493,14 +678,14 @@
     ],
     "toolurl": "https://github.com/MozillaSecurity/funfuzz",
     "targets": [
-      "file"
+      "DOM"
     ],
     "references": [
       "jsfunfuzz"
     ],
     "color": "blackbox",
     "keywords": [
-      "javascript"
+      "JavaScript"
     ]
   },
   {
@@ -516,7 +701,7 @@
     "booktitle": "Proceedings of the ACM Conference on Programming Language Design and Implementation",
     "toolurl": "https://github.com/ksen007/calfuzzer",
     "targets": [
-      "concurrency"
+      "Concurrency"
     ],
     "references": [
       "CalFuzzer"
@@ -538,7 +723,7 @@
       "https://ieeexplore.ieee.org/abstract/document/7372036"
     ],
     "targets": [
-      "file"
+      "File"
     ],
     "references": [
       "LangFuzz",
@@ -554,10 +739,53 @@
     ],
     "toolurl": "https://github.com/MozillaSecurity/dharma",
     "targets": [
-      "file",
-      "network"
+      "File",
+      "Network"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "Die",
+    "year": 2020,
+    "author": [
+      "Soyeon Park",
+      "Wen Xu",
+      "Insu Yun",
+      "Daehee Jang",
+      "Taesoo Kim"
+    ],
+    "title": "Fuzzing JavaScript Engines with Aspect-preserving Mutation",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "targets": [
+      "JavaScript"
+    ],
+    "references": [
+      "CodeAlchemist",
+      "Superion"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "DifFuzz",
+    "year": 2019,
+    "author": [
+      "Shirin Nilizadeh",
+      "Yannic Noller",
+      "Corina S. Păsăreanu"
+    ],
+    "title": "DIFFUZZ: Differential Fuzzing for Side-Channel Analysis",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "toolurl": "https://github.com/isstac/diffuzz",
+    "miscurl": [
+      "https://yannicnoller.github.io/publications/icse2019_nilizadeh_diffuzz.pdf"
+    ],
+    "targets": [
+      "Side-channel"
+    ],
+    "references": [
+      "AFL"
+    ],
+    "color": "greybox"
   },
   {
     "name": "DigFuzz",
@@ -574,7 +802,7 @@
       "https://www.cs.ucr.edu/~heng/pubs/digfuzz_ndss19.pdf"
     ],
     "targets": [
-      "file"
+      "File"
     ],
     "references": [
       "Driller"
@@ -595,7 +823,7 @@
       "https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-pan.pdf"
     ],
     "targets": [
-      "kernel"
+      "Kernel"
     ],
     "color": "blackbox"
   },
@@ -614,7 +842,7 @@
       "https://www.usenix.org/system/files/conference/usenixsecurity12/sec12-final225.pdf"
     ],
     "targets": [
-      "web"
+      "Web"
     ],
     "color": "blackbox"
   },
@@ -636,7 +864,7 @@
       "FuzzBALL"
     ],
     "targets": [
-      "file"
+      "File"
     ],
     "color": "whitebox"
   },
@@ -661,13 +889,35 @@
       "https://sites.cs.ucsb.edu/~chris/research/doc/ndss16_driller.pdf"
     ],
     "targets": [
-      "file"
+      "File"
     ],
     "references": [
       "AFL",
       "Dowser"
     ],
     "color": "whitebox"
+  },
+  {
+    "name": "EASIER",
+    "year": 2020,
+    "author": [
+      "Ivan Pustogarov",
+      "Qian Wu",
+      "David Lie"
+    ],
+    "title": "Ex-vivo dynamic analysis framework for Android device drivers",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://security.csl.toronto.edu/wp-content/uploads/2020/05/pustogarov-oakland2020-easier.pdf"
+    ],
+    "targets": [
+      "Kernel"
+    ],
+    "references": [
+      "syzkaller",
+      "kAFL"
+    ],
+    "color": "greybox"
   },
   {
     "name": "EFS",
@@ -680,8 +930,8 @@
     "title": "Revolutionizing the Field of Grey-box Attack Surface Testing with Evolutionary Fuzzing",
     "booktitle": "Proceedings of DefCon",
     "targets": [
-      "file",
-      "network"
+      "File",
+      "Network"
     ],
     "references": [
       "Sidewinder",
@@ -689,6 +939,18 @@
     ],
     "miscurl": [
       "https://www.defcon.org/images/defcon-15/dc15-presentations/dc-15-demott_enbody_and_punch.pdf"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "Echidna",
+    "year": 2018,
+    "author": [
+      "Crytic"
+    ],
+    "toolurl": "https://github.com/crytic/echidna",
+    "targets": [
+      "EVM"
     ],
     "color": "greybox"
   },
@@ -708,12 +970,157 @@
       "https://softsec.kaist.ac.kr/~jschoi/data/icse2019.pdf"
     ],
     "targets": [
-      "argument",
-      "file"
+      "Argument",
+      "File"
     ],
     "references": [
       "AFL",
       "SAGE"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "EcoFuzz",
+    "year": 2020,
+    "author": [
+      "Tai Yue",
+      "Pengfei Wang",
+      "Yong Tang",
+      "Enze Wang",
+      "Bo Yu",
+      "Kai Lu",
+      "Xu Zhou"
+    ],
+    "title": "EcoFuzz: Adaptive Energy-Saving Greybox Fuzzing as a Variant of the Adversarial Multi-Armed Bandit",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "toolurl": "https://github.com/MoonLight-SteinsGate/EcoFuzz",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec20-yue.pdf"
+    ],
+    "targets": [
+      "File"
+    ],
+    "references": [
+      "AFLFast"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "EnFuzz",
+    "year": 2019,
+    "author": [
+      "Yuanliang Chen",
+      "Yu Jiang",
+      "Fuchen Ma",
+      "Jie Liang",
+      "Mingzhe Wang",
+      "Chijin Zhou",
+      "Xun Jiao",
+      "Zhuo Su"
+    ],
+    "title": "EnFuzz: Ensemble Fuzzing with Seed Synchronization among Diverse Fuzzers",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "toolurl": "https://github.com/enfuzz/enfuzz",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec19-chen-yuanliang.pdf"
+    ],
+    "targets": [
+      "File"
+    ],
+    "references": [
+      "radamsa"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "Entropic",
+    "year": 2020,
+    "author": [
+      "Marcel Böhme",
+      "Valentin J.M. Manès",
+      "Sang Kil Cha"
+    ],
+    "title": "Boosting Fuzzer Efficiency: An Information Theoretic Perspective",
+    "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
+    "toolurl": "https://github.com/llvm/llvm-project/commit/e2e38fca64e49d684de0b100437fe2f227f8fcdd",
+    "miscurl": [
+      "https://mboehme.github.io/paper/FSE20.Entropy.pdf"
+    ],
+    "targets": [
+      "Lib"
+    ],
+    "references": [
+      "LibFuzzer"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "FANS",
+    "year": 2020,
+    "author": [
+      "Baozheng Liu",
+      "Chao Zhang",
+      "Guang Gong",
+      "Yishun Zeng",
+      "Haifeng Ruan",
+      "Jianwei Zhuge"
+    ],
+    "title": "FANS: Fuzzing Android Native System Services via Automated Interface Analysis",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "toolurl": "https://github.com/iromise/fans",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec20fall_liu_prepub.pdf"
+    ],
+    "targets": [
+      "API"
+    ],
+    "references": [
+      "AFL"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "FIFUZZ",
+    "year": 2020,
+    "author": [
+      "Zu-Ming Jiang",
+      "Jia-Ju Bai",
+      "Kangjie Lu",
+      "Shi-Min Hu"
+    ],
+    "title": "Fuzzing Error Handling Code using Context-Sensitive Software Fault Injection",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "miscurl": [
+      "https://www-users.cs.umn.edu/~kjlu/papers/fifuzz.pdf"
+    ],
+    "targets": [
+      "File"
+    ],
+    "references": [
+      "AFL"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "FIRM-AFL",
+    "year": 2019,
+    "author": [
+      "Yaowen Zheng",
+      "Ali Davanian",
+      "Heng Yin",
+      "Chengyu Song",
+      "Hongsong Zhu",
+      "Limin Sun"
+    ],
+    "title": "FIRM-AFL: High-Throughput Greybox Fuzzing of IoT Firmware via Augmented Process Emulation",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "toolurl": "https://github.com/zyw-200/FirmAFL",
+    "targets": [
+      "Firmware"
+    ],
+    "references": [
+      "AFL",
+      "TriforceAFL"
     ],
     "color": "greybox"
   },
@@ -732,7 +1139,7 @@
       "http://webblaze.cs.berkeley.edu/2010/flax/flax.pdf"
     ],
     "targets": [
-      "web"
+      "Web"
     ],
     "color": "blackbox"
   },
@@ -744,7 +1151,7 @@
     ],
     "toolurl": "https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=515311",
     "targets": [
-      "file"
+      "File"
     ],
     "references": [
       "BFF"
@@ -765,10 +1172,40 @@
       "https://www.carolemieux.com/fairfuzz-ase18.pdf"
     ],
     "targets": [
-      "file"
+      "File"
     ],
     "references": [
       "AFL"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "Favocado",
+    "year": 2021,
+    "author": [
+      "Sung Ta Dinh",
+      "Haehyun Cho",
+      "Kyle Martin",
+      "Adam Oest",
+      "Kyle Zeng",
+      "Alexandros Kapravelos",
+      "Gail-Joon Ahn",
+      "Tiffany Bao",
+      "Ruoyu Wang",
+      "Adam Doupé",
+      "Yan Shoshitaishvili"
+    ],
+    "title": "Favocado: Fuzzing the Binding Code of JavaScript Engines Using Semantically Correct Test Cases",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "toolurl": "https://github.com/favocado/Favocado",
+    "miscurl": [
+      "https://sefcom.asu.edu/publications/favocado-ndss21.pdf"
+    ],
+    "targets": [
+      "JavaScript"
+    ],
+    "references": [
+      "CodeAlchemist"
     ],
     "color": "greybox"
   },
@@ -783,13 +1220,55 @@
     "booktitle": "Proceedings of the Black Hat Asia",
     "toolurl": "https://packetstormsecurity.com/files/download/39626/FileFuzz.zip",
     "targets": [
-      "file"
+      "File"
     ],
     "references": [
       "SPIKE",
       "SPIKEfile"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "Frankenstein",
+    "year": 2020,
+    "author": [
+      "Jan Ruge",
+      "Jiska Classen",
+      "Francesco Gringoli",
+      "Matthias Hollick"
+    ],
+    "title": "Frankenstein: Advanced Wireless Fuzzing to Exploit New Bluetooth Escalation Targets",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "toolurl": "",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec20-ruge.pdf"
+    ],
+    "targets": [
+      "Firmware"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "FreeDom",
+    "year": 2020,
+    "author": [
+      "Wen Xu",
+      "Soyeon Park",
+      "Taesoo Kim"
+    ],
+    "title": "FreeDom: Engineering a State-of-the-Art DOM Fuzzer",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "toolurl": "https://github.com/sslab-gatech/freedom",
+    "miscurl": [
+      "https://gts3.org/assets/papers/2020/xu:freedom.pdf"
+    ],
+    "targets": [
+      "DOM"
+    ],
+    "references": [
+      "Dharma"
+    ],
+    "color": "greybox"
   },
   {
     "name": "FuzzBALL",
@@ -809,7 +1288,7 @@
       "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.261.2500&rep=rep1&type=pdf"
     ],
     "targets": [
-      "file"
+      "File"
     ],
     "references": [
       "TaintScope"
@@ -829,7 +1308,7 @@
       "https://www.nccgroup.trust/globalassets/our-research/us/whitepapers/isec_thiel_exposing_vulnerabilities_media_software_0.pdf"
     ],
     "targets": [
-      "network"
+      "Network"
     ],
     "color": "blackbox"
   },
@@ -839,8 +1318,8 @@
     "author": [
       "Samuel Groß"
     ],
-    "target": [
-      "file"
+    "targets": [
+      "File"
     ],
     "toolurl": "https://github.com/googleprojectzero/fuzzilli",
     "miscurl": [
@@ -865,7 +1344,7 @@
       "https://obastani.github.io/docs/pldi17.pdf"
     ],
     "targets": [
-      "file"
+      "File"
     ],
     "references": [
       "CSmith",
@@ -881,8 +1360,8 @@
     ],
     "toolurl": "https://www.ee.oulu.fi/roles/ouspg/GPF",
     "targets": [
-      "file",
-      "network"
+      "File",
+      "Network"
     ],
     "color": "blackbox"
   },
@@ -894,7 +1373,7 @@
     ],
     "toolurl": "https://github.com/trailofbits/grr",
     "targets": [
-      "file"
+      "File"
     ],
     "references": [
       "radamsa"
@@ -921,9 +1400,35 @@
       "https://ieeexplore.ieee.org/abstract/document/7372010"
     ],
     "targets": [
-      "file"
+      "File"
     ],
     "color": "whitebox"
+  },
+  {
+    "name": "GreyOne",
+    "year": 2020,
+    "author": [
+      "Shuitao Gan",
+      "Chao Zhang",
+      "Peng Chen",
+      "Bodong Zhao",
+      "Xiaojun Qin",
+      "Dong Wu",
+      "Zuoning Chen"
+    ],
+    "title": "GREYONE: Data Flow Sensitive Fuzzing",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec20spring_gan_prepub.pdf"
+    ],
+    "targets": [
+      "File"
+    ],
+    "references": [
+      "VUzzer",
+      "Redqueen"
+    ],
+    "color": "greybox"
   },
   {
     "name": "Grimoire",
@@ -942,11 +1447,70 @@
     "miscurl": [
       "https://www.usenix.org/system/files/sec19-blazytko.pdf"
     ],
-    "target": [
-      "file"
+    "targets": [
+      "File"
     ],
     "references": [
       "Redqueen"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "HFL",
+    "year": 2020,
+    "author": [
+      "Kyungtae Kim",
+      "Dae R. Jeong",
+      "Chung Hwan Kim",
+      "Yeongjin Jang",
+      "Insik Shin",
+      "Byoungyoung Lee"
+    ],
+    "title": "HFL: Hybrid Fuzzing on the Linux Kernel",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "targets": [
+      "Kernel"
+    ],
+    "references": [
+      "syzkaller"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "HYPER-CUBE",
+    "year": 2020,
+    "author": [
+      "Sergej Schumilo",
+      "Cornelius Aschermann",
+      "Ali Abbasi",
+      "Simon Wörner",
+      "Thorsten Holz"
+    ],
+    "title": "HYPER-CUBE: High-Dimensional Hypervisor Fuzzing",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "targets": [
+      "Hypervisor"
+    ],
+    "references": [
+      "CHIPSEC"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "Harvey",
+    "year": 2020,
+    "author": [
+      "Valentin Wüstholz",
+      "Maria Christakis"
+    ],
+    "title": "Targeted Greybox Fuzzing with Static Lookahead Analysis",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "targets": [
+      "EVM"
+    ],
+    "references": [
+      "AFLGo",
+      "ContractFuzzer"
     ],
     "color": "greybox"
   },
@@ -965,12 +1529,37 @@
     "title": "Hawkeye: Towards a Desired Directed Grey-box Fuzzer",
     "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
     "targets": [
-      "file"
+      "File"
     ],
     "references": [
       "AFLGo"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "HiCOND",
+    "year": 2019,
+    "author": [
+      "Junjie Chen",
+      "Guangcheng Wang",
+      "Dan Ha",
+      "Yingfei Xiong",
+      "Hongyu Zhang",
+      "Lu Zhang"
+    ],
+    "title": "History-Guided Configuration Diversification for Compiler Test-Program Generation",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "toolurl": "https://github.com/JunjieChen/HiCOND",
+    "miscurl": [
+      "https://xiongyingfei.github.io/papers/ASE19b.pdf"
+    ],
+    "targets": [
+      "File"
+    ],
+    "references": [
+      "CSmith"
+    ],
+    "color": "blackbox"
   },
   {
     "name": "Hodor",
@@ -980,10 +1569,33 @@
     ],
     "toolurl": "https://github.com/nccgroup/Hodor",
     "targets": [
-      "file",
-      "network"
+      "File",
+      "Network"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "HotFuzz",
+    "year": 2020,
+    "author": [
+      "William Blair",
+      "Andrea Mambretti",
+      "Sajjad Arshad",
+      "Michael Weissbacher",
+      "William Robertson",
+      "Engin Kirda",
+      "Manuel Egele"
+    ],
+    "title": "HotFuzz: Discovering Algorithmic Denial-of-Service Vulnerabilities Through Guided Micro-Fuzzing",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "toolurl": "https://arxiv.org/pdf/2002.03416.pdf",
+    "targets": [
+      "API"
+    ],
+    "references": [
+      "SlowFuzz"
+    ],
+    "color": "greybox"
   },
   {
     "name": "Householder",
@@ -997,12 +1609,34 @@
       "https://resources.sei.cmu.edu/asset_files/TechnicalNote/2012_004_001_28152.pdf"
     ],
     "targets": [
-      "file"
+      "File"
     ],
     "references": [
       "BFF"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "HyDiff",
+    "year": 2020,
+    "author": [
+      "Yannic Noller",
+      "Corina S. Păsăreanu",
+      "Marcel Böhme",
+      "Youcheng Sun",
+      "Hoang Lam Nguyen",
+      "Lars Grunske"
+    ],
+    "title": "HyDiff: Hybrid Differential Software Analysis",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "targets": [
+      "Side-channel"
+    ],
+    "toolurl": "https://github.com/yannicnoller/hydiff",
+    "references": [
+      "DifFuzz"
+    ],
+    "color": "greybox"
   },
   {
     "name": "IFuzzer",
@@ -1017,15 +1651,41 @@
     "booktitle": "Proceedings of the European Symposium on Research in Computer Security",
     "toolurl": "https://github.com/vspandan/IFuzzer",
     "targets": [
-      "file"
+      "JavaScript"
     ],
     "references": [
       "LangFuzz"
     ],
     "color": "blackbox",
     "keywords": [
-      "javascript"
+      "JavaScript"
     ]
+  },
+  {
+    "name": "ILF",
+    "year": 2019,
+    "author": [
+      "Jingxuan He",
+      "Mislav Balunović",
+      "Nodar Ambroladze",
+      "Petar Tsankov",
+      "Martin Vechev"
+    ],
+    "title": "Learning to Fuzz from Symbolic Execution with Application to Smart Contracts",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://files.sri.inf.ethz.ch/website/papers/ccs19-ilf.pdf"
+    ],
+    "toolurl": "https://github.com/eth-sri/ilf",
+    "targets": [
+      "EVM"
+    ],
+    "references": [
+      "Neuzz",
+      "ContractFuzzer",
+      "Learn&Fuzz"
+    ],
+    "color": "greybox"
   },
   {
     "name": "IMF",
@@ -1041,12 +1701,35 @@
       "https://daramg.gift/paper/han-ccs2017.pdf"
     ],
     "targets": [
-      "kernel"
+      "Kernel"
     ],
     "references": [
       "syzkaller"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "Intriguer",
+    "year": 2019,
+    "author": [
+      "Mingi Cho",
+      "Seoyoung Kim",
+      "Taekyoung Kwon"
+    ],
+    "title": "Intriguer: Field-Level Constraint Solving for Hybrid Fuzzing",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "toolurl": "Intriguer: Field-Level Constraint Solving for Hybrid Fuzzing",
+    "miscurl": [
+      "https://wcventure.github.io/FuzzingPaper/Paper/CCS19_Intriguer.pdf"
+    ],
+    "targets": [
+      "File"
+    ],
+    "references": [
+      "AFL",
+      "QSYM"
+    ],
+    "color": "whitebox"
   },
   {
     "name": "IoTFuzzer",
@@ -1078,6 +1761,52 @@
     "color": "blackbox"
   },
   {
+    "name": "JQF",
+    "year": 2019,
+    "author": [
+      "Rohan Padhye",
+      "Caroline Lemieux",
+      "Koushik Sen"
+    ],
+    "title": "JQF: Coverage-Guided Property-Based Testing in Java",
+    "booktitle": "Proceedings of the International Symposium on Software Testing and Analysis",
+    "toolurl": "https://github.com/rohanpadhye/JQF",
+    "miscurl": [
+      "https://people.eecs.berkeley.edu/~rohanpadhye/files/jqf-issta19.pdf"
+    ],
+    "targets": [
+      "Java"
+    ],
+    "references": [
+      "Kelinci"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "Janus",
+    "year": 2019,
+    "author": [
+      "Wen xu",
+      "Hyungon Moon",
+      "Sanidhya Kashyap",
+      "Po-Ning Tseng",
+      "Taesoo Kim"
+    ],
+    "title": "Fuzzing File Systems via Two-Dimensional Input Space Exploration",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "targets": [
+      "Kernel"
+    ],
+    "miscurl": [
+      "https://taesoo.kim/pubs/2019/xu:janus.pdf"
+    ],
+    "references": [
+      "fsfuzzer",
+      "kAFL"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "KLEE",
     "year": 2008,
     "author": [
@@ -1089,8 +1818,8 @@
     "booktitle": "Proceedings of the USENIX Symposium on Operating System Design and Implementation",
     "toolurl": "https://klee.github.io/",
     "targets": [
-      "argument",
-      "file"
+      "Argument",
+      "File"
     ],
     "color": "whitebox"
   },
@@ -1112,9 +1841,24 @@
       "Doupé et al."
     ],
     "targets": [
-      "network"
+      "Network"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "Kelinci",
+    "year": 2018,
+    "author": [
+      "Rody Kersten"
+    ],
+    "references": [
+      "AFL"
+    ],
+    "toolurl": "https://github.com/isstac/kelinci",
+    "targets": [
+      "Java"
+    ],
+    "color": "greybox"
   },
   {
     "name": "KernelFuzzer",
@@ -1130,7 +1874,7 @@
       "https://labs.f-secure.com/assets/BlogFiles/mwri-Platform-Agnostic-Kernel-Fuzzing-FINAL.pdf"
     ],
     "targets": [
-      "kernel"
+      "Kernel"
     ],
     "color": "blackbox"
   },
@@ -1148,12 +1892,52 @@
       "https://hal.inria.fr/inria-00166947/document"
     ],
     "targets": [
-      "network"
+      "Network"
     ],
     "references": [
       "SNOOZE"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "Kitty",
+    "year": 2016,
+    "author": [
+      "Binyamin Sharet"
+    ],
+    "title": "Hello Kitty",
+    "booktitle": "Proceedings of BSides Knoxville",
+    "toolurl": "https://github.com/cisco-sas/kitty",
+    "miscurl": [
+      "https://www.youtube.com/watch?v=EKqqQbxZmA4"
+    ],
+    "targets": [
+      "Network"
+    ],
+    "references": [
+      "Peach",
+      "Sulley"
+    ],
+    "color": "blackbox"
+  },
+  {
+    "name": "Krace",
+    "year": 2020,
+    "author": [
+      "Meng Xu",
+      "Sanidhya Kashyap",
+      "Hanqing Zhao",
+      "Taesoo Kim"
+    ],
+    "title": "KRACE: Data Race Fuzzing for Kernel File Systems",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "targets": [
+      "Kernel"
+    ],
+    "references": [
+      "Razzer"
+    ],
+    "color": "greybox"
   },
   {
     "name": "LL-fuzzer",
@@ -1163,7 +1947,29 @@
     ],
     "toolurl": "https://github.com/mit-ll/LL-Fuzzer",
     "targets": [
-      "network"
+      "Network"
+    ],
+    "references": [
+      "Sulley"
+    ],
+    "color": "blackbox"
+  },
+  {
+    "name": "LTEFuzz",
+    "year": 2019,
+    "author": [
+      "Hongil Kim",
+      "Jiho Lee",
+      "Eunkyu Lee",
+      "Yongdae Kim"
+    ],
+    "title": "Touching the Untouchables: Dynamic Security Analysis of the LTE Control Plane",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "targets": [
+      "LTE"
+    ],
+    "references": [
+      "PROTOS"
     ],
     "color": "blackbox"
   },
@@ -1177,7 +1983,7 @@
     ],
     "title": "LZfuzz: a fast compression-based fuzzer for poorlydocumented protocols",
     "targets": [
-      "file"
+      "File"
     ],
     "references": [
       "Sulley"
@@ -1198,7 +2004,7 @@
       "https://www.usenix.org/system/files/conference/usenixsecurity12/sec12-final73.pdf"
     ],
     "targets": [
-      "file"
+      "JavaScript"
     ],
     "references": [
       "cross_fuzz",
@@ -1206,8 +2012,26 @@
     ],
     "color": "blackbox",
     "keywords": [
-      "javascript"
+      "JavaScript"
     ]
+  },
+  {
+    "name": "Learn&Fuzz",
+    "year": 2017,
+    "author": [
+      "Patrice Godefroid",
+      "Hila Peleg",
+      "Rishabh Singh"
+    ],
+    "title": "Learn&Fuzz: Machine Learning for Input Fuzzing",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "targets": [
+      "File"
+    ],
+    "references": [
+      "SAGE"
+    ],
+    "color": "greybox"
   },
   {
     "name": "LibFuzzer",
@@ -1218,7 +2042,28 @@
       "AFL"
     ],
     "targets": [
-      "lib"
+      "Lib"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "MCFuzz",
+    "year": 2019,
+    "author": [
+      "Chengyu Zhang",
+      "Ting Su",
+      "Yichen Yan",
+      "Fuyuan Zhang",
+      "Geguang Pu",
+      "Zhendong Su"
+    ],
+    "title": "Finding and Understanding Bugs in Software Model Checkers",
+    "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
+    "miscurl": [
+      "https://tingsu.github.io/files/fse19-MCFuzz.pdf"
+    ],
+    "targets": [
+      "Model checker"
     ],
     "color": "greybox"
   },
@@ -1241,10 +2086,34 @@
       "https://www.usenix.org/system/files/sec19-lyu.pdf"
     ],
     "targets": [
-      "file"
+      "File"
     ],
     "references": [
       "AFL"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "MTFuzz",
+    "year": 2020,
+    "author": [
+      "Dongdong She",
+      "Rahul Krishna",
+      "Lu Yan",
+      "Suman Jana",
+      "Baishakhi Ray"
+    ],
+    "title": "MTFuzz: Fuzzing with a Multi-task Neural Network",
+    "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
+    "toolurl": "https://github.com/llvm/llvm-project/commit/e2e38fca64e49d684de0b100437fe2f227f8fcdd",
+    "miscurl": [
+      "https://arxiv.org/pdf/2005.12392.pdf"
+    ],
+    "targets": [
+      "File"
+    ],
+    "references": [
+      "Neuzz"
     ],
     "color": "greybox"
   },
@@ -1259,7 +2128,7 @@
     "booktitle": "Proceedings of the International Conference on Software Engineering",
     "toolurl": "http://lcs.ios.ac.cn/~yancai/magicfuzzer/",
     "targets": [
-      "concurrency"
+      "Concurrency"
     ],
     "references": [
       "DeadlockFuzzer"
@@ -1286,7 +2155,7 @@
       "SAGE"
     ],
     "targets": [
-      "lib"
+      "Lib"
     ],
     "color": "whitebox"
   },
@@ -1299,7 +2168,7 @@
     "title": "A Framework for File Format Fuzzing with Genetic Algorithms",
     "toolurl": "https://github.com/rogwfu/mamba",
     "targets": [
-      "file"
+      "File"
     ],
     "references": [
       "EFS",
@@ -1307,6 +2176,28 @@
     ],
     "miscurl": [
       "http://trace.tennessee.edu/cgi/viewcontent.cgi?article=2402&context=utk_graddiss"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "Matryoshka",
+    "year": 2019,
+    "author": [
+      "Peng Chen",
+      "Jianzhong Liu",
+      "Hao Chen"
+    ],
+    "title": "Matryoshka: Fuzzing Deeply Nested Branches",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://kms.shanghaitech.edu.cn/bitstream/2MSLDSTB/104875/1/10.1145%403319535.3363225.pdf"
+    ],
+    "targets": [
+      "File"
+    ],
+    "references": [
+      "Angora",
+      "SLF"
     ],
     "color": "greybox"
   },
@@ -1321,9 +2212,35 @@
       "https://ioactive.com/wp-content/uploads/2018/05/IOActive_ELF_Parsing_with_Melkor-1.pdf"
     ],
     "targets": [
-      "file"
+      "File"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "MemLock",
+    "year": 2020,
+    "author": [
+      "Cheng Wen",
+      "Haijun Wang",
+      "Yuekang Li",
+      "Shengchao Qin",
+      "Yang Liu",
+      "Zhiwu Xu",
+      "Hongxu Chen",
+      "Xiaofei Xie",
+      "Geguang Pu",
+      "Ting Liu"
+    ],
+    "title": "MemLock: Memory Usage Guided Fuzzing",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "targets": [
+      "File"
+    ],
+    "references": [
+      "SlowFuzz",
+      "AFL"
+    ],
+    "color": "greybox"
   },
   {
     "name": "Miller et al.",
@@ -1338,7 +2255,7 @@
     "volume": "33",
     "number": "12",
     "targets": [
-      "file"
+      "File"
     ],
     "color": "blackbox"
   },
@@ -1353,9 +2270,33 @@
       "https://msdn.microsoft.com/en-us/biztalk/gg675011"
     ],
     "targets": [
-      "file"
+      "File"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "MoFuzz",
+    "year": 2020,
+    "author": [
+      "Hoang Lam Nguyen",
+      "Nebras Nassar",
+      "Timo Kehrer",
+      "Lars Grunske"
+    ],
+    "title": "MoFuzz: A Fuzzer Suite for Testing Model-Driven Software Engineering Tools",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "toolurl": "https://github.com/hub-se/MoFuzz",
+    "miscurl": [
+      "https://doi.org/10.18420/SE2021_29",
+      "https://github.com/rohanpadhye/jqf"
+    ],
+    "targets": [
+      "File"
+    ],
+    "references": [
+      "JQF"
+    ],
+    "color": "greybox"
   },
   {
     "name": "MoWF",
@@ -1375,9 +2316,31 @@
       "Driller"
     ],
     "targets": [
-      "file"
+      "File"
     ],
     "color": "whitebox"
+  },
+  {
+    "name": "Montage",
+    "year": 2020,
+    "author": [
+      "Suyoung Lee",
+      "HyungSeok Han",
+      "Sang Kil Cha",
+      "Sooel Son"
+    ],
+    "title": "Montage: A Neural Network Language Model-Guided JavaScript Engine Fuzzer",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec20summer_lee-suyoung_prepub_0.pdf"
+    ],
+    "targets": [
+      "JavaScript"
+    ],
+    "references": [
+      "CodeAlchemist"
+    ],
+    "color": "blackbox"
   },
   {
     "name": "MutaGen",
@@ -1396,9 +2359,36 @@
       "TaintScope"
     ],
     "targets": [
-      "file"
+      "File"
     ],
     "color": "whitebox"
+  },
+  {
+    "name": "Muzz",
+    "year": 2020,
+    "author": [
+      "Hongxu Chen",
+      "Shengjian Guo",
+      "Yinxing Xue",
+      "Yulei Sui",
+      "Cen Zhang",
+      "Yuekang Li",
+      "Haijun Wang",
+      "Yang Liu"
+    ],
+    "title": "MUZZ: Thread-aware Grey-box Fuzzing for Effective Bug Hunting in Multithreaded Programs",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec20-chen-hongxu.pdf"
+    ],
+    "references": [
+      "AFL",
+      "Razzer"
+    ],
+    "targets": [
+      "Concurrency"
+    ],
+    "color": "greybox"
   },
   {
     "name": "Narada",
@@ -1414,7 +2404,7 @@
       "RaceFuzzer"
     ],
     "targets": [
-      "concurrency"
+      "Concurrency"
     ],
     "color": "whitebox"
   },
@@ -1431,12 +2421,12 @@
     ],
     "title": "Nautilus: Fishing for Deep Bugs with Grammars",
     "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
-    "toolurl": "https://github.com/RUB-SysSec/nautilus",
+    "toolurl": "https://github.com/nautilus-fuzz/nautilus",
     "miscurl": [
       "https://www.syssec.ruhr-uni-bochum.de/media/emma/veroeffentlichungen/2018/12/17/NDSS19-Nautilus.pdf"
     ],
     "targets": [
-      "file"
+      "File"
     ],
     "references": [
       "AFL"
@@ -1452,7 +2442,7 @@
     "title": "Taking Browsers Fuzzing To The Next (DOM) Level",
     "booktitle": "Proceedings of the DeepSec",
     "targets": [
-      "file"
+      "File"
     ],
     "references": [
       "cross_fuzz"
@@ -1470,9 +2460,52 @@
       "QuickFuzz"
     ],
     "targets": [
-      "file"
+      "File"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "Neutaint",
+    "year": 2020,
+    "author": [
+      "Dongdong She",
+      "Yizheng Chen",
+      "Abhishek Shah",
+      "Baishakhi Ray",
+      "Suman Jana"
+    ],
+    "title": "Neutaint: Efficient Dynamic Taint Analysis with Neural Networks",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://www.cs.columbia.edu/~ass/publication/neutaint/"
+    ],
+    "targets": [
+      "File"
+    ],
+    "color": "whitebox"
+  },
+  {
+    "name": "Neuzz",
+    "year": 2019,
+    "author": [
+      "Dongdong She",
+      "Kexin Pei",
+      "Dave Epstein",
+      "Junfeng Yang",
+      "Baishakhi Ray",
+      "Suman Jana"
+    ],
+    "title": "Neuzz: Efficient Fuzzing with Neural Program Smoothing",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "toolurl": "https://github.com/Dongdongshe/neuzz",
+    "targets": [
+      "File"
+    ],
+    "references": [
+      "AFL",
+      "Learn&Fuzz"
+    ],
+    "color": "greybox"
   },
   {
     "name": "Nightmare",
@@ -1482,7 +2515,34 @@
     ],
     "toolurl": "https://github.com/joxeankoret/nightmare",
     "targets": [
-      "unknown"
+      "File"
+    ],
+    "references": [
+      "radamsa"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "PGFUZZ",
+    "year": 2021,
+    "author": [
+      "Hyungsub Kim",
+      "Muslum Ozgur Ozmen",
+      "Antonio Bianchi",
+      "Z. Berkay Celik",
+      "Dongyan Xu"
+    ],
+    "title": "PGFUZZ: Policy-Guided Fuzzing for Robotic Vehicles",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "toolurl": "https://github.com/purseclab/PGFUZZ",
+    "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/ndss2021_6A-1_24096_paper.pdf"
+    ],
+    "targets": [
+      "Robot Vehicle"
+    ],
+    "references": [
+      "RVFuzzer"
     ],
     "color": "greybox"
   },
@@ -1497,7 +2557,7 @@
     "title": "Software Security Assessment through Specification Mutations and Fault Injection",
     "booktitle": "Proceedings of the IFIP TC 6/TC 11 International Conference on Communications and Multimedia Security",
     "targets": [
-      "network"
+      "Network"
     ],
     "color": "blackbox"
   },
@@ -1518,12 +2578,60 @@
       "http://user.cs.uni-goettingen.de/~krieck/docs/2015-securecomm.pdf"
     ],
     "targets": [
-      "network"
+      "Network"
     ],
     "references": [
       "TFuzz"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "Pangolin",
+    "year": 2020,
+    "author": [
+      "Heqing Huang",
+      "Peisen Yao",
+      "Rongxin Wu",
+      "Qingkai Shi",
+      "Charles Zhang"
+    ],
+    "title": "Pangolin: Incremental Hybrid Fuzzing with Polyhedral Path Abstraction",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://qingkaishi.github.io/public_pdfs/SP2020.pdf"
+    ],
+    "targets": [
+      "File"
+    ],
+    "references": [
+      "AFL",
+      "QSYM"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "ParmeSan",
+    "year": 2020,
+    "author": [
+      "Sebastian Österlund",
+      "Kaveh Razavi",
+      "Herbert Bos",
+      "Cristiano Giuffrida"
+    ],
+    "title": "ParmeSan: Sanitizer-guided Greybox Fuzzing",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "toolurl": "https://github.com/vusec/parmesan",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec20fall_osterlund_prepub.pdf"
+    ],
+    "targets": [
+      "File"
+    ],
+    "references": [
+      "AFLGo",
+      "Angora"
+    ],
+    "color": "greybox"
   },
   {
     "name": "Peach",
@@ -1533,8 +2641,8 @@
     ],
     "toolurl": "https://www.peach.tech",
     "targets": [
-      "file",
-      "network"
+      "File",
+      "Network"
     ],
     "color": "blackbox"
   },
@@ -1548,10 +2656,36 @@
       "https://sites.cs.ucsb.edu/~cspensky/pdfs/ndss2019_04A-1_Song_paper.pdf"
     ],
     "targets": [
-      "kernel"
+      "Kernel"
     ],
     "references": [
       "AFL"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "ProFuzzer",
+    "year": 2019,
+    "author": [
+      "Wei You",
+      "Xueqiang Wang",
+      "Shiqing Ma",
+      "Jianjun Huang",
+      "Xiangyu Zhang",
+      "XiaoFeng Wang",
+      "Bin Liang"
+    ],
+    "title": "ProFuzzer: On-the-fly Input Type Probing for Better Zero-day Vulnerability Discovery",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://wcventure.github.io/FuzzingPaper/Paper/SP19_Profuzz.pdf"
+    ],
+    "targets": [
+      "File"
+    ],
+    "references": [
+      "VUzzer",
+      "Angora"
     ],
     "color": "greybox"
   },
@@ -1572,7 +2706,7 @@
       "https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-yun.pdf"
     ],
     "targets": [
-      "file"
+      "File"
     ],
     "references": [
       "AFL",
@@ -1592,7 +2726,7 @@
     "booktitle": "Proceedings of the 9th International Symposium on Haskell",
     "toolurl": "https://github.com/CIFASIS/QuickFuzz",
     "targets": [
-      "file"
+      "File"
     ],
     "references": [
       "honggfuzz",
@@ -1604,6 +2738,55 @@
     "color": "greybox"
   },
   {
+    "name": "RESTler",
+    "year": 2019,
+    "author": [
+      "Vaggelis Atlidakis",
+      "Patrice Godefroid",
+      "Marina Polishchuk"
+    ],
+    "title": "RESTler: Stateful REST API Fuzzing",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "miscurl": [
+      "https://patricegodefroid.github.io/public_psfiles/icse2019.pdf"
+    ],
+    "targets": [
+      "API"
+    ],
+    "references": [
+      "boofuzz",
+      "Sulley"
+    ],
+    "color": "blackbox"
+  },
+  {
+    "name": "RVFuzzer",
+    "year": 2019,
+    "author": [
+      "Taegyu Kim",
+      "Chung Hwan Kim",
+      "Junghwan Rhee",
+      "Fan Fei",
+      "Zhan Tu",
+      "Gregory Walkup",
+      "Xiangyu Zhang",
+      "Xinyan Deng",
+      "Dongyan Xu"
+    ],
+    "title": "RVFUZZER: Finding Input Validation Bugs in Robotic Vehicles Through Control-Guided Testing",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec19-kim.pdf"
+    ],
+    "targets": [
+      "Robot Vehicle"
+    ],
+    "references": [
+      "LibFuzzer"
+    ],
+    "color": "blackbox"
+  },
+  {
     "name": "RaceFuzzer",
     "year": 2008,
     "author": [
@@ -1613,7 +2796,7 @@
     "booktitle": "Proceedings of the ACM Conference on Programming Language Design and Implementation",
     "toolurl": "https://github.com/ksen007/calfuzzer",
     "targets": [
-      "concurrency"
+      "Concurrency"
     ],
     "references": [
       "CalFuzzer"
@@ -1621,27 +2804,29 @@
     "color": "greybox"
   },
   {
-    "name": "Rebert et al.",
-    "year": 2014,
+    "name": "Razzer",
+    "year": 2019,
     "author": [
-      "Alexandre Rebert",
-      "Sang Kil Cha",
-      "Thanassis Avgerinos",
-      "Jonathan Foote",
-      "David Warren",
-      "Gustavo Grieco",
-      "David Brumley"
+      "Dae R. Jeong",
+      "Kyungtae Kim",
+      "Basavesh Shivakumar",
+      "Byoungyoung Lee",
+      "Insik Shin"
     ],
-    "title": "Optimizing Seed Selection for Fuzzing",
-    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "title": "Razzer: Finding Kernel Race Bugs through Fuzzing",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "toolurl": "https://github.com/compsec-snu/razzer",
+    "miscurl": [
+      "https://lifeasageek.github.io/papers/jeong-razzer.pdf"
+    ],
     "targets": [
-      "file"
+      "Kernel"
     ],
     "references": [
-      "Woo et al.",
-      "BFF"
+      "syzkaller",
+      "RaceFuzzer"
     ],
-    "color": "blackbox"
+    "color": "greybox"
   },
   {
     "name": "Redqueen",
@@ -1660,7 +2845,7 @@
       "https://www.ei.ruhr-uni-bochum.de/media/emma/veroeffentlichungen/2018/12/17/NDSS19-Redqueen.pdf"
     ],
     "targets": [
-      "file"
+      "File"
     ],
     "references": [
       "AFL",
@@ -1672,7 +2857,7 @@
     "name": "Ruiter et al.",
     "year": 2015,
     "author": [
-      "Joeri De Ruiter",
+      "Joeri de Ruiter",
       "Erik Poll"
     ],
     "title": "Protocol State Fuzzing of TLS Implementations",
@@ -1682,7 +2867,7 @@
       "https://www.usenix.org/system/files/conference/usenixsecurity15/sec15-paper-de-ruiter.pdf"
     ],
     "targets": [
-      "network"
+      "Network"
     ],
     "color": "blackbox"
   },
@@ -1697,37 +2882,33 @@
     "title": "Automated Whitebox Fuzz Testing",
     "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
     "targets": [
-      "file"
+      "File"
     ],
     "color": "whitebox"
   },
   {
-    "name": "SAVIOR",
-    "year": 2020,
+    "name": "SLF",
+    "year": 2019,
     "author": [
-      "Yaohui Chen",
-      "Peng Li",
-      "Jun Xu",
-      "Shengjian Guo",
-      "Rundong Zhou",
-      "Yulong Zhang",
-      "Tao Wei",
-      "Long Lu"
+      "Wei You",
+      "Xuwei Liu",
+      "Shiqing Ma",
+      "David Perry",
+      "Ziangyu Zhang",
+      "Bin Liang"
     ],
-    "title": "SAVIOR: Towards Bug-Driven Hybrid Testing",
-    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "title": "SLF: Fuzzing without Valid Seed Inputs",
+    "booktitle": "Proceedings of the International Conference on Information Security",
     "miscurl": [
-      "https://arxiv.org/abs/1906.07327"
-    ],
-    "references": [
-      "KLEE",
-      "QSYM"
+      "https://www.cs.rutgers.edu/~sm2283/papers/ICSE19.pdf"
     ],
     "targets": [
-      "argument",
-      "file"
+      "File"
     ],
-    "color": "whitebox"
+    "references": [
+      "AFL"
+    ],
+    "color": "greybox"
   },
   {
     "name": "SNOOZE",
@@ -1747,7 +2928,7 @@
       "SPIKE"
     ],
     "targets": [
-      "network"
+      "Network"
     ],
     "color": "blackbox"
   },
@@ -1760,7 +2941,7 @@
     "title": "An Introduction to SPIKE, the Fuzzer Creation Kit",
     "booktitle": "Proceedings of the Black Hat USA",
     "targets": [
-      "network"
+      "Network"
     ],
     "color": "blackbox"
   },
@@ -1775,13 +2956,84 @@
     "booktitle": "Proceedings of the Black Hat Asia",
     "toolurl": "https://packetstormsecurity.com/files/download/39625/SPIKEfile.tgz",
     "targets": [
-      "file"
+      "File"
     ],
     "references": [
       "SPIKE",
       "FileFuzz"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "STORM",
+    "year": 2020,
+    "author": [
+      "Muhammad Numair Mansur",
+      "Maria Christakis",
+      "Valentin Wüstholz",
+      "Fuyuan Zhang"
+    ],
+    "title": "Detecting Critical Bugs in SMT Solvers Using Blackbox Mutational Fuzzing",
+    "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
+    "miscurl": [
+      "https://arxiv.org/pdf/2004.05934.pdf"
+    ],
+    "targets": [
+      "SMT"
+    ],
+    "references": [
+      "AFL"
+    ],
+    "color": "blackbox"
+  },
+  {
+    "name": "Savior",
+    "year": 2020,
+    "author": [
+      "Yaohui Chen",
+      "Peng Li",
+      "Jun Xu",
+      "Shengjian Guo",
+      "Rundong Zhou",
+      "Yulong Zhang",
+      "Tao Wei",
+      "Long Lu"
+    ],
+    "title": "Savior: Towards Bug-Driven Hybrid Testing",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://ieeexplore.ieee.org/document/9152682"
+    ],
+    "targets": [
+      "File"
+    ],
+    "references": [
+      "AFL",
+      "KLEE"
+    ],
+    "color": "whitebox"
+  },
+  {
+    "name": "Sensei",
+    "year": 2020,
+    "author": [
+      "Xiang Gao",
+      "Ripon K. Saha",
+      "Mukul R. Prasad",
+      "Abhik Roychoudhury"
+    ],
+    "title": "Fuzz Testing based Data Augmentation to Improve Robustness of Deep Neural Networks",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "targets": [
+      "AI"
+    ],
+    "miscurl": [
+      "https://www.comp.nus.edu.sg/~abhik/pdf/ICSE20_Sensei.pdf"
+    ],
+    "references": [
+      "TensorFuzz"
+    ],
+    "color": "greybox"
   },
   {
     "name": "Sharefuzz",
@@ -1791,7 +3043,7 @@
     ],
     "toolurl": "https://sourceforge.net/projects/sharefuzz/",
     "targets": [
-      "network"
+      "Network"
     ],
     "color": "blackbox"
   },
@@ -1806,7 +3058,7 @@
     "title": "Sidewinder: An Evolutionary Guidance System For Malicious Input Crafting",
     "booktitle": "Proceedings of the Black Hat USA",
     "targets": [
-      "unknown"
+      "File"
     ],
     "miscurl": [
       "https://www.blackhat.com/presentations/bh-usa-06/BH-US-06-Embleton.pdf"
@@ -1828,10 +3080,33 @@
       "https://ieeexplore.ieee.org/abstract/document/7958599"
     ],
     "targets": [
-      "file"
+      "File"
     ],
     "references": [
       "AFL"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "SlowFuzz",
+    "year": 2017,
+    "author": [
+      "Theofilos Petsios",
+      "Jason Zhao",
+      "Angelos D. Keromytis",
+      "Suman Jana"
+    ],
+    "title": "SlowFuzz: Automated Domain-Independent Detection of Algorithmic Complexity Vulnerabilities",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://dl.acm.org/doi/10.1145/3133956.3134073"
+    ],
+    "toolurl": "https://github.com/nettrino/slowfuzz",
+    "targets": [
+      "API"
+    ],
+    "references": [
+      "LibFuzzer"
     ],
     "color": "greybox"
   },
@@ -1846,7 +3121,7 @@
     "title": "Dynamic Test Generation to Find Integer Bugs in x86 Binary Linux Programs",
     "booktitle": "Proceedings of the USENIX Security Symposium",
     "targets": [
-      "file"
+      "File"
     ],
     "references": [
       "SAGE"
@@ -1855,8 +3130,53 @@
     "color": "whitebox"
   },
   {
+    "name": "SpecFuzz",
+    "year": 2020,
+    "author": [
+      "Oleksii Oleksenko",
+      "Bohdan Trach",
+      "Mark Silberstein",
+      "Christof Fetzer"
+    ],
+    "title": "SpecFuzz: Bringing Spectre-type vulnerabilities to the surface",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "toolurl": "https://github.com/tudinfse/SpecFuzz",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec20-oleksenko.pdf"
+    ],
+    "targets": [
+      "CPU"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "Squirrel",
+    "year": 2020,
+    "author": [
+      "Rui Zhong",
+      "Yongheng Chen",
+      "Hong Hu",
+      "Hangfan Zhang",
+      "Wenke Lee",
+      "Dinghao Wu"
+    ],
+    "title": "Squirrel: Testing Database Management Systems withLanguage Validity and Coverage Feedback",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "toolurl": "https://github.com/s3team/Squirrel",
+    "miscurl": [
+      "https://huhong789.github.io/papers/squirrel.pdf"
+    ],
+    "targets": [
+      "DBMS"
+    ],
+    "references": [
+      "AFL"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "Steelix",
-    "year": "2017",
+    "year": 2017,
     "author": [
       "Yuekang Li",
       "Bihuan Chen",
@@ -1871,7 +3191,7 @@
       "https://dl.acm.org/citation.cfm?id=3106295"
     ],
     "targets": [
-      "file"
+      "File"
     ],
     "references": [
       "AFL"
@@ -1888,15 +3208,15 @@
     ],
     "toolurl": "https://github.com/OpenRCE/sulley/",
     "targets": [
-      "file",
-      "network"
+      "File",
+      "Network"
     ],
     "color": "blackbox"
   },
   {
     "name": "Superion",
     "year": 2019,
-    "aurthor": [
+    "author": [
       "Junjie Wang",
       "Bihuan Chen",
       "Lei Wei",
@@ -1904,14 +3224,39 @@
     ],
     "title": "Superion: Grammar-Aware Greybox Fuzzing",
     "booktitle": "Proceedings of the International Conference on Software Engineering",
-    "toolurl": "https://github.com/zhunki/Superion",
     "miscurl": [
       "https://arxiv.org/pdf/1812.01197.pdf"
     ],
+    "targets": [
+      "JavaScript"
+    ],
     "references": [
-      "AFL"
+      "AFL",
+      "LangFuzz"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "SymCC",
+    "year": 2020,
+    "author": [
+      "Sebastian Poeplau",
+      "Aurélien Francillon"
+    ],
+    "title": "Symbolic execution with SYMCC: Don’t interpret, compile!",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "toolurl": "http://www.s3. eurecom.fr/tools/symbolic_execution/symcc.html",
+    "miscurl": [
+      "http://www.s3.eurecom.fr/docs/usenixsec20_symcc.pdf"
+    ],
+    "targets": [
+      "File"
+    ],
+    "references": [
+      "KLEE",
+      "QSYM"
+    ],
+    "color": "whitebox"
   },
   {
     "name": "SymFuzz",
@@ -1925,10 +3270,10 @@
     "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
     "toolurl": "http://security.ece.cmu.edu/symfuzz/",
     "targets": [
-      "file"
+      "File"
     ],
     "references": [
-      "Rebert et al."
+      "BFF"
     ],
     "color": "blackbox"
   },
@@ -1947,7 +3292,7 @@
       "https://ieeexplore.ieee.org/abstract/document/8418632"
     ],
     "targets": [
-      "file"
+      "File"
     ],
     "references": [
       "AFL"
@@ -1970,7 +3315,7 @@
       "https://ieeexplore.ieee.org/abstract/document/6823894"
     ],
     "targets": [
-      "network"
+      "Network"
     ],
     "references": [
       "KiF",
@@ -1995,7 +3340,30 @@
       "tlsfuzzer"
     ],
     "targets": [
-      "network"
+      "Network"
+    ],
+    "color": "blackbox"
+  },
+  {
+    "name": "TRRespass",
+    "year": 2020,
+    "author": [
+      "Pietro Frigo",
+      "Emanuele Vannacci",
+      "Hasan Hassan",
+      "Victor van der Veen",
+      "Onur Mutlu",
+      "Cristiano Giuffrida",
+      "Herbert Bos",
+      "Kaveh Razavi"
+    ],
+    "title": "TRRespass: Exploiting the Many Sides of Target Row Refresh",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://download.vusec.net/papers/trrespass_sp20.pdf"
+    ],
+    "targets": [
+      "RAM"
     ],
     "color": "blackbox"
   },
@@ -2014,13 +3382,80 @@
       "https://ieeexplore.ieee.org/abstract/document/5504701"
     ],
     "targets": [
-      "file"
+      "File"
     ],
     "references": [
       "SmartFuzz",
       "BuzzFuzz"
     ],
     "color": "whitebox"
+  },
+  {
+    "name": "TensorFuzz",
+    "year": 2019,
+    "author": [
+      "Augustus Odena",
+      "Catherine Olsson",
+      "David G. Andersen",
+      "Ian Goodfellow"
+    ],
+    "title": "TensorFuzz: Debugging Neural Networks with Coverage-Guided Fuzzing",
+    "booktitle": "Proceedings of the International Conference on Machine Learning",
+    "targets": [
+      "AI"
+    ],
+    "references": [
+      "AFL"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "TortoiseFuzz",
+    "year": 2020,
+    "author": [
+      "Yanhao Wang",
+      "Xiangkun Jia",
+      "Yuwei Liu",
+      "Kyle Zeng",
+      "Tiffany Bao",
+      "Dinghao Wu",
+      "Purui Su"
+    ],
+    "title": "Not All Coverage Measurements Are Equal: Fuzzing by Coverage Accounting for Input Prioritization",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/2020/02/24422-paper.pdf"
+    ],
+    "targets": [
+      "File"
+    ],
+    "references": [
+      "AFL"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "Transynther",
+    "year": 2020,
+    "author": [
+      "Daniel Moghimi",
+      "Moritz Lipp",
+      "Berk Sunar",
+      "Michael Schwarz"
+    ],
+    "title": "Medusa: Microarchitectural Data Leakage via Automated Attack Synthesis",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "toolurl": "https://github.com/vernamlab/Medusa",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec20fall_moghimi_prepub.pdf"
+    ],
+    "targets": [
+      "CPU"
+    ],
+    "references": [
+      "SpecFuzz"
+    ],
+    "color": "blackbox"
   },
   {
     "name": "Triforce",
@@ -2034,7 +3469,23 @@
       "AFL"
     ],
     "targets": [
-      "kernel"
+      "Kernel"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "TriforceAFL",
+    "year": 2016,
+    "author": [
+      "Jesse Hertz",
+      "Tim Newsham"
+    ],
+    "toolurl": "https://github.com/nccgroup/TriforceAFL",
+    "references": [
+      "AFL"
+    ],
+    "targets": [
+      "File"
     ],
     "color": "greybox"
   },
@@ -2046,9 +3497,77 @@
     ],
     "toolurl": "https://github.com/kernelslacker/trinity",
     "targets": [
-      "kernel"
+      "Kernel"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "UAFL",
+    "year": 2020,
+    "author": [
+      "Haijun Wang",
+      "Xiaofei Xie",
+      "Yi Li",
+      "Cheng Wen",
+      "Yuekang Li",
+      "Yang Liu",
+      "Shengchao Qin",
+      "Hongxu Chen",
+      "Yulei Sui"
+    ],
+    "title": "Typestate-Guided Fuzzer for Discovering Use-after-Free Vulnerabilities",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "targets": [
+      "File"
+    ],
+    "references": [
+      "AFL"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "USBFuzz",
+    "year": 2020,
+    "author": [
+      "Hui Peng",
+      "Mathias Payer"
+    ],
+    "title": "USBFuzz: A Framework for Fuzzing USB Drivers by Device Emulation",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "toolurl": "https://github.com/HexHive/USBFuzz",
+    "miscurl": [
+      "https://nebelwelt.net/publications/files/20SEC3.pdf"
+    ],
+    "targets": [
+      "Firmware"
+    ],
+    "references": [
+      "AFL",
+      "syzkaller"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "Unicorefuzz",
+    "year": 2019,
+    "author": [
+      "Dominik Maier",
+      "Benedikt Radtke",
+      "Bastian Harren"
+    ],
+    "toolurl": "https://github.com/fgsect/unicorefuzz.git",
+    "miscurl": [
+      "https://www.usenix.org/system/files/woot19-paper_maier.pdf"
+    ],
+    "targets": [
+      "Kernel"
+    ],
+    "references": [
+      "AFL"
+    ],
+    "color": "greybox",
+    "title": "Unicorefuzz:On the Viability of Emulation for Kernelspace Fuzzing",
+    "booktitle": "Proceedings of the USENIX Workshop on Offensive Technologies"
   },
   {
     "name": "VUzzer",
@@ -2065,7 +3584,7 @@
     "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
     "toolurl": "https://github.com/vusec/vuzzer",
     "targets": [
-      "file"
+      "File"
     ],
     "references": [
       "AFL"
@@ -2073,25 +3592,57 @@
     "color": "greybox"
   },
   {
-    "name": "Woo et al.",
-    "year": 2013,
+    "name": "WINNIE",
+    "year": 2021,
     "author": [
-      "Maverick Woo",
-      "Sang Kil Cha",
-      "Samantha Gottlieb",
-      "David Brumley"
+      "Jinho Jung",
+      "Stephen Tong",
+      "Hong Hu",
+      "Jungwon Lim",
+      "Yonghwi Jin",
+      "Taesoo Kim"
     ],
-    "title": "Scheduling Black-box Mutational Fuzzing",
-    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "title": "WINNIE: Fuzzing Windows Applications with Harness Synthesis and Fast Cloning",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "toolurl": "https://github.com/sslab-gatech/winnie",
+    "miscurl": [
+      "https://huhong789.github.io/papers/winnie-ndss2021.pdf"
+    ],
     "targets": [
-      "file"
+      "File"
     ],
-    "toolurl": "http://security.ece.cmu.edu/fuzzsim/",
     "references": [
-      "BFF",
-      "Householder"
+      "AFL"
     ],
-    "color": "blackbox"
+    "keywords": [
+      "GUI",
+      "Windows"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "Zeror",
+    "year": 2020,
+    "author": [
+      "Chijinn Zhou",
+      "Mingzhe Wang",
+      "Jie Liang",
+      "Zhe Liu",
+      "Yu Jiang"
+    ],
+    "title": "Zeror: Speed Up Fuzzing with Coverage-sensitive Tracing and Scheduling",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "miscurl": [
+      "http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/ase20.pdf"
+    ],
+    "targets": [
+      "File"
+    ],
+    "references": [
+      "AFL",
+      "MOPT"
+    ],
+    "color": "greybox"
   },
   {
     "name": "antiparser",
@@ -2101,7 +3652,7 @@
     ],
     "toolurl": "http://antiparser.sourceforge.net/",
     "targets": [
-      "file"
+      "File"
     ],
     "color": "blackbox"
   },
@@ -2115,7 +3666,7 @@
     "booktitle": "Proceedings of DefCon",
     "toolurl": "https://github.com/jtpereyda/boofuzz",
     "targets": [
-      "network"
+      "Network"
     ],
     "references": [
       "Sulley",
@@ -2140,19 +3691,40 @@
       "https://github.com/fengjixuchui/FuzzingPaper/blob/master/Paper/PLDI16_JVM.pptx"
     ],
     "targets": [
-      "file"
+      "File"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "classming",
+    "year": 2019,
+    "author": [
+      "Yuting Chen",
+      "Ting Su",
+      "Zhendong Su"
+    ],
+    "title": "Deep Differential Testing of JVM Implementations",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "miscurl": [
+      "https://tingsu.github.io/files/icse19-classming.pdf"
+    ],
+    "targets": [
+      "File"
+    ],
+    "references": [
+      "classfuzz"
     ],
     "color": "greybox"
   },
   {
     "name": "cross_fuzz",
-    "year": "2010",
+    "year": 2010,
     "author": [
       "Michał Zalewski"
     ],
     "toolurl": "http://lcamtuf.coredump.cx/cross_fuzz/",
     "targets": [
-      "file"
+      "File"
     ],
     "references": [
       "ref_fuzz"
@@ -2166,6 +3738,31 @@
     ]
   },
   {
+    "name": "dtls-fuzzer",
+    "year": 2020,
+    "author": [
+      "Paul Fiterău-Broştean",
+      "Bengt Jonsson",
+      "Robert Merget",
+      "Joeri de Ruiter",
+      "Konstantinos Sagonas",
+      "Juraj Somorovsky"
+    ],
+    "title": "Analysis of DTLS Implementations Using Protocol State Fuzzing",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec20-fiterau-brostean.pdf"
+    ],
+    "toolurl": "https://github.com/assist-project/dtls-fuzzer/",
+    "references": [
+      "TLS-Attacker"
+    ],
+    "targets": [
+      "Network"
+    ],
+    "color": "blackbox"
+  },
+  {
     "name": "fsfuzzer",
     "year": 2006,
     "author": [
@@ -2177,7 +3774,7 @@
     ],
     "toolurl": "https://github.com/sughodke/fsfuzzer",
     "targets": [
-      "kernel"
+      "Kernel"
     ],
     "color": "blackbox"
   },
@@ -2190,8 +3787,8 @@
     "title": "Why You Should Fear Your mundane Office Equipment",
     "booktitle": "Proceedings of DefCon",
     "toolurl": "https://github.com/nccgroup/fuzzowski",
-    "target": [
-      "network"
+    "targets": [
+      "Network"
     ],
     "references": [
       "boofuzz"
@@ -2209,10 +3806,25 @@
       "LibFuzzer"
     ],
     "targets": [
-      "lib"
+      "Lib"
     ],
     "miscurl": [
       "https://github.com/dvyukov/go-fuzz/tree/master/slides"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "harbian-qa",
+    "year": 2018,
+    "author": [
+      "HardenedLinux"
+    ],
+    "toolurl": "https://github.com/hardenedlinux/harbian-qa",
+    "targets": [
+      "Kernel"
+    ],
+    "references": [
+      "syzkaller"
     ],
     "color": "greybox"
   },
@@ -2225,7 +3837,7 @@
     ],
     "toolurl": "https://github.com/google/honggfuzz",
     "targets": [
-      "file"
+      "File"
     ],
     "references": [
       "EFS"
@@ -2244,7 +3856,7 @@
     "title": "jFuzz: A Concolic Whitebox Fuzzer for Java",
     "booktitle": "Proceedings of the First NASA Forma Methods Symposium",
     "targets": [
-      "unknown"
+      "File"
     ],
     "references": [
       "SAGE"
@@ -2263,11 +3875,11 @@
     "toolurl": "https://github.com/MozillaSecurity/funfuzz",
     "booktitle": "Proceedings of the Black Hat USA",
     "targets": [
-      "file"
+      "File"
     ],
     "color": "blackbox",
     "keywords": [
-      "javascript"
+      "JavaScript"
     ]
   },
   {
@@ -2287,7 +3899,7 @@
       "https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-schumilo.pdf"
     ],
     "targets": [
-      "kernel"
+      "Kernel"
     ],
     "references": [
       "AFL",
@@ -2305,10 +3917,10 @@
       "Lingxiao Jiang",
       "Lucia"
     ],
-    "title": "kb-Anonymity}: A Model for Anonymized Behavior-Preserving Test and Debugging Data",
+    "title": "kb-Anonymity: A Model for Anonymized Behavior-Preserving Test and Debugging Data",
     "booktitle": "Proceedings of the ACM Conference on Programming Language Design and Implementation",
     "targets": [
-      "unknown"
+      "File"
     ],
     "references": [
       "jFuzz"
@@ -2339,7 +3951,7 @@
       "https://pdfs.semanticscholar.org/a80c/f182c22c5e11d523c8af36732576a1d3d8d4.pdf"
     ],
     "targets": [
-      "kernel"
+      "Kernel"
     ],
     "references": [
       "Trinity"
@@ -2354,14 +3966,14 @@
     ],
     "toolurl": "https://gitlab.com/akihe/radamsa",
     "targets": [
-      "file",
-      "network"
+      "File",
+      "Network"
     ],
     "color": "blackbox"
   },
   {
     "name": "ref_fuzz",
-    "year": "2008",
+    "year": 2008,
     "author": [
       "Michał Zalewski"
     ],
@@ -2370,9 +3982,31 @@
       "http://lcamtuf.coredump.cx/cross_fuzz/fuzzer_timeline.txt"
     ],
     "targets": [
-      "file"
+      "File"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "sFuzz",
+    "year": 2020,
+    "author": [
+      "Tai D. Nguyen",
+      "Long H. Pham",
+      "Jun Sun",
+      "Yun Lin",
+      "Quang Tran Minh"
+    ],
+    "title": "sFuzz: An Efficient Adaptive Fuzzer for Solidity Smart Contracts",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "targets": [
+      "EVM"
+    ],
+    "toolurl": "https://sfuzz.github.io/",
+    "references": [
+      "AFL",
+      "ContractFuzzer"
+    ],
+    "color": "greybox"
   },
   {
     "name": "syzkaller",
@@ -2382,7 +4016,7 @@
     ],
     "toolurl": "https://github.com/dvyukov/syzkaller",
     "targets": [
-      "kernel"
+      "Kernel"
     ],
     "references": [
       "Trinity",
@@ -2398,7 +4032,7 @@
     ],
     "toolurl": "https://github.com/zimmski/tavor",
     "targets": [
-      "file"
+      "File"
     ],
     "color": "blackbox"
   },
@@ -2410,7 +4044,7 @@
     ],
     "toolurl": "https://github.com/tomato42/tlsfuzzer",
     "targets": [
-      "network"
+      "Network"
     ],
     "color": "blackbox"
   },
@@ -2422,7 +4056,7 @@
     ],
     "toolurl": "https://github.com/samhocevar/zzuf",
     "targets": [
-      "file"
+      "File"
     ],
     "color": "blackbox"
   }

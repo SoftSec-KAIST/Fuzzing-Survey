@@ -51,6 +51,10 @@
         <div class="collapse navbar-collapse" id="navbar-collapse">
           <ul class="nav navbar-nav ml-auto">
             <li class="nav-item">
+              <a href="#" class="nav-link" data-toggle="modal"
+                 data-target="#js-stats-dialog">Show Stats</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link"
                  href="https://github.com/SoftSec-KAIST/Fuzzing-Survey">
                 Want to Contribute?</a>
@@ -83,6 +87,61 @@
         </span>
       </div>
     </footer>
+
+    <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"
+         id="js-stats-dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Fuzzers Stats</h5>
+            <button type="button" class="close"
+                    data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" id="js-stats-body">
+            <div class="container">
+              <div id="js-stats-body__summary">
+                <p>
+                  You can see here all the fuzzers in our DB, and can use
+                  specific keyword(s) you are interested in to filter out the entries
+                  in the lists. Our DB includes fuzzers published in top-tier
+                  venues. To see more detailed inclusion criteria, please see
+                  <a href="https://github.com/SoftSec-KAIST/Fuzzing-Survey/blob/master/CONTRIBUTING.md">this</a>.
+                </p>
+              </div>
+              <div class="pb-3">
+                <input type="search" class="stats-body__filter"
+                       id="js-stats-body__filter"
+                       placeholder="Filter" />
+              </div>
+              <div class="row">
+                <div class="col-sm">
+                  <h5>Venues (# of fuzzers)</h5>
+                  <div class="accordion" id="js-stats-body__venues"
+                       role="tablist" aria-multiselectable="true">
+                  </div>
+                </div>
+              </div>
+              <div class="row space-top">
+                <div class="col-sm">
+                  <h5>Target kinds (# of fuzzers)</h5>
+                  <div class="accordion" id="js-stats-body__targets"
+                       role="tablist" aria-multiselectable="true">
+                  </div>
+                </div>
+                <div class="col-sm">
+                  <h5>Authors (# of fuzzers)</h5>
+                  <div class="accordion" id="js-stats-body__authors"
+                       role="tablist" aria-multiselectable="true">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery-ui.min.js"></script>
