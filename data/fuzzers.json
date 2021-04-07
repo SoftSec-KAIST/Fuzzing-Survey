@@ -3245,7 +3245,7 @@
     ],
     "title": "Symbolic execution with SYMCC: Don’t interpret, compile!",
     "booktitle": "Proceedings of the USENIX Security Symposium",
-    "toolurl": "http://www.s3. eurecom.fr/tools/symbolic_execution/symcc.html",
+    "toolurl": "http://www.s3.eurecom.fr/tools/symbolic_execution/symcc.html",
     "miscurl": [
       "http://www.s3.eurecom.fr/docs/usenixsec20_symcc.pdf"
     ],
