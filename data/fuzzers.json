@@ -886,6 +886,9 @@
       "CPU"
     ],
     "toolurl": "https://github.com/compsec-snu/difuzz-rtl",
+    "references": [
+      "classming"
+    ],
     "color": "greybox",
     "keywords": [
       "Register-coverage"
@@ -2562,6 +2565,9 @@
     "targets": [
       "Kernel"
     ],
+    "references": [
+      "IMF"
+    ],
     "color": "greybox"
   },
   {
@@ -2859,7 +2865,8 @@
     ],
     "toolurl": "https://github.com/s3team/Polyglot",
     "references": [
-      "AFL"
+      "CSmith",
+      "DIE"
     ],
     "color": "greybox"
   },
