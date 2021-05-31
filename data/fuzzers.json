@@ -460,6 +460,34 @@
     "color": "blackbox"
   },
   {
+    "name": "COMFORT",
+    "year": 2021,
+    "targets": [
+      "compiler"
+    ],
+    "color": "greybox",
+    "author": [
+      "Guixin Ye",
+      "Zhanyong Tang",
+      "Shin Hwei Tan",
+      "Songfang Huang",
+      "Dingyi Fang",
+      "Xiaoyang Sun",
+      "Lizhong Bian",
+      "Haibo Wang",
+      "Zheng Wang"
+    ],
+    "toolurl": "https://github.com/NWU-NISL-Fuzzing/COMFORT",
+    "title": "Automated Conformance Testing for JavaScript Engines via Deep Compiler Fuzzing",
+    "booktitle": "Proceedings of the ACM Conference on Programming Language Design and Implementation",
+    "miscurl": [
+      "https://arxiv.org/pdf/2104.07460.pdf"
+    ],
+    "keywords": [
+      "JavaScript"
+    ]
+  },
+  {
     "name": "CSmith",
     "year": 2011,
     "author": [
@@ -1403,6 +1431,32 @@
       "https://saelo.github.io/papers/thesis.pdf"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "Fuzzolic",
+    "year": 2021,
+    "targets": [
+      "file"
+    ],
+    "color": "whitebox",
+    "author": [
+      "Borzacchiello",
+      "Luca and Coppa",
+      "Emilio and Demetrescu",
+      "Camil"
+    ],
+    "toolurl": "https://season-lab.github.io/fuzzolic/",
+    "title": "Fuzzing Symbolic Expressions",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "references": [
+      "QSYM"
+    ],
+    "miscurl": [
+      "https://arxiv.org/pdf/2102.06580.pdf"
+    ],
+    "keywords": [
+      "SMT"
+    ]
   },
   {
     "name": "GLADE",
@@ -3406,6 +3460,29 @@
       "LangFuzz"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "SyRust",
+    "year": 2021,
+    "targets": [
+      "file"
+    ],
+    "color": "greybox",
+    "author": [
+      "Yoshiki Takashima",
+      "Ruben Martins",
+      "Limin Jia",
+      "Corina S. Păsăreanu"
+    ],
+    "toolurl": "https://kilthub.cmu.edu/articles/software/SyRust_Artifact_PLDI2021_Artifact/14356976",
+    "title": "SyRust: Automatic Testing of Rust Libraries with Semantic-Aware Program Synthesis",
+    "booktitle": "Proceedings of the ACM Conference on Programming Language Design and Implementation",
+    "miscurl": [
+      "https://doi.org/10.1184/R1/14356949"
+    ],
+    "keywords": [
+      "Rust"
+    ]
   },
   {
     "name": "SymCC",
