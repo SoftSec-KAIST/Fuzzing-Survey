@@ -3487,6 +3487,9 @@
     "miscurl": [
       "https://doi.org/10.1184/R1/14356949"
     ],
+    "references": [
+      "RESTler"
+    ],
     "keywords": [
       "Rust"
     ]
