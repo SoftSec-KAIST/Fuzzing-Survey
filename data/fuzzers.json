@@ -330,6 +330,29 @@
     "color": "blackbox"
   },
   {
+    "name": "Bonsai-Fuzzing",
+    "year": 2021,
+    "author": [
+      "Vasudev Vikram",
+      "Rohan Padhye",
+      "Koushik Sen"
+    ],
+    "title": "Growing A Test Corpus with Bonsai Fuzzing",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "toolurl": "https://github.com/vasumv/bonsai-fuzzing",
+    "miscurl": [
+      "https://thuanpv.github.io/publications/TSE19_aflsmart.pdf"
+    ],
+    "references": [
+      "Nautilus",
+      "Superion"
+    ],
+    "targets": [
+      "File"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "Brennan et al.",
     "year": 2020,
     "author": [
@@ -435,6 +458,37 @@
       "File"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "COMFORT",
+    "year": 2021,
+    "targets": [
+      "compiler"
+    ],
+    "color": "greybox",
+    "author": [
+      "Guixin Ye",
+      "Zhanyong Tang",
+      "Shin Hwei Tan",
+      "Songfang Huang",
+      "Dingyi Fang",
+      "Xiaoyang Sun",
+      "Lizhong Bian",
+      "Haibo Wang",
+      "Zheng Wang"
+    ],
+    "toolurl": "https://github.com/NWU-NISL-Fuzzing/COMFORT",
+    "title": "Automated Conformance Testing for JavaScript Engines via Deep Compiler Fuzzing",
+    "booktitle": "Proceedings of the ACM Conference on Programming Language Design and Implementation",
+    "miscurl": [
+      "https://arxiv.org/pdf/2104.07460.pdf"
+    ],
+    "references": [
+      "Montage"
+    ],
+    "keywords": [
+      "JavaScript"
+    ]
   },
   {
     "name": "CSmith",
@@ -648,6 +702,34 @@
     "color": "blackbox"
   },
   {
+    "name": "DIANE",
+    "year": 2021,
+    "author": [
+      "Nilo Redini",
+      "Andrea Continella",
+      "Dipanjan Das",
+      "Giulio De Pasquale",
+      "Noah Spahn",
+      "Aravind Machiry",
+      "Antonio Bianchi",
+      "Christopher Kruegel",
+      "Giovanni Vigna"
+    ],
+    "title": "DIANE: Identifying Fuzzing Triggers in Apps to Generate Under-constrained Inputs for IoT Devices",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "toolurl": "https://github.com/ucsb-seclab/diane",
+    "miscurl": [
+      "https://conand.me/publications/redini-diane-2021.pdf"
+    ],
+    "references": [
+      "IoTFuzzer"
+    ],
+    "targets": [
+      "IoT"
+    ],
+    "color": "blackbox"
+  },
+  {
     "name": "DIFUZE",
     "year": 2017,
     "author": [
@@ -786,6 +868,34 @@
       "AFL"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "DifuzzRTL",
+    "year": 2021,
+    "author": [
+      "Jaewon Hur",
+      "Suhwan Song",
+      "Dongup Kwon",
+      "Eunjin Baek",
+      "Jangwoo Kim",
+      "Byoungyoung Lee"
+    ],
+    "title": "DIFUZZRTL: Differential Fuzz Testing to Find CPU Bugs",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://lifeasageek.github.io/papers/jaewon-difuzzrtl.pdf"
+    ],
+    "targets": [
+      "CPU"
+    ],
+    "toolurl": "https://github.com/compsec-snu/difuzz-rtl",
+    "references": [
+      "classming"
+    ],
+    "color": "greybox",
+    "keywords": [
+      "Register-coverage"
+    ]
   },
   {
     "name": "DigFuzz",
@@ -1329,6 +1439,32 @@
     "color": "greybox"
   },
   {
+    "name": "Fuzzolic",
+    "year": 2021,
+    "targets": [
+      "file"
+    ],
+    "color": "whitebox",
+    "author": [
+      "Borzacchiello",
+      "Luca and Coppa",
+      "Emilio and Demetrescu",
+      "Camil"
+    ],
+    "toolurl": "https://season-lab.github.io/fuzzolic/",
+    "title": "Fuzzing Symbolic Expressions",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "references": [
+      "QSYM"
+    ],
+    "miscurl": [
+      "https://arxiv.org/pdf/2102.06580.pdf"
+    ],
+    "keywords": [
+      "SMT"
+    ]
+  },
+  {
     "name": "GLADE",
     "year": 2015,
     "author": [
@@ -1403,6 +1539,31 @@
       "File"
     ],
     "color": "whitebox"
+  },
+  {
+    "name": "Graph-based-fuzz-testing",
+    "year": 2021,
+    "author": [
+      "Weisi Luo",
+      "Dong Chai",
+      "Xiaoyue Run",
+      "Jiang Wang",
+      "Chunrong Fang",
+      "Zhenyu Chen"
+    ],
+    "title": "Graph-based Fuzz Testing for Deep Learning Inference Engines",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "toolurl": "https://github.com/gbftdlie/Graph-based-fuzz-testing",
+    "miscurl": [
+      "https://arxiv.org/pdf/2008.05933.pdf"
+    ],
+    "references": [
+      "TensorFuzz"
+    ],
+    "targets": [
+      "DL inference engine"
+    ],
+    "color": "greykbox"
   },
   {
     "name": "GreyOne",
@@ -2391,6 +2552,28 @@
     "color": "greybox"
   },
   {
+    "name": "NTFuzz",
+    "year": 2021,
+    "author": [
+      "Jaeseung Choi",
+      "Kangsu Kim",
+      "Daejin Lee",
+      "Sang Kil Cha"
+    ],
+    "title": "NTFUZZ: Enabling Type-Aware Kernel Fuzzing on Windows with Static Binary Analysis",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://softsec.kaist.ac.kr/~jschoi/data/oakland2021.pdf"
+    ],
+    "targets": [
+      "Kernel"
+    ],
+    "references": [
+      "IMF"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "Narada",
     "year": 2015,
     "author": [
@@ -2660,6 +2843,33 @@
     ],
     "references": [
       "AFL"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "PolyGlot",
+    "year": 2021,
+    "author": [
+      "Yongheng Chen",
+      "Rui Zhong",
+      "Hong Hu",
+      "Hangfan Zhang",
+      "Yupeng Yang",
+      "Dinghao Wu",
+      "Wenke Lee"
+    ],
+    "title": "One Engine to Fuzz 'em All: Generic Language Processor Testing with Semantic Validation",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://faculty.ist.psu.edu/wu/papers/polyglot.pdf"
+    ],
+    "targets": [
+      "File"
+    ],
+    "toolurl": "https://github.com/s3team/Polyglot",
+    "references": [
+      "CSmith",
+      "DIE"
     ],
     "color": "greybox"
   },
@@ -3199,6 +3409,31 @@
     "color": "greybox"
   },
   {
+    "name": "StochFuzz",
+    "year": 2021,
+    "author": [
+      "Zhuo Zhang",
+      "Wei You",
+      "Guanhong Tao",
+      "Yousra Aafer",
+      "Xuwei Liu",
+      "Xiangyu Zhang"
+    ],
+    "title": "Sound and Cost-effective Fuzzing of Stripped Binaries by Incremental and Stochastic Rewriting",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://www.computer.org/csdl/pds/api/csdl/proceedings/download-article/1t0x9N9Xy0w/pdf"
+    ],
+    "targets": [
+      "File"
+    ],
+    "toolurl": "https://github.com/ZhangZhuoSJTU/StochFuzz",
+    "references": [
+      "AFL"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "Sulley",
     "year": 2007,
     "author": [
@@ -3235,6 +3470,32 @@
       "LangFuzz"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "SyRust",
+    "year": 2021,
+    "targets": [
+      "file"
+    ],
+    "color": "greybox",
+    "author": [
+      "Yoshiki Takashima",
+      "Ruben Martins",
+      "Limin Jia",
+      "Corina S. Păsăreanu"
+    ],
+    "toolurl": "https://kilthub.cmu.edu/articles/software/SyRust_Artifact_PLDI2021_Artifact/14356976",
+    "title": "SyRust: Automatic Testing of Rust Libraries with Semantic-Aware Program Synthesis",
+    "booktitle": "Proceedings of the ACM Conference on Programming Language Design and Implementation",
+    "miscurl": [
+      "https://doi.org/10.1184/R1/14356949"
+    ],
+    "references": [
+      "RESTler"
+    ],
+    "keywords": [
+      "Rust"
+    ]
   },
   {
     "name": "SymCC",
