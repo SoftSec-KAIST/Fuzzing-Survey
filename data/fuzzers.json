@@ -463,7 +463,7 @@
     "name": "COMFORT",
     "year": 2021,
     "targets": [
-      "compiler"
+      "JavaScript"
     ],
     "color": "greybox",
     "author": [
