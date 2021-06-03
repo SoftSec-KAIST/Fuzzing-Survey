@@ -1541,31 +1541,6 @@
     "color": "whitebox"
   },
   {
-    "name": "Graph-based-fuzz-testing",
-    "year": 2021,
-    "author": [
-      "Weisi Luo",
-      "Dong Chai",
-      "Xiaoyue Run",
-      "Jiang Wang",
-      "Chunrong Fang",
-      "Zhenyu Chen"
-    ],
-    "title": "Graph-based Fuzz Testing for Deep Learning Inference Engines",
-    "booktitle": "Proceedings of the International Conference on Software Engineering",
-    "toolurl": "https://github.com/gbftdlie/Graph-based-fuzz-testing",
-    "miscurl": [
-      "https://arxiv.org/pdf/2008.05933.pdf"
-    ],
-    "references": [
-      "TensorFuzz"
-    ],
-    "targets": [
-      "DL inference engine"
-    ],
-    "color": "greykbox"
-  },
-  {
     "name": "GreyOne",
     "year": 2020,
     "author": [
@@ -2206,6 +2181,31 @@
       "Lib"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "Luo at el.",
+    "year": 2021,
+    "author": [
+      "Weisi Luo",
+      "Dong Chai",
+      "Xiaoyue Run",
+      "Jiang Wang",
+      "Chunrong Fang",
+      "Zhenyu Chen"
+    ],
+    "title": "Graph-based Fuzz Testing for Deep Learning Inference Engines",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "toolurl": "https://github.com/gbftdlie/Graph-based-fuzz-testing",
+    "miscurl": [
+      "https://arxiv.org/pdf/2008.05933.pdf"
+    ],
+    "references": [
+      "TensorFuzz"
+    ],
+    "targets": [
+      "DL inference engine"
+    ],
+    "color": "greykbox"
   },
   {
     "name": "MCFuzz",
