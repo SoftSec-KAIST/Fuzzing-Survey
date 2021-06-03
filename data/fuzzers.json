@@ -1541,7 +1541,7 @@
     "color": "whitebox"
   },
   {
-    "name": "Graph-based-fuzz-testing",
+    "name": "Luo et al.",
     "year": 2021,
     "author": [
       "Weisi Luo",
