@@ -1442,7 +1442,7 @@
     "name": "Fuzzolic",
     "year": 2021,
     "targets": [
-      "file"
+      "File"
     ],
     "color": "whitebox",
     "author": [
@@ -3475,7 +3475,7 @@
     "name": "SyRust",
     "year": 2021,
     "targets": [
-      "file"
+      "File"
     ],
     "color": "greybox",
     "author": [
