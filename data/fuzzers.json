@@ -415,6 +415,27 @@
     "color": "whitebox"
   },
   {
+    "name": "CAFL",
+    "year": 2021,
+    "author": [
+      "Gwangmu Lee",
+      "Woochel Shim",
+      "Byoungyoung Lee"
+    ],
+    "title": "Constraint-guided Directed Greybox Fuzzing",
+    "booktitle": "Proceedings of the USENIX Annual Technical Conference",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec21fall-lee-gwangmu.pdf"
+    ],
+    "targets": [
+      "File"
+    ],
+    "references": [
+      "AFLGo"
+    ],
+    "color": "graybox"
+  },
+  {
     "name": "CHIPSEC",
     "year": 2015,
     "author": [
