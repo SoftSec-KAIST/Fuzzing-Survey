@@ -1719,6 +1719,28 @@
     "color": "greybox"
   },
   {
+    "name": "HeteroFuzz",
+    "year": 2021,
+    "author": [
+      "Qian Zhang",
+      "Jiyuan Wang",
+      "Miryung Kim"
+    ],
+    "title": "HeteroFuzz: Fuzz Testing to Detect Platform Dependent Divergence for Heterogeneous Applications",
+    "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
+    "miscurl": [
+      "https://web.cs.ucla.edu/~wangjiyuan/research/FSE2021_heterofuzz.pdf"
+    ],
+    "targets": [
+      "Heterogeneous applications"
+    ],
+    "references": [
+      "RFuzz",
+      "AFL"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "HiCOND",
     "year": 2019,
     "author": [
