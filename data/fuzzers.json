@@ -156,6 +156,31 @@
     "color": "blackbox"
   },
   {
+    "name": "Aafer et al.",
+    "year": 2021,
+    "author": [
+      "Yousra Aafer",
+      "Wei You",
+      "Yi Sun",
+      "Yu Shi",
+      "Xiangyu Zhang",
+      "Heng Yin"
+    ],
+    "title": "Android SmartTVs Vulnerability Discovery via Log-Guided Fuzzing",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec21fall-aafer.pdf"
+    ],
+    "targets": [
+      "API"
+    ],
+    "references": [
+      "FANS",
+      "IoTFuzzer"
+    ],
+    "color": "blackbox"
+  },
+  {
     "name": "Angora",
     "year": 2018,
     "author": [
@@ -1694,6 +1719,28 @@
     "color": "greybox"
   },
   {
+    "name": "HeteroFuzz",
+    "year": 2021,
+    "author": [
+      "Qian Zhang",
+      "Jiyuan Wang",
+      "Miryung Kim"
+    ],
+    "title": "HeteroFuzz: Fuzz Testing to Detect Platform Dependent Divergence for Heterogeneous Applications",
+    "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
+    "miscurl": [
+      "https://web.cs.ucla.edu/~wangjiyuan/research/FSE2021_heterofuzz.pdf"
+    ],
+    "targets": [
+      "Heterogeneous applications"
+    ],
+    "references": [
+      "RFuzz",
+      "AFL"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "HiCOND",
     "year": 2019,
     "author": [
@@ -1792,6 +1839,28 @@
     "toolurl": "https://github.com/yannicnoller/hydiff",
     "references": [
       "DifFuzz"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "ICSFuzz",
+    "year": 2021,
+    "author": [
+      "Dimitrios Tychalas",
+      "Hadjer Benkraouda",
+      "Michail Maniatakos"
+    ],
+    "title": "ICSFuzz: Manipulating I/Os and Repurposing Binary Code to Enable Instrumented Fuzzing in ICS Control Applications",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec21fall-tychalas.pdf"
+    ],
+    "targets": [
+      "File"
+    ],
+    "references": [
+      "RVFuzzer",
+      "FIRM-AFL"
     ],
     "color": "greybox"
   },
@@ -2204,7 +2273,7 @@
     "color": "greybox"
   },
   {
-    "name": "Luo at el.",
+    "name": "Luo et al.",
     "year": 2021,
     "author": [
       "Weisi Luo",
@@ -2723,6 +2792,31 @@
     ],
     "references": [
       "radamsa"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "Nyx",
+    "year": 2021,
+    "author": [
+      "Sergej Schumilo",
+      "Cornelius Aschermann",
+      "Ali Abbasi",
+      "Simon Wörner",
+      "Thorsten Holz"
+    ],
+    "title": "NYX: Greybox Hypervisor Fuzzing using Fast Snapshots and Affine Types",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "toolurl": "https://github.com/RUB-SysSec/nyx",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec21summer_schumilo.pdf"
+    ],
+    "targets": [
+      "Hypervisor"
+    ],
+    "references": [
+      "HYPER-CUBE",
+      "kAFL"
     ],
     "color": "greybox"
   },
@@ -3899,6 +3993,29 @@
     "keywords": [
       "GUI",
       "Windows"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "ZAFL",
+    "year": 2021,
+    "author": [
+      "Stefan Nagy",
+      "Anh Nguyen-Tuong",
+      "Jason D. Hiser",
+      "Jack W. Davidson",
+      "Matthew Hicks"
+    ],
+    "title": "Breaking Through Binaries: Compiler-quality Instrumentation for Better Binary-only Fuzzing",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec21fall-nagy.pdf"
+    ],
+    "targets": [
+      "File"
+    ],
+    "references": [
+      "AFL"
     ],
     "color": "greybox"
   },
