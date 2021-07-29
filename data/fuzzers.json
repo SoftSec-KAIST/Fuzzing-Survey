@@ -1734,10 +1734,6 @@
     "targets": [
       "Heterogeneous applications"
     ],
-    "references": [
-      "RFuzz",
-      "AFL"
-    ],
     "color": "greybox"
   },
   {
