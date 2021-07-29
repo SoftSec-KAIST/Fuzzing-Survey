@@ -2774,6 +2774,31 @@
     "color": "greybox"
   },
   {
+    "name": "Nyx",
+    "year": 2021,
+    "author": [
+      "Sergej Schumilo",
+      "Cornelius Aschermann",
+      "Ali Abbasi",
+      "Simon Wörner",
+      "Thorsten Holz"
+    ],
+    "title": "NYX: Greybox Hypervisor Fuzzing using Fast Snapshots and Affine Types",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "toolurl": "https://github.com/RUB-SysSec/nyx",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec21summer_schumilo.pdf"
+    ],
+    "targets": [
+      "Hypervisor"
+    ],
+    "references": [
+      "HYPER-CUBE",
+      "kAFL"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "PGFUZZ",
     "year": 2021,
     "author": [
