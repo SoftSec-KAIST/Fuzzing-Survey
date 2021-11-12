@@ -49,11 +49,13 @@ survey](https://softsec.kaist.ac.kr/~sangkilc/papers/manes-tse19.pdf) until the
 final version is published at IEEE.)
 
 ```bibtex
-@ARTICLE{manes:tse:2019,
+@ARTICLE{manes:tse:2021,
   author = {Valentin J. M. Man{\`{e}}s and HyungSeok Han and Choongwoo Han and Sang Kil Cha and Manuel Egele and Edward J. Schwartz and Maverick Woo},
   title = {The Art, Science, and Engineering of Fuzzing: A Survey},
   journal = {IEEE Transactions on Software Engineering},
-  doi = {10.1109/TSE.2019.2946563},
-  year = 2019
+  volume = {47},
+  number = {11},
+  pages = {2312--2331},
+  year = 2021
 }
 ```
