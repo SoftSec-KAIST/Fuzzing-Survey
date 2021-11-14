@@ -60,6 +60,23 @@
     "color": "greybox"
   },
   {
+    "name": "AFLChurn",
+    "year": 2021,
+    "author": [
+      "Xiaogang Zhu",
+      "Marcel Böhme"
+    ],
+    "title": "Regression Greybox Fuzzing",
+    "toolurl": "https://github.com/aflchurn/aflchurn",
+    "targets": [
+      "File"
+    ],
+    "references": [
+      "AFL"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "AFLFast",
     "year": 2016,
     "author": [
@@ -1839,6 +1856,27 @@
     "color": "greybox"
   },
   {
+    "name": "HyperFuzzer",
+    "year": 2021,
+    "author": [
+      "Xinyang Ge",
+      "Ben Niu",
+      "Rober Brotzman",
+      "Yaohui Chen",
+      "HyungSeok Han",
+      "Patrice Godefroid",
+      "Weidong Cui"
+    ],
+    "title": "HyperFuzzer: An Efficient Hybrid Fuzzer for Virtual CPUs",
+    "targets": [
+      "Hypervisor"
+    ],
+    "references": [
+      "AFL"
+    ],
+    "color": "whitebox"
+  },
+  {
     "name": "ICSFuzz",
     "year": 2021,
     "author": [
@@ -1879,7 +1917,7 @@
     ],
     "references": [
       "FIFUZZ",
-      "T-FUZZ"
+      "T-Fuzz"
     ],
     "color": "greybox"
   },
@@ -3519,6 +3557,26 @@
     ],
     "toolurl": "https://github.com/dmolnar/SmartFuzz",
     "color": "whitebox"
+  },
+  {
+    "name": "Snipuzz",
+    "year": 2021,
+    "author": [
+      "Xiaotao Feng",
+      "Ruoxi Sun",
+      "Xiaogang Zhu",
+      "Minhui Xue",
+      "Sheng Wen",
+      "Dongxi Liu",
+      "Surya Nepal",
+      "Yang Xiang"
+    ],
+    "title": "Snipuzz: Black-box Fuzzing of IoT Firmware via Message Snippet Inference",
+    "toolurl": "https://github.com/XtEsco/Snipuzz",
+    "targets": [
+      "IoT"
+    ],
+    "color": "blackbox"
   },
   {
     "name": "SpecFuzz",
