@@ -4584,23 +4584,23 @@
     "color": "blackbox"
   },
   {
-	  "name": "CorbFuzz",
-	  "year": 2021,
-	  "author": [
-		  "Chaofan Shou",
-		  "Ismet Burak Kadron",
-		  "Qi Su",
-		  "Tevfik Bultan"
-	  ],
-	  "title": "CorbFuzz: Checking Browser Security Policies with Fuzzing",
-	  "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
-	  "miscurl": [
-		  "https://arxiv.org/pdf/2109.00398.pdf"
-	  ],
-	  "toolurl": "https://github.com/shouc/corbfuzz",
-	  "targets": [
-		  "Web"
-	  ],
-	  "color": "greybox"
+    "name": "CorbFuzz",
+    "year": 2021,
+    "author": [
+      "Chaofan Shou",
+      "Ismet Burak Kadron",
+      "Qi Su",
+      "Tevfik Bultan"
+    ],
+    "title": "CorbFuzz: Checking Browser Security Policies with Fuzzing",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "miscurl": [
+      "https://arxiv.org/pdf/2109.00398.pdf"
+    ],
+    "toolurl": "https://github.com/shouc/corbfuzz",
+    "targets": [
+	    "Web"
+    ],
+    "color": "greybox"
   }
 ]
