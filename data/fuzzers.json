@@ -1861,6 +1861,29 @@
     "color": "greybox"
   },
   {
+    "name": "IFIZZ",
+    "year": 2021,
+    "author": [
+      "Penghui Li",
+      "Yinxi Liu",
+      "Wei Meng"
+    ],
+    "title": "IFIZZ: Deep-State and Efficient Fault-Scenario Generation to Test IoT Firmware",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "toolurl": "https://github.com/decentL/iFIZZ-ASE21",
+    "miscurl": [
+      "https://nesa.zju.edu.cn/download/liu_pdf_ifizz.pdf"
+    ],
+    "targets": [
+      "IoT"
+    ],
+    "references": [
+      "FIFUZZ",
+      "T-FUZZ"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "IFuzzer",
     "year": 2016,
     "author": [
@@ -2311,6 +2334,28 @@
     ],
     "targets": [
       "Model checker"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "MDPERFFUZZ",
+    "year": 2021,
+    "author": [
+      "Penghui Li",
+      "Yinxi Liu",
+      "Wei Meng"
+    ],
+    "title": "Understanding and Detecting Performance Bugs in Markdown Compilers",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "toolurl": "https://github.com/cuhk-seclab/mdperffuzz",
+    "miscurl": [
+      "https://appsrv.cse.cuhk.edu.hk/~phli/paper/ase21_mdperffuzz.pdf"
+    ],
+    "targets": [
+      "Markdown"
+    ],
+    "references": [
+      "AFL"
     ],
     "color": "greybox"
   },
@@ -3228,6 +3273,31 @@
     ],
     "references": [
       "AFL"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "SMARTIAN",
+    "year": 2021,
+    "author": [
+      "Jaeseung Choi",
+      "Doyeon Kim",
+      "Soomin Kim",
+      "Gustavo Grieco",
+      "Alex Groce",
+      "Sang Kil Cha"
+    ],
+    "title": "SMARTIAM: Enhancing Smart Contract Fuzzing with Static and Dynamic Data-Flow Analyses",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "toolurl": "https://github.com/SoftSec-KAIST/Smartian",
+    "miscurl": [
+      "https://softsec.kaist.ac.kr/~jschoi/data/ase2021.pdf"
+    ],
+    "targets": [
+      "Smart Contract"
+    ],
+    "references": [
+      "Eclipser"
     ],
     "color": "greybox"
   },
