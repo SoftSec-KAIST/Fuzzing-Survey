@@ -4090,12 +4090,40 @@
     "booktitle": "Proceedings of the USENIX Workshop on Offensive Technologies"
   },
   {
+    "name": "V-SHUTTLE",
+    "year": 2021,
+    "author": [
+      "Gaoning Pan",
+      "Xingwei Lin",
+      "Xuhong Zhang",
+      "Yongkang Jia",
+      "Shouling Ji",
+      "Chunming Wu",
+      "Xinlei Ying",
+      "Jiashui Wang",
+      "Yanjun Wu"
+    ],
+    "title": "V-SHUTTLE: Scalable and Semantics-Aware Hypervisor Fuzzing",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "toolurl": "https://github.com/hustdebug/v-shuttle",
+    "miscurl": [
+      "https://nesa.zju.edu.cn/download/pgn_pdf_V-SHUTTLE.pdf"
+    ],
+    "targets": [
+      "Hypervisor"
+    ],
+    "references": [
+      "AFL"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "VUzzer",
     "year": 2017,
     "author": [
       "Sanjay Rawat",
       "Vivek Jain",
-      " Kumar Ashish",
+      "Kumar Ashish",
       "Lucian Cojocar",
       "Cristiano Giuffrida",
       "Herbert Bos"
