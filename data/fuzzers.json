@@ -758,7 +758,7 @@
     "targets": [
       "Web"
     ],
-    "color": "greybox"
+    "color": "whitebox"
   },
   {
     "name": "DELTA",
