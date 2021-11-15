@@ -67,6 +67,7 @@
       "Marcel Böhme"
     ],
     "title": "Regression Greybox Fuzzing",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
     "toolurl": "https://github.com/aflchurn/aflchurn",
     "targets": [
       "File"
@@ -1888,6 +1889,7 @@
       "Weidong Cui"
     ],
     "title": "HyperFuzzer: An Efficient Hybrid Fuzzer for Virtual CPUs",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
     "targets": [
       "Hypervisor"
     ],
@@ -3592,6 +3594,7 @@
       "Yang Xiang"
     ],
     "title": "Snipuzz: Black-box Fuzzing of IoT Firmware via Message Snippet Inference",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
     "toolurl": "https://github.com/XtEsco/Snipuzz",
     "targets": [
       "IoT"
