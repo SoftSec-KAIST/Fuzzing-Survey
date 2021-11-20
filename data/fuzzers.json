@@ -3602,6 +3602,38 @@
     "color": "blackbox"
   },
   {
+    "name": "SoFi",
+    "year": 2021,
+    "author": [
+      "Xiaoyu He",
+      "Xiaofei Xie",
+      "Yuekang Li",
+      "Jianwen Sun",
+      "Feng Li",
+      "Wei Zou",
+      "Yang Liu",
+      "Lei Yu",
+      "Jianhua Zhou ",
+      "Wenchang Shi",
+      "Wei Huo"
+    ],
+    "title": "SoFi: Reflection-Augmented Fuzzing for JavaScript Engines",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "toolurl": "https://sites.google.com/view/sofi4js",
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3460120.3484823"
+    ],
+    "targets": [
+      "JavaScript"
+    ],
+    "references": [
+      "Superion",
+      "CodeAlchemist",
+      "Die"
+    ],
+    "color": "whitebox"
+  },
+  {
     "name": "SpecFuzz",
     "year": 2020,
     "author": [
@@ -3821,6 +3853,21 @@
       "AFL"
     ],
     "color": "whitebox"
+  },
+  {
+    "name": "T-Reqs",
+    "year": 2021,
+    "author": [
+      "Bahruz Jabiyev",
+      "Steven Sprecher",
+      "Kaan Onarlioglu",
+      "Engin Kirdah"
+    ],
+    "title": "T-Reqs: HTTP Request Smuggling with Differential Fuzzing",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://seclab.nu/static/publications/ccs2021treqs.pdf"
+    ]
   },
   {
     "name": "TFuzz",
