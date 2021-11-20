@@ -3867,7 +3867,16 @@
     "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
     "miscurl": [
       "https://seclab.nu/static/publications/ccs2021treqs.pdf"
-    ]
+    ],
+    "toolurl": "https://github.com/bahruzjabiyev/t-reqs-http-fuzzer",
+    "targets": [
+      "HTTP request"
+    ],
+    "references": [
+      "Nautilus",
+      "DifFuzz"
+    ],
+    "color": "greybox"
   },
   {
     "name": "TFuzz",
