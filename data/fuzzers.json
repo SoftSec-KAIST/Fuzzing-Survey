@@ -1894,7 +1894,8 @@
       "Hypervisor"
     ],
     "references": [
-      "AFL"
+      "AFL",
+      "SAGE"
     ],
     "color": "whitebox"
   },
@@ -3357,7 +3358,8 @@
       "Smart Contract"
     ],
     "references": [
-      "Eclipser"
+      "Eclipser",
+      "ContractFuzzer"
     ],
     "color": "greybox"
   },
