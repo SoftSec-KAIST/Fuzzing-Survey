@@ -578,6 +578,30 @@
     ]
   },
   {
+    "name": "COOPER",
+    "year": 2022,
+    "author": [
+      "Peng Xu",
+      "Yanhao Wang",
+      "Hong Hu",
+      "Purui Su"
+    ],
+    "title": "COOPER: Testing the Binding Code of Scripting Languages with Cooperative Mutation",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "miscurl": [
+      "https://huhong789.github.io/papers/xu:cooper.pdf"
+    ],
+    "toolurl": "https://github.com/TCA-ISCAS/Cooper",
+    "targets": [
+      "JavaScript",
+      "VBA"
+    ],
+    "references": [
+      "Favocado"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "CSmith",
     "year": 2011,
     "author": [
@@ -1156,6 +1180,32 @@
     ],
     "miscurl": [
       "https://www.defcon.org/images/defcon-15/dc15-presentations/dc-15-demott_enbody_and_punch.pdf"
+    ],
+    "color": "greybox"
+  },
+  {
+    "name": "EMS",
+    "year": 2022,
+    "author": [
+      "Chenyang Lyu",
+      "Shouling Ji",
+      "Xuhong Zhang",
+      "Hong Liang",
+      "Binbin Zhao",
+      "Kangjie Lu",
+      "Raheem Beyah"
+    ],
+    "title": "EMS: History-Driven Mutation for Coverage-based Fuzzing",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "miscurl": [
+      "https://nesa.zju.edu.cn/download/lcy_pdf_ems_ndss22.pdf"
+    ],
+    "toolurl": "https://github.com/puppet-meteor/EMS",
+    "targets": [
+      "File"
+    ],
+    "references": [
+      "MOPT"
     ],
     "color": "greybox"
   },
