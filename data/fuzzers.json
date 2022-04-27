@@ -555,6 +555,29 @@
     ]
   },
   {
+    "name": "CONZZER",
+    "year": 2022,
+    "targets": [
+      "Concurrency"
+    ],
+    "color": "greybox",
+    "author": [
+      "Zu-Ming Jiang",
+      "Jia-Ju Bai",
+      "Kangjie Lu",
+      "Shi-Min Hu"
+    ],
+    "toolurl": "https://oslab.cs.tsinghua.edu.cn/CONZZER/",
+    "title": "Context-Sensitive and Directional Concurrency Fuzzing for Data-Race Detection",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "miscurl": [
+      "https://www-users.cse.umn.edu/~kjlu/papers/conzzer.pdf"
+    ],
+    "references": [
+      "Krace"
+    ]
+  },
+  {
     "name": "CSmith",
     "year": 2011,
     "author": [
