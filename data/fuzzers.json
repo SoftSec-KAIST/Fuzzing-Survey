@@ -902,6 +902,29 @@
     ]
   },
   {
+    "name": "DR.FUZZ",
+    "year": 2022,
+    "author": [
+      "Wenjia Zhao",
+      "Kangjie Lu",
+      "Qiushi Wu",
+      "Yong Qi"
+    ],
+    "title": "COOPER: Testing the Binding Code of Scripting Languages with Cooperative Mutation",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "toolurl": "https://github.com/secsysresearch/DRFuzz",
+    "targets": [
+      "Kernel"
+    ],
+    "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/2022-345-paper.pdf"
+    ],
+    "references": [
+      "syzkaller"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "DeadlockFuzzer",
     "year": 2009,
     "author": [
@@ -2745,6 +2768,31 @@
       "File"
     ],
     "color": "whitebox"
+  },
+  {
+    "name": "MobFuzz",
+    "year": 2022,
+    "author": [
+      "Gen Zhang",
+      "Pengfei Wang",
+      "Tai Yue",
+      "Xiangdong Kong",
+      "Shan Huang",
+      "Xu Zhou",
+      "Kai Lu"
+    ],
+    "title": "MobFuzz: Adaptive Multi-objective Optimization in Gray-box Fuzzing",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "targets": [
+      "File"
+    ],
+    "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/2022-314-paper.pdf"
+    ],
+    "references": [
+      "AFL"
+    ],
+    "color": "greybox"
   },
   {
     "name": "Montage",
