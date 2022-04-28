@@ -910,7 +910,7 @@
       "Qiushi Wu",
       "Yong Qi"
     ],
-    "title": "COOPER: Testing the Binding Code of Scripting Languages with Cooperative Mutation",
+    "title": "Semantic-Informed Driver Fuzzing Without Both the Hardware Devices and the Emulators",
     "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
     "toolurl": "https://github.com/secsysresearch/DRFuzz",
     "targets": [
