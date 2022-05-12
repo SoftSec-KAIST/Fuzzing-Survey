@@ -336,6 +336,27 @@
     "color": "blackbox"
   },
   {
+    "name": "BeDivFuzz",
+    "year": 2022,
+    "targets": [
+      "Java"
+    ],
+    "color": "greybox",
+    "author": [
+      "Hoang Lam Nguyen",
+      "Lars Grunske"
+    ],
+    "toolurl": "https://github.com/hub-se/BeDivFuzz",
+    "title": "BeDivFuzz: Integrating Behavioral Diversity into Generator-based Fuzzing",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "references": [
+      "JQF"
+    ],
+    "miscurl": [
+      "https://arxiv.org/pdf/2202.13114.pdf"
+    ]
+  },
+  {
     "name": "BigFuzz",
     "year": 2020,
     "author": [
@@ -580,6 +601,29 @@
     ],
     "keywords": [
       "JavaScript"
+    ]
+  },
+  {
+    "name": "CONFETTI",
+    "year": 2022,
+    "targets": [
+      "Java"
+    ],
+    "color": "whitebox",
+    "author": [
+      "James Kukucka",
+      "Luís Pina",
+      "Paul Ammann",
+      "Jonathan Bell"
+    ],
+    "toolurl": "https://github.com/neu-se/CONFETTI",
+    "title": "CONFETTI: Amplifying Concolic Guidance for Fuzzers",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "references": [
+      "JQF"
+    ],
+    "miscurl": [
+      "https://www.jonbell.net/preprint/confetti.pdf"
     ]
   },
   {
@@ -1612,6 +1656,26 @@
     "color": "greybox"
   },
   {
+    "name": "FreeFuzz",
+    "year": 2022,
+    "targets": [
+      "API"
+    ],
+    "color": "greybox",
+    "author": [
+      "Anjiang Wei",
+      "Yinlin Deng",
+      "Chenyuan Yang",
+      "Lingming Zhang"
+    ],
+    "toolurl": "https://github.com/ise-uiuc/FreeFuzz",
+    "title": "Free Lunch for Testing: Fuzzing Deep-Learning Libraries from Open Source",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "miscurl": [
+      "https://cs.stanford.edu/~anjiang/papers/WeiETAL22FreeFuzz.pdf"
+    ]
+  },
+  {
     "name": "FuzzBALL",
     "year": 2011,
     "author": [
@@ -1770,6 +1834,27 @@
       "File"
     ],
     "color": "whitebox"
+  },
+  {
+    "name": "GraphFuzz",
+    "year": 2022,
+    "targets": [
+      "API"
+    ],
+    "color": "greybox",
+    "author": [
+      "Harrison Green",
+      "Thanassis Avgerinos"
+    ],
+    "toolurl": "https://github.com/ForAllSecure/GraphFuzz",
+    "title": "GraphFuzz: Library API Fuzzing with Lifetime-aware Dataflow Graphs",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "references": [
+      "LibFuzzer"
+    ],
+    "miscurl": [
+      "https://hgarrereyn.github.io/GraphFuzz/research/GraphFuzz_ICSE_2022.pdf"
+    ]
   },
   {
     "name": "GreyOne",
@@ -2467,6 +2552,31 @@
       "PROTOS"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "LTL-Fuzzer",
+    "year": 2022,
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Ruijie Meng",
+      "Zhen Dong",
+      "Jialin Li",
+      "Ivan Beschastnikh",
+      "Abhik Roychoudhury"
+    ],
+    "toolurl": "https://github.com/ltlfuzzer/LTL-Fuzzer",
+    "title": "Linear-time Temporal Logic guided Greybox Fuzzing",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "references": [
+      "AFL",
+      "AFLGo"
+    ],
+    "miscurl": [
+      "https://arxiv.org/pdf/2109.02312.pdf"
+    ]
   },
   {
     "name": "LZfuzz",
@@ -3327,6 +3437,36 @@
       "Die"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "PreFuzz",
+    "year": 2022,
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Mingyuan Wu",
+      "Liang Jiang",
+      "Jiahong Xiang",
+      "Yuqun Zhang",
+      "Guowei Yang",
+      "Huixin Ma",
+      "Sen Nie",
+      "Shi Wu",
+      "Heming Cui",
+      "Lingming Zhang"
+    ],
+    "toolurl": "https://github.com/PoShaung/program-smoothing-fuzzing",
+    "title": "Evaluating and Improving Neural Program-Smoothing-based Fuzzing",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "references": [
+      "Neuzz",
+      "MTFuzz"
+    ],
+    "miscurl": [
+      "http://zhangyuqun.com/publications/icse2022a.pdf"
+    ]
   },
   {
     "name": "ProFuzzer",
