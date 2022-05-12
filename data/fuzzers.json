@@ -293,6 +293,34 @@
     "color": "blackbox"
   },
   {
+    "name": "BEACON",
+    "year": 2022,
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Heqing Huang",
+      "Yiyuan Guo",
+      "Qingkai Shi",
+      "Peisen Yao",
+      "Rongxin Wu",
+      "Charles Zhang"
+    ],
+    "toolurl": "https://hub.docker.com/r/yguoaz/beacon",
+    "title": "BEACON : Directed Grey-Box Fuzzing with Provable Path Pruning",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "references": [
+      "AFLGo"
+    ],
+    "miscurl": [
+      "https://qingkaishi.github.io/public_pdfs/SP22.pdf"
+    ],
+    "keywords": [
+      "Directed fuzzing"
+    ]
+  },
+  {
     "name": "BFF",
     "year": 2010,
     "author": [
@@ -1449,6 +1477,29 @@
     "color": "blackbox"
   },
   {
+    "name": "FUZZUSB",
+    "year": 2022,
+    "targets": [
+      "Kernel"
+    ],
+    "color": "greybox",
+    "author": [
+      "Kyungtae Kim",
+      "Taegyu Kim",
+      "Ertza Warraich",
+      "Byoungyoung Lee"
+    ],
+    "toolurl": "https://github.com/purseclab/fuzzusb",
+    "title": "FuzzUSB: Hybrid Stateful Fuzzing of USB Gadget Stacks",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "references": [
+      "syzkaller"
+    ],
+    "miscurl": [
+      "https://www.computer.org/csdl/proceedings-article/sp/2022/131600a632/1A4Q3mz4uLm"
+    ]
+  },
+  {
     "name": "FairFuzz",
     "year": 2018,
     "author": [
@@ -2163,6 +2214,29 @@
     "color": "blackbox"
   },
   {
+    "name": "JIGSAW",
+    "year": 2022,
+    "targets": [
+      "File"
+    ],
+    "color": "whitebox",
+    "author": [
+      "Ju Chen",
+      "Jinghan Wang",
+      "Chengyu Song",
+      "Heng Yin"
+    ],
+    "toolurl": "https://github.com/R-Fuzz/jigsaw",
+    "title": "JIGSAW: Efficient and Scalable Path Constraints Fuzzing",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "references": [
+      "Angora"
+    ],
+    "miscurl": [
+      "https://www.computer.org/csdl/proceedings-article/sp/2022/131600b531/1CIO7Am84aA"
+    ]
+  },
+  {
     "name": "JQF",
     "year": 2019,
     "author": [
@@ -2207,6 +2281,25 @@
       "kAFL"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "K-Scheduler",
+    "year": 2022,
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Dongdong She",
+      "Abhishek Shah",
+      "Suman Jana"
+    ],
+    "toolurl": "https://github.com/Dongdongshe/K-Scheduler",
+    "title": "Effective Seed Scheduling for Fuzzing with Graph Centrality Analysis",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://www.computer.org/csdl/proceedings-article/sp/2022/131600b558/1CIO87fBXK8"
+    ]
   },
   {
     "name": "KLEE",
@@ -3042,6 +3135,30 @@
       "kAFL"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "PATA",
+    "year": 2022,
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Jie Liang",
+      "Mingzhe Wang",
+      "Chijin Zhou",
+      "Zhiyong Wu",
+      "Yu Jiang",
+      "Jianzhong Liu",
+      "Zhe Liu",
+      "Jiaguang Sun"
+    ],
+    "toolurl": "https://github.com/PATA-FUZZ/pata",
+    "title": "PATA: Fuzzing with Path Aware Taint Analysis",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://www.computer.org/csdl/proceedings-article/sp/2022/131600a154/1wKCe9rJFfi"
+    ]
   },
   {
     "name": "PGFUZZ",
@@ -4812,5 +4929,30 @@
       "File"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "𝜇AFL",
+    "year": 2022,
+    "targets": [
+      "Firmware"
+    ],
+    "color": "greybox",
+    "author": [
+      "Wenqiang Li",
+      "Jiameng Shi",
+      "Fengjun Li",
+      "Jingqiang Lin",
+      "Wei Wang",
+      "Le Guan"
+    ],
+    "toolurl": "https://github.com/MCUSec/microAFL",
+    "title": "𝜇AFL: Non-intrusive Feedback-driven Fuzzing for Microcontroller Firmware",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "references": [
+      "AFL"
+    ],
+    "miscurl": [
+      "https://arxiv.org/pdf/2202.03013.pdf"
+    ]
   }
 ]
