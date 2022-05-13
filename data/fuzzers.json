@@ -4608,6 +4608,28 @@
     "color": "greybox"
   },
   {
+    "name": "WindRanger",
+    "year": 2022,
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Zhengjie Du",
+      "Yuekang Li",
+      "Yang Liu",
+      "Bing Mao"
+    ],
+    "title": "WindRanger: A Directed Greybox Fuzzer driven by DeviationBasic Blocks",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "references": [
+      "AFL"
+    ],
+    "miscurl": [
+      "https://sites.google.com/view/windrange-directed-fuzzing"
+    ]
+  },
+  {
     "name": "ZAFL",
     "year": 2021,
     "author": [
