@@ -293,6 +293,34 @@
     "color": "blackbox"
   },
   {
+    "name": "BEACON",
+    "year": 2022,
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Heqing Huang",
+      "Yiyuan Guo",
+      "Qingkai Shi",
+      "Peisen Yao",
+      "Rongxin Wu",
+      "Charles Zhang"
+    ],
+    "toolurl": "https://hub.docker.com/r/yguoaz/beacon",
+    "title": "BEACON : Directed Grey-Box Fuzzing with Provable Path Pruning",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "references": [
+      "AFLGo"
+    ],
+    "miscurl": [
+      "https://qingkaishi.github.io/public_pdfs/SP22.pdf"
+    ],
+    "keywords": [
+      "Directed fuzzing"
+    ]
+  },
+  {
     "name": "BFF",
     "year": 2010,
     "author": [
@@ -306,6 +334,27 @@
       "zzuf"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "BeDivFuzz",
+    "year": 2022,
+    "targets": [
+      "Java"
+    ],
+    "color": "greybox",
+    "author": [
+      "Hoang Lam Nguyen",
+      "Lars Grunske"
+    ],
+    "toolurl": "https://github.com/hub-se/BeDivFuzz",
+    "title": "BeDivFuzz: Integrating Behavioral Diversity into Generator-based Fuzzing",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "references": [
+      "JQF"
+    ],
+    "miscurl": [
+      "https://arxiv.org/pdf/2202.13114.pdf"
+    ]
   },
   {
     "name": "BigFuzz",
@@ -552,6 +601,29 @@
     ],
     "keywords": [
       "JavaScript"
+    ]
+  },
+  {
+    "name": "CONFETTI",
+    "year": 2022,
+    "targets": [
+      "Java"
+    ],
+    "color": "whitebox",
+    "author": [
+      "James Kukucka",
+      "Luís Pina",
+      "Paul Ammann",
+      "Jonathan Bell"
+    ],
+    "toolurl": "https://github.com/neu-se/CONFETTI",
+    "title": "CONFETTI: Amplifying Concolic Guidance for Fuzzers",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "references": [
+      "JQF"
+    ],
+    "miscurl": [
+      "https://www.jonbell.net/preprint/confetti.pdf"
     ]
   },
   {
@@ -1449,6 +1521,29 @@
     "color": "blackbox"
   },
   {
+    "name": "FUZZUSB",
+    "year": 2022,
+    "targets": [
+      "Kernel"
+    ],
+    "color": "greybox",
+    "author": [
+      "Kyungtae Kim",
+      "Taegyu Kim",
+      "Ertza Warraich",
+      "Byoungyoung Lee"
+    ],
+    "toolurl": "https://github.com/purseclab/fuzzusb",
+    "title": "FuzzUSB: Hybrid Stateful Fuzzing of USB Gadget Stacks",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "references": [
+      "syzkaller"
+    ],
+    "miscurl": [
+      "https://www.computer.org/csdl/proceedings-article/sp/2022/131600a632/1A4Q3mz4uLm"
+    ]
+  },
+  {
     "name": "FairFuzz",
     "year": 2018,
     "author": [
@@ -1559,6 +1654,26 @@
       "Dharma"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "FreeFuzz",
+    "year": 2022,
+    "targets": [
+      "API"
+    ],
+    "color": "greybox",
+    "author": [
+      "Anjiang Wei",
+      "Yinlin Deng",
+      "Chenyuan Yang",
+      "Lingming Zhang"
+    ],
+    "toolurl": "https://github.com/ise-uiuc/FreeFuzz",
+    "title": "Free Lunch for Testing: Fuzzing Deep-Learning Libraries from Open Source",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "miscurl": [
+      "https://cs.stanford.edu/~anjiang/papers/WeiETAL22FreeFuzz.pdf"
+    ]
   },
   {
     "name": "FuzzBALL",
@@ -1719,6 +1834,27 @@
       "File"
     ],
     "color": "whitebox"
+  },
+  {
+    "name": "GraphFuzz",
+    "year": 2022,
+    "targets": [
+      "API"
+    ],
+    "color": "greybox",
+    "author": [
+      "Harrison Green",
+      "Thanassis Avgerinos"
+    ],
+    "toolurl": "https://github.com/ForAllSecure/GraphFuzz",
+    "title": "GraphFuzz: Library API Fuzzing with Lifetime-aware Dataflow Graphs",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "references": [
+      "LibFuzzer"
+    ],
+    "miscurl": [
+      "https://hgarrereyn.github.io/GraphFuzz/research/GraphFuzz_ICSE_2022.pdf"
+    ]
   },
   {
     "name": "GreyOne",
@@ -2163,6 +2299,29 @@
     "color": "blackbox"
   },
   {
+    "name": "JIGSAW",
+    "year": 2022,
+    "targets": [
+      "File"
+    ],
+    "color": "whitebox",
+    "author": [
+      "Ju Chen",
+      "Jinghan Wang",
+      "Chengyu Song",
+      "Heng Yin"
+    ],
+    "toolurl": "https://github.com/R-Fuzz/jigsaw",
+    "title": "JIGSAW: Efficient and Scalable Path Constraints Fuzzing",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "references": [
+      "Angora"
+    ],
+    "miscurl": [
+      "https://www.computer.org/csdl/proceedings-article/sp/2022/131600b531/1CIO7Am84aA"
+    ]
+  },
+  {
     "name": "JQF",
     "year": 2019,
     "author": [
@@ -2207,6 +2366,25 @@
       "kAFL"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "K-Scheduler",
+    "year": 2022,
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Dongdong She",
+      "Abhishek Shah",
+      "Suman Jana"
+    ],
+    "toolurl": "https://github.com/Dongdongshe/K-Scheduler",
+    "title": "Effective Seed Scheduling for Fuzzing with Graph Centrality Analysis",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://www.computer.org/csdl/proceedings-article/sp/2022/131600b558/1CIO87fBXK8"
+    ]
   },
   {
     "name": "KLEE",
@@ -2374,6 +2552,31 @@
       "PROTOS"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "LTL-Fuzzer",
+    "year": 2022,
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Ruijie Meng",
+      "Zhen Dong",
+      "Jialin Li",
+      "Ivan Beschastnikh",
+      "Abhik Roychoudhury"
+    ],
+    "toolurl": "https://github.com/ltlfuzzer/LTL-Fuzzer",
+    "title": "Linear-time Temporal Logic guided Greybox Fuzzing",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "references": [
+      "AFL",
+      "AFLGo"
+    ],
+    "miscurl": [
+      "https://arxiv.org/pdf/2109.02312.pdf"
+    ]
   },
   {
     "name": "LZfuzz",
@@ -3044,6 +3247,30 @@
     "color": "greybox"
   },
   {
+    "name": "PATA",
+    "year": 2022,
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Jie Liang",
+      "Mingzhe Wang",
+      "Chijin Zhou",
+      "Zhiyong Wu",
+      "Yu Jiang",
+      "Jianzhong Liu",
+      "Zhe Liu",
+      "Jiaguang Sun"
+    ],
+    "toolurl": "https://github.com/PATA-FUZZ/pata",
+    "title": "PATA: Fuzzing with Path Aware Taint Analysis",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://www.computer.org/csdl/proceedings-article/sp/2022/131600a154/1wKCe9rJFfi"
+    ]
+  },
+  {
     "name": "PGFUZZ",
     "year": 2021,
     "author": [
@@ -3210,6 +3437,36 @@
       "Die"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "PreFuzz",
+    "year": 2022,
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Mingyuan Wu",
+      "Ling Jiang",
+      "Jiahong Xiang",
+      "Yuqun Zhang",
+      "Guowei Yang",
+      "Huixin Ma",
+      "Sen Nie",
+      "Shi Wu",
+      "Heming Cui",
+      "Lingming Zhang"
+    ],
+    "toolurl": "https://github.com/PoShaung/program-smoothing-fuzzing",
+    "title": "Evaluating and Improving Neural Program-Smoothing-based Fuzzing",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "references": [
+      "Neuzz",
+      "MTFuzz"
+    ],
+    "miscurl": [
+      "http://zhangyuqun.com/publications/icse2022a.pdf"
+    ]
   },
   {
     "name": "ProFuzzer",
@@ -4351,6 +4608,28 @@
     "color": "greybox"
   },
   {
+    "name": "WindRanger",
+    "year": 2022,
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Zhengjie Du",
+      "Yuekang Li",
+      "Yang Liu",
+      "Bing Mao"
+    ],
+    "title": "WindRanger: A Directed Greybox Fuzzer driven by DeviationBasic Blocks",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "references": [
+      "AFL"
+    ],
+    "miscurl": [
+      "https://sites.google.com/view/windrange-directed-fuzzing"
+    ]
+  },
+  {
     "name": "ZAFL",
     "year": 2021,
     "author": [
@@ -4812,5 +5091,30 @@
       "File"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "𝜇AFL",
+    "year": 2022,
+    "targets": [
+      "Firmware"
+    ],
+    "color": "greybox",
+    "author": [
+      "Wenqiang Li",
+      "Jiameng Shi",
+      "Fengjun Li",
+      "Jingqiang Lin",
+      "Wei Wang",
+      "Le Guan"
+    ],
+    "toolurl": "https://github.com/MCUSec/microAFL",
+    "title": "𝜇AFL: Non-intrusive Feedback-driven Fuzzing for Microcontroller Firmware",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "references": [
+      "AFL"
+    ],
+    "miscurl": [
+      "https://arxiv.org/pdf/2202.03013.pdf"
+    ]
   }
 ]
