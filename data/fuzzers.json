@@ -1205,6 +1205,28 @@
     "color": "whitebox"
   },
   {
+    "name": "Drifuzz",
+    "year": 2022,
+    "targets": [
+      "Kernel"
+    ],
+    "color": "whitebox",
+    "author": [
+      "Zekun Shen",
+      "Ritik Roongta",
+      "Brendan Dolan-Gavitt"
+    ],
+    "toolurl": "https://github.com/messlabnyu/DrifuzzProject",
+    "title": "Drifuzz: Harvesting Bugs in Device Drivers from Golden Seeds",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "kAFL"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec22-shen-zekun.pdf"
+    ]
+  },
+  {
     "name": "Driller",
     "year": 2016,
     "author": [
@@ -1699,6 +1721,28 @@
       "TaintScope"
     ],
     "color": "whitebox"
+  },
+  {
+    "name": "FuzzOrigin",
+    "year": 2022,
+    "targets": [
+      "DOM"
+    ],
+    "color": "greybox",
+    "author": [
+      "Sunwoo Kim",
+      "Young Min Kim",
+      "Jaewon Hur",
+      "Suhwan Song",
+      "Gwangmu Lee",
+      "Byoungyoung Lee"
+    ],
+    "toolurl": "https://github.com/compsec-snu/fuzzorigin",
+    "title": "FuzzOrigin: Detecting UXSS vulnerabilities in Browsers through Origin Fuzzing",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec22-kim.pdf"
+    ]
   },
   {
     "name": "Fuzzbox",
@@ -3018,6 +3062,50 @@
       "CodeAlchemist"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "Morphuzz",
+    "year": 2022,
+    "targets": [
+      "Hypervisor"
+    ],
+    "color": "greybox",
+    "author": [
+      "Alexander Bulekov",
+      "Bandan Das",
+      "Stefan Hajnoczi",
+      "Manuel Egele"
+    ],
+    "toolurl": "https://doi.org/10.5281/zenodo.5664344",
+    "title": "Morphuzz: Bending (Input) Space to Fuzz Virtual Devices",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "LibFuzzer"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec22-bulekov.pdf"
+    ]
+  },
+  {
+    "name": "MundoFuzz",
+    "year": 2022,
+    "targets": [
+      "Hypervisor"
+    ],
+    "color": "greybox",
+    "author": [
+      "Cheolwoo Myung",
+      "Gwangmu Lee",
+      "Byoungyoung Lee"
+    ],
+    "title": "MundoFuzz: Hypervisor Fuzzing with Statistical Coverage Testing and Grammar Inference",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "AFL"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec22-myung.pdf"
+    ]
   },
   {
     "name": "MutaGen",
@@ -4367,6 +4455,28 @@
       "AFL"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "TheHuzz",
+    "year": 2022,
+    "targets": [
+      "CPU"
+    ],
+    "color": "greybox",
+    "author": [
+      "Rahul Kande",
+      "Addison Crump",
+      "Garrett Persyn",
+      "Patrick Jauernig",
+      "Ahmad-Reza Sadeghi",
+      "Aakash Tyagi",
+      "Jeyavijayan Rajendran"
+    ],
+    "title": "TheHuzz: Instruction Fuzzing of Processors Using Golden-Reference Models for Finding Software-Exploitable Vulnerabilities",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec22-kande.pdf"
+    ]
   },
   {
     "name": "TortoiseFuzz",
