@@ -1062,6 +1062,22 @@
     "color": "greybox"
   },
   {
+    "name": "DeepREL",
+    "year": "2022",
+    "targets": [
+      "Lib"
+    ],
+    "color": "greybox",
+    "author": [
+      "Yinlin Deng",
+      "Chenyuan Yang",
+      "Anjiang Wei",
+      "Lingming Zhang"
+    ],
+    "toolurl": "https://github.com/ise-uiuc/DeepREL",
+    "title": "Fuzzing Deep-Learning Libraries via Automated Relational API Inference"
+  },
+  {
     "name": "Dewey et al.",
     "year": 2014,
     "author": [
@@ -2999,6 +3015,29 @@
       "File"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "Minerva",
+    "year": "2022",
+    "targets": [
+      "API"
+    ],
+    "color": "greybox",
+    "author": [
+      "Chijin Zhou",
+      "Quan Zhang",
+      "Mingzhe Wang",
+      "Lihua Guo",
+      "Jie Liang",
+      "Zhe Liu",
+      "Mathias Payer",
+      "Yu Jiang"
+    ],
+    "toolurl": "https://github.com/ChijinZ/Minerva",
+    "title": "Minerva: Browser API Fuzzing with Dynamic Mod-Ref Analysis",
+    "miscurl": [
+      "https://nebelwelt.net/files/22FSE.pdf"
+    ]
   },
   {
     "name": "Minifuzz",
