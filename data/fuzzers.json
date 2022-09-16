@@ -4636,6 +4636,9 @@
     ],
     "title": "TheHuzz: Instruction Fuzzing of Processors Using Golden-Reference Models for Finding Software-Exploitable Vulnerabilities",
     "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "DifuzzRTL"
+    ],
     "miscurl": [
       "https://www.usenix.org/system/files/sec22-kande.pdf"
     ]
