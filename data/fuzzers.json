@@ -1075,7 +1075,10 @@
       "Lingming Zhang"
     ],
     "toolurl": "https://github.com/ise-uiuc/DeepREL",
-    "title": "Fuzzing Deep-Learning Libraries via Automated Relational API Inference"
+    "title": "Fuzzing Deep-Learning Libraries via Automated Relational API Inference",
+    "references": [
+      "FreeFuzz"
+    ]
   },
   {
     "name": "Dewey et al.",
