@@ -1076,6 +1076,7 @@
     ],
     "toolurl": "https://github.com/ise-uiuc/DeepREL",
     "title": "Fuzzing Deep-Learning Libraries via Automated Relational API Inference",
+    "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
     "references": [
       "FreeFuzz"
     ]
@@ -3038,6 +3039,7 @@
     ],
     "toolurl": "https://github.com/ChijinZ/Minerva",
     "title": "Minerva: Browser API Fuzzing with Dynamic Mod-Ref Analysis",
+    "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
     "miscurl": [
       "https://nebelwelt.net/files/22FSE.pdf"
     ]
