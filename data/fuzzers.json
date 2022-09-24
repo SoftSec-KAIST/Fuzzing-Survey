@@ -484,7 +484,9 @@
     "toolurl": "https://github.com/Matheus-Garbelini/braktooth_esp32_bluetooth_classic_attacks",
     "title": "BrakTooth: Causing Havoc on Bluetooth Link Manater via Directed Fuzzing",
     "booktitle": "Proceedings of the USENIX Security Symposium",
-    "references": [],
+    "references": [
+      "Frankenstein"
+    ],
     "miscurl": [
       "https://www.usenix.org/system/files/sec22-garbelini.pdf"
     ]
@@ -4755,7 +4757,9 @@
     ],
     "title": "Fuzzing Hardware Like Software",
     "booktitle": "Proceedings of the USENIX Security Symposium",
-    "references": [],
+    "references": [
+      "AFL"
+    ],
     "miscurl": [
       "https://www.usenix.org/system/files/sec22-trippel.pdf"
     ]
