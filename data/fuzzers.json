@@ -1807,6 +1807,10 @@
     "toolurl": "https://github.com/compsec-snu/fuzzorigin",
     "title": "FuzzOrigin: Detecting UXSS vulnerabilities in Browsers through Origin Fuzzing",
     "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "DOMFuzz",
+      "Fuzzilli"
+    ],
     "miscurl": [
       "https://www.usenix.org/system/files/sec22-kim.pdf"
     ]
