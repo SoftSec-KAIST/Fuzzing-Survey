@@ -1912,6 +1912,29 @@
     "color": "blackbox"
   },
   {
+    "name": "GRIFFIN",
+    "year": 2022,
+    "targets": [
+      "DBMS"
+    ],
+    "color": "greybox",
+    "author": [
+      "Jingzhou Fu",
+      "Jie Liang",
+      "Zhiyong Wu",
+      "Mingzhe Wang",
+      "Yu Jiang"
+    ],
+    "title": "GRIFFIN: Grammar-Free DBMS Fuzzing",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "references": [
+      "AFL++"
+    ],
+    "miscurl": [
+      "http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/ASE22-Griffin.pdf"
+    ]
+  },
+  {
     "name": "GRR",
     "year": 2016,
     "author": [
