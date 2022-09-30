@@ -3935,7 +3935,7 @@
     "booktitle": "Proceedings of the USENIX Security Symposium",
     "references": [
       "kAFL",
-      "Nyz"
+      "Nyx"
     ],
     "miscurl": [
       "https://www.usenix.org/system/files/sec22-cloosters.pdf"
@@ -4329,9 +4329,7 @@
     "title": "StateFuzz: System Call-Based State-Aware Linux Dirver Fuzzing",
     "booktitle": "Proceedings of the USENIX Security Symposium",
     "references": [
-      "DIFUZE",
-      "syzkaller",
-      "HFL"
+      "DIFUZE"
     ],
     "miscurl": [
       "https://www.usenix.org/system/files/sec22-zhao-bodong.pdf"
