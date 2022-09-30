@@ -2792,6 +2792,32 @@
     "color": "greykbox"
   },
   {
+    "name": "MC2",
+    "year": "2022",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Abhishek Shah",
+      "Dongdong She",
+      "Samanway Sadhu",
+      "Krish Singal",
+      "Peter Coffman",
+      "Suman Jana"
+    ],
+    "toolurl": "https://hub.docker.com/r/abhishekshah212/mc2",
+    "title": "MC2: Rigorous and Efficient Directed Greybox Fuzzing",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "references": [
+      "AFLGo",
+      "ParmeSan"
+    ],
+    "miscurl": [
+      "https://arxiv.org/pdf/2208.14530.pdf"
+    ]
+  },
+  {
     "name": "MCFuzz",
     "year": 2019,
     "author": [
