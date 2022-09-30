@@ -2506,6 +2506,29 @@
     "color": "greybox"
   },
   {
+    "name": "Jit-Picker",
+    "year": 2022,
+    "targets": [
+      "JavaScript"
+    ],
+    "color": "greybox",
+    "author": [
+      "Lukas Bernhard",
+      "Tobias Scharnowski",
+      "Moritz Schloegel",
+      "Tim Blazytko",
+      "Thorsten Holz"
+    ],
+    "title": "Jit-Picking: Differential Fuzzing of JavaScript Engines",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "references": [
+      "Fuzzilli"
+    ],
+    "miscurl": [
+      "https://publications.cispa.saarland/3773/1/2022-CCS-JIT-Fuzzing.pdf"
+    ]
+  },
+  {
     "name": "K-Scheduler",
     "year": 2022,
     "targets": [
@@ -2775,6 +2798,29 @@
       "SAGE"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "LibAFL",
+    "year": 2022,
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Andrea Fioraldi",
+      "Dominik Maier",
+      "Dongjia Zhang",
+      "Davide Balzarotti"
+    ],
+    "toolurl": "https://github.com/AFLplusplus/LibAFL",
+    "title": "LibAFL: A Framework to Build Modular and Reusable Fuzzers",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "references": [
+      "AFL++"
+    ],
+    "miscurl": [
+      "https://www.s3.eurecom.fr/docs/ccs22_fioraldi.pdf"
+    ]
   },
   {
     "name": "LibFuzzer",
