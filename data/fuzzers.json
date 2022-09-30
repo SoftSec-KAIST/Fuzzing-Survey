@@ -1231,6 +1231,24 @@
     "color": "blackbox"
   },
   {
+    "name": "Domato",
+    "year": "2017",
+    "targets": [
+      "DOM"
+    ],
+    "color": "blackbox",
+    "author": [
+      "Ivan Fratric"
+    ],
+    "toolurl": "https://github.com/googleprojectzero/domato",
+    "references": [
+      "DOMFuzz"
+    ],
+    "keywords": [
+      "JavaScript"
+    ]
+  },
+  {
     "name": "Doupé et al.",
     "year": 2012,
     "author": [
@@ -3046,6 +3064,9 @@
     "toolurl": "https://github.com/ChijinZ/Minerva",
     "title": "Minerva: Browser API Fuzzing with Dynamic Mod-Ref Analysis",
     "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
+    "references": [
+      "Domato"
+    ],
     "miscurl": [
       "https://nebelwelt.net/files/22FSE.pdf"
     ]
