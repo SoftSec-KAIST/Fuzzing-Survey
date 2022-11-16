@@ -3970,6 +3970,41 @@
     "color": "whitebox"
   },
   {
+    "name": "SFuzz",
+    "year": "2022",
+    "targets": [
+      "Firmware"
+    ],
+    "color": "whitebox",
+    "author": [
+      "Libo Chen",
+      "Quanpu Cai",
+      "Zhenbang Ma",
+      "Yanhao Wang",
+      "Hong Hu",
+      "Minghang Shen",
+      "Yue Liu",
+      "Shanqing Guo",
+      "Haixin Duan"
+    ],
+    "toolurl": "https://github.com/NSSL-SJTU/SFuzz",
+    "title": "SFuzz: Slice-based Fuzzing for Real-Time Operating Systems",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "references": [
+      "AFL",
+      "Driller"
+    ],
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3548606.3559367"
+    ],
+    "keywords": [
+      "RTOS",
+      "Slice-based Fuzzing",
+      "Taint analysis",
+      "Concolic execution"
+    ]
+  },
+  {
     "name": "SGFuzz",
     "year": 2022,
     "targets": [
@@ -4009,7 +4044,7 @@
     "booktitle": "Proceedings of the USENIX Security Symposium",
     "references": [
       "kAFL",
-      "Nyz"
+      "Nyx"
     ],
     "miscurl": [
       "https://www.usenix.org/system/files/sec22-cloosters.pdf"
@@ -4336,6 +4371,30 @@
       "Die"
     ],
     "color": "whitebox"
+  },
+  {
+    "name": "SpecDoctor",
+    "year": "2022",
+    "targets": [
+      "CPU"
+    ],
+    "color": "greybox",
+    "author": [
+      "Jaewon Hur",
+      "Suhwan Song",
+      "Sunwoo Kim",
+      "Byoungyoung Lee"
+    ],
+    "title": "SpecDoctor: Differential Fuzz Testing to Find Transient Execution Vulnerabilities",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3548606.3560578"
+    ],
+    "keywords": [
+      "transient-execution vulnerability",
+      "fuzzing",
+      "differential testing"
+    ]
   },
   {
     "name": "SpecFuzz",
