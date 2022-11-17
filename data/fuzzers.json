@@ -4387,6 +4387,9 @@
     ],
     "title": "SpecDoctor: Differential Fuzz Testing to Find Transient Execution Vulnerabilities",
     "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "references": [
+      "DifuzzRTL"
+    ],
     "miscurl": [
       "https://dl.acm.org/doi/pdf/10.1145/3548606.3560578"
     ],
