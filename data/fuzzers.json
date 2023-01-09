@@ -3843,6 +3843,30 @@
     "color": "blackbox"
   },
   {
+    "name": "RLF",
+    "year": 2022,
+    "author": [
+      "Jianzhong Su",
+      "Hong-Ning Dai",
+      "Lingjun Zhao",
+      "Zibin Zheng",
+      "Xiapu Luo"
+    ],
+    "title": "Effectively Generating Vunlerable Transaction Sequences in Smart Contracts with Reinforcement Learning-guided Fuzzing",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "toolurl": "",
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3551349.3560429"
+    ],
+    "targets": [
+      "EVM"
+    ],
+    "references": [
+      "ILF"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "RVFuzzer",
     "year": 2019,
     "author": [
