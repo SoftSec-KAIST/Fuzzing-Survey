@@ -2067,6 +2067,33 @@
     "color": "greybox"
   },
   {
+    "name": "HTFuzz",
+    "year": 2022,
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Yuanping Yu",
+      "Xiangkun Jia",
+      "Yuwei Liu",
+      "Yanhao Wang",
+      "Qian Sang",
+      "Chao Zhang",
+      "Purui Su"
+    ],
+    "toolurl": "https://github.com/sharedata21/HTFuzz",
+    "title": "HTFuzz: Heap Operation Sequence Sensitive Fuzzing",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "references": [
+      "AFL",
+      "MOPT"
+    ],
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3551349.3560415"
+    ]
+  },
+  {
     "name": "HYPER-CUBE",
     "year": 2020,
     "author": [
