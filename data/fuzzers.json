@@ -1930,6 +1930,29 @@
     "color": "blackbox"
   },
   {
+    "name": "GRIFFIN",
+    "year": 2022,
+    "targets": [
+      "DBMS"
+    ],
+    "color": "greybox",
+    "author": [
+      "Jingzhou Fu",
+      "Jie Liang",
+      "Zhiyong Wu",
+      "Mingzhe Wang",
+      "Yu Jiang"
+    ],
+    "title": "GRIFFIN: Grammar-Free DBMS Fuzzing",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "references": [
+      "AFL++"
+    ],
+    "miscurl": [
+      "http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/ASE22-Griffin.pdf"
+    ]
+  },
+  {
     "name": "GRR",
     "year": 2016,
     "author": [
@@ -2060,6 +2083,33 @@
       "syzkaller"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "HTFuzz",
+    "year": 2022,
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Yuanping Yu",
+      "Xiangkun Jia",
+      "Yuwei Liu",
+      "Yanhao Wang",
+      "Qian Sang",
+      "Chao Zhang",
+      "Purui Su"
+    ],
+    "toolurl": "https://github.com/sharedata21/HTFuzz",
+    "title": "HTFuzz: Heap Operation Sequence Sensitive Fuzzing",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "references": [
+      "AFL",
+      "MOPT"
+    ],
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3551349.3560415"
+    ]
   },
   {
     "name": "HYPER-CUBE",
@@ -2501,6 +2551,29 @@
     "color": "greybox"
   },
   {
+    "name": "Jit-Picker",
+    "year": 2022,
+    "targets": [
+      "JavaScript"
+    ],
+    "color": "greybox",
+    "author": [
+      "Lukas Bernhard",
+      "Tobias Scharnowski",
+      "Moritz Schloegel",
+      "Tim Blazytko",
+      "Thorsten Holz"
+    ],
+    "title": "Jit-Picking: Differential Fuzzing of JavaScript Engines",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "references": [
+      "Fuzzilli"
+    ],
+    "miscurl": [
+      "https://publications.cispa.saarland/3773/1/2022-CCS-JIT-Fuzzing.pdf"
+    ]
+  },
+  {
     "name": "K-Scheduler",
     "year": 2022,
     "targets": [
@@ -2772,6 +2845,29 @@
     "color": "greybox"
   },
   {
+    "name": "LibAFL",
+    "year": 2022,
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Andrea Fioraldi",
+      "Dominik Maier",
+      "Dongjia Zhang",
+      "Davide Balzarotti"
+    ],
+    "toolurl": "https://github.com/AFLplusplus/LibAFL",
+    "title": "LibAFL: A Framework to Build Modular and Reusable Fuzzers",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "references": [
+      "AFL++"
+    ],
+    "miscurl": [
+      "https://www.s3.eurecom.fr/docs/ccs22_fioraldi.pdf"
+    ]
+  },
+  {
     "name": "LibFuzzer",
     "author": [],
     "year": 2015,
@@ -2808,6 +2904,32 @@
       "DL inference engine"
     ],
     "color": "greykbox"
+  },
+  {
+    "name": "MC2",
+    "year": "2022",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Abhishek Shah",
+      "Dongdong She",
+      "Samanway Sadhu",
+      "Krish Singal",
+      "Peter Coffman",
+      "Suman Jana"
+    ],
+    "toolurl": "https://hub.docker.com/r/abhishekshah212/mc2",
+    "title": "MC2: Rigorous and Efficient Directed Greybox Fuzzing",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "references": [
+      "AFLGo",
+      "ParmeSan"
+    ],
+    "miscurl": [
+      "https://arxiv.org/pdf/2208.14530.pdf"
+    ]
   },
   {
     "name": "MCFuzz",
@@ -3769,6 +3891,30 @@
     "color": "blackbox"
   },
   {
+    "name": "RLF",
+    "year": 2022,
+    "author": [
+      "Jianzhong Su",
+      "Hong-Ning Dai",
+      "Lingjun Zhao",
+      "Zibin Zheng",
+      "Xiapu Luo"
+    ],
+    "title": "Effectively Generating Vunlerable Transaction Sequences in Smart Contracts with Reinforcement Learning-guided Fuzzing",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "toolurl": "",
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3551349.3560429"
+    ],
+    "targets": [
+      "EVM"
+    ],
+    "references": [
+      "ILF"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "RVFuzzer",
     "year": 2019,
     "author": [
@@ -3894,6 +4040,41 @@
       "File"
     ],
     "color": "whitebox"
+  },
+  {
+    "name": "SFuzz",
+    "year": "2022",
+    "targets": [
+      "Firmware"
+    ],
+    "color": "whitebox",
+    "author": [
+      "Libo Chen",
+      "Quanpu Cai",
+      "Zhenbang Ma",
+      "Yanhao Wang",
+      "Hong Hu",
+      "Minghang Shen",
+      "Yue Liu",
+      "Shanqing Guo",
+      "Haixin Duan"
+    ],
+    "toolurl": "https://github.com/NSSL-SJTU/SFuzz",
+    "title": "SFuzz: Slice-based Fuzzing for Real-Time Operating Systems",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "references": [
+      "AFL",
+      "Driller"
+    ],
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3548606.3559367"
+    ],
+    "keywords": [
+      "RTOS",
+      "Slice-based Fuzzing",
+      "Taint analysis",
+      "Concolic execution"
+    ]
   },
   {
     "name": "SGFuzz",
@@ -4262,6 +4443,33 @@
       "Die"
     ],
     "color": "whitebox"
+  },
+  {
+    "name": "SpecDoctor",
+    "year": "2022",
+    "targets": [
+      "CPU"
+    ],
+    "color": "greybox",
+    "author": [
+      "Jaewon Hur",
+      "Suhwan Song",
+      "Sunwoo Kim",
+      "Byoungyoung Lee"
+    ],
+    "title": "SpecDoctor: Differential Fuzz Testing to Find Transient Execution Vulnerabilities",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "references": [
+      "DifuzzRTL"
+    ],
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3548606.3560578"
+    ],
+    "keywords": [
+      "transient-execution vulnerability",
+      "fuzzing",
+      "differential testing"
+    ]
   },
   {
     "name": "SpecFuzz",
