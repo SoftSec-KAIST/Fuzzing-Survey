@@ -1808,6 +1808,29 @@
     "color": "whitebox"
   },
   {
+    "name": "FuzzNG",
+    "year": "2023",
+    "targets": [
+      "Kernel"
+    ],
+    "color": "greybox",
+    "author": [
+      "Alexander Bulekov",
+      "Bandan Das",
+      "Stefan Hajnoczi",
+      "Manuel Egele"
+    ],
+    "toolurl": "https://github.com/BUseclab/FuzzNG",
+    "title": "No Grammar, No Problem: Towards Fuzzing the Linux Kernel without System-Call Descriptions",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "references": [
+      "syzkaller"
+    ],
+    "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f688_paper.pdf"
+    ]
+  },
+  {
     "name": "FuzzOrigin",
     "year": 2022,
     "targets": [
