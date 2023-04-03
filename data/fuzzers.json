@@ -1721,6 +1721,28 @@
     "color": "blackbox"
   },
   {
+    "name": "Fluffy",
+    "year": "2023",
+    "targets": [
+      "Blockchain"
+    ],
+    "color": "greybox",
+    "author": [
+      "Youngseok Yang",
+      "Taesoo Kim",
+      "Byung-Gon Chun"
+    ],
+    "toolurl": "https://github.com/snuspl/fluffy",
+    "title": "Finding Consensus Bugs in Ethereum via Multi-transaction Differential Fuzzing",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "LibFuzzer"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/osdi21-yang.pdf"
+    ]
+  },
+  {
     "name": "Frankenstein",
     "year": 2020,
     "author": [
@@ -2794,6 +2816,9 @@
     "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
     "miscurl": [
       "https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f78_paper.pdf"
+    ],
+    "references": [
+      "Fluffy"
     ]
   },
   {
