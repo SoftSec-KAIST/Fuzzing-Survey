@@ -1854,17 +1854,27 @@
     "name": "Fuzzilli",
     "year": 2019,
     "author": [
-      "Samuel Groß"
+      "Samuel Groß",
+      "Simon Koch",
+      "Lukas Bernhard",
+      "Thorsten Holz",
+      "Martin Johns"
     ],
     "targets": [
       "File"
     ],
+    "title": "FUZZILLI: Fuzzing for JavaScript JIT Compiler Vulnerabilities",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
     "toolurl": "https://github.com/googleprojectzero/fuzzilli",
     "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f290_paper.pdf",
       "https://saelo.github.io/presentations/offensivecon_19_fuzzilli.pdf",
       "https://saelo.github.io/papers/thesis.pdf"
     ],
-    "color": "greybox"
+    "color": "greybox",
+    "keywords": [
+      "JavaScript"
+    ]
   },
   {
     "name": "Fuzzolic",
@@ -2739,6 +2749,29 @@
       "Sulley"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "LOKI",
+    "year": "2023",
+    "targets": [
+      "Blockchain"
+    ],
+    "color": "greybox",
+    "author": [
+      "Fuchen Ma",
+      "Yuanliang Chen,Meng Ren",
+      "Yuanhang Zhou",
+      "Yu Jiang",
+      "Ting Chen",
+      "Huizhong Li",
+      "Jiaguang Sun"
+    ],
+    "toolurl": "https://github.com/ConsensusFuzz/LOKI",
+    "title": "LOKI: State-Aware Fuzzing Framework for the Implementation of Blockchain Consensus Protocols",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f78_paper.pdf"
+    ]
   },
   {
     "name": "LTEFuzz",
