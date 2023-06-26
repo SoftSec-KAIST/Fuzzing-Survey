@@ -4413,6 +4413,33 @@
     "color": "whitebox"
   },
   {
+    "name": "SeamFuzz",
+    "year": "2023",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Myungho Lee",
+      "Sooyoung Cha",
+      "Hakjoo Oh"
+    ],
+    "toolurl": "https://github.com/kupl/SeamFuzz-Artifact",
+    "title": "Learning Seed-Adaptive Mutation Strategies for Greybox Fuzzing",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "references": [
+      "AFL",
+      "AFL++"
+    ],
+    "miscurl": [
+      "http://prl.korea.ac.kr/~pronto/home/papers/icse23-seamfuzz.pdf"
+    ],
+    "keywords": [
+      "mutation strategy",
+      "fuzzing"
+    ]
+  },
+  {
     "name": "Sensei",
     "year": 2020,
     "author": [
