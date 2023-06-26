@@ -846,6 +846,35 @@
     "color": "greybox"
   },
   {
+    "name": "CoFuzz",
+    "year": "2023",
+    "targets": [
+      "File"
+    ],
+    "color": "whitebox",
+    "author": [
+      "Ling Jiang",
+      "Hengchen Yuan",
+      "Mingyuan Wu",
+      "Lingming Zhang",
+      "Yuqun Zhang"
+    ],
+    "toolurl": "https://github.com/Tricker-z/CoFuzz",
+    "title": "Evaluating and Imporving Hybrid Fuzzing",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "references": [
+      "AFL",
+      "QSYM"
+    ],
+    "miscurl": [
+      "https://lingming.cs.illinois.edu/publications/icse2023f.pdf"
+    ],
+    "keywords": [
+      "Hybrid fuzzing",
+      "concolic execution"
+    ]
+  },
+  {
     "name": "CodeAlchemist",
     "year": 2019,
     "author": [
