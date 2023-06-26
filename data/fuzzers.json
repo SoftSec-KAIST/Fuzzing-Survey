@@ -4938,6 +4938,32 @@
     "color": "greybox"
   },
   {
+    "name": "TEEzz",
+    "year": "2023",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Marcel Busch",
+      "Aravind Machiry",
+      "Chad Spensky",
+      "Giovanni Vigna",
+      "Christopher Kruegel",
+      "Mathias Payer"
+    ],
+    "toolurl": "https://github.com/HexHive/teezz-fuzzer",
+    "title": "TEEzz: Fuzzing Trusted Applications on COTS Android Devices",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://hexhive.epfl.ch/publications/files/23Oakland.pdf"
+    ],
+    "keywords": [
+      "Android",
+      "TEE"
+    ]
+  },
+  {
     "name": "TFuzz",
     "year": 2014,
     "author": [
