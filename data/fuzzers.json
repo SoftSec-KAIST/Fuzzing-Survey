@@ -4470,6 +4470,33 @@
     ]
   },
   {
+    "name": "SegFuzz",
+    "year": "2023",
+    "targets": [
+      "Kernel"
+    ],
+    "color": "greybox",
+    "author": [
+      "Dae R. Jeong",
+      "Byoungyoung Lee",
+      "Insik Shin",
+      "Youngjin Kwon"
+    ],
+    "toolurl": "https://github.com/casys-kaist/segfuzz",
+    "title": "SEGFUZZ: Segmenting Thread Interleaving to Discover Kernel Concurrency Bugs through Fuzzing",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "references": [
+      "syzkaller"
+    ],
+    "miscurl": [
+      "http://cps.kaist.ac.kr/papers/jeong-segfuzz.pdf"
+    ],
+    "keywords": [
+      "Kernel fuzzing",
+      "concurrency bugs"
+    ]
+  },
+  {
     "name": "Sensei",
     "year": 2020,
     "author": [
