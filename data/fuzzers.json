@@ -3740,6 +3740,38 @@
     "color": "greybox"
   },
   {
+    "name": "OddFuzz",
+    "year": "2023",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Sicong Cao",
+      "Biao He",
+      "Xiaobing Sun",
+      "Yu Ouyang",
+      "Chao Zhang",
+      "Xiaoxue Wu",
+      "Ting Su",
+      "Lili Bo",
+      "Bin Li",
+      "Chuanlei Ma",
+      "Jiajia Li",
+      "Tao Wei"
+    ],
+    "toolurl": "https://github.com/ODDFuzz/ODDFuzz",
+    "title": "ODDFUZZ: Discovering Java Deserialization Vulnerabilities via Structure-Aware Directed Greybox Fuzzing",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://arxiv.org/pdf/2304.04233.pdf"
+    ],
+    "keywords": [
+      "Java",
+      "Deserialization"
+    ]
+  },
+  {
     "name": "PATA",
     "year": 2022,
     "targets": [
