@@ -2589,6 +2589,33 @@
     ]
   },
   {
+    "name": "JITfuzz",
+    "year": "2023",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Mingyuan Wu",
+      "Minghai Lu",
+      "Heming Cui",
+      "Junjie Chen"
+    ],
+    "toolurl": "https://github.com/lochnagarr/JITFuzz",
+    "title": "JITfuzz: Coverage-guided Fuzzing for JVM Just-in-Time Compilers",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "references": [
+      "AFL++"
+    ],
+    "miscurl": [
+      "https://lingming.cs.illinois.edu/publications/icse2023e.pdf"
+    ],
+    "keywords": [
+      "JVM",
+      "JIT compilers"
+    ]
+  },
+  {
     "name": "JQF",
     "year": 2019,
     "author": [
