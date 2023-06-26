@@ -2616,6 +2616,36 @@
     ]
   },
   {
+    "name": "JOpFuzzer",
+    "year": "2023",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Haoxiang Jia",
+      "Ming Wen",
+      "Zifan Xie",
+      "Xiaochen Guo",
+      "Rongxin Wu",
+      "Maolin Sun",
+      "Kang Chen",
+      "Hai Jin"
+    ],
+    "title": "Detecting JVM JIT Compiler Bugs via Exploring Two-Dimensional Input Spaces",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "references": [
+      "classming"
+    ],
+    "miscurl": [
+      "https://justinwm.github.io/paper/ICSE-JOpFuzzer-Checked.pdf"
+    ],
+    "keywords": [
+      "JVM",
+      "JIT compiler"
+    ]
+  },
+  {
     "name": "JQF",
     "year": 2019,
     "author": [
