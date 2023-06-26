@@ -5361,6 +5361,33 @@
     "color": "greybox"
   },
   {
+    "name": "ViDezzo",
+    "year": "2023",
+    "targets": [
+      "Hypervisor"
+    ],
+    "color": "greybox",
+    "author": [
+      "Qiang Liu",
+      "Flavio Toffalini",
+      "Yajin Zhou",
+      "Mathias Payer"
+    ],
+    "toolurl": "https://github.com/HexHive/ViDeZZo",
+    "title": "VIDEZZO: Dependency-aware Virtual Device Fuzzing",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "references": [
+      "LibFuzzer",
+      "V-SHUTTLE"
+    ],
+    "miscurl": [
+      "https://nebelwelt.net/files/23Oakland4.pdf"
+    ],
+    "keywords": [
+      "Device fuzzing"
+    ]
+  },
+  {
     "name": "WINNIE",
     "year": 2021,
     "author": [
