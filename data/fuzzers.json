@@ -4518,7 +4518,8 @@
     "title": "SEGFUZZ: Segmenting Thread Interleaving to Discover Kernel Concurrency Bugs through Fuzzing",
     "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
     "references": [
-      "syzkaller"
+      "syzkaller",
+      "Krace"
     ],
     "miscurl": [
       "http://cps.kaist.ac.kr/papers/jeong-segfuzz.pdf"
