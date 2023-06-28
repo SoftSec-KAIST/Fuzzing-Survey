@@ -3604,6 +3604,31 @@
     "color": "greybox"
   },
   {
+    "name": "NablaFuzz",
+    "year": "2023",
+    "targets": [
+      "API"
+    ],
+    "color": "greybox",
+    "author": [
+      "Chenyuan Yang",
+      "Yinlin Deng",
+      "Jiayi Yao",
+      "Yuxing Tu",
+      "Hanchi Li",
+      "Lingming Zhang"
+    ],
+    "toolurl": "https://github.com/ise-uiuc/NablaFuzz",
+    "title": "Fuzzing Automatic Differentiation in Deep-Learning Libraries",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "references": [
+      "FreeFuzz"
+    ],
+    "miscurl": [
+      "https://yangchenyuan.github.io/files/ICSE23-NablaFuzz.pdf"
+    ]
+  },
+  {
     "name": "Narada",
     "year": 2015,
     "author": [
