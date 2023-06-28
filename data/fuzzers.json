@@ -1578,6 +1578,27 @@
     "color": "greybox"
   },
   {
+    "name": "FAST",
+    "year": "2023",
+    "targets": [
+      "Specification"
+    ],
+    "color": "greybox",
+    "author": [
+      "Ru Ji",
+      "Meng Xu"
+    ],
+    "title": "Finding Specification Blind Spots via Fuzz Testing",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://www.computer.org/csdl/proceedings-article/sp/2023/933600c708/1Nrc04SNlCw"
+    ],
+    "keywords": [
+      "fuzzing",
+      "mutation testing"
+    ]
+  },
+  {
     "name": "FIFUZZ",
     "year": 2020,
     "author": [
