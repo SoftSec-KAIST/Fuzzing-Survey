@@ -4114,6 +4114,33 @@
     "color": "greybox"
   },
   {
+    "name": "RSFuzzer",
+    "year": "2023",
+    "targets": [
+      "Firmware"
+    ],
+    "color": "greybox",
+    "author": [
+      "Jiawei Yin",
+      "Menghao Li",
+      "Yuekang Li",
+      "Yong Yu",
+      "Boru Lin",
+      "Yanyan zou",
+      "Yang Liu",
+      "Wei Huo",
+      "Jingling Xue"
+    ],
+    "title": "RSFuzzer: Discovering Deep SMI Handler Vulnerabilities in UEFI Firmware with Hybrid Fuzzing",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://www.computer.org/csdl/proceedings-article/sp/2023/933600b765/1Js0Ek1SE6c"
+    ],
+    "keywords": [
+      "Hybrid fuzzing"
+    ]
+  },
+  {
     "name": "RVFuzzer",
     "year": 2019,
     "author": [
