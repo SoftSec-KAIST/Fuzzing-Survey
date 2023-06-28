@@ -5545,6 +5545,32 @@
     ]
   },
   {
+    "name": "Witcher",
+    "year": "2023",
+    "targets": [
+      "Web"
+    ],
+    "color": "greybox",
+    "author": [
+      "Erik Trickel",
+      "Fabio Pagani",
+      "Chang Zhu",
+      "Lukas Dresel",
+      "Giovanni Vigna",
+      "Christopher Kruegel",
+      "Ruoyu Wang",
+      "Tiffany Bao",
+      "Yan Shoshitaishvili",
+      "Adam Doupe"
+    ],
+    "toolurl": "https://github.com/sefcom/Witcher",
+    "title": "Toss a Fault to Your Witcher: Applying Grey-box Coverage-Guided Mutational Fuzzing to Detect SQL and Command Injection Vulnerabilities",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://www.computer.org/csdl/proceedings-article/sp/2023/933600a116/1He7XPiaynS"
+    ]
+  },
+  {
     "name": "ZAFL",
     "year": 2021,
     "author": [
