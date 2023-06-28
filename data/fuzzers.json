@@ -4557,6 +4557,31 @@
     ]
   },
   {
+    "name": "SelectFuzz",
+    "year": "2023",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Changhua Luo",
+      "Wei Meng",
+      "Penghui Li"
+    ],
+    "title": "SelectFuzz: Efficient Directed Fuzzing with Selective Path Exploration",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "references": [
+      "AFLGo",
+      "BEACON"
+    ],
+    "miscurl": [
+      "https://www.computer.org/csdl/proceedings-article/sp/2023/933600b050/1Js0DBwgpwY"
+    ],
+    "keywords": [
+      "Directed fuzzing"
+    ]
+  },
+  {
     "name": "Sensei",
     "year": 2020,
     "author": [
