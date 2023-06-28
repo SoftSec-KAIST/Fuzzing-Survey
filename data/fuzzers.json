@@ -4281,6 +4281,25 @@
     "color": "greybox"
   },
   {
+    "name": "RestTestGen",
+    "year": "2023",
+    "targets": [
+      "API"
+    ],
+    "color": "blackbox",
+    "author": [
+      "Davide Corradini",
+      "Michele Pasqua",
+      "Mariano Ceccato"
+    ],
+    "toolurl": "https://github.com/SeUniVr/RestTestGen",
+    "title": "Automated Black-box Testing of Mass Assignment Vulnerabilities in RESTful APIs",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "miscurl": [
+      "https://arxiv.org/pdf/2301.01261.pdf"
+    ]
+  },
+  {
     "name": "Ruiter et al.",
     "year": 2015,
     "author": [
