@@ -5641,6 +5641,9 @@
     "toolurl": "https://github.com/intel/yarpgen",
     "title": "Fuzzing Loop Optimizations in Compilers for C++ and Data-Parallel Languages",
     "booktitle": "Proceedings of the ACM Conference on Programming Language Design and Implementation",
+    "references": [
+      "CSmith"
+    ],
     "miscurl": [
       "https://dl.acm.org/doi/pdf/10.1145/3591295"
     ]
