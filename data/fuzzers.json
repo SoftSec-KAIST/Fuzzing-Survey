@@ -4179,6 +4179,9 @@
     ],
     "title": "RSFuzzer: Discovering Deep SMI Handler Vulnerabilities in UEFI Firmware with Hybrid Fuzzing",
     "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "references": [
+      "SyzGen"
+    ],
     "miscurl": [
       "https://www.computer.org/csdl/proceedings-article/sp/2023/933600b765/1Js0Ek1SE6c"
     ],
