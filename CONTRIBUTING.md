@@ -46,6 +46,10 @@ following schema. The **required** fields of each entry are:
 - `color`: The degree of instrumentation of this fuzzer---blackbox, greybox, or
   whitebox.
 
+- `references`: The `name`(s) of highly-related fuzzers, meaning other fuzzers
+  that this fuzzer was implemented on top of or was heavily inspired by. To
+  maintain simplicity, we limit this field to **two** entries in our database.
+
 The following fields are *optional*, but please try to provide as much
 information as possible:
 
@@ -62,10 +66,6 @@ information as possible:
 
 - `journal`, `volume`, `number`: The journal title, volume, and number of the
   publication if this fuzzer first appeared in a journal.
-
-- `references`: The `name`(s) of highly-related fuzzers, meaning other fuzzers
-  that this fuzzer was implemented on top of or was heavily inspired by. To
-  maintain simplicity, we limit this field to **two** entries in our database.
 
 - `miscurl`: Miscellaneous links, e.g., URLs to papers or presentations.
 

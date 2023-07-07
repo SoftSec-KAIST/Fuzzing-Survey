@@ -34,7 +34,7 @@ def is_valid_color(color):
 
 def is_valid_references(db, refs):
     if refs == ['']:
-        return None
+        return '\nNo reference.'
 
     if len(refs) > 2:
         return '\nToo many references.'
@@ -60,21 +60,23 @@ else:
 # Required fields
 entry = {}
 entry['name'] = input('name: ')
+if is_empty_field(entry['name']):
+    err = '\nNo name.'
+    sys.exit(err)
+
 entry['year'] = input('year: ')
+if is_empty_field(entry['year']):
+    err = '\nNo year.'
+    sys.exit(err)
+
 entry['targets'] = input('targets: ').split(', ')
+if is_empty_field(entry['targets']):
+    err = '\nNo targets.'
+    sys.exit(err)
 
 entry['color'] = input('color: ')
 if not is_valid_color(entry['color']):
     sys.exit('\nInvalid color {}'.format(entry['color']))
-
-# Optional fields
-entry['author'] = input('\nauthor: ').split(', ')
-entry['toolurl'] = input('toolurl: ')
-entry['title'] = input('title: ')
-entry['booktitle'] = input('booktitle: ')
-entry['journal'] = input('journal: ')
-entry['volume'] = input('volumn: ')
-entry['number'] = input('number: ')
 
 readline.set_completer(RefCompleter([e['name'] for e in db]).complete)
 
@@ -84,6 +86,15 @@ if err:
     sys.exit(err)
 
 readline.set_completer(None)
+
+# Optional fields
+entry['author'] = input('\nauthor: ').split(', ')
+entry['toolurl'] = input('toolurl: ')
+entry['title'] = input('title: ')
+entry['booktitle'] = input('booktitle: ')
+entry['journal'] = input('journal: ')
+entry['volume'] = input('volumn: ')
+entry['number'] = input('number: ')
 
 entry['miscurl'] = input('miscurl: ').split(', ')
 entry['keywords'] = input('keywords: ').split(', ')
