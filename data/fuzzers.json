@@ -1590,6 +1590,9 @@
     ],
     "title": "Finding Specification Blind Spots via Fuzz Testing",
     "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "references": [
+      "AFL"
+    ],
     "miscurl": [
       "https://www.computer.org/csdl/proceedings-article/sp/2023/933600c708/1Nrc04SNlCw"
     ],
