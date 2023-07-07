@@ -5619,6 +5619,9 @@
     "toolurl": "https://github.com/sefcom/Witcher",
     "title": "Toss a Fault to Your Witcher: Applying Grey-box Coverage-Guided Mutational Fuzzing to Detect SQL and Command Injection Vulnerabilities",
     "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "references": [
+      "Doupé et al."
+    ],
     "miscurl": [
       "https://www.computer.org/csdl/proceedings-article/sp/2023/933600a116/1He7XPiaynS"
     ]
