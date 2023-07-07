@@ -4779,6 +4779,29 @@
     "color": "blackbox"
   },
   {
+    "name": "SyzGen",
+    "year": "2021",
+    "targets": [
+      "Kernel"
+    ],
+    "color": "greybox",
+    "author": [
+      "Weiteng Chen",
+      "Yu Wang",
+      "Zheng Zhang",
+      "Zhiyun Qian"
+    ],
+    "toolurl": "https://github.com/seclab-ucr/SyzGen_setup",
+    "title": "SyzGen: Automated Generation of Syscall Specification of Closed-Source macOS Drivers",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "references": [
+      "syzkaller"
+    ],
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3460120.3484564"
+    ]
+  },
+  {
     "name": "T-Fuzz",
     "year": 2018,
     "author": [
