@@ -5132,7 +5132,7 @@
     "targets": [
       "File"
     ],
-    "color": "greybox",
+    "color": "blackbox",
     "author": [
       "Marcel Busch",
       "Aravind Machiry",
