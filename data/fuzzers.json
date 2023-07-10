@@ -3956,6 +3956,33 @@
     "color": "greybox"
   },
   {
+    "name": "PartEmu",
+    "year": "2020",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Lee Harrison",
+      "Hayawardh Vijayakumar",
+      "Rohan Padhye",
+      "Koushik Sen",
+      "Michael Grace"
+    ],
+    "title": "PARTEMU: Enabling Dynamic Analysis of Real-World TrustZone Software Using Emulation",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "TriforceAFL"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec20-harrison.pdf"
+    ],
+    "keywords": [
+      "TrustZone",
+      "TEE"
+    ]
+  },
+  {
     "name": "Peach",
     "year": 2004,
     "author": [
