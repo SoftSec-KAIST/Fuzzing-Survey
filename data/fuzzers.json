@@ -5141,6 +5141,9 @@
     "toolurl": "https://github.com/HexHive/teezz-fuzzer",
     "title": "TEEzz: Fuzzing Trusted Applications on COTS Android Devices",
     "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "references": [
+      "PartEmu"
+    ],
     "miscurl": [
       "https://hexhive.epfl.ch/publications/files/23Oakland.pdf"
     ],
