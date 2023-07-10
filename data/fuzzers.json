@@ -3812,6 +3812,9 @@
     "toolurl": "https://github.com/ODDFuzz/ODDFuzz",
     "title": "ODDFUZZ: Discovering Java Deserialization Vulnerabilities via Structure-Aware Directed Greybox Fuzzing",
     "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "references": [
+      "AFLGo"
+    ],
     "miscurl": [
       "https://arxiv.org/pdf/2304.04233.pdf"
     ],
