@@ -846,6 +846,35 @@
     "color": "greybox"
   },
   {
+    "name": "CoFuzz",
+    "year": "2023",
+    "targets": [
+      "File"
+    ],
+    "color": "whitebox",
+    "author": [
+      "Ling Jiang",
+      "Hengchen Yuan",
+      "Mingyuan Wu",
+      "Lingming Zhang",
+      "Yuqun Zhang"
+    ],
+    "toolurl": "https://github.com/Tricker-z/CoFuzz",
+    "title": "Evaluating and Imporving Hybrid Fuzzing",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "references": [
+      "AFL",
+      "QSYM"
+    ],
+    "miscurl": [
+      "https://lingming.cs.illinois.edu/publications/icse2023f.pdf"
+    ],
+    "keywords": [
+      "Hybrid fuzzing",
+      "concolic execution"
+    ]
+  },
+  {
     "name": "CodeAlchemist",
     "year": 2019,
     "author": [
@@ -1547,6 +1576,30 @@
       "AFL"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "FAST",
+    "year": "2023",
+    "targets": [
+      "Specification"
+    ],
+    "color": "greybox",
+    "author": [
+      "Ru Ji",
+      "Meng Xu"
+    ],
+    "title": "Finding Specification Blind Spots via Fuzz Testing",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "references": [
+      "AFL"
+    ],
+    "miscurl": [
+      "https://www.computer.org/csdl/proceedings-article/sp/2023/933600c708/1Nrc04SNlCw"
+    ],
+    "keywords": [
+      "fuzzing",
+      "mutation testing"
+    ]
   },
   {
     "name": "FIFUZZ",
@@ -2560,6 +2613,63 @@
     ]
   },
   {
+    "name": "JITfuzz",
+    "year": "2023",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Mingyuan Wu",
+      "Minghai Lu",
+      "Heming Cui",
+      "Junjie Chen"
+    ],
+    "toolurl": "https://github.com/lochnagarr/JITFuzz",
+    "title": "JITfuzz: Coverage-guided Fuzzing for JVM Just-in-Time Compilers",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "references": [
+      "AFL++"
+    ],
+    "miscurl": [
+      "https://lingming.cs.illinois.edu/publications/icse2023e.pdf"
+    ],
+    "keywords": [
+      "JVM",
+      "JIT compilers"
+    ]
+  },
+  {
+    "name": "JOpFuzzer",
+    "year": "2023",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Haoxiang Jia",
+      "Ming Wen",
+      "Zifan Xie",
+      "Xiaochen Guo",
+      "Rongxin Wu",
+      "Maolin Sun",
+      "Kang Chen",
+      "Hai Jin"
+    ],
+    "title": "Detecting JVM JIT Compiler Bugs via Exploring Two-Dimensional Input Spaces",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "references": [
+      "classming"
+    ],
+    "miscurl": [
+      "https://justinwm.github.io/paper/ICSE-JOpFuzzer-Checked.pdf"
+    ],
+    "keywords": [
+      "JVM",
+      "JIT compiler"
+    ]
+  },
+  {
     "name": "JQF",
     "year": 2019,
     "author": [
@@ -3497,6 +3607,31 @@
     "color": "greybox"
   },
   {
+    "name": "NablaFuzz",
+    "year": "2023",
+    "targets": [
+      "API"
+    ],
+    "color": "greybox",
+    "author": [
+      "Chenyuan Yang",
+      "Yinlin Deng",
+      "Jiayi Yao",
+      "Yuxing Tu",
+      "Hanchi Li",
+      "Lingming Zhang"
+    ],
+    "toolurl": "https://github.com/ise-uiuc/NablaFuzz",
+    "title": "Fuzzing Automatic Differentiation in Deep-Learning Libraries",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "references": [
+      "FreeFuzz"
+    ],
+    "miscurl": [
+      "https://yangchenyuan.github.io/files/ICSE23-NablaFuzz.pdf"
+    ]
+  },
+  {
     "name": "Narada",
     "year": 2015,
     "author": [
@@ -3654,6 +3789,41 @@
     "color": "greybox"
   },
   {
+    "name": "OddFuzz",
+    "year": "2023",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Sicong Cao",
+      "Biao He",
+      "Xiaobing Sun",
+      "Yu Ouyang",
+      "Chao Zhang",
+      "Xiaoxue Wu",
+      "Ting Su",
+      "Lili Bo",
+      "Bin Li",
+      "Chuanlei Ma",
+      "Jiajia Li",
+      "Tao Wei"
+    ],
+    "toolurl": "https://github.com/ODDFuzz/ODDFuzz",
+    "title": "ODDFUZZ: Discovering Java Deserialization Vulnerabilities via Structure-Aware Directed Greybox Fuzzing",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "references": [
+      "AFLGo"
+    ],
+    "miscurl": [
+      "https://arxiv.org/pdf/2304.04233.pdf"
+    ],
+    "keywords": [
+      "Java",
+      "Deserialization"
+    ]
+  },
+  {
     "name": "PATA",
     "year": 2022,
     "targets": [
@@ -3787,6 +3957,33 @@
       "Angora"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "PartEmu",
+    "year": "2020",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Lee Harrison",
+      "Hayawardh Vijayakumar",
+      "Rohan Padhye",
+      "Koushik Sen",
+      "Michael Grace"
+    ],
+    "title": "PARTEMU: Enabling Dynamic Analysis of Real-World TrustZone Software Using Emulation",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "TriforceAFL"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec20-harrison.pdf"
+    ],
+    "keywords": [
+      "TrustZone",
+      "TEE"
+    ]
   },
   {
     "name": "Peach",
@@ -3996,6 +4193,36 @@
     "color": "greybox"
   },
   {
+    "name": "RSFuzzer",
+    "year": "2023",
+    "targets": [
+      "Firmware"
+    ],
+    "color": "greybox",
+    "author": [
+      "Jiawei Yin",
+      "Menghao Li",
+      "Yuekang Li",
+      "Yong Yu",
+      "Boru Lin",
+      "Yanyan zou",
+      "Yang Liu",
+      "Wei Huo",
+      "Jingling Xue"
+    ],
+    "title": "RSFuzzer: Discovering Deep SMI Handler Vulnerabilities in UEFI Firmware with Hybrid Fuzzing",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "references": [
+      "SyzGen"
+    ],
+    "miscurl": [
+      "https://www.computer.org/csdl/proceedings-article/sp/2023/933600b765/1Js0Ek1SE6c"
+    ],
+    "keywords": [
+      "Hybrid fuzzing"
+    ]
+  },
+  {
     "name": "RVFuzzer",
     "year": 2019,
     "author": [
@@ -4088,6 +4315,28 @@
       "kAFL"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "RestTestGen",
+    "year": "2023",
+    "targets": [
+      "API"
+    ],
+    "color": "blackbox",
+    "author": [
+      "Davide Corradini",
+      "Michele Pasqua",
+      "Mariano Ceccato"
+    ],
+    "toolurl": "https://github.com/SeUniVr/RestTestGen",
+    "title": "Automated Black-box Testing of Mass Assignment Vulnerabilities in RESTful APIs",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "references": [
+      "RESTler"
+    ],
+    "miscurl": [
+      "https://arxiv.org/pdf/2301.01261.pdf"
+    ]
   },
   {
     "name": "Ruiter et al.",
@@ -4355,6 +4604,86 @@
       "KLEE"
     ],
     "color": "whitebox"
+  },
+  {
+    "name": "SeamFuzz",
+    "year": "2023",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Myungho Lee",
+      "Sooyoung Cha",
+      "Hakjoo Oh"
+    ],
+    "toolurl": "https://github.com/kupl/SeamFuzz-Artifact",
+    "title": "Learning Seed-Adaptive Mutation Strategies for Greybox Fuzzing",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "references": [
+      "AFL",
+      "AFL++"
+    ],
+    "miscurl": [
+      "http://prl.korea.ac.kr/~pronto/home/papers/icse23-seamfuzz.pdf"
+    ],
+    "keywords": [
+      "mutation strategy",
+      "fuzzing"
+    ]
+  },
+  {
+    "name": "SegFuzz",
+    "year": "2023",
+    "targets": [
+      "Kernel"
+    ],
+    "color": "greybox",
+    "author": [
+      "Dae R. Jeong",
+      "Byoungyoung Lee",
+      "Insik Shin",
+      "Youngjin Kwon"
+    ],
+    "toolurl": "https://github.com/casys-kaist/segfuzz",
+    "title": "SEGFUZZ: Segmenting Thread Interleaving to Discover Kernel Concurrency Bugs through Fuzzing",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "references": [
+      "syzkaller",
+      "Krace"
+    ],
+    "miscurl": [
+      "http://cps.kaist.ac.kr/papers/jeong-segfuzz.pdf"
+    ],
+    "keywords": [
+      "Kernel fuzzing",
+      "concurrency bugs"
+    ]
+  },
+  {
+    "name": "SelectFuzz",
+    "year": "2023",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Changhua Luo",
+      "Wei Meng",
+      "Penghui Li"
+    ],
+    "title": "SelectFuzz: Efficient Directed Fuzzing with Selective Path Exploration",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "references": [
+      "AFLGo",
+      "BEACON"
+    ],
+    "miscurl": [
+      "https://www.computer.org/csdl/proceedings-article/sp/2023/933600b050/1Js0DBwgpwY"
+    ],
+    "keywords": [
+      "Directed fuzzing"
+    ]
   },
   {
     "name": "Sensei",
@@ -4779,6 +5108,29 @@
     "color": "blackbox"
   },
   {
+    "name": "SyzGen",
+    "year": "2021",
+    "targets": [
+      "Kernel"
+    ],
+    "color": "greybox",
+    "author": [
+      "Weiteng Chen",
+      "Yu Wang",
+      "Zheng Zhang",
+      "Zhiyun Qian"
+    ],
+    "toolurl": "https://github.com/seclab-ucr/SyzGen_setup",
+    "title": "SyzGen: Automated Generation of Syscall Specification of Closed-Source macOS Drivers",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "references": [
+      "syzkaller"
+    ],
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3460120.3484564"
+    ]
+  },
+  {
     "name": "T-Fuzz",
     "year": 2018,
     "author": [
@@ -4823,6 +5175,35 @@
       "DifFuzz"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "TEEzz",
+    "year": "2023",
+    "targets": [
+      "File"
+    ],
+    "color": "blackbox",
+    "author": [
+      "Marcel Busch",
+      "Aravind Machiry",
+      "Chad Spensky",
+      "Giovanni Vigna",
+      "Christopher Kruegel",
+      "Mathias Payer"
+    ],
+    "toolurl": "https://github.com/HexHive/teezz-fuzzer",
+    "title": "TEEzz: Fuzzing Trusted Applications on COTS Android Devices",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "references": [
+      "PartEmu"
+    ],
+    "miscurl": [
+      "https://hexhive.epfl.ch/publications/files/23Oakland.pdf"
+    ],
+    "keywords": [
+      "Android",
+      "TEE"
+    ]
   },
   {
     "name": "TFuzz",
@@ -5195,6 +5576,33 @@
     "color": "greybox"
   },
   {
+    "name": "ViDezzo",
+    "year": "2023",
+    "targets": [
+      "Hypervisor"
+    ],
+    "color": "greybox",
+    "author": [
+      "Qiang Liu",
+      "Flavio Toffalini",
+      "Yajin Zhou",
+      "Mathias Payer"
+    ],
+    "toolurl": "https://github.com/HexHive/ViDeZZo",
+    "title": "VIDEZZO: Dependency-aware Virtual Device Fuzzing",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "references": [
+      "LibFuzzer",
+      "V-SHUTTLE"
+    ],
+    "miscurl": [
+      "https://nebelwelt.net/files/23Oakland4.pdf"
+    ],
+    "keywords": [
+      "Device fuzzing"
+    ]
+  },
+  {
     "name": "WINNIE",
     "year": 2021,
     "author": [
@@ -5243,6 +5651,57 @@
     ],
     "miscurl": [
       "https://sites.google.com/view/windrange-directed-fuzzing"
+    ]
+  },
+  {
+    "name": "Witcher",
+    "year": "2023",
+    "targets": [
+      "Web"
+    ],
+    "color": "greybox",
+    "author": [
+      "Erik Trickel",
+      "Fabio Pagani",
+      "Chang Zhu",
+      "Lukas Dresel",
+      "Giovanni Vigna",
+      "Christopher Kruegel",
+      "Ruoyu Wang",
+      "Tiffany Bao",
+      "Yan Shoshitaishvili",
+      "Adam Doupe"
+    ],
+    "toolurl": "https://github.com/sefcom/Witcher",
+    "title": "Toss a Fault to Your Witcher: Applying Grey-box Coverage-Guided Mutational Fuzzing to Detect SQL and Command Injection Vulnerabilities",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "references": [
+      "Doupé et al."
+    ],
+    "miscurl": [
+      "https://www.computer.org/csdl/proceedings-article/sp/2023/933600a116/1He7XPiaynS"
+    ]
+  },
+  {
+    "name": "YARPGen",
+    "year": "2023",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Vsevolod Livinskii",
+      "Dmitry Babokin",
+      "John Regehr"
+    ],
+    "toolurl": "https://github.com/intel/yarpgen",
+    "title": "Fuzzing Loop Optimizations in Compilers for C++ and Data-Parallel Languages",
+    "booktitle": "Proceedings of the ACM Conference on Programming Language Design and Implementation",
+    "references": [
+      "CSmith"
+    ],
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3591295"
     ]
   },
   {
