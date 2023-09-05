@@ -1,5 +1,32 @@
 [
   {
+    "name": "ACTOR",
+    "year": 2023,
+    "targets": [
+      "Kernel"
+    ],
+    "color": "greybox",
+    "author": [
+      "Marius Fleischer",
+      "Dipanjan Das",
+      "Priyanka Bose",
+      "Weiheng Bai",
+      "Kangjie Lu",
+      "Mathias Payer",
+      "Christopher Kruegel",
+      "Giovanni Vigna"
+    ],
+    "toolurl": "https://github.com/ucsb-seclab/actor",
+    "title": "ACTOR: Action-Guided Kernel Fuzzing",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "syzkaller"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity23-fleischer.pdf"
+    ]
+  },
+  {
     "name": "AFL",
     "year": 2014,
     "author": [
@@ -1831,6 +1858,29 @@
     "color": "blackbox"
   },
   {
+    "name": "FUZZPD",
+    "year": 2023,
+    "targets": [
+      "Firmware"
+    ],
+    "color": "blackbox",
+    "author": [
+      "Kyungtae Kim",
+      "Sungwoo Kim",
+      "Kevin R. B. Butler",
+      "Antonio Bianchi",
+      "Rick Kennell",
+      "Dave (Jing) Tian"
+    ],
+    "toolurl": "https://github.com/purseclab/fuzzpd",
+    "title": "Fuzz The Power: Dual-role State Guided Black-box Fuzzing for USB Power Delivery",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity23-kim-kyungtae.pdf"
+    ]
+  },
+  {
     "name": "FUZZUSB",
     "year": 2022,
     "targets": [
@@ -2651,6 +2701,31 @@
     "color": "greybox"
   },
   {
+    "name": "HyPFuzz",
+    "year": 2023,
+    "targets": [
+      "CPU"
+    ],
+    "color": "greybox",
+    "author": [
+      "Chen Chen",
+      "Rahul Kande",
+      "Nathan Nguyen",
+      "Flemming Andersen",
+      "Aakash Tyagi",
+      "Ahmad-Reza Sadeghi",
+      "Jeyavijayan Rajendran"
+    ],
+    "title": "HyPFuzz: Formal-Assisted Processor Fuzzing",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "TheHuzz"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity23-chen-chen.pdf"
+    ]
+  },
+  {
     "name": "HyperFuzzer",
     "year": 2021,
     "author": [
@@ -2672,6 +2747,29 @@
       "SAGE"
     ],
     "color": "whitebox"
+  },
+  {
+    "name": "Hödur",
+    "year": 2023,
+    "targets": [
+      "Firmware"
+    ],
+    "color": "greybox",
+    "author": [
+      "Tobias Scharnowski",
+      "Simon Wörner",
+      "Felix Buchmann",
+      "Nils Bars"
+    ],
+    "toolurl": "https://github.com/fuzzware-fuzzer/hoedur",
+    "title": "HOEDUR: Embedded Firmware Fuzzing using Multi-Stream Inputs",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "LibFuzzer"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity23-scharnowski.pdf"
+    ]
   },
   {
     "name": "ICSFuzz",
@@ -4723,6 +4821,27 @@
     "color": "greybox"
   },
   {
+    "name": "ReUSB",
+    "year": 2023,
+    "targets": [
+      "Kernel"
+    ],
+    "color": "greybox",
+    "author": [
+      "Jisoo Jang",
+      "Minsuk Kang",
+      "Dokyung Song"
+    ],
+    "title": "ReUSB: Replay-Guided USB Driver Fuzzing",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "syzkaller"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity23-jang.pdf"
+    ]
+  },
+  {
     "name": "Redqueen",
     "year": 2019,
     "author": [
@@ -6078,6 +6197,28 @@
     ],
     "keywords": [
       "Device fuzzing"
+    ]
+  },
+  {
+    "name": "WINFUZZ",
+    "year": 2023,
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Leo Stone",
+      "Rishi Ranjan",
+      "Stefan Nagy",
+      "Matthew Hicks"
+    ],
+    "title": "No Linux, No Problem: Fast and Correct Windows Binary Fuzzing via Target-embedded Snapshotting",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "WINNIE"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity23-stone.pdf"
     ]
   },
   {
