@@ -451,6 +451,32 @@
     "color": "whitebox"
   },
   {
+    "name": "Bleem",
+    "year": 2023,
+    "targets": [
+      "Network"
+    ],
+    "color": "blackbox",
+    "author": [
+      "Zhengxiong Luo",
+      "Junze Yu",
+      "Feilong Zuo",
+      "Jianzhong Liu",
+      "Yu Jiang",
+      "Ting Chen",
+      "Abhik Roychoudhury",
+      "Jiaguang Sun"
+    ],
+    "title": "Bleem: Packet Sequence Oriented Fuzzing for Protocol Implementations",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "Peach"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity23-luo-zhengxiong.pdf"
+    ]
+  },
+  {
     "name": "BlendFuzz",
     "year": 2012,
     "author": [
@@ -782,6 +808,30 @@
     "color": "greybox"
   },
   {
+    "name": "CarpetFuzz",
+    "year": 2023,
+    "targets": [
+      "Argument",
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Dawei Wang",
+      "Ying Li",
+      "Zhiyu Zhang",
+      "Kai Chen"
+    ],
+    "toolurl": "https://github.com/waugustus/CarpetFuzz",
+    "title": "CarpetFuzz: Automatic Program Option Constraint Extraction from Documentation for Fuzzing",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "AFL"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity23-wang-dawei.pdf"
+    ]
+  },
+  {
     "name": "Cerebro",
     "year": 2019,
     "author": [
@@ -981,6 +1031,33 @@
       "Web"
     ],
     "color": "whitebox"
+  },
+  {
+    "name": "DDRace",
+    "year": 2023,
+    "targets": [
+      "Kernel"
+    ],
+    "color": "greybox",
+    "author": [
+      "Ming Yuan",
+      "Bodong Zhao",
+      "Penghui Li",
+      "Jiashuo Liang",
+      "Xinhui Han",
+      "Xiapu Luo",
+      "Chao Zhang"
+    ],
+    "toolurl": "https://github.com/vul337/DDRace",
+    "title": "DDRace: Finding Concurrency UAF Vulnerabilities in Linux Drivers with Directed Fuzzing",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "syzkaller",
+      "Krace"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity23-yuan-ming.pdf"
+    ]
   },
   {
     "name": "DELTA",
@@ -5908,6 +5985,29 @@
       "File"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "autofz",
+    "year": 2023,
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Yu-Fu Fu",
+      "Jaehyuk Lee",
+      "Taesoo Kim"
+    ],
+    "toolurl": "https://github.com/sslab-gatech/autofz",
+    "title": "autofz: Automated Fuzzer Composition at Runtime",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "EnFuzz",
+      "AFL"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity23-fu-yu-fu.pdf"
+    ]
   },
   {
     "name": "boofuzz",
