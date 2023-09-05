@@ -149,6 +149,33 @@
     "color": "greybox"
   },
   {
+    "name": "AIFORE",
+    "year": 2023,
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Ji Shi",
+      "Zhun Wang",
+      "Zhiyao Feng",
+      "Yang Lan",
+      "Shisong Qin",
+      "Wei You",
+      "Wei Zou",
+      "Mathias Payer",
+      "Chao Zhang"
+    ],
+    "title": "AIFORE: Smart Fuzzing Based on Automatic Input Format Reverse Engineering",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "VUzzer"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity23-shi-ji.pdf"
+    ]
+  },
+  {
     "name": "AMPFuzz",
     "year": 2022,
     "targets": [
@@ -2093,6 +2120,30 @@
       "LangFuzz"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "GLeeFuzz",
+    "year": 2023,
+    "targets": [
+      "JavaScript"
+    ],
+    "color": "greybox",
+    "author": [
+      "Hui Peng",
+      "Zhihao Yao",
+      "Ardalan Amiri Sani",
+      "Dave (Jing) Tian",
+      "Mathias Payer"
+    ],
+    "toolurl": "https://github.com/HexHive/GLeeFuzz",
+    "title": "GLeeFuzz: Fuzzing WebGL Through Error Message Guided Mutation",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "Favocado"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity23-peng.pdf"
+    ]
   },
   {
     "name": "GPF",
@@ -4084,6 +4135,31 @@
       "AFL"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "PolyFuzz",
+    "year": 2023,
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Wen Li",
+      "Jinyang Ruan",
+      "Guangbei Yi",
+      "Long Cheng",
+      "Xiapu Luo",
+      "Haipeng Cai"
+    ],
+    "toolurl": "https://figshare.com/s/8ba4650e3248197fd756",
+    "title": "PolyFuzz: Holistic Greybox Fuzzing of Multi-Language Systems",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "AFL++"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity23-li-wen.pdf"
+    ]
   },
   {
     "name": "PolyGlot",
