@@ -1370,6 +1370,28 @@
     "color": "whitebox"
   },
   {
+    "name": "DynSQL",
+    "year": 2023,
+    "targets": [
+      "DBMS"
+    ],
+    "color": "greybox",
+    "author": [
+      "Zu-Ming Jiang",
+      "Jia-Ju Bai",
+      "Zhendong Su"
+    ],
+    "title": "DynSQL: Stateful Fuzzing for Database Management Systems with Complex and Valid SQL Query Generation",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "Squirrel",
+      "AFL"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity23-jiang-zu-ming.pdf"
+    ]
+  },
+  {
     "name": "EASIER",
     "year": 2020,
     "author": [
@@ -1883,6 +1905,30 @@
     "color": "whitebox"
   },
   {
+    "name": "FuzzJIT",
+    "year": 2023,
+    "targets": [
+      "JavaScript"
+    ],
+    "color": "greybox",
+    "author": [
+      "Junjie Wang",
+      "Zhiyi Zang",
+      "Shuang Liu",
+      "Xiaoning Du",
+      "Junjie Chen"
+    ],
+    "toolurl": "https://github.com/SpaceNaN/fuzzjit",
+    "title": "FuzzJIT: Oracle-Enhanced Fuzzing for JavaScript Engine JIT Compiler",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "Fuzzilli"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity23-wang-junjie.pdf"
+    ]
+  },
+  {
     "name": "FuzzNG",
     "year": "2023",
     "targets": [
@@ -1998,6 +2044,30 @@
     ],
     "keywords": [
       "SMT"
+    ]
+  },
+  {
+    "name": "Fuzztruction",
+    "year": 2023,
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Nils Bars",
+      "Moritz Schloegel",
+      "Tobias Scharnowski",
+      "Nico Schiller",
+      "Thorsten Holz"
+    ],
+    "toolurl": "https://github.com/fuzztruction/fuzztruction",
+    "title": "Fuzztruction: Using Fault Injection-based Fuzzing to Leverage Implicit Domain Knowledge",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "AFL++"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity23-bars.pdf"
     ]
   },
   {
