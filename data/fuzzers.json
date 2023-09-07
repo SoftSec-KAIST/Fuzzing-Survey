@@ -3911,6 +3911,33 @@
     "color": "greybox"
   },
   {
+    "name": "NAUTILUS",
+    "year": "2023",
+    "targets": [
+      "API"
+    ],
+    "color": "blackbox",
+    "references": [
+      "RESTler"
+    ],
+    "author": [
+      "Gelei Deng",
+      "Zhiyi Zhang",
+      "Yuekang Li",
+      "Yi Liu",
+      "Tianwei Zhang",
+      "Yang Liu",
+      "Guo Yu",
+      "Dongjin Wang"
+    ],
+    "toolurl": "https://sites.google.com/view/nautilus-testing",
+    "title": "Nautilus: Automated RESTful API Vulnerability Detection",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity23-deng-gelei.pdf"
+    ]
+  },
+  {
     "name": "NTFuzz",
     "year": 2021,
     "author": [
@@ -5576,6 +5603,31 @@
     "keywords": [
       "Android",
       "TEE"
+    ]
+  },
+  {
+    "name": "TEFuzz",
+    "year": "2023",
+    "targets": [
+      "Web"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "Yudo Zhao",
+      "Yuan Zhang",
+      "Min Yang"
+    ],
+    "toolurl": "https://github.com/seclab-fudan/TEFuzz/",
+    "title": "Remote Code Execution from SSTI in the Sandbox: Automatically Detecting and Exploiting Template Escape Bugs",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity23-zhao-yudi.pdf"
+    ],
+    "keywords": [
+      "Template engines"
     ]
   },
   {
