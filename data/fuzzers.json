@@ -2736,6 +2736,31 @@
     "color": "blackbox"
   },
   {
+    "name": "Intender",
+    "year": "2023",
+    "targets": [
+      "Network"
+    ],
+    "color": "blackbox",
+    "references": [
+      "DELTA"
+    ],
+    "author": [
+      "Jiwon Kim",
+      "Benjamin E. Ujcich",
+      "Dave (Jing) Tian"
+    ],
+    "toolurl": "https://github.com/purseclab/intender",
+    "title": "Intender: Fuzzing Intent-Based Networking with Intent-State Transition Guidance",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity23-kim-jiwon.pdf"
+    ],
+    "keywords": [
+      "Intent-based networking"
+    ]
+  },
+  {
     "name": "Intriguer",
     "year": 2019,
     "author": [
@@ -4800,6 +4825,28 @@
       "AFL"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "SafireFuzz",
+    "year": "2023",
+    "targets": [
+      "Firmware"
+    ],
+    "color": "greybox",
+    "references": [
+      "LibAFL"
+    ],
+    "author": [
+      "Lukas Seidel",
+      "Dominik Maier",
+      "Marius Muench"
+    ],
+    "toolurl": "https://github.com/pr0me/SAFIREFUZZ",
+    "title": "Forming Faster Firmware Fuzzers",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity23-seidel.pdf"
+    ]
   },
   {
     "name": "Savior",
