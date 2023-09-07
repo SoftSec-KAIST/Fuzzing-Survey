@@ -2813,6 +2813,30 @@
     "color": "blackbox"
   },
   {
+    "name": "IvySyn",
+    "year": "2023",
+    "targets": [
+      "API"
+    ],
+    "color": "blackbox",
+    "references": [
+      "FreeFuzz"
+    ],
+    "author": [
+      "Neophytos Christou",
+      "Di Jin",
+      "Vaggelis Atlidakis",
+      "Baishakhi Ray",
+      "Vasileios P. Kemerlis"
+    ],
+    "toolurl": "https://gitlab.com/brown-ssl/ivysyn",
+    "title": "IvySyn: Automated Vulnerability Discovery in Deep Learning Frameworks",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity23-christou.pdf"
+    ]
+  },
+  {
     "name": "JIGSAW",
     "year": 2022,
     "targets": [
@@ -3768,6 +3792,31 @@
       "CodeAlchemist"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "MorFuzz",
+    "year": "2023",
+    "targets": [
+      "CPU"
+    ],
+    "color": "greybox",
+    "references": [
+      "DifuzzRTL"
+    ],
+    "author": [
+      "Jinyan Xu",
+      "Yiyuan Liu",
+      "Sirui He",
+      "Haoran Lin",
+      "Yajin Zhou",
+      "Cong Wang"
+    ],
+    "toolurl": "https://github.com/sycuricon/MorFuzz",
+    "title": "MorFuzz: Fuzzing Processor via Runtime Instruction Morphing enhanced Synchronizable Co-simulation",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity23-xu-jinyan.pdf"
+    ]
   },
   {
     "name": "Morphuzz",
