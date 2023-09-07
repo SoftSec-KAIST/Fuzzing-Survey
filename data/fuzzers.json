@@ -3053,6 +3053,31 @@
     "color": "blackbox"
   },
   {
+    "name": "KextFuzz",
+    "year": "2023",
+    "targets": [
+      "Kernel"
+    ],
+    "color": "greybox",
+    "references": [
+      "syzkaller"
+    ],
+    "author": [
+      "Tingting Yin",
+      "Zicong Gao",
+      "Zhenghang Xiao",
+      "Zheyu Ma",
+      "Min Zheng",
+      "Chao Zhang"
+    ],
+    "toolurl": "https://github.com/vul337/KextFuzz",
+    "title": "KextFuzz: Fuzzing macOS Kernel EXTensions on Apple Silicon via Exploiting Mitigations",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec23fall-prepub-425-yin-tingting.pdf"
+    ]
+  },
+  {
     "name": "KiF",
     "year": 2007,
     "author": [
@@ -3387,6 +3412,35 @@
       "AFL"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "MINER",
+    "year": "2023",
+    "targets": [
+      "API"
+    ],
+    "color": "blackbox",
+    "references": [
+      "RESTler"
+    ],
+    "author": [
+      "Chenyang Lyu",
+      "Jiacheng Xu",
+      "Shouling Ji",
+      "Xuhong Zhang",
+      "Qinying Wang",
+      "Binbin Zhao",
+      "Gaoning Pan",
+      "Wei Cao",
+      "Peng Chen",
+      "Raheem Beyah"
+    ],
+    "toolurl": "https://github.com/puppet-meteor/MINER",
+    "title": "MINER: A Hybrid Data-Driven Approach for REST API Fuzzing",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec23fall-prepub-129-lyu.pdf"
+    ]
   },
   {
     "name": "MOPT",
