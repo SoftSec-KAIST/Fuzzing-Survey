@@ -1,7 +1,7 @@
 [
   {
     "name": "ACTOR",
-    "year": 2023,
+    "year": "2023",
     "targets": [
       "Kernel"
     ],
@@ -1859,11 +1859,14 @@
   },
   {
     "name": "FUZZPD",
-    "year": 2023,
+    "year": "2023",
     "targets": [
       "Firmware"
     ],
     "color": "blackbox",
+    "references": [
+      "IoTFuzzer"
+    ],
     "author": [
       "Kyungtae Kim",
       "Sungwoo Kim",
@@ -1875,7 +1878,6 @@
     "toolurl": "https://github.com/purseclab/fuzzpd",
     "title": "Fuzz The Power: Dual-role State Guided Black-box Fuzzing for USB Power Delivery",
     "booktitle": "Proceedings of the USENIX Security Symposium",
-    "references": [],
     "miscurl": [
       "https://www.usenix.org/system/files/usenixsecurity23-kim-kyungtae.pdf"
     ]
@@ -2702,7 +2704,7 @@
   },
   {
     "name": "HyPFuzz",
-    "year": 2023,
+    "year": "2023",
     "targets": [
       "CPU"
     ],
@@ -2750,7 +2752,7 @@
   },
   {
     "name": "Hödur",
-    "year": 2023,
+    "year": "2023",
     "targets": [
       "Firmware"
     ],
@@ -4822,7 +4824,7 @@
   },
   {
     "name": "ReUSB",
-    "year": 2023,
+    "year": "2023",
     "targets": [
       "Kernel"
     ],
@@ -6201,7 +6203,7 @@
   },
   {
     "name": "WINFUZZ",
-    "year": 2023,
+    "year": "2023",
     "targets": [
       "File"
     ],
