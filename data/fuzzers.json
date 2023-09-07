@@ -1033,6 +1033,30 @@
     "color": "whitebox"
   },
   {
+    "name": "DAFL",
+    "year": "2023",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFLGo",
+      "AFL"
+    ],
+    "author": [
+      "Tae Eun Kim",
+      "Jaeseung Choi",
+      "Kihong Heo",
+      "Sang Kil Cha"
+    ],
+    "toolurl": "https://github.com/prosyslab/DAFL-artifact",
+    "title": "DAFL: Directed Grey-box Fuzzing Guided by Data Dependency",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity23-kim-tae-eun.pdf"
+    ]
+  },
+  {
     "name": "DDRace",
     "year": 2023,
     "targets": [
@@ -1898,6 +1922,35 @@
       "SPIKEfile"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "FishFuzz",
+    "year": "2023",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFLGo",
+      "AFL"
+    ],
+    "author": [
+      "Han Zheng",
+      "Jiayuan Zhang",
+      "Yuhang Huang",
+      "Zezhong Ren",
+      "He Wang",
+      "Chunjie Cao",
+      "Yuqing Zhang",
+      "Flavio Toffalini",
+      "Mathias Payer"
+    ],
+    "toolurl": "https://github.com/HexHive/FishFuzz",
+    "title": "FishFuzz: Catch Deeper Bugs by Throwing Larger Nets",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity23-zheng.pdf"
+    ]
   },
   {
     "name": "Fluffy",
@@ -6481,6 +6534,31 @@
       "jFuzz"
     ],
     "color": "whitebox"
+  },
+  {
+    "name": "mufuzz",
+    "year": "2023",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "LibAFL"
+    ],
+    "author": [
+      "Yongheng Chen",
+      "Rui Zhong",
+      "Yupeng Yang",
+      "Hong Hu",
+      "Dinghao Wu",
+      "Wenke Lee"
+    ],
+    "toolurl": "https://github.com/OMH4ck/mufuzz",
+    "title": "µFUZZ: Redesign of Parallel Fuzzing using Microservice Architecture",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity23-chen-yongheng.pdf"
+    ]
   },
   {
     "name": "orangfuzz",
