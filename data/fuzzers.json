@@ -1067,8 +1067,7 @@
     ],
     "color": "greybox",
     "references": [
-      "AFLGo",
-      "AFL"
+      "AFLGo"
     ],
     "author": [
       "Tae Eun Kim",
