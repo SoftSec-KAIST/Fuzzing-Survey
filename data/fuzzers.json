@@ -1842,6 +1842,29 @@
     "color": "blackbox"
   },
   {
+    "name": "FLUX",
+    "year": "2023",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "LibFuzzer",
+      "LangFuzz"
+    ],
+    "author": [
+      "Eric Liu",
+      "Shengjie Xu",
+      "David Lie"
+    ],
+    "toolurl": "https://github.com/ericliuu/flux",
+    "title": "FLUX: Finding Bugs with LLVM IR Based Unit Test Crossovers",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "miscurl": [
+      "https://security.csl.toronto.edu/wp-content/uploads/2023/09/eliu-ase2023-flux.pdf"
+    ]
+  },
+  {
     "name": "FOE",
     "year": 2012,
     "author": [
@@ -6224,6 +6247,31 @@
       "AFL"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "VD-GUARD",
+    "year": "2023",
+    "targets": [
+      "Hypervisor"
+    ],
+    "color": "greybox",
+    "references": [
+      "Morphuzz",
+      "AFL++"
+    ],
+    "author": [
+      "Yuwei Liu",
+      "Siqi Chen",
+      "Yuchong Xie",
+      "Yanhao Wang",
+      "Libo Chen",
+      "Bin Wang",
+      "Yingming Zeng",
+      "Zhi Xue",
+      "Purui Su"
+    ],
+    "title": "VD-GUARD: DMA Guided Fuzzing for Hypervisor Virtual Device",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering"
   },
   {
     "name": "VUzzer",
