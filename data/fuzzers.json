@@ -3619,6 +3619,32 @@
     ]
   },
   {
+    "name": "MLIRSmith",
+    "year": "2023",
+    "targets": [
+      "File"
+    ],
+    "color": "blackbox",
+    "references": [
+      "CSmith"
+    ],
+    "author": [
+      "Haoyu Wang",
+      "Junjie Chen",
+      "Chuyue Xie",
+      "Shuang Liu",
+      "Zan Wang",
+      "Qingchao Shen",
+      "Yingquan Zhao"
+    ],
+    "toolurl": "https://github.com/Colloportus0/MLIRSmith",
+    "title": "MLIRSmith: Random Program Generation for Fuzzing MLIR Compiler Infrastructure",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "keywords": [
+      "MLIR"
+    ]
+  },
+  {
     "name": "MOPT",
     "year": 2019,
     "author": [
@@ -4155,6 +4181,29 @@
     "color": "whitebox"
   },
   {
+    "name": "NaturalFuzz",
+    "year": "2023",
+    "targets": [
+      "DISC (Data-Intensive Scalable Computing) Systems"
+    ],
+    "color": "greybox",
+    "references": [
+      "BigFuzz"
+    ],
+    "author": [
+      "Ahmad Humayun",
+      "Yaoxuan Wu",
+      "Miryung Kim",
+      "Muhammad Ali Gulzar"
+    ],
+    "toolurl": "https://github.com/SEED-VT/NaturalFuzz",
+    "title": "NaturalFuzz: Natural Input Generation for Big Data Analytics",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "miscurl": [
+      "https://rohan.padhye.org/files/bigfuzz-ase20.pdf"
+    ]
+  },
+  {
     "name": "Nautilus",
     "year": 2019,
     "author": [
@@ -4519,6 +4568,31 @@
       "AFL"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "PhyFu",
+    "year": "2023",
+    "targets": [
+      "Physics Simulation Engine (PSE)"
+    ],
+    "color": "blackbox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "Dongwei Xiao",
+      "Zhibo Liu",
+      "Shuai Wang"
+    ],
+    "toolurl": "https://github.com/PhyFuzz/phyfu",
+    "title": "PHYFU: Fuzzing Modern Physics Simulation Engines",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "miscurl": [
+      "https://arxiv.org/pdf/2307.10818.pdf"
+    ],
+    "keywords": [
+      "PSE"
+    ]
   },
   {
     "name": "PolyFuzz",
