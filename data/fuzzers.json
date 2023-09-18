@@ -6036,6 +6036,30 @@
     ]
   },
   {
+    "name": "Thunderkaller",
+    "year": 2023,
+    "targets": [
+      "Kernel"
+    ],
+    "color": "greybox",
+    "author": [
+      "Yang Lan",
+      "Di Jin",
+      "Zhun Wang",
+      "Wende Tan",
+      "Zheyu Ma",
+      "Chao Zhang"
+    ],
+    "title": "Thunderkaller: Profiling and Improving the Performance of Syzkaller",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "references": [
+      "syzkaller"
+    ],
+    "miscurl": [
+      "https://conf.researchr.org/details/ase-2023/ase-2023-papers/119/Thunderkaller-Profiling-and-Improving-the-Performance-of-Syzkaller"
+    ]
+  },
+  {
     "name": "TortoiseFuzz",
     "year": 2020,
     "author": [
