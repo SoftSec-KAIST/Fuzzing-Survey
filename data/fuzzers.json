@@ -1842,6 +1842,29 @@
     "color": "blackbox"
   },
   {
+    "name": "FLUX",
+    "year": "2023",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "LibFuzzer",
+      "LangFuzz"
+    ],
+    "author": [
+      "Eric Liu",
+      "Shengjie Xu",
+      "David Lie"
+    ],
+    "toolurl": "https://github.com/ericliuu/flux",
+    "title": "FLUX: Finding Bugs with LLVM IR Based Unit Test Crossovers",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "miscurl": [
+      "https://security.csl.toronto.edu/wp-content/uploads/2023/09/eliu-ase2023-flux.pdf"
+    ]
+  },
+  {
     "name": "FOE",
     "year": 2012,
     "author": [
@@ -3619,6 +3642,32 @@
     ]
   },
   {
+    "name": "MLIRSmith",
+    "year": "2023",
+    "targets": [
+      "File"
+    ],
+    "color": "blackbox",
+    "references": [
+      "CSmith"
+    ],
+    "author": [
+      "Haoyu Wang",
+      "Junjie Chen",
+      "Chuyue Xie",
+      "Shuang Liu",
+      "Zan Wang",
+      "Qingchao Shen",
+      "Yingquan Zhao"
+    ],
+    "toolurl": "https://github.com/Colloportus0/MLIRSmith",
+    "title": "MLIRSmith: Random Program Generation for Fuzzing MLIR Compiler Infrastructure",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "keywords": [
+      "MLIR"
+    ]
+  },
+  {
     "name": "MOPT",
     "year": 2019,
     "author": [
@@ -4155,6 +4204,29 @@
     "color": "whitebox"
   },
   {
+    "name": "NaturalFuzz",
+    "year": "2023",
+    "targets": [
+      "DISC (Data-Intensive Scalable Computing) Systems"
+    ],
+    "color": "greybox",
+    "references": [
+      "BigFuzz"
+    ],
+    "author": [
+      "Ahmad Humayun",
+      "Yaoxuan Wu",
+      "Miryung Kim",
+      "Muhammad Ali Gulzar"
+    ],
+    "toolurl": "https://github.com/SEED-VT/NaturalFuzz",
+    "title": "NaturalFuzz: Natural Input Generation for Big Data Analytics",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "miscurl": [
+      "https://rohan.padhye.org/files/bigfuzz-ase20.pdf"
+    ]
+  },
+  {
     "name": "Nautilus",
     "year": 2019,
     "author": [
@@ -4519,6 +4591,31 @@
       "AFL"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "PhyFu",
+    "year": "2023",
+    "targets": [
+      "Physics Simulation Engine (PSE)"
+    ],
+    "color": "blackbox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "Dongwei Xiao",
+      "Zhibo Liu",
+      "Shuai Wang"
+    ],
+    "toolurl": "https://github.com/PhyFuzz/phyfu",
+    "title": "PHYFU: Fuzzing Modern Physics Simulation Engines",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "miscurl": [
+      "https://arxiv.org/pdf/2307.10818.pdf"
+    ],
+    "keywords": [
+      "PSE"
+    ]
   },
   {
     "name": "PolyFuzz",
@@ -5939,6 +6036,30 @@
     ]
   },
   {
+    "name": "Thunderkaller",
+    "year": 2023,
+    "targets": [
+      "Kernel"
+    ],
+    "color": "greybox",
+    "author": [
+      "Yang Lan",
+      "Di Jin",
+      "Zhun Wang",
+      "Wende Tan",
+      "Zheyu Ma",
+      "Chao Zhang"
+    ],
+    "title": "Thunderkaller: Profiling and Improving the Performance of Syzkaller",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "references": [
+      "syzkaller"
+    ],
+    "miscurl": [
+      "https://conf.researchr.org/details/ase-2023/ase-2023-papers/119/Thunderkaller-Profiling-and-Improving-the-Performance-of-Syzkaller"
+    ]
+  },
+  {
     "name": "TortoiseFuzz",
     "year": 2020,
     "author": [
@@ -6150,6 +6271,31 @@
       "AFL"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "VD-GUARD",
+    "year": "2023",
+    "targets": [
+      "Hypervisor"
+    ],
+    "color": "greybox",
+    "references": [
+      "Morphuzz",
+      "AFL++"
+    ],
+    "author": [
+      "Yuwei Liu",
+      "Siqi Chen",
+      "Yuchong Xie",
+      "Yanhao Wang",
+      "Libo Chen",
+      "Bin Wang",
+      "Yingming Zeng",
+      "Zhi Xue",
+      "Purui Su"
+    ],
+    "title": "VD-GUARD: DMA Guided Fuzzing for Hypervisor Virtual Device",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering"
   },
   {
     "name": "VUzzer",
