@@ -1267,6 +1267,28 @@
     ]
   },
   {
+    "name": "DepFuzz",
+    "year": "2023",
+    "targets": [
+      "DISC (Data-Intensive Scalable Computing) Systems"
+    ],
+    "color": "greybox",
+    "references": [
+      "BigFuzz"
+    ],
+    "author": [
+      "Ahmad Humayun",
+      "Miryung Kim",
+      "Muhammad Ali Gulzar"
+    ],
+    "toolurl": "https://github.com/SEED-VT/DepFuzz",
+    "title": "Co-dependence Aware Fuzzing for Dataflow-Based Big Data Analytics",
+    "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
+    "miscurl": [
+      "https://people.cs.vt.edu/~gulzar/assets/pdf/depfuzz.pdf"
+    ]
+  },
+  {
     "name": "Dewey et al.",
     "year": 2014,
     "author": [
@@ -2516,6 +2538,30 @@
       "syzkaller"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "HFuzz",
+    "year": "2023",
+    "targets": [
+      "Heterogeneous applications"
+    ],
+    "color": "greybox",
+    "references": [
+      "HeteroFuzz"
+    ],
+    "author": [
+      "Jiyuan Wang",
+      "Qian Zhang",
+      "Hongbo Rong",
+      "Guoqing Harry Xu",
+      "Miryung Kim"
+    ],
+    "toolurl": "https://github.com/wjy99-c/HFuzz",
+    "title": "Leveraging Hardware Probes and Optimizations for Accelerating Fuzz Testing of Heterogeneous Applications",
+    "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
+    "miscurl": [
+      "https://web.cs.ucla.edu/~wangjiyuan/research/FSE2023_HFuzz.pdf"
+    ]
   },
   {
     "name": "HTFuzz",
@@ -3900,6 +3946,33 @@
       "File"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "MirageFuzz",
+    "year": "2023",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "Mingyuan Wu",
+      "Kunqiu Chen",
+      "Qi Luo",
+      "Jiahong Xiang",
+      "Ji Qi",
+      "Junjie Chen",
+      "Heming Cui",
+      "Yuqun Zhang"
+    ],
+    "toolurl": "https://github.com/WorldExecute/fuzzer",
+    "title": "Enhancing Coverage-Guided Fuzzing via Phantom Program",
+    "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
+    "miscurl": [
+      "https://shadowmydx.github.io/papers/fse2023a.pdf"
+    ]
   },
   {
     "name": "MoFuzz",
