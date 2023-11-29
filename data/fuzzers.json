@@ -2752,6 +2752,30 @@
     "color": "blackbox"
   },
   {
+    "name": "Hopper",
+    "year": "2023",
+    "targets": [
+      "API"
+    ],
+    "color": "greybox",
+    "references": [
+      "RESTler"
+    ],
+    "author": [
+      "Peng Chen",
+      "Yuxuan Xie",
+      "Yunlong Lyu",
+      "Yuxiao Wang",
+      "Hao Chen"
+    ],
+    "toolurl": "https://github.com/FuzzAnything/Hopper",
+    "title": "Hopper: Interpretative Fuzzing for Libraries",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3576915.3616610"
+    ]
+  },
+  {
     "name": "HotFuzz",
     "year": 2020,
     "author": [
@@ -3851,6 +3875,29 @@
     "color": "whitebox"
   },
   {
+    "name": "Mallory",
+    "year": "2023",
+    "targets": [
+      "Distributed System"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "Ruijie Meng",
+      "George Pîrlea",
+      "Abhik Roychoudhury",
+      "Ilya Sergey"
+    ],
+    "toolurl": "https://github.com/dsfuzz/mallory",
+    "title": "Greybox Fuzzing of Distributed Systems",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3576915.3623097"
+    ]
+  },
+  {
     "name": "Mamba",
     "year": 2012,
     "author": [
@@ -4868,6 +4915,30 @@
       "Angora"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "PyRTFuzz",
+    "year": "2023",
+    "targets": [
+      "Python"
+    ],
+    "color": "greybox",
+    "references": [
+      "jsfunfuzz"
+    ],
+    "author": [
+      "Wen Li",
+      "Haoran Yang",
+      "Xiapu Luo",
+      "Long Cheng",
+      "Haipeng Cai"
+    ],
+    "toolurl": "https://github.com/awen-li/PyRTFuzz",
+    "title": "PyRTFuzz: Detecting Bugs in Python Runtimes via Two-Level Collaborative Fuzzing",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3576915.3623166"
+    ]
   },
   {
     "name": "QSYM",
@@ -5920,6 +5991,32 @@
       "BFF"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "SyzDirect",
+    "year": "2023",
+    "targets": [
+      "Kernel"
+    ],
+    "color": "greybox",
+    "references": [
+      "syzkaller",
+      "AFLGo"
+    ],
+    "author": [
+      "Xin Tan",
+      "Yuan Zhang",
+      "Jiadong Lu",
+      "Xin Xiong",
+      "Zhuang Liu",
+      "Min Yang"
+    ],
+    "toolurl": "https://github.com/seclab-fudan/SyzDirect",
+    "title": "SyzDirect: Directed Greybox Fuzzing for Linux Kernel",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3576915.3623146"
+    ]
   },
   {
     "name": "SyzGen",
