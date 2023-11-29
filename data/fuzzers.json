@@ -1227,6 +1227,26 @@
     "color": "greybox"
   },
   {
+    "name": "DSFuzz",
+    "year": "2023",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "ParmeSan"
+    ],
+    "author": [
+      "Yinxi Liu",
+      "Wei Meng"
+    ],
+    "title": "DSFuzz: Detecting Deep State Bugs with Dependent State Exploration",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3576915.3616594"
+    ]
+  },
+  {
     "name": "DeadlockFuzzer",
     "year": 2009,
     "author": [
@@ -2156,6 +2176,31 @@
       "TaintScope"
     ],
     "color": "whitebox"
+  },
+  {
+    "name": "FuzzDelSol",
+    "year": "2023",
+    "targets": [
+      "Solana Smart Contract"
+    ],
+    "color": "greybox",
+    "references": [
+      "LibAFL"
+    ],
+    "author": [
+      "Sven Smolka",
+      "Jens-Rene Giesen",
+      "Pascal Winkler",
+      "Oussama Draissi",
+      "Lucas Davi",
+      "Ghassan Karame",
+      "Klaus Pohl"
+    ],
+    "title": "Fuzz on the Beach: Fuzzing Solana Smart Contracts",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://dl.acm.org/doi/10.1145/3576915.3623178"
+    ]
   },
   {
     "name": "FuzzJIT",
@@ -4339,6 +4384,32 @@
       "cross_fuzz"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "NestFuzz",
+    "year": "2023",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "Peng Deng",
+      "Zhemin Yang",
+      "Lei Zhang",
+      "Guangliang Yang",
+      "Wenzheng Hong",
+      "Yuan Zhang",
+      "Min Yang"
+    ],
+    "toolurl": "https://github.com/fdu-sec/NestFuzz",
+    "title": "NestFuzz: Enhancing Fuzzing with Comprehensive Understanding of Input Processing Logic",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3576915.3623103"
+    ]
   },
   {
     "name": "NeuralFuzzer",
