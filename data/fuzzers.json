@@ -1021,6 +1021,33 @@
     "color": "greybox"
   },
   {
+    "name": "ComFuzz",
+    "year": 2023,
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Guixin Ye",
+      "Tianmin Hu",
+      "Zhanyong Tang",
+      "Zhenye Fan",
+      "Shin Hwei Tan",
+      "Bo Zhang",
+      "Wenxiang Qian",
+      "Zheng Wang"
+    ],
+    "toolurl": "https://github.com/NWU-NISL-Fuzzing/COMFUZZ",
+    "title": "A Generative and Mutational Approach for Synthesizing Bug-Exposing Test Cases to Guide Compiler Fuzzing",
+    "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
+    "references": [
+      "COMFORT"
+    ],
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3611643.3616332"
+    ]
+  },
+  {
     "name": "ContractFuzzer",
     "year": 2018,
     "author": [
@@ -1227,6 +1254,26 @@
     "color": "greybox"
   },
   {
+    "name": "DSFuzz",
+    "year": "2023",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "ParmeSan"
+    ],
+    "author": [
+      "Yinxi Liu",
+      "Wei Meng"
+    ],
+    "title": "DSFuzz: Detecting Deep State Bugs with Dependent State Exploration",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3576915.3616594"
+    ]
+  },
+  {
     "name": "DeadlockFuzzer",
     "year": 2009,
     "author": [
@@ -1264,6 +1311,28 @@
     "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
     "references": [
       "FreeFuzz"
+    ]
+  },
+  {
+    "name": "DepFuzz",
+    "year": "2023",
+    "targets": [
+      "DISC (Data-Intensive Scalable Computing) Systems"
+    ],
+    "color": "greybox",
+    "references": [
+      "BigFuzz"
+    ],
+    "author": [
+      "Ahmad Humayun",
+      "Miryung Kim",
+      "Muhammad Ali Gulzar"
+    ],
+    "toolurl": "https://github.com/SEED-VT/DepFuzz",
+    "title": "Co-dependence Aware Fuzzing for Dataflow-Based Big Data Analytics",
+    "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
+    "miscurl": [
+      "https://people.cs.vt.edu/~gulzar/assets/pdf/depfuzz.pdf"
     ]
   },
   {
@@ -2136,6 +2205,31 @@
     "color": "whitebox"
   },
   {
+    "name": "FuzzDelSol",
+    "year": "2023",
+    "targets": [
+      "Solana Smart Contract"
+    ],
+    "color": "greybox",
+    "references": [
+      "LibAFL"
+    ],
+    "author": [
+      "Sven Smolka",
+      "Jens-Rene Giesen",
+      "Pascal Winkler",
+      "Oussama Draissi",
+      "Lucas Davi",
+      "Ghassan Karame",
+      "Klaus Pohl"
+    ],
+    "title": "Fuzz on the Beach: Fuzzing Solana Smart Contracts",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://dl.acm.org/doi/10.1145/3576915.3623178"
+    ]
+  },
+  {
     "name": "FuzzJIT",
     "year": 2023,
     "targets": [
@@ -2518,6 +2612,30 @@
     "color": "greybox"
   },
   {
+    "name": "HFuzz",
+    "year": "2023",
+    "targets": [
+      "Heterogeneous applications"
+    ],
+    "color": "greybox",
+    "references": [
+      "HeteroFuzz"
+    ],
+    "author": [
+      "Jiyuan Wang",
+      "Qian Zhang",
+      "Hongbo Rong",
+      "Guoqing Harry Xu",
+      "Miryung Kim"
+    ],
+    "toolurl": "https://github.com/wjy99-c/HFuzz",
+    "title": "Leveraging Hardware Probes and Optimizations for Accelerating Fuzz Testing of Heterogeneous Applications",
+    "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
+    "miscurl": [
+      "https://web.cs.ucla.edu/~wangjiyuan/research/FSE2023_HFuzz.pdf"
+    ]
+  },
+  {
     "name": "HTFuzz",
     "year": 2022,
     "targets": [
@@ -2659,6 +2777,30 @@
       "Network"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "Hopper",
+    "year": "2023",
+    "targets": [
+      "API"
+    ],
+    "color": "greybox",
+    "references": [
+      "RESTler"
+    ],
+    "author": [
+      "Peng Chen",
+      "Yuxuan Xie",
+      "Yunlong Lyu",
+      "Yuxiao Wang",
+      "Hao Chen"
+    ],
+    "toolurl": "https://github.com/FuzzAnything/Hopper",
+    "title": "Hopper: Interpretative Fuzzing for Libraries",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3576915.3616610"
+    ]
   },
   {
     "name": "HotFuzz",
@@ -3760,6 +3902,29 @@
     "color": "whitebox"
   },
   {
+    "name": "Mallory",
+    "year": "2023",
+    "targets": [
+      "Distributed System"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "Ruijie Meng",
+      "George Pîrlea",
+      "Abhik Roychoudhury",
+      "Ilya Sergey"
+    ],
+    "toolurl": "https://github.com/dsfuzz/mallory",
+    "title": "Greybox Fuzzing of Distributed Systems",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3576915.3623097"
+    ]
+  },
+  {
     "name": "Mamba",
     "year": 2012,
     "author": [
@@ -3843,6 +4008,27 @@
     "color": "greybox"
   },
   {
+    "name": "Metamong",
+    "year": 2023,
+    "targets": [
+      "Web"
+    ],
+    "color": "blackbox",
+    "author": [
+      "Suhwan Song",
+      "Byoungyoung Lee"
+    ],
+    "toolurl": "https://figshare.com/s/d3c228e614672f9aa811",
+    "title": "Metamong: Detecting Render-Update Bugs in Web Browsers through Fuzzing",
+    "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
+    "references": [
+      "Domato"
+    ],
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3611643.3616336"
+    ]
+  },
+  {
     "name": "Miller et al.",
     "year": 1990,
     "author": [
@@ -3900,6 +4086,33 @@
       "File"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "MirageFuzz",
+    "year": "2023",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "Mingyuan Wu",
+      "Kunqiu Chen",
+      "Qi Luo",
+      "Jiahong Xiang",
+      "Ji Qi",
+      "Junjie Chen",
+      "Heming Cui",
+      "Yuqun Zhang"
+    ],
+    "toolurl": "https://github.com/WorldExecute/fuzzer",
+    "title": "Enhancing Coverage-Guided Fuzzing via Phantom Program",
+    "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
+    "miscurl": [
+      "https://shadowmydx.github.io/papers/fse2023a.pdf"
+    ]
   },
   {
     "name": "MoFuzz",
@@ -4268,6 +4481,32 @@
     "color": "blackbox"
   },
   {
+    "name": "NestFuzz",
+    "year": "2023",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "Peng Deng",
+      "Zhemin Yang",
+      "Lei Zhang",
+      "Guangliang Yang",
+      "Wenzheng Hong",
+      "Yuan Zhang",
+      "Min Yang"
+    ],
+    "toolurl": "https://github.com/fdu-sec/NestFuzz",
+    "title": "NestFuzz: Enhancing Fuzzing with Comprehensive Understanding of Input Processing Logic",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3576915.3623103"
+    ]
+  },
+  {
     "name": "NeuralFuzzer",
     "year": 2016,
     "author": [
@@ -4324,6 +4563,29 @@
       "Learn&Fuzz"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "Neuzz++",
+    "year": 2023,
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Maria-Irina Nicolae",
+      "Max Eisele",
+      "Andreas Zeller"
+    ],
+    "toolurl": "https://github.com/boschresearch/neuzzplusplus",
+    "title": "Revisiting Neural Program Smoothing for Fuzzing",
+    "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
+    "references": [
+      "Neuzz",
+      "AFL++"
+    ],
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3611643.3616308"
+    ]
   },
   {
     "name": "Nightmare",
@@ -4422,6 +4684,32 @@
     "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
     "miscurl": [
       "https://www.computer.org/csdl/proceedings-article/sp/2022/131600a154/1wKCe9rJFfi"
+    ]
+  },
+  {
+    "name": "PBFDroid",
+    "year": 2023,
+    "targets": [
+      "UI"
+    ],
+    "color": "blackbox",
+    "author": [
+      "Jingling Sun",
+      "Ting Su",
+      "Jiayi Jiang",
+      "Jue Wang",
+      "Geguang Pu",
+      "Zhendong Su"
+    ],
+    "toolurl": "https://github.com/property-based-fuzzing/home",
+    "title": "Property-Based Fuzzing for Finding Data Manipulation Errors in Android Apps",
+    "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
+    "references": [
+      "JQF",
+      "APE"
+    ],
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3611643.3616286"
     ]
   },
   {
@@ -4724,6 +5012,30 @@
       "Angora"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "PyRTFuzz",
+    "year": "2023",
+    "targets": [
+      "Python"
+    ],
+    "color": "greybox",
+    "references": [
+      "jsfunfuzz"
+    ],
+    "author": [
+      "Wen Li",
+      "Haoran Yang",
+      "Xiapu Luo",
+      "Long Cheng",
+      "Haipeng Cai"
+    ],
+    "toolurl": "https://github.com/awen-li/PyRTFuzz",
+    "title": "PyRTFuzz: Detecting Bugs in Python Runtimes via Two-Level Collaborative Fuzzing",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3576915.3623166"
+    ]
   },
   {
     "name": "QSYM",
@@ -5098,6 +5410,33 @@
     ],
     "miscurl": [
       "https://www.usenix.org/system/files/sec22-cloosters.pdf"
+    ]
+  },
+  {
+    "name": "SJFuzz",
+    "year": 2023,
+    "targets": [
+      "JVM"
+    ],
+    "color": "greybox",
+    "author": [
+      "Mingyuan Wu",
+      "Yicheng Ouyang",
+      "Minghai Lu",
+      "Junjie Chen",
+      "Yingquan Zhao",
+      "Heming Cui",
+      "Guowei Yang",
+      "Yuqun Zhang"
+    ],
+    "toolurl": "https://github.com/fuzzy000/SJFuzz",
+    "title": "SJFuzz: Seed and Mutator Scheduling for JVM Fuzzing",
+    "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
+    "references": [
+      "classming"
+    ],
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3611643.3616277"
     ]
   },
   {
@@ -5776,6 +6115,32 @@
       "BFF"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "SyzDirect",
+    "year": "2023",
+    "targets": [
+      "Kernel"
+    ],
+    "color": "greybox",
+    "references": [
+      "syzkaller",
+      "AFLGo"
+    ],
+    "author": [
+      "Xin Tan",
+      "Yuan Zhang",
+      "Jiadong Lu",
+      "Xin Xiong",
+      "Zhuang Liu",
+      "Min Yang"
+    ],
+    "toolurl": "https://github.com/seclab-fudan/SyzDirect",
+    "title": "SyzDirect: Directed Greybox Fuzzing for Linux Kernel",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3576915.3623146"
+    ]
   },
   {
     "name": "SyzGen",
