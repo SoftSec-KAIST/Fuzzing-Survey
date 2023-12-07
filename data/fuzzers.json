@@ -1021,6 +1021,33 @@
     "color": "greybox"
   },
   {
+    "name": "ComFuzz",
+    "year": 2023,
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Guixin Ye",
+      "Tianmin Hu",
+      "Zhanyong Tang",
+      "Zhenye Fan",
+      "Shin Hwei Tan",
+      "Bo Zhang",
+      "Wenxiang Qian",
+      "Zheng Wang"
+    ],
+    "toolurl": "https://github.com/NWU-NISL-Fuzzing/COMFUZZ",
+    "title": "A Generative and Mutational Approach for Synthesizing Bug-Exposing Test Cases to Guide Compiler Fuzzing",
+    "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
+    "references": [
+      "COMFORT"
+    ],
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3611643.3616332"
+    ]
+  },
+  {
     "name": "ContractFuzzer",
     "year": 2018,
     "author": [
@@ -3981,6 +4008,27 @@
     "color": "greybox"
   },
   {
+    "name": "Metamong",
+    "year": 2023,
+    "targets": [
+      "Web"
+    ],
+    "color": "blackbox",
+    "author": [
+      "Suhwan Song",
+      "Byoungyoung Lee"
+    ],
+    "toolurl": "https://figshare.com/s/d3c228e614672f9aa811",
+    "title": "Metamong: Detecting Render-Update Bugs in Web Browsers through Fuzzing",
+    "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
+    "references": [
+      "Domato"
+    ],
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3611643.3616336"
+    ]
+  },
+  {
     "name": "Miller et al.",
     "year": 1990,
     "author": [
@@ -4517,6 +4565,29 @@
     "color": "greybox"
   },
   {
+    "name": "Neuzz++",
+    "year": 2023,
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Maria-Irina Nicolae",
+      "Max Eisele",
+      "Andreas Zeller"
+    ],
+    "toolurl": "https://github.com/boschresearch/neuzzplusplus",
+    "title": "Revisiting Neural Program Smoothing for Fuzzing",
+    "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
+    "references": [
+      "Neuzz",
+      "AFL++"
+    ],
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3611643.3616308"
+    ]
+  },
+  {
     "name": "Nightmare",
     "year": 2014,
     "author": [
@@ -4613,6 +4684,32 @@
     "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
     "miscurl": [
       "https://www.computer.org/csdl/proceedings-article/sp/2022/131600a154/1wKCe9rJFfi"
+    ]
+  },
+  {
+    "name": "PBFDroid",
+    "year": 2023,
+    "targets": [
+      "UI"
+    ],
+    "color": "blackbox",
+    "author": [
+      "Jingling Sun",
+      "Ting Su",
+      "Jiayi Jiang",
+      "Jue Wang",
+      "Geguang Pu",
+      "Zhendong Su"
+    ],
+    "toolurl": "https://github.com/property-based-fuzzing/home",
+    "title": "Property-Based Fuzzing for Finding Data Manipulation Errors in Android Apps",
+    "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
+    "references": [
+      "JQF",
+      "APE"
+    ],
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3611643.3616286"
     ]
   },
   {
@@ -5313,6 +5410,33 @@
     ],
     "miscurl": [
       "https://www.usenix.org/system/files/sec22-cloosters.pdf"
+    ]
+  },
+  {
+    "name": "SJFuzz",
+    "year": 2023,
+    "targets": [
+      "JVM"
+    ],
+    "color": "greybox",
+    "author": [
+      "Mingyuan Wu",
+      "Yicheng Ouyang",
+      "Minghai Lu",
+      "Junjie Chen",
+      "Yingquan Zhao",
+      "Heming Cui",
+      "Guowei Yang",
+      "Yuqun Zhang"
+    ],
+    "toolurl": "https://github.com/fuzzy000/SJFuzz",
+    "title": "SJFuzz: Seed and Mutator Scheduling for JVM Fuzzing",
+    "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
+    "references": [
+      "classming"
+    ],
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3611643.3616277"
     ]
   },
   {
