@@ -886,6 +886,32 @@
     "color": "greybox"
   },
   {
+    "name": "ChatAFL",
+    "year": "2024",
+    "targets": [
+      "Network"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "Ruijie Meng",
+      "Martin Mirchev",
+      "Marcel Bohme",
+      "Abhik Roychoudhury"
+    ],
+    "toolurl": "https://github.com/ChatAFLndss/ChatAFL",
+    "title": "Large Language Model guided Protocol Fuzzing",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/2024-556-paper.pdf"
+    ],
+    "keywords": [
+      "LLM"
+    ]
+  },
+  {
     "name": "Chen et al",
     "year": 2019,
     "author": [
@@ -1292,6 +1318,34 @@
       "CalFuzzer"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "DeepGo",
+    "year": "2024",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFLGo"
+    ],
+    "author": [
+      "Peihong Lin",
+      "Pengfei Wang",
+      "Xu Zhou",
+      "Wei Xie",
+      "Gen Zhang",
+      "Kai L"
+    ],
+    "toolurl": "https://gitee.com/paynelin/DeepGo",
+    "title": "DeepGo: Predictive Directed Greybox Fuzzing",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/2024-514-paper.pdf"
+    ],
+    "keywords": [
+      "Directed fuzzing"
+    ]
   },
   {
     "name": "DeepREL",
@@ -1774,6 +1828,31 @@
       "radamsa"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "EnclaveFuzz",
+    "year": "2024",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "SGXFuzz"
+    ],
+    "author": [
+      "Liheng Chen",
+      "Zheming Li",
+      "Zheyu Ma",
+      "Yuan Li",
+      "Baojian Chen",
+      "Chao Zhang"
+    ],
+    "toolurl": "https://github.com/LeoneChen/EnclaveFuzz",
+    "title": "EnclaveFuzz: Finding Vulnerabilities in SGX Applications",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/2024-819-paper.pdf"
+    ]
   },
   {
     "name": "Entropic",
