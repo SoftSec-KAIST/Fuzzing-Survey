@@ -3053,6 +3053,26 @@
     "color": "blackbox"
   },
   {
+    "name": "IPEA-Fuzz",
+    "year": "2024",
+    "targets": [
+      "Firmware"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "Jiameng Shi",
+      "Wenqiang Li",
+      "Wenwen Wang",
+      "Le Guan"
+    ],
+    "toolurl": "https://github.com/MCUSec/IPEA",
+    "title": "Facilitating Non-Intrusive In-Vivo Firmware Testing with Stateless Instrumentation",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium"
+  },
+  {
     "name": "Intender",
     "year": "2023",
     "targets": [
@@ -4986,6 +5006,31 @@
     "miscurl": [
       "http://zhangyuqun.com/publications/icse2022a.pdf"
     ]
+  },
+  {
+    "name": "Predictive Context-sensitive Fuzzing",
+    "year": "2024",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "Angora",
+      "AFL++"
+    ],
+    "author": [
+      "Pietro Borrello",
+      "Andrea Fioraldi",
+      "Daniele Cono D’Elia",
+      "Davide Balzarotti",
+      "Leonardo Querzoni",
+      "Cristiano Giuffrida"
+    ],
+    "miscurl": [
+      "https://github.com/eurecom-s3/predictive-cs-fuzzing"
+    ],
+    "title": "Predictive Context-sensitive Fuzzing",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium"
   },
   {
     "name": "ProFuzzer",
