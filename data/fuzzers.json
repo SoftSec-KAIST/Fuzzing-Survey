@@ -3909,6 +3909,36 @@
     ]
   },
   {
+    "name": "MOCK",
+    "year": "2024",
+    "targets": [
+      "Kernel"
+    ],
+    "color": "greybox",
+    "references": [
+      "syzkaller"
+    ],
+    "author": [
+      "Jiacheng Xu",
+      "Xuhong Zhang",
+      "Shouling Ji",
+      "Yuan Tian",
+      "Binbin Zhao",
+      "Qinying Wang",
+      "Peng Cheng",
+      "Jiming Chen"
+    ],
+    "toolurl": "https://github.com/m0ck1ng/mock",
+    "title": "MOCK: Optimizing Kernel Fuzzing Mutation with Context-aware Dependency",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/2024-131-paper.pdf"
+    ],
+    "keywords": [
+      "Kernel Fuzzing"
+    ]
+  },
+  {
     "name": "MOPT",
     "year": 2019,
     "author": [
@@ -5534,6 +5564,34 @@
     ],
     "miscurl": [
       "https://www.usenix.org/system/files/sec22-cloosters.pdf"
+    ]
+  },
+  {
+    "name": "SHAPFUZZ",
+    "year": "2024",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "GreyOne"
+    ],
+    "author": [
+      "Kunpeng Zhang",
+      "Xiaogang Zhu",
+      "Xi Xiao",
+      "Minhui Xue",
+      "Chao Zhang",
+      "and Sheng Wen"
+    ],
+    "toolurl": "https://github.com/ShapFuzz/ShapFuzz",
+    "title": "SHAPFUZZ: Efficient Fuzzing via Shapley-Guided Byte Selection",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/2024-134-paper.pdf"
+    ],
+    "keywords": [
+      "Mutation-based fuzzing"
     ]
   },
   {
