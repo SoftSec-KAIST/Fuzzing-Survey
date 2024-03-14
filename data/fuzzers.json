@@ -1335,7 +1335,7 @@
       "Xu Zhou",
       "Wei Xie",
       "Gen Zhang",
-      "Kai L"
+      "Kai Lu"
     ],
     "toolurl": "https://gitee.com/paynelin/DeepGo",
     "title": "DeepGo: Predictive Directed Greybox Fuzzing",
@@ -5582,7 +5582,7 @@
       "Xi Xiao",
       "Minhui Xue",
       "Chao Zhang",
-      "and Sheng Wen"
+      "Sheng Wen"
     ],
     "toolurl": "https://github.com/ShapFuzz/ShapFuzz",
     "title": "SHAPFUZZ: Efficient Fuzzing via Shapley-Guided Byte Selection",
