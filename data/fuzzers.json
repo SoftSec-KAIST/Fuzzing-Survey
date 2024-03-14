@@ -3148,6 +3148,9 @@
       "Le Guan"
     ],
     "toolurl": "https://github.com/MCUSec/IPEA",
+    "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/2024-116-paper.pdf"
+    ],
     "title": "Facilitating Non-Intrusive In-Vivo Firmware Testing with Stateless Instrumentation",
     "booktitle": "Proceedings of the Network and Distributed System Security Symposium"
   },
