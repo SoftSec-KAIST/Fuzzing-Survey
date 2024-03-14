@@ -5586,7 +5586,7 @@
     ],
     "toolurl": "https://github.com/ShapFuzz/ShapFuzz",
     "title": "SHAPFUZZ: Efficient Fuzzing via Shapley-Guided Byte Selection",
-    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
     "miscurl": [
       "https://www.ndss-symposium.org/wp-content/uploads/2024-134-paper.pdf"
     ],
