@@ -886,6 +886,32 @@
     "color": "greybox"
   },
   {
+    "name": "ChatAFL",
+    "year": "2024",
+    "targets": [
+      "Network"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "Ruijie Meng",
+      "Martin Mirchev",
+      "Marcel Bohme",
+      "Abhik Roychoudhury"
+    ],
+    "toolurl": "https://github.com/ChatAFLndss/ChatAFL",
+    "title": "Large Language Model guided Protocol Fuzzing",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/2024-556-paper.pdf"
+    ],
+    "keywords": [
+      "LLM"
+    ]
+  },
+  {
     "name": "Chen et al",
     "year": 2019,
     "author": [
@@ -1292,6 +1318,34 @@
       "CalFuzzer"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "DeepGo",
+    "year": "2024",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFLGo"
+    ],
+    "author": [
+      "Peihong Lin",
+      "Pengfei Wang",
+      "Xu Zhou",
+      "Wei Xie",
+      "Gen Zhang",
+      "Kai Lu"
+    ],
+    "toolurl": "https://gitee.com/paynelin/DeepGo",
+    "title": "DeepGo: Predictive Directed Greybox Fuzzing",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/2024-514-paper.pdf"
+    ],
+    "keywords": [
+      "Directed fuzzing"
+    ]
   },
   {
     "name": "DeepREL",
@@ -1774,6 +1828,31 @@
       "radamsa"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "EnclaveFuzz",
+    "year": "2024",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "SGXFuzz"
+    ],
+    "author": [
+      "Liheng Chen",
+      "Zheming Li",
+      "Zheyu Ma",
+      "Yuan Li",
+      "Baojian Chen",
+      "Chao Zhang"
+    ],
+    "toolurl": "https://github.com/LeoneChen/EnclaveFuzz",
+    "title": "EnclaveFuzz: Finding Vulnerabilities in SGX Applications",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/2024-819-paper.pdf"
+    ]
   },
   {
     "name": "Entropic",
@@ -3053,6 +3132,29 @@
     "color": "blackbox"
   },
   {
+    "name": "IPEA-Fuzz",
+    "year": "2024",
+    "targets": [
+      "Firmware"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "Jiameng Shi",
+      "Wenqiang Li",
+      "Wenwen Wang",
+      "Le Guan"
+    ],
+    "toolurl": "https://github.com/MCUSec/IPEA",
+    "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/2024-116-paper.pdf"
+    ],
+    "title": "Facilitating Non-Intrusive In-Vivo Firmware Testing with Stateless Instrumentation",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium"
+  },
+  {
     "name": "Intender",
     "year": "2023",
     "targets": [
@@ -3807,6 +3909,36 @@
     "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
     "keywords": [
       "MLIR"
+    ]
+  },
+  {
+    "name": "MOCK",
+    "year": "2024",
+    "targets": [
+      "Kernel"
+    ],
+    "color": "greybox",
+    "references": [
+      "syzkaller"
+    ],
+    "author": [
+      "Jiacheng Xu",
+      "Xuhong Zhang",
+      "Shouling Ji",
+      "Yuan Tian",
+      "Binbin Zhao",
+      "Qinying Wang",
+      "Peng Cheng",
+      "Jiming Chen"
+    ],
+    "toolurl": "https://github.com/m0ck1ng/mock",
+    "title": "MOCK: Optimizing Kernel Fuzzing Mutation with Context-aware Dependency",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/2024-131-paper.pdf"
+    ],
+    "keywords": [
+      "Kernel Fuzzing"
     ]
   },
   {
@@ -4988,6 +5120,31 @@
     ]
   },
   {
+    "name": "Predictive Context-sensitive Fuzzing",
+    "year": "2024",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "Angora",
+      "AFL++"
+    ],
+    "author": [
+      "Pietro Borrello",
+      "Andrea Fioraldi",
+      "Daniele Cono D’Elia",
+      "Davide Balzarotti",
+      "Leonardo Querzoni",
+      "Cristiano Giuffrida"
+    ],
+    "miscurl": [
+      "https://github.com/eurecom-s3/predictive-cs-fuzzing"
+    ],
+    "title": "Predictive Context-sensitive Fuzzing",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium"
+  },
+  {
     "name": "ProFuzzer",
     "year": 2019,
     "author": [
@@ -5410,6 +5567,34 @@
     ],
     "miscurl": [
       "https://www.usenix.org/system/files/sec22-cloosters.pdf"
+    ]
+  },
+  {
+    "name": "SHAPFUZZ",
+    "year": "2024",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "GreyOne"
+    ],
+    "author": [
+      "Kunpeng Zhang",
+      "Xiaogang Zhu",
+      "Xi Xiao",
+      "Minhui Xue",
+      "Chao Zhang",
+      "Sheng Wen"
+    ],
+    "toolurl": "https://github.com/ShapFuzz/ShapFuzz",
+    "title": "SHAPFUZZ: Efficient Fuzzing via Shapley-Guided Byte Selection",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/2024-134-paper.pdf"
+    ],
+    "keywords": [
+      "Mutation-based fuzzing"
     ]
   },
   {
