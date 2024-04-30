@@ -1074,6 +1074,29 @@
     ]
   },
   {
+    "name": "ConfigFuzz",
+    "year": "2023",
+    "targets": [
+      "Program configuration"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "Zenong Zhang",
+      "George Klees",
+      "Eric Wang",
+      "Michael Hicks",
+      "Shiyi Wei"
+    ],
+    "title": "Fuzzing Configurations of Program Options",
+    "booktitle": "ACM Transactions on Software Engineering and Methodology",
+    "miscurl": [
+      "https://dl.acm.org/doi/10.1145/3580597"
+    ]
+  },
+  {
     "name": "ContractFuzzer",
     "year": 2018,
     "author": [
@@ -1689,6 +1712,55 @@
       "kAFL"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "ECFuzz",
+    "year": "2024",
+    "targets": [
+      "Program configuration"
+    ],
+    "color": "blackbox",
+    "references": [
+      "ConfigFuzz"
+    ],
+    "author": [
+      "Junqiang Li",
+      "Senyi Li",
+      "Keyao Li",
+      "Falin Luo",
+      "Hongfang Yu",
+      "Shanshan Li",
+      "Xiang Li"
+    ],
+    "toolurl": "https://github.com/ecfuzz/ECFuzz",
+    "title": "ECFuzz: Effective Configuration Fuzzing for Large-Scale Systems",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3597503.3623315"
+    ]
+  },
+  {
+    "name": "EDEFuzz",
+    "year": "2024",
+    "targets": [
+      "API"
+    ],
+    "color": "blackbox",
+    "references": [
+      "RESTler"
+    ],
+    "author": [
+      "Lianglu Pan",
+      "Shaanan Cohney",
+      "Toby Murray",
+      "Van-Thuan Pham"
+    ],
+    "toolurl": "https://github.com/Broken-Assumptions/EDEFuzz",
+    "title": "EDEFuzz: A Web API Fuzzer for Excessive Data Exposures",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "miscurl": [
+      "https://dl.acm.org/doi/10.1145/3597503.3608133"
+    ]
   },
   {
     "name": "EFS",
@@ -6047,6 +6119,31 @@
       "Die"
     ],
     "color": "whitebox"
+  },
+  {
+    "name": "SpecBCFuzz",
+    "year": "2024",
+    "targets": [
+      "LTL Solver"
+    ],
+    "color": "blackbox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "Luiz Carvalho",
+      "Renzo Degiovanni",
+      "Maxime Cordy",
+      "Nazareno Aguirre",
+      "Yves Le Traon",
+      "Mike Papadakis"
+    ],
+    "toolurl": "https://github.com/SpecBCFuzz/repo",
+    "title": "SpecBCFuzz: Fuzzing LTL Solvers with Boundary Conditions",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "miscurl": [
+      "https://dl.acm.org/doi/10.1145/3597503.3639087"
+    ]
   },
   {
     "name": "SpecDoctor",
