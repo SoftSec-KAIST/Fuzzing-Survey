@@ -2409,6 +2409,32 @@
     ]
   },
   {
+    "name": "FuzzGPT",
+    "year": "2024",
+    "targets": [
+      "Deep Learning (DL) libraries"
+    ],
+    "color": "greybox",
+    "author": [
+      "Yinlin Deng",
+      "Chunqiu Steven Xia",
+      "Chenyuan Yang",
+      "Shizhuo Dylan Zhang",
+      "Shujing Yang",
+      "Lingming Zhang"
+    ],
+    "toolurl": "https://github.com/ise-uiuc/FuzzGPT",
+    "title": "Large Language Models are Edge-Case Generators: Crafting Unusual Programs for Fuzzing Deep Learning Libraries",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3597503.3623343"
+    ],
+    "keywords": [
+      "Deep Learning",
+      "libraries"
+    ]
+  },
+  {
     "name": "FuzzInMem",
     "year": "2024",
     "targets": [
@@ -3280,6 +3306,33 @@
     ],
     "title": "Facilitating Non-Intrusive In-Vivo Firmware Testing with Stateless Instrumentation",
     "booktitle": "Proceedings of the Network and Distributed System Security Symposium"
+  },
+  {
+    "name": "InputBlaster",
+    "year": "2024",
+    "targets": [
+      "mobile app"
+    ],
+    "color": "blackbox",
+    "author": [
+      "Zhe Liu",
+      "Chunyang Chen",
+      "Junjie Wang",
+      "Mengzhuo Chen",
+      "Boyu Wu",
+      "Zhilin Tian",
+      "Yuekai Huang",
+      "Jun Hu",
+      "Qing Wang"
+    ],
+    "title": "Testing the Limits: Unusual Text Inputs Generation for Mobile App Crash Detection with Large Language Model",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "miscurl": [
+      "https://arxiv.org/pdf/2310.15657"
+    ],
+    "keywords": [
+      "app"
+    ]
   },
   {
     "name": "Intender",
