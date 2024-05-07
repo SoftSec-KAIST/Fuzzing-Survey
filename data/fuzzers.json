@@ -2415,6 +2415,10 @@
       "Deep Learning (DL) libraries"
     ],
     "color": "greybox",
+    "references": [
+      "FreeFuzz",
+      "DeepREL"
+    ],
     "author": [
       "Yinlin Deng",
       "Chunqiu Steven Xia",
@@ -3314,6 +3318,9 @@
       "mobile app"
     ],
     "color": "blackbox",
+    "references": [
+      "APE"
+    ],
     "author": [
       "Zhe Liu",
       "Chunyang Chen",
