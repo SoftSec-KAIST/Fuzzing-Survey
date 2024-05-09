@@ -1074,6 +1074,29 @@
     ]
   },
   {
+    "name": "ConfigFuzz",
+    "year": "2023",
+    "targets": [
+      "Program configuration"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "Zenong Zhang",
+      "George Klees",
+      "Eric Wang",
+      "Michael Hicks",
+      "Shiyi Wei"
+    ],
+    "title": "Fuzzing Configurations of Program Options",
+    "booktitle": "ACM Transactions on Software Engineering and Methodology",
+    "miscurl": [
+      "https://dl.acm.org/doi/10.1145/3580597"
+    ]
+  },
+  {
     "name": "ContractFuzzer",
     "year": 2018,
     "author": [
@@ -1691,6 +1714,55 @@
     "color": "greybox"
   },
   {
+    "name": "ECFuzz",
+    "year": "2024",
+    "targets": [
+      "Program configuration"
+    ],
+    "color": "blackbox",
+    "references": [
+      "ConfigFuzz"
+    ],
+    "author": [
+      "Junqiang Li",
+      "Senyi Li",
+      "Keyao Li",
+      "Falin Luo",
+      "Hongfang Yu",
+      "Shanshan Li",
+      "Xiang Li"
+    ],
+    "toolurl": "https://github.com/ecfuzz/ECFuzz",
+    "title": "ECFuzz: Effective Configuration Fuzzing for Large-Scale Systems",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3597503.3623315"
+    ]
+  },
+  {
+    "name": "EDEFuzz",
+    "year": "2024",
+    "targets": [
+      "API"
+    ],
+    "color": "blackbox",
+    "references": [
+      "RESTler"
+    ],
+    "author": [
+      "Lianglu Pan",
+      "Shaanan Cohney",
+      "Toby Murray",
+      "Van-Thuan Pham"
+    ],
+    "toolurl": "https://github.com/Broken-Assumptions/EDEFuzz",
+    "title": "EDEFuzz: A Web API Fuzzer for Excessive Data Exposures",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "miscurl": [
+      "https://dl.acm.org/doi/10.1145/3597503.3608133"
+    ]
+  },
+  {
     "name": "EFS",
     "year": 2007,
     "author": [
@@ -2259,6 +2331,34 @@
     ]
   },
   {
+    "name": "Fuzz4All",
+    "year": "2024",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "YARPGen",
+      "ChatAFL"
+    ],
+    "author": [
+      "Chunqiu Steven Xia",
+      "Matteo Paltenghi",
+      "Jia Le Tian",
+      "Michael Pradel",
+      "Lingming Zhang"
+    ],
+    "toolurl": "https://github.com/fuzz4all/fuzz4all",
+    "title": "Fuzz4All: Universal Fuzzing with Large Language Models",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "miscurl": [
+      "https://arxiv.org/pdf/2308.04748"
+    ],
+    "keywords": [
+      "LLM"
+    ]
+  },
+  {
     "name": "FuzzBALL",
     "year": 2011,
     "author": [
@@ -2306,6 +2406,63 @@
     "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
     "miscurl": [
       "https://dl.acm.org/doi/10.1145/3576915.3623178"
+    ]
+  },
+  {
+    "name": "FuzzGPT",
+    "year": "2024",
+    "targets": [
+      "Deep Learning (DL) libraries"
+    ],
+    "color": "greybox",
+    "references": [
+      "FreeFuzz",
+      "DeepREL"
+    ],
+    "author": [
+      "Yinlin Deng",
+      "Chunqiu Steven Xia",
+      "Chenyuan Yang",
+      "Shizhuo Dylan Zhang",
+      "Shujing Yang",
+      "Lingming Zhang"
+    ],
+    "toolurl": "https://github.com/ise-uiuc/FuzzGPT",
+    "title": "Large Language Models are Edge-Case Generators: Crafting Unusual Programs for Fuzzing Deep Learning Libraries",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3597503.3623343"
+    ],
+    "keywords": [
+      "Deep Learning",
+      "libraries"
+    ]
+  },
+  {
+    "name": "FuzzInMem",
+    "year": "2024",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "Xuwei Liu",
+      "Wei You",
+      "Yepeng Ye",
+      "Zhuo Zhang",
+      "Jianjun Huang",
+      "Xiangyu Zhang"
+    ],
+    "title": "FuzzInMem: Fuzzing Programs via In-memory Structures",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "miscurl": [
+      "http://youwei.site/papers/ICSE2024.pdf"
+    ],
+    "keywords": [
+      "PDF"
     ]
   },
   {
@@ -3153,6 +3310,36 @@
     ],
     "title": "Facilitating Non-Intrusive In-Vivo Firmware Testing with Stateless Instrumentation",
     "booktitle": "Proceedings of the Network and Distributed System Security Symposium"
+  },
+  {
+    "name": "InputBlaster",
+    "year": "2024",
+    "targets": [
+      "mobile app"
+    ],
+    "color": "blackbox",
+    "references": [
+      "APE"
+    ],
+    "author": [
+      "Zhe Liu",
+      "Chunyang Chen",
+      "Junjie Wang",
+      "Mengzhuo Chen",
+      "Boyu Wu",
+      "Zhilin Tian",
+      "Yuekai Huang",
+      "Jun Hu",
+      "Qing Wang"
+    ],
+    "title": "Testing the Limits: Unusual Text Inputs Generation for Mobile App Crash Detection with Large Language Model",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "miscurl": [
+      "https://arxiv.org/pdf/2310.15657"
+    ],
+    "keywords": [
+      "app"
+    ]
   },
   {
     "name": "Intender",
@@ -5289,6 +5476,34 @@
     "color": "greybox"
   },
   {
+    "name": "RPG",
+    "year": "2024",
+    "targets": [
+      "API"
+    ],
+    "color": "blackbox",
+    "references": [
+      "SyRust"
+    ],
+    "author": [
+      "Zhiwu Xu",
+      "Bohao Wu",
+      "Cheng Wen",
+      "Bin Zhang",
+      "Shengchao Qin",
+      "Mengda He"
+    ],
+    "toolurl": "https://zenodo.org/records/8202159",
+    "title": "RPG: Rust Library Fuzzing with Pool-based Fuzz Target Generation and Generic Support",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "miscurl": [
+      "https://wcventure.github.io/pdf/ICSE2024_RPG.pdf"
+    ],
+    "keywords": [
+      "Rust"
+    ]
+  },
+  {
     "name": "RSFuzzer",
     "year": "2023",
     "targets": [
@@ -6047,6 +6262,31 @@
       "Die"
     ],
     "color": "whitebox"
+  },
+  {
+    "name": "SpecBCFuzz",
+    "year": "2024",
+    "targets": [
+      "LTL Solver"
+    ],
+    "color": "blackbox",
+    "references": [
+      "STORM"
+    ],
+    "author": [
+      "Luiz Carvalho",
+      "Renzo Degiovanni",
+      "Maxime Cordy",
+      "Nazareno Aguirre",
+      "Yves Le Traon",
+      "Mike Papadakis"
+    ],
+    "toolurl": "https://github.com/SpecBCFuzz/repo",
+    "title": "SpecBCFuzz: Fuzzing LTL Solvers with Boundary Conditions",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "miscurl": [
+      "https://dl.acm.org/doi/10.1145/3597503.3639087"
+    ]
   },
   {
     "name": "SpecDoctor",
