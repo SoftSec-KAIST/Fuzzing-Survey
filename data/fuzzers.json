@@ -976,6 +976,29 @@
     "color": "greybox"
   },
   {
+    "name": "Chronos",
+    "year": "2024",
+    "targets": [
+      "Distributed System"
+    ],
+    "color": "greybox",
+    "references": [
+      "FIFUZZ"
+    ],
+    "author": [
+      "Yuanliang Chen"
+    ],
+    "toolurl": "https://github.com/SecTechTool/Chronos",
+    "title": "Chronos: Finding Timeout Bugs in Practical Distributed Systems by Deep-Priority Fuzzing with Transient Delay",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://www.computer.org/csdl/proceedings-article/sp/2024/313000a109/1Ub23heRtUA"
+    ],
+    "keywords": [
+      "distributed system fuzzing"
+    ]
+  },
+  {
     "name": "CoFuzz",
     "year": "2023",
     "targets": [
@@ -2917,6 +2940,31 @@
       "CHIPSEC"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "Halo",
+    "year": "2024",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFLGo"
+    ],
+    "author": [
+      "Heqing Huang",
+      "Anshunkang Zhou",
+      "Mathias Payer",
+      "Charles Zhang"
+    ],
+    "title": "Everything is Good for Something: Counterexample-Guided Directed Fuzzing via Likely Invariant Inference",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://www.computer.org/csdl/proceedings-article/sp/2024/313000a142/1Ub23ZRRhRu"
+    ],
+    "keywords": [
+      "directed fuzzing"
+    ]
   },
   {
     "name": "Harvey",
@@ -7864,6 +7912,31 @@
       "Network"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "tlspuffin",
+    "year": "2024",
+    "targets": [
+      "Network"
+    ],
+    "color": "greybox",
+    "references": [
+      "LibAFL"
+    ],
+    "author": [
+      "Max Ammann",
+      "Lucca Hirschi",
+      "Steve Kremer"
+    ],
+    "toolurl": "https://github.com/tlspuffin/tlspuffin",
+    "title": "DY Fuzzing: Formal Dolev-Yao Models Meet Cryptographic Protocol Fuzz Testing",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://www.computer.org/csdl/proceedings-article/sp/2024/313000a096/1Ub234bjuWA"
+    ],
+    "keywords": [
+      "Dolev-Yao Model"
+    ]
   },
   {
     "name": "zzuf",
