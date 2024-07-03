@@ -3817,6 +3817,36 @@
     "color": "greybox"
   },
   {
+    "name": "LABRADOR",
+    "year": "2024",
+    "targets": [
+      "IoT"
+    ],
+    "color": "blackbox",
+    "references": [
+
+    ],
+    "author": [
+      "Hangtian Liu",
+      "Shuitao Gan",
+      "Chao Zhang",
+      "Zicong Gao",
+      "Hongqi Zhang",
+      "Xiangzhi Wang",
+      "Guangming Gao"
+    ],
+    "title": "LABRADOR: Response Guided Directed Fuzzing for Black-box IoT Devices",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://www.computer.org/csdl/proceedings-article/sp/2024/313000a127/1Ub23HQTJ1C"
+    ],
+    "keywords": [
+      "IoT",
+      "Response Guided",
+      "Directed Fuzzing"
+    ]
+  },
+  {
     "name": "LL-fuzzer",
     "year": 2015,
     "author": [
@@ -3830,6 +3860,31 @@
       "Sulley"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "LLMIF",
+    "year": "2024",
+    "targets": [
+      "IoT"
+    ],
+    "color": "greybox",
+    "references": [
+      
+    ],
+    "author": [
+      "Jincheng Wang",
+      "Le Yu",
+      "Xiapu Luo"
+    ],
+    "title": "LLMIF: Augmented Large Language Model for Fuzzing IoT Devices",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://www.computer.org/csdl/proceedings-article/sp/2024/313000a196/1WPcYnhN15u"
+    ],
+    "keywords": [
+      "IoT",
+      "LLM"
+    ]
   },
   {
     "name": "LOKI",
