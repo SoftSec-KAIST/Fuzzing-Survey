@@ -976,6 +976,29 @@
     "color": "greybox"
   },
   {
+    "name": "Chronos",
+    "year": "2024",
+    "targets": [
+      "Distributed System"
+    ],
+    "color": "greybox",
+    "references": [
+      "FIFUZZ"
+    ],
+    "author": [
+      "Yuanliang Chen"
+    ],
+    "toolurl": "https://github.com/SecTechTool/Chronos",
+    "title": "Chronos: Finding Timeout Bugs in Practical Distributed Systems by Deep-Priority Fuzzing with Transient Delay",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://www.computer.org/csdl/proceedings-article/sp/2024/313000a109/1Ub23heRtUA"
+    ],
+    "keywords": [
+      "distributed system fuzzing"
+    ]
+  },
+  {
     "name": "CoFuzz",
     "year": "2023",
     "targets": [
@@ -2919,6 +2942,31 @@
     "color": "greybox"
   },
   {
+    "name": "Halo",
+    "year": "2024",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFLGo"
+    ],
+    "author": [
+      "Heqing Huang",
+      "Anshunkang Zhou",
+      "Mathias Payer",
+      "Charles Zhang"
+    ],
+    "title": "Everything is Good for Something: Counterexample-Guided Directed Fuzzing via Likely Invariant Inference",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://www.computer.org/csdl/proceedings-article/sp/2024/313000a142/1Ub23ZRRhRu"
+    ],
+    "keywords": [
+      "directed fuzzing"
+    ]
+  },
+  {
     "name": "Harvey",
     "year": 2020,
     "author": [
@@ -3769,6 +3817,37 @@
     "color": "greybox"
   },
   {
+    "name": "LABRADOR",
+    "year": "2024",
+    "targets": [
+      "IoT"
+    ],
+    "color": "blackbox",
+    "references": [
+      "Snipuzz",
+      "FIRM-AFL"
+    ],
+    "author": [
+      "Hangtian Liu",
+      "Shuitao Gan",
+      "Chao Zhang",
+      "Zicong Gao",
+      "Hongqi Zhang",
+      "Xiangzhi Wang",
+      "Guangming Gao"
+    ],
+    "title": "LABRADOR: Response Guided Directed Fuzzing for Black-box IoT Devices",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://www.computer.org/csdl/proceedings-article/sp/2024/313000a127/1Ub23HQTJ1C"
+    ],
+    "keywords": [
+      "IoT",
+      "Response Guided",
+      "Directed Fuzzing"
+    ]
+  },
+  {
     "name": "LL-fuzzer",
     "year": 2015,
     "author": [
@@ -3782,6 +3861,31 @@
       "Sulley"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "LLMIF",
+    "year": "2024",
+    "targets": [
+      "IoT"
+    ],
+    "color": "greybox",
+    "references": [
+      "ChatAFL"
+    ],
+    "author": [
+      "Jincheng Wang",
+      "Le Yu",
+      "Xiapu Luo"
+    ],
+    "title": "LLMIF: Augmented Large Language Model for Fuzzing IoT Devices",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://www.computer.org/csdl/proceedings-article/sp/2024/313000a196/1WPcYnhN15u"
+    ],
+    "keywords": [
+      "IoT",
+      "LLM"
+    ]
   },
   {
     "name": "LOKI",
@@ -3973,6 +4077,25 @@
       "DL inference engine"
     ],
     "color": "greykbox"
+  },
+  {
+    "name": "MAU",
+    "year": "2024",
+    "targets": [
+      "EVM"
+    ],
+    "color": "greybox",
+    "author": [
+      "Weimin Chen",
+      "Xiapu Luo",
+      "Haipeng Cai",
+      "Haoyu Wang"
+    ],
+    "title": "Towards Smart Contract Fuzzing on GPU",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://www.computer.org/csdl/proceedings-article/sp/2024/313000a195/1WPcYmDLzKo"
+    ]
   },
   {
     "name": "MC2",
@@ -5032,6 +5155,29 @@
     ]
   },
   {
+    "name": "PDGF",
+    "year": "2024",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "Yujian Zhang",
+      "Yaokun Liu",
+      "Jinyu Xu",
+      "Yanhao Wang"
+    ],
+    "toolurl": "https://github.com/SEU-SSL/PDGF",
+    "title": "Predecessor-aware Directed Greybox Fuzzing",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://www.computer.org/csdl/proceedings-article/sp/2024/313000a040/1RjEaeMELbq"
+    ]
+  },
+  {
     "name": "PGFUZZ",
     "year": 2021,
     "author": [
@@ -5944,6 +6090,35 @@
     "color": "blackbox"
   },
   {
+    "name": "SSRFuzz",
+    "year": "2024",
+    "targets": [
+      "Web"
+    ],
+    "color": "blackbox",
+    "references": [
+      "TEFuzz",
+      "Witcher"
+    ],
+    "author": [
+      "Enze Wang",
+      "Jianjun Chen",
+      "Wei Xie",
+      "Chuhan Wang",
+      "Yifei Gao",
+      "Zhenhua Wang",
+      "Haixin Duan",
+      "Yang Liu",
+      "Baosheng Wang"
+    ],
+    "toolurl": "https://github.com/SSRFuzz/SSRFuzz",
+    "title": "Where URLs Become Weapons: Automated Discovery of SSRF Vulnerabilities in Web Applications",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://www.jianjunchen.com/p/ssrfuzz.sp24.pdf"
+    ]
+  },
+  {
     "name": "STORM",
     "year": 2020,
     "author": [
@@ -5985,6 +6160,29 @@
     "booktitle": "Proceedings of the USENIX Security Symposium",
     "miscurl": [
       "https://www.usenix.org/system/files/usenixsecurity23-seidel.pdf"
+    ]
+  },
+  {
+    "name": "Saturn",
+    "year": "2024",
+    "targets": [
+      "Kernel"
+    ],
+    "color": "greybox",
+    "references": [
+      "syzkaller"
+    ],
+    "author": [
+      "Yiru Xu",
+      "Hao Sun",
+      "Jianzhong Liu",
+      "Yuheng Shen",
+      "Yu Jiang"
+    ],
+    "title": "SATURN: Host-Gadget Synergistic USB Driver Fuzzing",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/SATURN_SP24.pdf"
     ]
   },
   {
@@ -6591,6 +6789,36 @@
     ]
   },
   {
+    "name": "SyzTrust",
+    "year": "2024",
+    "targets": [
+      "Kernel"
+    ],
+    "color": "greybox",
+    "references": [
+      "syzkaller"
+    ],
+    "author": [
+      "Qinying Wang",
+      "Boyu Chang",
+      "Shouling Ji",
+      "Yuan Tian",
+      "Xuhong Zhang",
+      "Binbin Zhao",
+      "Gaoning Pan",
+      "Chenyang Lyu",
+      "Mathias Payer",
+      "Wenhai Wang",
+      "Raheem Beyah"
+    ],
+    "toolurl": "https://github.com/SyzTrust/syztrust",
+    "title": "SyzTrust: State-aware Fuzzing on Trusted OS Designed for IoT Devices",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://hexhive.epfl.ch/publications/files/24Oakland.pdf"
+    ]
+  },
+  {
     "name": "T-Fuzz",
     "year": 2018,
     "author": [
@@ -6847,6 +7075,30 @@
     ],
     "miscurl": [
       "https://conf.researchr.org/details/ase-2023/ase-2023-papers/119/Thunderkaller-Profiling-and-Improving-the-Performance-of-Syzkaller"
+    ]
+  },
+  {
+    "name": "Titan",
+    "year": "2024",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFLGo"
+    ],
+    "author": [
+      "Heqing Huang",
+      "Peisen Yao",
+      "Hung-Chun Chiu",
+      "Yiyuan Guo",
+      "Charles Zhang"
+    ],
+    "toolurl": "https://github.com/5hadowblad3/Titan",
+    "title": "Titan : Efficient Multi-target Directed Greybox Fuzzing",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://5hadowblad3.github.io/files/Oakland24-Titan.pdf"
     ]
   },
   {
@@ -7134,6 +7386,31 @@
     ],
     "keywords": [
       "Device fuzzing"
+    ]
+  },
+  {
+    "name": "VirtFuzz",
+    "year": "2024",
+    "targets": [
+      "Kernel"
+    ],
+    "color": "greybox",
+    "references": [
+      "syzkaller"
+    ],
+    "author": [
+      "Sonke Huster",
+      "Matthias Hollick",
+      "Jiska Classen"
+    ],
+    "toolurl": "https://github.com/seemoo-lab/VirtFuzz",
+    "title": "To Boldly Go Where No Fuzzer Has Gone Before: Finding Bugs in Linux' Wireless Stacks through VirtIO Devices",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://www.uni-goettingen.de/de/document/download/6b0d1e9d8e2fb7f57cc1a2fab1b071e7.pdf/huster_S&P24.pdf"
+    ],
+    "keywords": [
+      "VirtIO"
     ]
   },
   {
@@ -7758,6 +8035,31 @@
       "Network"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "tlspuffin",
+    "year": "2024",
+    "targets": [
+      "Network"
+    ],
+    "color": "greybox",
+    "references": [
+      "LibAFL"
+    ],
+    "author": [
+      "Max Ammann",
+      "Lucca Hirschi",
+      "Steve Kremer"
+    ],
+    "toolurl": "https://github.com/tlspuffin/tlspuffin",
+    "title": "DY Fuzzing: Formal Dolev-Yao Models Meet Cryptographic Protocol Fuzz Testing",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://www.computer.org/csdl/proceedings-article/sp/2024/313000a096/1Ub234bjuWA"
+    ],
+    "keywords": [
+      "Dolev-Yao Model"
+    ]
   },
   {
     "name": "zzuf",
