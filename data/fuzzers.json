@@ -3823,9 +3823,7 @@
       "IoT"
     ],
     "color": "blackbox",
-    "references": [
-
-    ],
+    "references": [],
     "author": [
       "Hangtian Liu",
       "Shuitao Gan",
@@ -3868,9 +3866,7 @@
       "IoT"
     ],
     "color": "greybox",
-    "references": [
-      
-    ],
+    "references": [],
     "author": [
       "Jincheng Wang",
       "Le Yu",
@@ -4076,6 +4072,25 @@
       "DL inference engine"
     ],
     "color": "greykbox"
+  },
+  {
+    "name": "MAU",
+    "year": "2024",
+    "targets": [
+      "EVM"
+    ],
+    "color": "greybox",
+    "author": [
+      "Weimin Chen",
+      "Xiapu Luo",
+      "Haipeng Cai",
+      "Haoyu Wang"
+    ],
+    "title": "Towards Smart Contract Fuzzing on GPU",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://www.computer.org/csdl/proceedings-article/sp/2024/313000a195/1WPcYmDLzKo"
+    ]
   },
   {
     "name": "MC2",
@@ -5132,6 +5147,29 @@
     ],
     "miscurl": [
       "https://dl.acm.org/doi/pdf/10.1145/3611643.3616286"
+    ]
+  },
+  {
+    "name": "PDGF",
+    "year": "2024",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "Yujian Zhang",
+      "Yaokun Liu",
+      "Jinyu Xu",
+      "Yanhao Wang"
+    ],
+    "toolurl": "https://github.com/SEU-SSL/PDGF",
+    "title": "Predecessor-aware Directed Greybox Fuzzing",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://www.computer.org/csdl/proceedings-article/sp/2024/313000a040/1RjEaeMELbq"
     ]
   },
   {
