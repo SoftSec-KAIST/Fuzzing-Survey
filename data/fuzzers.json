@@ -7384,6 +7384,31 @@
     ]
   },
   {
+    "name": "VirtFuzz",
+    "year": "2024",
+    "targets": [
+      "Kernel"
+    ],
+    "color": "greybox",
+    "references": [
+      "syzkaller"
+    ],
+    "author": [
+      "Sonke Huster",
+      "Matthias Hollick",
+      "Jiska Classen"
+    ],
+    "toolurl": "https://github.com/seemoo-lab/VirtFuzz",
+    "title": "To Boldly Go Where No Fuzzer Has Gone Before: Finding Bugs in Linux' Wireless Stacks through VirtIO Devices",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://www.uni-goettingen.de/de/document/download/6b0d1e9d8e2fb7f57cc1a2fab1b071e7.pdf/huster_S&P24.pdf"
+    ],
+    "keywords": [
+      "VirtIO"
+    ]
+  },
+  {
     "name": "WINFUZZ",
     "year": "2023",
     "targets": [
