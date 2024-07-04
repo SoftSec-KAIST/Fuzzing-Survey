@@ -3823,7 +3823,10 @@
       "IoT"
     ],
     "color": "blackbox",
-    "references": [],
+    "references": [
+      "Snipuzz",
+      "FIRM-AFL"
+    ],
     "author": [
       "Hangtian Liu",
       "Shuitao Gan",
@@ -3866,7 +3869,9 @@
       "IoT"
     ],
     "color": "greybox",
-    "references": [],
+    "references": [
+      "ChatAFL"
+    ],
     "author": [
       "Jincheng Wang",
       "Le Yu",
