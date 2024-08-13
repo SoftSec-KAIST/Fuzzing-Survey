@@ -413,6 +413,27 @@
     "color": "blackbox"
   },
   {
+    "name": "BRF",
+    "year": "2024",
+    "targets": [
+      "Kernel"
+    ],
+    "color": "greybox",
+    "references": [
+      "syzkaller"
+    ],
+    "author": [
+      "Hsin-Wei Hung",
+      "Ardalan Amiri Sani"
+    ],
+    "toolurl": "https://github.com/trusslab/brf",
+    "title": "{BRF}: Fuzzing the {eBPF} Runtime",
+    "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3643778"
+    ]
+  },
+  {
     "name": "BeDivFuzz",
     "year": 2022,
     "targets": [
