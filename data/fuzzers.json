@@ -152,6 +152,30 @@
     "color": "greybox"
   },
   {
+    "name": "AFLRun",
+    "year": "2024",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Huanyao Rong",
+      "Wei You",
+      "XiaoFeng Wang",
+      "Tiaohao Mao"
+    ],
+    "toolurl": "https://github.com/Mem2019/AFLRun",
+    "title": "Toward Unbiased Multiple-Target Fuzzing with Path Diversity",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "AFL++",
+      "AFLGo"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity24-rong.pdf"
+    ]
+  },
+  {
     "name": "AFLSmart",
     "year": 2019,
     "author": [
@@ -351,6 +375,34 @@
       "CalFuzzer"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "Atropos",
+    "year": "2024",
+    "targets": [
+      "Web"
+    ],
+    "color": "greybox",
+    "author": [
+      "Emre Güler",
+      "Sergej Schumilo",
+      "Moritz Schloegel",
+      "Nils Bars",
+      "Philipp Görz",
+      "Xinyi Xu",
+      "Cemal Kaygusuz",
+      "Thorsten Holz"
+    ],
+    "toolurl": "https://github.com/cispa-syssec/atropos-legacy",
+    "title": "Atropos: Effective Fuzzing of Web Applications for Server-Side Vulnerabilities",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "Witcher",
+      "AFL++"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity24-guler.pdf"
+    ]
   },
   {
     "name": "Autodafé",
@@ -610,6 +662,31 @@
       "DifFuzz"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "BuzzBee",
+    "year": "2024",
+    "targets": [
+      "DBMS"
+    ],
+    "color": "greybox",
+    "author": [
+      "Yupeng Yang",
+      "Yongheng Chen",
+      "Rui Zhong",
+      "Jizhou Chen",
+      "Wenke Lee"
+    ],
+    "toolurl": "https://github.com/OMH4ck/BuzzBee",
+    "title": "Towards Generic Database Management System Fuzzing",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "AFL++",
+      "Squirrel"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity24-yang-yupeng.pdf"
+    ]
   },
   {
     "name": "BuzzFuzz",
@@ -877,6 +954,28 @@
     ],
     "miscurl": [
       "https://www.usenix.org/system/files/usenixsecurity23-wang-dawei.pdf"
+    ]
+  },
+  {
+    "name": "Cascade",
+    "year": "2024",
+    "targets": [
+      "CPU"
+    ],
+    "color": "greybox",
+    "author": [
+      "Flavien Solt",
+      "Katharina Ceesay-Seitz",
+      "Kaveh Razavi"
+    ],
+    "toolurl": "https://comsec.ethz.ch/cascade",
+    "title": "Cascade: CPU Fuzzing via Intricate Program Generation",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "DifuzzRTL"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity24-solt.pdf"
     ]
   },
   {
@@ -1830,6 +1929,29 @@
     "color": "greybox"
   },
   {
+    "name": "EL3XIR",
+    "year": "2024",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Christian Lindenmeier",
+      "Mathias Payer",
+      "Marcel Busch"
+    ],
+    "toolurl": "https://github.com/HexHive/EL3XIR",
+    "title": "EL3XIR: Fuzzing COTS Secure Monitors",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "AFL++",
+      "TriforceAFL"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity24-lindenmeier.pdf"
+    ]
+  },
+  {
     "name": "EMS",
     "year": 2022,
     "author": [
@@ -2676,6 +2798,34 @@
     ]
   },
   {
+    "name": "Fuzzware",
+    "year": "2022",
+    "targets": [
+      "Firmware"
+    ],
+    "color": "whitebox",
+    "author": [
+      "Tobias Scharnowski",
+      "Nils Bars",
+      "Moritz Schloegel",
+      "Eric Gustafson",
+      "Marius Muench",
+      "Giovanni Vigna",
+      "Christopher Kruegel",
+      "Thorsten Holz",
+      "Ali Abbasi"
+    ],
+    "toolurl": "https://github.com/fuzzware-fuzzer/fuzzware",
+    "title": "Fuzzware: Using Precise MMIO Modeling for Effective Firmware Fuzzing",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "AFL"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec22-scharnowski.pdf"
+    ]
+  },
+  {
     "name": "GLADE",
     "year": 2015,
     "author": [
@@ -3084,6 +3234,29 @@
     "color": "blackbox"
   },
   {
+    "name": "Hoedur",
+    "year": "2023",
+    "targets": [
+      "Firmware"
+    ],
+    "color": "greybox",
+    "author": [
+      "Tobias Scharnowski",
+      "Simon Wörner",
+      "Felix Buchmann",
+      "Nils Bars"
+    ],
+    "toolurl": "https://github.com/fuzzware-fuzzer/hoedur",
+    "title": "Hoedur: Embedded Firmware Fuzzing using Multi-Stream Inputs",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "LibFuzzer"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity23-scharnowski.pdf"
+    ]
+  },
+  {
     "name": "Hopper",
     "year": "2023",
     "targets": [
@@ -3148,6 +3321,29 @@
       "BFF"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "HubFuzzer",
+    "year": "2023",
+    "targets": [
+      "IoT"
+    ],
+    "color": "blackbox",
+    "author": [
+      "Xiaoyue Ma",
+      "Qiang Zeng",
+      "Haotian Chi",
+      "Lannan Luo"
+    ],
+    "toolurl": "https://github.com/iot-sec23/HubFuzzer",
+    "title": "No More Companion Apps Hacking but One Dongle: Hub-Based Blackbox Fuzzing of IoT Firmware",
+    "booktitle": "Proceedings of the International Conference on Mobile Systems, Applications, and Services",
+    "references": [
+      "Snipuzz"
+    ],
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3581791.3596857"
+    ]
   },
   {
     "name": "HyDiff",
@@ -3220,26 +3416,27 @@
     "color": "whitebox"
   },
   {
-    "name": "Hödur",
-    "year": "2023",
+    "name": "HyperPill",
+    "year": "2024",
     "targets": [
-      "Firmware"
+      "Hypervisor"
     ],
     "color": "greybox",
     "author": [
-      "Tobias Scharnowski",
-      "Simon Wörner",
-      "Felix Buchmann",
-      "Nils Bars"
+      "Alexander Bulekov",
+      "Qiang Liu",
+      "Manuel Egele",
+      "Mathias Payer"
     ],
-    "toolurl": "https://github.com/fuzzware-fuzzer/hoedur",
-    "title": "HOEDUR: Embedded Firmware Fuzzing using Multi-Stream Inputs",
+    "toolurl": "https://github.com/HexHive/HyperPill",
+    "title": "HyperPill: Fuzzing for Hypervisor-bugs by Leveraging the Hardware Virtualization Interface",
     "booktitle": "Proceedings of the USENIX Security Symposium",
     "references": [
-      "LibFuzzer"
+      "Morphuzz",
+      "AFL++"
     ],
     "miscurl": [
-      "https://www.usenix.org/system/files/usenixsecurity23-scharnowski.pdf"
+      "https://www.usenix.org/system/files/usenixsecurity24-bulekov.pdf"
     ]
   },
   {
@@ -3884,6 +4081,29 @@
     "color": "blackbox"
   },
   {
+    "name": "LLM-Fuzzer",
+    "year": "2024",
+    "targets": [
+      "LLM"
+    ],
+    "color": "blackbox",
+    "author": [
+      "Jiahao Yu",
+      "Xingwei Lin",
+      "Zheng Yu",
+      "Xinyu Xing"
+    ],
+    "toolurl": "https://github.com/sherdencooper/GPTFuzz",
+    "title": "LLM-Fuzzer: Scaling Assessment of Large Language Model Jailbreaks",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "AFL"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity24-yu-jiahao.pdf"
+    ]
+  },
+  {
     "name": "LLMIF",
     "year": "2024",
     "targets": [
@@ -4297,6 +4517,30 @@
       "AFL"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "MPFuzz",
+    "year": "2024",
+    "targets": [
+      "Blockchain"
+    ],
+    "color": "greybox",
+    "author": [
+      "Yibo Wang",
+      "Yuzhe Tang",
+      "Kai Li",
+      "Wanning Ding"
+    ],
+    "toolurl": "https://figshare.com/articles/software/MPFUZZ/26061169",
+    "title": "Understanding Ethereum Mempool Security under Asymmetric DoS by Symbolized Stateful Fuzzing",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "Fluffy",
+      "LOKI"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity24-wang-yibo.pdf"
+    ]
   },
   {
     "name": "MTFuzz",
@@ -4719,6 +4963,29 @@
     ]
   },
   {
+    "name": "MultiFuzz",
+    "year": "2024",
+    "targets": [
+      "Firmware"
+    ],
+    "color": "greybox",
+    "author": [
+      "Michael Chesser",
+      "Surya Nepal",
+      "Damith C. Ranasinghe"
+    ],
+    "toolurl": "https://github.com/MultiFuzz/MultiFuzz",
+    "title": "MultiFuzz: A Multi-Stream Fuzzer For Testing Monolithic Firmware",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "Fuzzware",
+      "Hoedur"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity24-chesser.pdf"
+    ]
+  },
+  {
     "name": "MundoFuzz",
     "year": 2022,
     "targets": [
@@ -5123,6 +5390,40 @@
     "keywords": [
       "Java",
       "Deserialization"
+    ]
+  },
+  {
+    "name": "OptFuzz",
+    "year": "2024",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Jiming Wang",
+      "Yan Kang",
+      "Chenggang Wu",
+      "Yuhao Hu",
+      "Yue Sun",
+      "Jikai Ren",
+      "Yuanming Lai",
+      "Mengyao Xie",
+      "Charles Zhang",
+      "Tao Li",
+      "Zhe Wang"
+    ],
+    "toolurl": "https://github.com/JimWongM/OptFuzz",
+    "title": "OptFuzz: Optimization Path Guided Fuzzing for JavaScript JIT Compilers",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "Fuzzilli"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity24-wang-jiming.pdf"
+    ],
+    "keywords": [
+      "JavaScript",
+      "JIT compiler"
     ]
   },
   {
@@ -5816,6 +6117,28 @@
     "color": "greybox"
   },
   {
+    "name": "ResolverFuzz",
+    "year": "2024",
+    "targets": [
+      "Network"
+    ],
+    "color": "blackbox",
+    "author": [
+      "Qifan Zhang",
+      "Xuesong Bai",
+      "Xiang Li",
+      "Haixin Duan",
+      "Qi Li",
+      "Zhou Li"
+    ],
+    "toolurl": "https://github.com/ResolverFuzz/ResolverFuzz",
+    "title": "ResolverFuzz: Automated Discovery of DNS Resolver Vulnerabilities with Query-Response Fuzzing",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity24-zhang-qifan.pdf"
+    ]
+  },
+  {
     "name": "RestTestGen",
     "year": "2023",
     "targets": [
@@ -5869,6 +6192,26 @@
       "File"
     ],
     "color": "whitebox"
+  },
+  {
+    "name": "SDFuzz",
+    "year": "2024",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Penghui Li",
+      "Wei Meng"
+    ],
+    "title": "SDFuzz: Target States Driven Directed Fuzzing",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "AFLGo"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity24-li-penghui.pdf"
+    ]
   },
   {
     "name": "SFuzz",
@@ -7435,6 +7778,33 @@
     ]
   },
   {
+    "name": "WAFLGo",
+    "year": "2024",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Yi Xiang",
+      "Xuhong Zhang",
+      "Peiyu Liu",
+      "Shouling Ji",
+      "Xiao Xiao",
+      "Hong Liang",
+      "Jiacheng Xu",
+      "Wenhai Wang"
+    ],
+    "toolurl": "https://github.com/NESA-Lab/WAFLGo",
+    "title": "Critical Code Guided Directed Greybox Fuzzing for Commits",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "AFLGo"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity24-xiang-yi.pdf"
+    ]
+  },
+  {
     "name": "WINFUZZ",
     "year": "2023",
     "targets": [
@@ -7486,6 +7856,32 @@
     "color": "greybox"
   },
   {
+    "name": "WhisperFuzz",
+    "year": "2024",
+    "targets": [
+      "CPU"
+    ],
+    "color": "whitebox",
+    "author": [
+      "Pallavi Borkar",
+      "Chen Chen",
+      "Mohamadreza Rostami",
+      "Nikhilesh Singh",
+      "Rahul Kande",
+      "Ahmad-Reza Sadeghi",
+      "Chester Rebeiro",
+      "Jeyavijayan Rajendran"
+    ],
+    "title": "WhisperFuzz: White-Box Fuzzing for Detecting and Locating Timing Vulnerabilities in Processors",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "HyPFuzz"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity24-borkar.pdf"
+    ]
+  },
+  {
     "name": "WindRanger",
     "year": 2022,
     "targets": [
@@ -7505,6 +7901,35 @@
     ],
     "miscurl": [
       "https://sites.google.com/view/windrange-directed-fuzzing"
+    ]
+  },
+  {
+    "name": "WingFuzz",
+    "year": "2024",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Mingzhe Wang",
+      "Jie Liang",
+      "Chijin Zhou",
+      "Zhiyong Wu",
+      "Jingzhou Fu",
+      "Zhuo Su",
+      "Qing Liao",
+      "Bin Gu",
+      "Bodong Wu",
+      "Yu Jiang"
+    ],
+    "toolurl": "https://github.com/THU-WingTecher/wingfuzz",
+    "title": "Data Coverage for Guided Fuzzing",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "LibFuzzer"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity24-wang-mingzhe.pdf"
     ]
   },
   {
@@ -7910,6 +8335,27 @@
       "jFuzz"
     ],
     "color": "whitebox"
+  },
+  {
+    "name": "mGPTFuzz",
+    "year": "2024",
+    "targets": [
+      "IoT"
+    ],
+    "color": "blackbox",
+    "author": [
+      "Xiaoyue Ma",
+      "Lannan Luo",
+      "Qiang Zeng"
+    ],
+    "title": "From One Thousand Pages of Specification to Unveiling Hidden Bugs: Large Language Model Assisted Fuzzing of Matter IoT Devices",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "HubFuzzer"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity24-ma-xiaoyue.pdf"
+    ]
   },
   {
     "name": "mufuzz",
