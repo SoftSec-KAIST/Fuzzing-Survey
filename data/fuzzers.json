@@ -377,6 +377,34 @@
     "color": "greybox"
   },
   {
+    "name": "Atropos",
+    "year": "2024",
+    "targets": [
+      "Web"
+    ],
+    "color": "greybox",
+    "author": [
+      "Emre Güler",
+      "Sergej Schumilo",
+      "Moritz Schloegel",
+      "Nils Bars",
+      "Philipp Görz",
+      "Xinyi Xu",
+      "Cemal Kaygusuz",
+      "Thorsten Holz"
+    ],
+    "toolurl": "https://github.com/cispa-syssec/atropos-legacy",
+    "title": "Atropos: Effective Fuzzing of Web Applications for Server-Side Vulnerabilities",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "Witcher",
+      "AFL++"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity24-guler.pdf"
+    ]
+  },
+  {
     "name": "Autodafé",
     "year": 2005,
     "author": [
@@ -4372,6 +4400,30 @@
     "color": "greybox"
   },
   {
+    "name": "MPFuzz",
+    "year": "2024",
+    "targets": [
+      "Blockchain"
+    ],
+    "color": "greybox",
+    "author": [
+      "Yibo Wang",
+      "Yuzhe Tang",
+      "Kai Li",
+      "Wanning Ding"
+    ],
+    "toolurl": "https://figshare.com/articles/software/MPFUZZ/26061169",
+    "title": "Understanding Ethereum Mempool Security under Asymmetric DoS by Symbolized Stateful Fuzzing",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "Fluffy",
+      "Loki"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity24-wang-yibo.pdf"
+    ]
+  },
+  {
     "name": "MTFuzz",
     "year": 2020,
     "author": [
@@ -5921,6 +5973,28 @@
       "kAFL"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "ResolverFuzz",
+    "year": "2024",
+    "targets": [
+      "Network"
+    ],
+    "color": "blackbox",
+    "author": [
+      "Qifan Zhang",
+      "Xuesong Bai",
+      "Xiang Li",
+      "Haixin Duan",
+      "Qi Li",
+      "Zhou Li"
+    ],
+    "toolurl": "https://github.com/ResolverFuzz/ResolverFuzz",
+    "title": "ResolverFuzz: Automated Discovery of DNS Resolver Vulnerabilities with Query-Response Fuzzing",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity24-zhang-qifan.pdf"
+    ]
   },
   {
     "name": "RestTestGen",
@@ -8093,6 +8167,27 @@
       "jFuzz"
     ],
     "color": "whitebox"
+  },
+  {
+    "name": "mGPTFuzz",
+    "year": "2024",
+    "targets": [
+      "IoT"
+    ],
+    "color": "blackbox",
+    "author": [
+      "Xiaoyue Ma",
+      "Lannan Luo",
+      "Qiang Zeng"
+    ],
+    "title": "From One Thousand Pages of Specification to Unveiling Hidden Bugs: Large Language Model Assisted Fuzzing of Matter IoT Devices",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "HubFuzzer"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity24-ma-xiaoyue.pdf"
+    ]
   },
   {
     "name": "mufuzz",
