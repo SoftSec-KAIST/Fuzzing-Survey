@@ -2798,6 +2798,34 @@
     ]
   },
   {
+    "name": "Fuzzware",
+    "year": "2022",
+    "targets": [
+      "Firmware"
+    ],
+    "color": "whitebox",
+    "author": [
+      "Tobias Scharnowski",
+      "Nils Bars",
+      "Moritz Schloegel",
+      "Eric Gustafson",
+      "Marius Muench",
+      "Giovanni Vigna",
+      "Christopher Kruegel",
+      "Thorsten Holz",
+      "Ali Abbasi"
+    ],
+    "toolurl": "https://github.com/fuzzware-fuzzer/fuzzware",
+    "title": "Fuzzware: Using Precise MMIO Modeling for Effective Firmware Fuzzing",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "AFL"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/sec22-scharnowski.pdf"
+    ]
+  },
+  {
     "name": "GLADE",
     "year": 2015,
     "author": [
