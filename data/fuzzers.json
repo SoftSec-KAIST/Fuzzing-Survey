@@ -3206,6 +3206,29 @@
     "color": "blackbox"
   },
   {
+    "name": "Hoedur",
+    "year": "2023",
+    "targets": [
+      "Firmware"
+    ],
+    "color": "greybox",
+    "author": [
+      "Tobias Scharnowski",
+      "Simon Wörner",
+      "Felix Buchmann",
+      "Nils Bars"
+    ],
+    "toolurl": "https://github.com/fuzzware-fuzzer/hoedur",
+    "title": "Hoedur: Embedded Firmware Fuzzing using Multi-Stream Inputs",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "LibFuzzer"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity23-scharnowski.pdf"
+    ]
+  },
+  {
     "name": "Hopper",
     "year": "2023",
     "targets": [
@@ -3386,29 +3409,6 @@
     ],
     "miscurl": [
       "https://www.usenix.org/system/files/usenixsecurity24-bulekov.pdf"
-    ]
-  },
-  {
-    "name": "Hödur",
-    "year": "2023",
-    "targets": [
-      "Firmware"
-    ],
-    "color": "greybox",
-    "author": [
-      "Tobias Scharnowski",
-      "Simon Wörner",
-      "Felix Buchmann",
-      "Nils Bars"
-    ],
-    "toolurl": "https://github.com/fuzzware-fuzzer/hoedur",
-    "title": "HOEDUR: Embedded Firmware Fuzzing using Multi-Stream Inputs",
-    "booktitle": "Proceedings of the USENIX Security Symposium",
-    "references": [
-      "LibFuzzer"
-    ],
-    "miscurl": [
-      "https://www.usenix.org/system/files/usenixsecurity23-scharnowski.pdf"
     ]
   },
   {
@@ -4950,7 +4950,7 @@
     "title": "MultiFuzz: A Multi-Stream Fuzzer For Testing Monolithic Firmware",
     "booktitle": "Proceedings of the USENIX Security Symposium",
     "references": [
-      "Hödur"
+      "Hoedur"
     ],
     "miscurl": [
       "https://www.usenix.org/system/files/usenixsecurity24-chesser.pdf"
