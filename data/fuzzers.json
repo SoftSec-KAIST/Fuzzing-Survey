@@ -957,6 +957,28 @@
     ]
   },
   {
+    "name": "Cascade",
+    "year": "2024",
+    "targets": [
+      "CPU"
+    ],
+    "color": "greybox",
+    "author": [
+      "Flavien Solt",
+      "Katharina Ceesay-Seitz",
+      "Kaveh Razavi"
+    ],
+    "toolurl": "https://comsec.ethz.ch/cascade",
+    "title": "Cascade: CPU Fuzzing via Intricate Program Generation",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "DifuzzRTL"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity24-solt.pdf"
+    ]
+  },
+  {
     "name": "Cerebro",
     "year": 2019,
     "author": [
@@ -1905,6 +1927,29 @@
       "https://www.defcon.org/images/defcon-15/dc15-presentations/dc-15-demott_enbody_and_punch.pdf"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "EL3XIR",
+    "year": "2024",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "author": [
+      "Christian Lindenmeier",
+      "Mathias Payer",
+      "Marcel Busch"
+    ],
+    "toolurl": "https://github.com/HexHive/EL3XIR",
+    "title": "EL3XIR: Fuzzing COTS Secure Monitors",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "AFL++",
+      "TriforceAFL"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity24-lindenmeier.pdf"
+    ]
   },
   {
     "name": "EMS",
@@ -4008,6 +4053,29 @@
     "color": "blackbox"
   },
   {
+    "name": "LLM-Fuzzer",
+    "year": "2024",
+    "targets": [
+      "LLM"
+    ],
+    "color": "blackbox",
+    "author": [
+      "Jiahao Yu",
+      "Xingwei Lin",
+      "Zheng Yu",
+      "Xinyu Xing"
+    ],
+    "toolurl": "https://github.com/sherdencooper/GPTFuzz",
+    "title": "LLM-Fuzzer: Scaling Assessment of Large Language Model Jailbreaks",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "AFL"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity24-yu-jiahao.pdf"
+    ]
+  },
+  {
     "name": "LLMIF",
     "year": "2024",
     "targets": [
@@ -4864,6 +4932,28 @@
     ],
     "miscurl": [
       "https://www.usenix.org/system/files/sec22-bulekov.pdf"
+    ]
+  },
+  {
+    "name": "MultiFuzz",
+    "year": "2024",
+    "targets": [
+      "Firmware"
+    ],
+    "color": "greybox",
+    "author": [
+      "Michael Chesser",
+      "Surya Nepal",
+      "Damith C. Ranasinghe"
+    ],
+    "toolurl": "https://github.com/MultiFuzz/MultiFuzz",
+    "title": "MultiFuzz: A Multi-Stream Fuzzer For Testing Monolithic Firmware",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "Hödur"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity24-chesser.pdf"
     ]
   },
   {
@@ -7735,6 +7825,32 @@
       "Windows"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "WhisperFuzz",
+    "year": "2024",
+    "targets": [
+      "CPU"
+    ],
+    "color": "whitebox",
+    "author": [
+      "Pallavi Borkar",
+      "Chen Chen",
+      "Mohamadreza Rostami",
+      "Nikhilesh Singh",
+      "Rahul Kande",
+      "Ahmad-Reza Sadeghi",
+      "Chester Rebeiro",
+      "Jeyavijayan Rajendran"
+    ],
+    "title": "WhisperFuzz: White-Box Fuzzing for Detecting and Locating Timing Vulnerabilities in Processors",
+    "booktitle": "Proceedings of the USENIX Security Symposium",
+    "references": [
+      "HyPFuzz"
+    ],
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity24-borkar.pdf"
+    ]
   },
   {
     "name": "WindRanger",
