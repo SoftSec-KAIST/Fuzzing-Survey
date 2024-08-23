@@ -3227,6 +3227,29 @@
     "color": "blackbox"
   },
   {
+    "name": "HubFuzzer",
+    "year": "2023",
+    "targets": [
+      "IoT"
+    ],
+    "color": "blackbox",
+    "author": [
+      "Xiaoyue Ma",
+      "Qiang Zeng",
+      "Haotian Chi",
+      "Lannan Luo"
+    ],
+    "toolurl": "https://github.com/iot-sec23/HubFuzzer",
+    "title": "No More Companion Apps Hacking but One Dongle: Hub-Based Blackbox Fuzzing of IoT Firmware",
+    "booktitle": "Proceedings of the International Conference on Mobile Systems, Applications, and Services",
+    "references": [
+      "Snipuzz"
+    ],
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3581791.3596857"
+    ]
+  },
+  {
     "name": "HyDiff",
     "year": 2020,
     "author": [
