@@ -152,6 +152,28 @@
     "color": "greybox"
   },
   {
+    "name": "AFLNet",
+    "year": 2020,
+    "targets": [
+      "Network"
+    ],
+    "color": "greybox",
+    "author": [
+      "Van-Thuan Pham",
+      "Marcel Böhme",
+      "Abhik Roychoudhury"
+    ],
+    "toolurl": "https://github.com/aflnet/aflnet",
+    "title": "AFLNet: A Greybox Fuzzer for Network Protocols",
+    "booktitle": "Proceedings of the International Conference on Software Testing, Validation and Verification",
+    "references": [
+      "AFL"
+    ],
+    "miscurl": [
+      "https://ieeexplore.ieee.org/document/9159093"
+    ]
+  },
+  {
     "name": "AFLRun",
     "year": "2024",
     "targets": [
