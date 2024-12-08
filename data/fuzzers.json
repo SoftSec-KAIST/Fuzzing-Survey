@@ -1488,6 +1488,34 @@
     ]
   },
   {
+    "name": "DarthShader",
+    "year": "2024",
+    "targets": [
+      "WGSL"
+    ],
+    "color": "greybox",
+    "references": [
+      "CSmith"
+    ],
+    "author": [
+      "Lukas Bernhard",
+      "Nico Schiller",
+      "Moritz Schloegel",
+      "Nils Bars",
+      "Thorsten Holz"
+    ],
+    "toolurl": "https://github.com/wgslfuzz/darthshader",
+    "title": "DarthShader: Fuzzing WebGPU Shader Translators & Compilers",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://web3.arxiv.org/pdf/2409.01824"
+    ],
+    "keywords": [
+      "WGSL",
+      "shader"
+    ]
+  },
+  {
     "name": "DeadlockFuzzer",
     "year": 2009,
     "author": [
@@ -2286,6 +2314,34 @@
       "BFF"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "FOX",
+    "year": "2024",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL++"
+    ],
+    "author": [
+      "Dongdong She",
+      "Adam Storek",
+      "Yuchong Xie",
+      "Seoyoung Kweon",
+      "Prashast Srivastava",
+      "Suman Jana"
+    ],
+    "toolurl": "https://github.com/FOX-Fuzz/FOX",
+    "title": "FOX: Coverage-guided Fuzzing as Online Stochastic Control",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://arxiv.org/pdf/2406.04517"
+    ],
+    "keywords": [
+      "frontier branch"
+    ]
   },
   {
     "name": "FUZZPD",
@@ -5848,6 +5904,33 @@
     "color": "greybox"
   },
   {
+    "name": "PromptFuzz",
+    "year": "2024",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "Fuzz4All"
+    ],
+    "author": [
+      "Yunlong Lyu",
+      "Yuxuan Xie",
+      "Peng Chen",
+      "Hao Chen"
+    ],
+    "toolurl": "https://github.com/PromptFuzz/PromptFuzz",
+    "title": "Prompt Fuzzing for Fuzz Driver Generation",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://arxiv.org/pdf/2312.17677"
+    ],
+    "keywords": [
+      "LLM",
+      "fuzz driver"
+    ]
+  },
+  {
     "name": "PyRTFuzz",
     "year": "2023",
     "targets": [
@@ -5920,6 +6003,35 @@
     "color": "greybox"
   },
   {
+    "name": "RANsacked",
+    "year": "2024",
+    "targets": [
+      "LTE"
+    ],
+    "color": "greybox",
+    "references": [
+      "LTEFuzz"
+    ],
+    "author": [
+      "Nathaniel Bennett",
+      "Weidong Zhu",
+      "Benjamin Simon",
+      "Ryon Kennedy",
+      "William Enck",
+      "Patrick Traynor",
+      "Kevn R. B. Butler"
+    ],
+    "toolurl": "https://github.com/FICS/asnfuzzgen",
+    "title": "RANsacked: A Domain-Informed Approach for Fuzzing LTE and 5G RAN-Core Interfaces",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://nathanielbennett.com/publications/ransacked.pdf"
+    ],
+    "keywords": [
+      "cellular"
+    ]
+  },
+  {
     "name": "RESTler",
     "year": 2019,
     "author": [
@@ -5940,6 +6052,32 @@
       "Sulley"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "RIoTFuzzer",
+    "year": "2024",
+    "targets": [
+      "IoT"
+    ],
+    "color": "blackbox",
+    "references": [
+      "DIANE"
+    ],
+    "author": [
+      "Kaizheng Liu",
+      "Ming Yang",
+      "Zhen Ling",
+      "Yue Zhang",
+      "Chongqing Lei",
+      "Junzhou Luo",
+      "Xinwen Fu"
+    ],
+    "toolurl": "https://github.com/kzLiu2017/RIoTFuzzer",
+    "title": "RIoTFuzzer: Companion App Assisted Remote Fuzzing for Detecting Vulnerabilities in IoT Devices",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://cse.seu.edu.cn/_upload/article/files/4e/cb/457914eb4249b778299c9d33acdd/2b22fda2-e00c-441a-b7a6-e61c0d12de57.pdf"
+    ]
   },
   {
     "name": "RLF",
