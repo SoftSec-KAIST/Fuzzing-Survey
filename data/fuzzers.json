@@ -2165,6 +2165,28 @@
     "color": "greybox"
   },
   {
+    "name": "EnvFuzz",
+    "year": "2024",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFLNet"
+    ],
+    "author": [
+      "Ruijie Meng",
+      "Gregory J. Duck",
+      "Abhik Roychoudhury"
+    ],
+    "toolurl": "https://github.com/GJDuck/EnvFuzz",
+    "title": "Program Environment Fuzzing",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://arxiv.org/pdf/2404.13951"
+    ]
+  },
+  {
     "name": "FANS",
     "year": 2020,
     "author": [
@@ -2489,6 +2511,37 @@
     "miscurl": [
       "https://www.usenix.org/system/files/usenixsecurity23-zheng.pdf"
     ]
+  },
+  {
+    "name": "Flakjack",
+    "year": "2024",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL++"
+    ],
+    "author": [
+      "Arvind S Raj",
+      "Wil Gibbs",
+      "Fangzhou Dong",
+      "Jayakrishna Menon Vadayath",
+      "Michael Tompkins",
+      "Steven Wirsz",
+      "Yibo Liu",
+      "Zhenghao Hu",
+      "Chang Zhu",
+      "Gokulkrishna Praveen Menon",
+      "Brendan Dolan-Gavitt",
+      "Adam Doupé",
+      "Ruoyu Wang",
+      "Yan Shoshitaishvili",
+      "Tiffany Bao"
+    ],
+    "toolurl": "https://github.com/sefcom/flakjack",
+    "title": "Fuzz to the Future: Uncovering Occluded Future Vulnerabilities via Robust Fuzzing",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security"
   },
   {
     "name": "Fluffy",
@@ -2874,6 +2927,26 @@
     "miscurl": [
       "https://www.usenix.org/system/files/usenixsecurity23-bars.pdf"
     ]
+  },
+  {
+    "name": "Fuzztruction-Net",
+    "year": "2024",
+    "targets": [
+      "Network"
+    ],
+    "color": "greybox",
+    "references": [
+      "Fuzztruction"
+    ],
+    "author": [
+      "Nils Bars",
+      "Moritz Schloegel",
+      "Nico Schiller",
+      "Lukas Bernhard"
+    ],
+    "toolurl": "https://github.com/fuzztruction/fuzztruction-net",
+    "title": "No Peer, no Cry: Network Application Fuzzing via Fault Injection",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security"
   },
   {
     "name": "Fuzzware",
@@ -5929,6 +6002,28 @@
       "LLM",
       "fuzz driver"
     ]
+  },
+  {
+    "name": "ProphetFuzz",
+    "year": "2024",
+    "targets": [
+      "Argument",
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "CarpetFuzz"
+    ],
+    "author": [
+      "Dawei Wang",
+      "Geng Zhou",
+      "Li Chen",
+      "Dan Li",
+      "Yukai Miao"
+    ],
+    "toolurl": "https://github.com/NASP-THU/ProphetFuzz",
+    "title": "ProphetFuzz: Fully Automated Prediction and Fuzzing of High-Risk Option Combinations with Only Documentation via Large Language Model",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security"
   },
   {
     "name": "PyRTFuzz",
