@@ -1304,7 +1304,7 @@
     "name": "CountDown",
     "year": "2024",
     "targets": [
-      "Linux Kernel"
+      "Kernel"
     ],
     "color": "greybox",
     "author": [
