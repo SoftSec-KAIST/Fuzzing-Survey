@@ -1301,6 +1301,62 @@
     "color": "whitebox"
   },
   {
+    "name": "CountDown",
+    "year": "2024",
+    "targets": [
+      "Kernel"
+    ],
+    "color": "greybox",
+    "author": [
+      "Shuangpeng Bai",
+      "Zhechang Zhang",
+      "Hong Hu"
+    ],
+    "toolurl": "https://github.com/psu-security-universe/countdown",
+    "title": "CountDown: Refcount-guided Fuzzing for Exposing Temporal Memory Errors in Linux Kernel",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3658644.3690320"
+    ],
+    "references": [
+      "syzkaller"
+    ],
+    "keywords": [
+      "kernel"
+    ]
+  },
+  {
+    "name": "CrossFire",
+    "year": "2024",
+    "targets": [
+      "XPU"
+    ],
+    "color": "greybox",
+    "author": [
+      "Jiaxun Zhu",
+      "Minghao Lin",
+      "Tingting Yin",
+      "Zechao Cai",
+      "Yu Wang",
+      "Rui Chang",
+      "Wenbo Shen"
+    ],
+    "toolurl": "https://github.com/ZJU-SEC/CrossFire",
+    "title": "CrossFire: Fuzzing macOS Cross-XPU Memory on Apple Silicon",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3658644.3690376"
+    ],
+    "references": [
+      "syzkaller"
+    ],
+    "keywords": [
+      "macOS",
+      "Apple",
+      "XPU"
+    ]
+  },
+  {
     "name": "DAFL",
     "year": "2023",
     "targets": [
@@ -1485,6 +1541,34 @@
     "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
     "miscurl": [
       "https://dl.acm.org/doi/pdf/10.1145/3576915.3616594"
+    ]
+  },
+  {
+    "name": "DarthShader",
+    "year": "2024",
+    "targets": [
+      "WGSL"
+    ],
+    "color": "greybox",
+    "references": [
+      "CSmith"
+    ],
+    "author": [
+      "Lukas Bernhard",
+      "Nico Schiller",
+      "Moritz Schloegel",
+      "Nils Bars",
+      "Thorsten Holz"
+    ],
+    "toolurl": "https://github.com/wgslfuzz/darthshader",
+    "title": "DarthShader: Fuzzing WebGPU Shader Translators & Compilers",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://web3.arxiv.org/pdf/2409.01824"
+    ],
+    "keywords": [
+      "WGSL",
+      "shader"
     ]
   },
   {
@@ -2137,6 +2221,28 @@
     "color": "greybox"
   },
   {
+    "name": "EnvFuzz",
+    "year": "2024",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFLNet"
+    ],
+    "author": [
+      "Ruijie Meng",
+      "Gregory J. Duck",
+      "Abhik Roychoudhury"
+    ],
+    "toolurl": "https://github.com/GJDuck/EnvFuzz",
+    "title": "Program Environment Fuzzing",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://arxiv.org/pdf/2404.13951"
+    ]
+  },
+  {
     "name": "FANS",
     "year": 2020,
     "author": [
@@ -2288,6 +2394,34 @@
     "color": "blackbox"
   },
   {
+    "name": "FOX",
+    "year": "2024",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL++"
+    ],
+    "author": [
+      "Dongdong She",
+      "Adam Storek",
+      "Yuchong Xie",
+      "Seoyoung Kweon",
+      "Prashast Srivastava",
+      "Suman Jana"
+    ],
+    "toolurl": "https://github.com/FOX-Fuzz/FOX",
+    "title": "FOX: Coverage-guided Fuzzing as Online Stochastic Control",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://arxiv.org/pdf/2406.04517"
+    ],
+    "keywords": [
+      "frontier branch"
+    ]
+  },
+  {
     "name": "FUZZPD",
     "year": "2023",
     "targets": [
@@ -2433,6 +2567,37 @@
     "miscurl": [
       "https://www.usenix.org/system/files/usenixsecurity23-zheng.pdf"
     ]
+  },
+  {
+    "name": "Flakjack",
+    "year": "2024",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL++"
+    ],
+    "author": [
+      "Arvind S Raj",
+      "Wil Gibbs",
+      "Fangzhou Dong",
+      "Jayakrishna Menon Vadayath",
+      "Michael Tompkins",
+      "Steven Wirsz",
+      "Yibo Liu",
+      "Zhenghao Hu",
+      "Chang Zhu",
+      "Gokulkrishna Praveen Menon",
+      "Brendan Dolan-Gavitt",
+      "Adam Doupé",
+      "Ruoyu Wang",
+      "Yan Shoshitaishvili",
+      "Tiffany Bao"
+    ],
+    "toolurl": "https://github.com/sefcom/flakjack",
+    "title": "Fuzz to the Future: Uncovering Occluded Future Vulnerabilities via Robust Fuzzing",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security"
   },
   {
     "name": "Fluffy",
@@ -2594,6 +2759,37 @@
     "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
     "miscurl": [
       "https://dl.acm.org/doi/10.1145/3576915.3623178"
+    ]
+  },
+  {
+    "name": "FuzzFlow",
+    "year": "2024",
+    "targets": [
+      "JS Engine"
+    ],
+    "color": "greybox",
+    "author": [
+      "Haoran Xu",
+      "Zhiyuan Jiang",
+      "Yongjun Wang",
+      "Shuhui Fan",
+      "Shenglin Xu",
+      "Peidai Xie",
+      "Shaojing Fu",
+      "Mathias Payer"
+    ],
+    "toolurl": "https://github.com/walkcreate/FuzzFlow",
+    "title": "Fuzzing JavaScript Engines with a Graph-based IR",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3658644.3690336"
+    ],
+    "references": [
+      "Fuzzilli"
+    ],
+    "keywords": [
+      "js",
+      "browser"
     ]
   },
   {
@@ -2818,6 +3014,26 @@
     "miscurl": [
       "https://www.usenix.org/system/files/usenixsecurity23-bars.pdf"
     ]
+  },
+  {
+    "name": "Fuzztruction-Net",
+    "year": "2024",
+    "targets": [
+      "Network"
+    ],
+    "color": "greybox",
+    "references": [
+      "Fuzztruction"
+    ],
+    "author": [
+      "Nils Bars",
+      "Moritz Schloegel",
+      "Nico Schiller",
+      "Lukas Bernhard"
+    ],
+    "toolurl": "https://github.com/fuzztruction/fuzztruction-net",
+    "title": "No Peer, no Cry: Network Application Fuzzing via Fault Injection",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security"
   },
   {
     "name": "Fuzzware",
@@ -3833,6 +4049,33 @@
     "color": "greybox"
   },
   {
+    "name": "JSGo",
+    "year": "2024",
+    "targets": [
+      "Application"
+    ],
+    "color": "greybox",
+    "author": [
+      "Changhua Luo",
+      "Penghui Li",
+      "Wei Meng",
+      "Chao Zhang"
+    ],
+    "title": "Test Suites Guided Vulnerability Validation for Node.js Applications",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3658644.3690332"
+    ],
+    "references": [
+      "Witcher",
+      "RESTler",
+      "MINER"
+    ],
+    "keywords": [
+      "node js"
+    ]
+  },
+  {
     "name": "Janus",
     "year": 2019,
     "author": [
@@ -3855,6 +4098,34 @@
       "kAFL"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "Jetris",
+    "year": "2024",
+    "targets": [
+      "JVM"
+    ],
+    "color": "greybox",
+    "author": [
+      "Yingquan Zhao",
+      "Zan Wang",
+      "Junjie Chen",
+      "Ruifeng Fu",
+      "Yanzhou Lu",
+      "Tianchang Gao",
+      "Haojie Ye"
+    ],
+    "title": "Program Ingredients Abstraction and Instantiation for Synthesis-based JVM Testing",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3658644.3690366"
+    ],
+    "references": [
+      "classming"
+    ],
+    "keywords": [
+      "JVM"
+    ]
   },
   {
     "name": "Jit-Picker",
@@ -5848,6 +6119,86 @@
     "color": "greybox"
   },
   {
+    "name": "PromptFuzz",
+    "year": "2024",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "Fuzz4All"
+    ],
+    "author": [
+      "Yunlong Lyu",
+      "Yuxuan Xie",
+      "Peng Chen",
+      "Hao Chen"
+    ],
+    "toolurl": "https://github.com/PromptFuzz/PromptFuzz",
+    "title": "Prompt Fuzzing for Fuzz Driver Generation",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://arxiv.org/pdf/2312.17677"
+    ],
+    "keywords": [
+      "LLM",
+      "fuzz driver"
+    ]
+  },
+  {
+    "name": "ProphetFuzz",
+    "year": "2024",
+    "targets": [
+      "Argument",
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "CarpetFuzz"
+    ],
+    "author": [
+      "Dawei Wang",
+      "Geng Zhou",
+      "Li Chen",
+      "Dan Li",
+      "Yukai Miao"
+    ],
+    "toolurl": "https://github.com/NASP-THU/ProphetFuzz",
+    "title": "ProphetFuzz: Fully Automated Prediction and Fuzzing of High-Risk Option Combinations with Only Documentation via Large Language Model",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security"
+  },
+  {
+    "name": "Proteus",
+    "year": "2024",
+    "targets": [
+      "Network"
+    ],
+    "color": "blackbox",
+    "author": [
+      "Syed Md Mukit Rashid",
+      "Tianwei Wu",
+      "Kai Tu",
+      "Abdullah Al Ishtiaq",
+      "Ridwanul Hasan Tanvir",
+      "Yilu Dong",
+      "Omar Chowdhury",
+      "Syed Rafiul Hussain"
+    ],
+    "title": "State Machine Mutation-based Testing Framework for Wireless Communication Protocols",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3617232.3624849"
+    ],
+    "references": [
+      "LTEFuzz"
+    ],
+    "keywords": [
+      "stateful",
+      "LTE",
+      "bluetooth"
+    ]
+  },
+  {
     "name": "PyRTFuzz",
     "year": "2023",
     "targets": [
@@ -5920,6 +6271,35 @@
     "color": "greybox"
   },
   {
+    "name": "RANsacked",
+    "year": "2024",
+    "targets": [
+      "LTE"
+    ],
+    "color": "greybox",
+    "references": [
+      "LTEFuzz"
+    ],
+    "author": [
+      "Nathaniel Bennett",
+      "Weidong Zhu",
+      "Benjamin Simon",
+      "Ryon Kennedy",
+      "William Enck",
+      "Patrick Traynor",
+      "Kevn R. B. Butler"
+    ],
+    "toolurl": "https://github.com/FICS/asnfuzzgen",
+    "title": "RANsacked: A Domain-Informed Approach for Fuzzing LTE and 5G RAN-Core Interfaces",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://nathanielbennett.com/publications/ransacked.pdf"
+    ],
+    "keywords": [
+      "cellular"
+    ]
+  },
+  {
     "name": "RESTler",
     "year": 2019,
     "author": [
@@ -5940,6 +6320,32 @@
       "Sulley"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "RIoTFuzzer",
+    "year": "2024",
+    "targets": [
+      "IoT"
+    ],
+    "color": "blackbox",
+    "references": [
+      "DIANE"
+    ],
+    "author": [
+      "Kaizheng Liu",
+      "Ming Yang",
+      "Zhen Ling",
+      "Yue Zhang",
+      "Chongqing Lei",
+      "Junzhou Luo",
+      "Xinwen Fu"
+    ],
+    "toolurl": "https://github.com/kzLiu2017/RIoTFuzzer",
+    "title": "RIoTFuzzer: Companion App Assisted Remote Fuzzing for Detecting Vulnerabilities in IoT Devices",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://cse.seu.edu.cn/_upload/article/files/4e/cb/457914eb4249b778299c9d33acdd/2b22fda2-e00c-441a-b7a6-e61c0d12de57.pdf"
+    ]
   },
   {
     "name": "RLF",
@@ -8192,6 +8598,35 @@
       "Network"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "fAmulet",
+    "year": "2024",
+    "targets": [
+      "L2 protocol"
+    ],
+    "color": "greybox",
+    "author": [
+      "Zihao Li",
+      "Xinghao Peng",
+      "Zheyuan He",
+      "Xiapu Luo",
+      "Ting Chen"
+    ],
+    "title": "fAmulet: Finding Finalization Failure Bugs in Polygon zkRollup",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3658644.3690243"
+    ],
+    "references": [
+      "LOKI",
+      "Fluffy"
+    ],
+    "keywords": [
+      "Polygon zkRollup",
+      "blockchain",
+      "zero-knowledge L2 protocols"
+    ]
   },
   {
     "name": "fsfuzzer",
