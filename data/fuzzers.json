@@ -4118,7 +4118,7 @@
     "title": "Program Ingredients Abstraction and Instantiation for Synthesis-based JVM Testing",
     "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
     "miscurl": [
-      "https://dl.acm.org/doi/pdf/10.1145/3658644.3690332"
+      "https://dl.acm.org/doi/pdf/10.1145/3658644.3690366"
     ],
     "references": [
       "classming"
@@ -6187,7 +6187,7 @@
     "title": "State Machine Mutation-based Testing Framework for Wireless Communication Protocols",
     "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
     "miscurl": [
-      "https://dl.acm.org/doi/pdf/10.1145/3658644.3690332"
+      "https://dl.acm.org/doi/pdf/10.1145/3617232.3624849"
     ],
     "references": [
       "LTEFuzz"
