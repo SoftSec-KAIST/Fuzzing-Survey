@@ -8391,6 +8391,31 @@
     ]
   },
   {
+    "name": "WuppieFuzz",
+    "year": 2024,
+    "author": [
+      "Thomas Rooijakkers",
+      "Erieke Weitenberg",
+      "Jelle Nauta"
+    ],
+    "toolurl": "https://github.com/TNO-S3/WuppieFuzz",
+    "miscurl": [
+      "https://emagazine.one-conference.nl/2024/finally-validate-your-publicly-exposed-interfaces-with-ease/"
+    ],
+    "targets": [
+      "API",
+      "REST"
+    ],
+    "references": [
+      "LibAFL"
+    ],
+    "keywords": [
+      "REST API",
+      "coverage-guided"
+    ],
+    "color": "greybox"
+  },
+  {
     "name": "YARPGen",
     "year": "2023",
     "targets": [
