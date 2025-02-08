@@ -8403,8 +8403,7 @@
       "https://emagazine.one-conference.nl/2024/finally-validate-your-publicly-exposed-interfaces-with-ease/"
     ],
     "targets": [
-      "API",
-      "REST"
+      "API"
     ],
     "references": [
       "LibAFL"
