@@ -508,6 +508,36 @@
     ]
   },
   {
+    "name": "BUZZBEE",
+    "year": "2024",
+    "targets": [
+      "DBMS"
+    ],
+    "color": "greybox",
+    "references": [
+      "Squirrel"
+    ],
+    "author": [
+      "Yupeng Yang",
+      "Yongheng Chen",
+      "Rui Zhong",
+      "Jizhou Chen",
+      "Wenke Lee"
+    ],
+    "toolurl": "https://github.com/OMH4ck/BuzzBee",
+    "title": "BUZZBEE: Towards Generic Database Management System Fuzzing",
+    "booktitle": "Proceedings of the 33rd USENIX Security Symposium",
+    "journal": "USENIX Security",
+    "miscurl": [
+      "https://www.usenix.org/conference/usenixsecurity24/presentation/yang-yupeng"
+    ],
+    "keywords": [
+      "dbms",
+      "sql",
+      "nosql"
+    ]
+  },
+  {
     "name": "BeDivFuzz",
     "year": 2022,
     "targets": [
@@ -998,6 +1028,33 @@
     ],
     "miscurl": [
       "https://www.usenix.org/system/files/usenixsecurity24-solt.pdf"
+    ]
+  },
+  {
+    "name": "Cascade",
+    "year": "2024",
+    "targets": [
+      "CPU"
+    ],
+    "color": "greybox",
+    "references": [
+      "DifuzzRTL"
+    ],
+    "author": [
+      "Flavien Solt",
+      "Katharina Ceesay-Seitz",
+      "Kaveh Razavi"
+    ],
+    "toolurl": "https://comsec.ethz.ch/cascade",
+    "title": "Cascade: CPU Fuzzing via Intricate Program Generation",
+    "booktitle": "Proceedings of the 33rd USENIX Security Symposium",
+    "journal": "USENIX Security",
+    "miscurl": [
+      "https://www.usenix.org/conference/usenixsecurity24/presentation/solt"
+    ],
+    "keywords": [
+      "cpu fuzzing",
+      "riscv"
     ]
   },
   {
@@ -6326,6 +6383,37 @@
     ]
   },
   {
+    "name": "RESOLVERFUZZ",
+    "year": "2024",
+    "targets": [
+      "network"
+    ],
+    "color": "blackbox",
+    "references": [
+      "AFLNet"
+    ],
+    "author": [
+      "Qifan Zhang",
+      "Xuesong Bai",
+      "Xiang Li",
+      "Haixin Duan",
+      "Qi Li",
+      "Zhou Li"
+    ],
+    "toolurl": "https://github.com/ucicslab/resolverfuzz",
+    "title": "RESOLVERFUZZ: Automated Discovery of DNS Resolver Vulnerabilities with Query-Response Fuzzing",
+    "booktitle": "Proceedings of the 33rd USENIX Security Symposium",
+    "journal": "USENIX Security",
+    "miscurl": [
+      "https://www.usenix.org/conference/usenixsecurity24/presentation/zhang-qifan"
+    ],
+    "keywords": [
+      "dns",
+      "resolver fuzzing",
+      "stateful fuzzing"
+    ]
+  },
+  {
     "name": "RESTler",
     "year": 2019,
     "author": [
@@ -6774,6 +6862,34 @@
     ],
     "keywords": [
       "Mutation-based fuzzing"
+    ]
+  },
+  {
+    "name": "SHiFT",
+    "year": "2024",
+    "targets": [
+      "Firmware"
+    ],
+    "color": "greybox",
+    "references": [
+      "UAFL"
+    ],
+    "author": [
+      "Alejandro Mera",
+      "Changming Liu",
+      "Ruimin Sun",
+      "Engin Kirda",
+      "Long Lu"
+    ],
+    "toolurl": "https://github.com/RiS3-Lab/SHiFT",
+    "title": "SHiFT: Semi-hosted Fuzz Testing for Embedded Applications",
+    "booktitle": "Proceedings of the 33rd USENIX Security Symposium",
+    "journal": "USENIX Security",
+    "miscurl": [
+      "https://www.usenix.org/conference/usenixsecurity24/presentation/mera"
+    ],
+    "keywords": [
+      "microcontroller"
     ]
   },
   {
@@ -8156,6 +8272,40 @@
     ],
     "title": "VD-GUARD: DMA Guided Fuzzing for Hypervisor Virtual Device",
     "booktitle": "Proceedings of the International Conference on Automated Software Engineering"
+  },
+  {
+    "name": "VOAPI2",
+    "year": "2024",
+    "targets": [
+      "API"
+    ],
+    "color": "greybox",
+    "references": [
+      "RestTestGen",
+      "RESTler"
+    ],
+    "author": [
+      "Wenlong Du",
+      "Jian Li",
+      "Yanhao Wang",
+      "Libo Chen",
+      "Ruijie Zhao",
+      "Junmin Zhu",
+      "Zhengguang Han",
+      "Yijun Wang",
+      "Zhi Xue"
+    ],
+    "toolurl": "https://github.com/NSSL-SJTU/VoAPI2",
+    "title": "VOAPI2: Vulnerability-oriented Testing for RESTful APIs",
+    "booktitle": "Proceedings of the 33rd USENIX Security Symposium",
+    "journal": "USENIX Security",
+    "miscurl": [
+      "https://www.usenix.org/conference/usenixsecurity24/presentation/du"
+    ],
+    "keywords": [
+      "restful api",
+      "stateful fuzzing"
+    ]
   },
   {
     "name": "VUzzer",
