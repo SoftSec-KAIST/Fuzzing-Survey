@@ -508,6 +508,36 @@
     ]
   },
   {
+    "name": "BUZZBEE",
+    "year": "2024",
+    "targets": [
+      "DBMS"
+    ],
+    "color": "greybox",
+    "references": [
+      "Squirrel"
+    ],
+    "author": [
+      "Yupeng Yang",
+      "Yongheng Chen",
+      "Rui Zhong",
+      "Jizhou Chen",
+      "Wenke Lee"
+    ],
+    "toolurl": "https://github.com/OMH4ck/BuzzBee",
+    "title": "BUZZBEE: Towards Generic Database Management System Fuzzing",
+    "booktitle": "Proceedings of the 33rd USENIX Security Symposium",
+    "journal": "USENIX Security",
+    "miscurl": [
+      "https://www.usenix.org/conference/usenixsecurity24/presentation/yang-yupeng"
+    ],
+    "keywords": [
+      "dbms",
+      "sql",
+      "nosql"
+    ]
+  },
+  {
     "name": "BeDivFuzz",
     "year": 2022,
     "targets": [
@@ -684,31 +714,6 @@
       "DifFuzz"
     ],
     "color": "greybox"
-  },
-  {
-    "name": "BuzzBee",
-    "year": "2024",
-    "targets": [
-      "DBMS"
-    ],
-    "color": "greybox",
-    "author": [
-      "Yupeng Yang",
-      "Yongheng Chen",
-      "Rui Zhong",
-      "Jizhou Chen",
-      "Wenke Lee"
-    ],
-    "toolurl": "https://github.com/OMH4ck/BuzzBee",
-    "title": "Towards Generic Database Management System Fuzzing",
-    "booktitle": "Proceedings of the USENIX Security Symposium",
-    "references": [
-      "AFL++",
-      "Squirrel"
-    ],
-    "miscurl": [
-      "https://www.usenix.org/system/files/usenixsecurity24-yang-yupeng.pdf"
-    ]
   },
   {
     "name": "BuzzFuzz",
@@ -998,6 +1003,10 @@
     ],
     "miscurl": [
       "https://www.usenix.org/system/files/usenixsecurity24-solt.pdf"
+    ],
+    "keywords": [
+      "cpu fuzzing",
+      "riscv"
     ]
   },
   {
@@ -1323,6 +1332,32 @@
     ],
     "keywords": [
       "kernel"
+    ]
+  },
+  {
+    "name": "Creal",
+    "year": "2024",
+    "targets": [
+      "File"
+    ],
+    "color": "blackbox",
+    "references": [
+      "CSmith"
+    ],
+    "author": [
+      "Shaohua Li",
+      "Theodoros Theodoridis",
+      "Zhendong Su"
+    ],
+    "toolurl": "https://github.com/UniCodeSphere/Creal",
+    "title": "Boosting Compiler Testing by Injecting Real-World Code",
+    "booktitle": "Proceedings of the ACM Conference on Programming Language Design and Implementation",
+    "miscurl": [
+      "https://dl.acm.org/doi/abs/10.1145/3656386"
+    ],
+    "keywords": [
+      "compiler fuzzing",
+      "real-world code"
     ]
   },
   {
@@ -6978,6 +7013,34 @@
     ]
   },
   {
+    "name": "SHiFT",
+    "year": "2024",
+    "targets": [
+      "Firmware"
+    ],
+    "color": "greybox",
+    "references": [
+      "UAFL"
+    ],
+    "author": [
+      "Alejandro Mera",
+      "Changming Liu",
+      "Ruimin Sun",
+      "Engin Kirda",
+      "Long Lu"
+    ],
+    "toolurl": "https://github.com/RiS3-Lab/SHiFT",
+    "title": "SHiFT: Semi-hosted Fuzz Testing for Embedded Applications",
+    "booktitle": "Proceedings of the 33rd USENIX Security Symposium",
+    "journal": "USENIX Security",
+    "miscurl": [
+      "https://www.usenix.org/conference/usenixsecurity24/presentation/mera"
+    ],
+    "keywords": [
+      "microcontroller"
+    ]
+  },
+  {
     "name": "SJFuzz",
     "year": 2023,
     "targets": [
@@ -8414,6 +8477,39 @@
     ],
     "title": "VD-GUARD: DMA Guided Fuzzing for Hypervisor Virtual Device",
     "booktitle": "Proceedings of the International Conference on Automated Software Engineering"
+  },
+  {
+    "name": "VOAPI2",
+    "year": "2024",
+    "targets": [
+      "API"
+    ],
+    "color": "greybox",
+    "references": [
+      "RESTler"
+    ],
+    "author": [
+      "Wenlong Du",
+      "Jian Li",
+      "Yanhao Wang",
+      "Libo Chen",
+      "Ruijie Zhao",
+      "Junmin Zhu",
+      "Zhengguang Han",
+      "Yijun Wang",
+      "Zhi Xue"
+    ],
+    "toolurl": "https://github.com/NSSL-SJTU/VoAPI2",
+    "title": "VOAPI2: Vulnerability-oriented Testing for RESTful APIs",
+    "booktitle": "Proceedings of the 33rd USENIX Security Symposium",
+    "journal": "USENIX Security",
+    "miscurl": [
+      "https://www.usenix.org/conference/usenixsecurity24/presentation/du"
+    ],
+    "keywords": [
+      "restful api",
+      "stateful fuzzing"
+    ]
   },
   {
     "name": "VUzzer",
