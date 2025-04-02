@@ -716,31 +716,6 @@
     "color": "greybox"
   },
   {
-    "name": "BuzzBee",
-    "year": "2024",
-    "targets": [
-      "DBMS"
-    ],
-    "color": "greybox",
-    "author": [
-      "Yupeng Yang",
-      "Yongheng Chen",
-      "Rui Zhong",
-      "Jizhou Chen",
-      "Wenke Lee"
-    ],
-    "toolurl": "https://github.com/OMH4ck/BuzzBee",
-    "title": "Towards Generic Database Management System Fuzzing",
-    "booktitle": "Proceedings of the USENIX Security Symposium",
-    "references": [
-      "AFL++",
-      "Squirrel"
-    ],
-    "miscurl": [
-      "https://www.usenix.org/system/files/usenixsecurity24-yang-yupeng.pdf"
-    ]
-  },
-  {
     "name": "BuzzFuzz",
     "year": 2009,
     "author": [
@@ -1028,29 +1003,6 @@
     ],
     "miscurl": [
       "https://www.usenix.org/system/files/usenixsecurity24-solt.pdf"
-    ]
-  },
-  {
-    "name": "Cascade",
-    "year": "2024",
-    "targets": [
-      "CPU"
-    ],
-    "color": "greybox",
-    "references": [
-      "DifuzzRTL"
-    ],
-    "author": [
-      "Flavien Solt",
-      "Katharina Ceesay-Seitz",
-      "Kaveh Razavi"
-    ],
-    "toolurl": "https://comsec.ethz.ch/cascade",
-    "title": "Cascade: CPU Fuzzing via Intricate Program Generation",
-    "booktitle": "Proceedings of the 33rd USENIX Security Symposium",
-    "journal": "USENIX Security",
-    "miscurl": [
-      "https://www.usenix.org/conference/usenixsecurity24/presentation/solt"
     ],
     "keywords": [
       "cpu fuzzing",
@@ -6384,37 +6336,6 @@
     ]
   },
   {
-    "name": "RESOLVERFUZZ",
-    "year": "2024",
-    "targets": [
-      "network"
-    ],
-    "color": "blackbox",
-    "references": [
-      "AFLNet"
-    ],
-    "author": [
-      "Qifan Zhang",
-      "Xuesong Bai",
-      "Xiang Li",
-      "Haixin Duan",
-      "Qi Li",
-      "Zhou Li"
-    ],
-    "toolurl": "https://github.com/ucicslab/resolverfuzz",
-    "title": "RESOLVERFUZZ: Automated Discovery of DNS Resolver Vulnerabilities with Query-Response Fuzzing",
-    "booktitle": "Proceedings of the 33rd USENIX Security Symposium",
-    "journal": "USENIX Security",
-    "miscurl": [
-      "https://www.usenix.org/conference/usenixsecurity24/presentation/zhang-qifan"
-    ],
-    "keywords": [
-      "dns",
-      "resolver fuzzing",
-      "stateful fuzzing"
-    ]
-  },
-  {
     "name": "RESTler",
     "year": 2019,
     "author": [
@@ -8282,7 +8203,6 @@
     ],
     "color": "greybox",
     "references": [
-      "RestTestGen",
       "RESTler"
     ],
     "author": [
