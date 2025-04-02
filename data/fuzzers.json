@@ -1380,6 +1380,34 @@
     ]
   },
   {
+    "name": "DarthShader",
+    "year": "2024",
+    "targets": [
+      "WGSL"
+    ],
+    "color": "greybox",
+    "references": [
+      "CSmith"
+    ],
+    "author": [
+      "Lukas Bernhard",
+      "Nico Schiller",
+      "Moritz Schloegel",
+      "Nils Bars",
+      "Thorsten Holz"
+    ],
+    "toolurl": "https://github.com/wgslfuzz/darthshader",
+    "title": "DarthShader: Fuzzing WebGPU Shader Translators & Compilers",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://web3.arxiv.org/pdf/2409.01824"
+    ],
+    "keywords": [
+      "WGSL",
+      "shader"
+    ]
+  },
+  {
     "name": "DDRace",
     "year": 2023,
     "targets": [
@@ -1544,31 +1572,34 @@
     ]
   },
   {
-    "name": "DarthShader",
-    "year": "2024",
+    "name": "DUMPLING",
+    "year": "2025",
     "targets": [
-      "WGSL"
+      "JavaScript"
     ],
     "color": "greybox",
     "references": [
-      "CSmith"
+      "Fuzzilli",
+      "Jit-Picker"
     ],
     "author": [
-      "Lukas Bernhard",
-      "Nico Schiller",
-      "Moritz Schloegel",
-      "Nils Bars",
-      "Thorsten Holz"
+      "Liam Wachter",
+      "Julian Gremminger",
+      "Christian Wressnegger",
+      "Mathias Payer",
+      "Flavio Toffalini"
     ],
-    "toolurl": "https://github.com/wgslfuzz/darthshader",
-    "title": "DarthShader: Fuzzing WebGPU Shader Translators & Compilers",
-    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "toolurl": "https://github.com/two-heart/dumpling-artifact-evaluation",
+    "title": "DUMPLING: Fine-grained Differential JavaScript Engine Fuzzing",
+    "booktitle": "Network and Distributed System Security Symposium (NDSS) 2025",
+    "journal": "NDSS",
     "miscurl": [
-      "https://web3.arxiv.org/pdf/2409.01824"
+      "https://dx.doi.org/10.14722/ndss.2025.241411"
     ],
     "keywords": [
-      "WGSL",
-      "shader"
+      "javascript",
+      "jit",
+      "differential fuzzing"
     ]
   },
   {
@@ -1807,6 +1838,34 @@
       "Kernel"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "DistFuzz",
+    "year": "2025",
+    "targets": [
+      "Network"
+    ],
+    "color": "blackbox",
+    "references": [
+      "Mallory"
+    ],
+    "author": [
+      "Yonghao Zou",
+      "Jia-Ju Bai",
+      "Zu-Ming Jiang",
+      "Ming Zhao",
+      "Diyu Zhou"
+    ],
+    "toolurl": "https://github.com/zouyonghao/DistFuzz",
+    "title": "DistFuzz: Blackbox Fuzzing of Distributed Systems with Multi-Dimensional Inputs and Symmetry-Based Feedback Pruning",
+    "booktitle": "Network and Distributed System Security Symposium (NDSS) 2025",
+    "journal": "NDSS",
+    "miscurl": [
+      "https://dx.doi.org/10.14722/ndss.2025.241912"
+    ],
+    "keywords": [
+      "distributed systems"
+    ]
   },
   {
     "name": "Domato",
@@ -2923,6 +2982,27 @@
     ]
   },
   {
+    "name": "FuzzUEr",
+    "year": "2025",
+    "targets": [
+      "Firmware"
+    ],
+    "color": "greybox",
+    "references": [
+      "LibAFL"
+    ],
+    "author": [
+      "Connor Glosner",
+      "Aravind Machiry"
+    ],
+    "toolurl": "https://github.com/BreakingBoot/FuzzUEr",
+    "title": "FUZZUER: Enabling Fuzzing of UEFI Interfaces on EDK-2",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/2025-400-paper.pdf"
+    ]
+  },
+  {
     "name": "Fuzzbox",
     "year": 2008,
     "author": [
@@ -3699,6 +3779,35 @@
       "FIRM-AFL"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "ICSQuartz",
+    "year": "2025",
+    "targets": [
+      "ICS"
+    ],
+    "color": "greybox",
+    "references": [
+      "ICSFuzz"
+    ],
+    "author": [
+      "Corban Villa",
+      "Constantine Doumanidis",
+      "Hithem Lamri",
+      "Prashant Hari Narayan Rajput",
+      "Michail Maniatakos"
+    ],
+    "toolurl": "https://github.com/momalab/ICSQuartz",
+    "title": "ICSQuartz: Scan Cycle-Aware and Vendor-Agnostic Fuzzing for Industrial Control Systems",
+    "booktitle": "Network and Distributed System Security Symposium (NDSS) 2025",
+    "journal": "NDSS",
+    "miscurl": [
+      "https://dx.doi.org/10.14722/ndss.2025.240795"
+    ],
+    "keywords": [
+      "plc",
+      "scan cycle"
+    ]
   },
   {
     "name": "IFIZZ",
@@ -4614,6 +4723,38 @@
     "color": "greykbox"
   },
   {
+    "name": "MALintent",
+    "year": "2025",
+    "targets": [
+      "android"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "Ammar Askar",
+      "Fabian Fleischer",
+      "Christopher Kruegel",
+      "Giovanni Vigna",
+      "Taesoo Kim"
+    ],
+    "toolurl": "https://github.com/sslab-gatech/MALintent",
+    "title": "MALintent: Coverage Guided Intent Fuzzing Framework for Android",
+    "booktitle": "Network and Distributed System Security Symposium (NDSS) 2025",
+    "journal": "NDSS",
+    "miscurl": [
+      "https://dx.doi.org/10.14722/ndss.2025.230125"
+    ],
+    "keywords": [
+      "android",
+      "intent fuzzing",
+      "privacy violations",
+      "JNI",
+      "coverage-guided"
+    ]
+  },
+  {
     "name": "MAU",
     "year": "2024",
     "targets": [
@@ -5187,6 +5328,37 @@
     "color": "greybox"
   },
   {
+    "name": "Moneta",
+    "year": "2025",
+    "targets": [
+      "kernel"
+    ],
+    "color": "greybox",
+    "references": [
+      "syzkaller"
+    ],
+    "author": [
+      "Joonkyo Jung",
+      "Jisoo Jang",
+      "Yongwan Jo",
+      "Jonas Vinck",
+      "Alexios Voulimeneas",
+      "Stijn Volckaert",
+      "Dokyung Song"
+    ],
+    "toolurl": "https://github.com/yonsei-sslab/moneta",
+    "title": "Moneta: Ex-Vivo GPU Driver Fuzzing by Recalling In-Vivo Execution States",
+    "booktitle": "Network and Distributed System Security Symposium (NDSS) 2025",
+    "journal": "NDSS",
+    "miscurl": [
+      "https://dx.doi.org/10.14722/ndss.2025.230218"
+    ],
+    "keywords": [
+      "gpu",
+      "driver"
+    ]
+  },
+  {
     "name": "Montage",
     "year": 2020,
     "author": [
@@ -5373,6 +5545,36 @@
     "booktitle": "Proceedings of the USENIX Security Symposium",
     "miscurl": [
       "https://www.usenix.org/system/files/usenixsecurity23-deng-gelei.pdf"
+    ]
+  },
+  {
+    "name": "NEXZZER",
+    "year": "2025",
+    "targets": [
+      "API"
+    ],
+    "color": "greybox",
+    "references": [
+      "Hopper"
+    ],
+    "author": [
+      "Jiayi Lin",
+      "Qingyu Zhang",
+      "Junzhe Li",
+      "Chenxin Sun",
+      "Hao Zhou",
+      "Changhua Luo",
+      "Chenxiong Qian"
+    ],
+    "toolurl": "https://figshare.com/s/9539927ac84ee6a7ac14",
+    "title": "NEXZZER: Automatic Library Fuzzing through API Relation Evolvement",
+    "booktitle": "Network and Distributed System Security Symposium (NDSS) 2025",
+    "journal": "NDSS",
+    "miscurl": [
+      "https://dx.doi.org/10.14722/ndss.2025.240750"
+    ],
+    "keywords": [
+      "library fuzzing"
     ]
   },
   {
@@ -5625,6 +5827,30 @@
       "radamsa"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "NodeMedic-FINE",
+    "year": "2025",
+    "targets": [
+      "JavaScript"
+    ],
+    "color": "greybox",
+    "references": [
+      "FAST"
+    ],
+    "author": [
+      "Darion Cassel",
+      "Nuno Sabino",
+      "Min-Chien Hsu",
+      "Ruben Martins",
+      "Limin Jia"
+    ],
+    "toolurl": "https://zenodo.org/records/14249091",
+    "title": "NodeMedic-FINE: Automatic Detection and Exploit Synthesis for Node.js Vulnerabilities",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/2025-1636-paper.pdf"
+    ]
   },
   {
     "name": "Nyx",
@@ -7780,6 +8006,38 @@
     "color": "blackbox"
   },
   {
+    "name": "TWINFUZZ",
+    "year": "2025",
+    "targets": [
+      "video decoder"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "Matteo Leonelli",
+      "Addison Crump",
+      "Meng Wang",
+      "Florian Bauckholt",
+      "Keno Hassler",
+      "Ali Abbasi",
+      "Thorsten Holz"
+    ],
+    "toolurl": "https://github.com/CISPA-SysSec/twinfuzz",
+    "title": "TWINFUZZ: Differential Testing of Video Hardware Acceleration Stacks",
+    "booktitle": "Network and Distributed System Security Symposium (NDSS) 2025",
+    "journal": "NDSS",
+    "miscurl": [
+      "https://dx.doi.org/10.14722/ndss.2025.240526"
+    ],
+    "keywords": [
+      "differential fuzzing",
+      "video stack",
+      "hardware acceleration"
+    ]
+  },
+  {
     "name": "TaintScope",
     "year": 2010,
     "author": [
@@ -8009,6 +8267,31 @@
     ],
     "miscurl": [
       "https://www.usenix.org/system/files/sec22-trippel.pdf"
+    ]
+  },
+  {
+    "name": "Truman",
+    "year": "2025",
+    "targets": [
+      "Hypervisor"
+    ],
+    "color": "greybox",
+    "references": [
+      "Morphuzz"
+    ],
+    "author": [
+      "Zheyu Ma",
+      "Qiang Liu",
+      "Zheming Li",
+      "Tingting Yin",
+      "Wende Tan",
+      "Chao Zhang",
+      "Mathias Payer"
+    ],
+    "title": "Truman: Constructing Device Behavior Models from OS Drivers to Fuzz Virtual Devices",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/2025-301-paper.pdf"
     ]
   },
   {
