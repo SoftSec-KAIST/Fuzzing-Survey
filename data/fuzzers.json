@@ -3213,6 +3213,7 @@
     "targets": [
       "DBMS"
     ],
+    "toolurl": "https://github.com/Griffin-2022/Griffin",
     "color": "greybox",
     "author": [
       "Jingzhou Fu",
@@ -8564,6 +8565,30 @@
     "miscurl": [
       "https://www.computer.org/csdl/proceedings-article/sp/2023/933600a116/1He7XPiaynS"
     ]
+  },
+  {
+    "name": "WuppieFuzz",
+    "year": 2024,
+    "author": [
+      "Thomas Rooijakkers",
+      "Erieke Weitenberg",
+      "Jelle Nauta"
+    ],
+    "toolurl": "https://github.com/TNO-S3/WuppieFuzz",
+    "miscurl": [
+      "https://emagazine.one-conference.nl/2024/finally-validate-your-publicly-exposed-interfaces-with-ease/"
+    ],
+    "targets": [
+      "API"
+    ],
+    "references": [
+      "LibAFL"
+    ],
+    "keywords": [
+      "REST API",
+      "coverage-guided"
+    ],
+    "color": "greybox"
   },
   {
     "name": "YARPGen",
