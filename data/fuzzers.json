@@ -1415,34 +1415,6 @@
     ]
   },
   {
-    "name": "DarthShader",
-    "year": "2024",
-    "targets": [
-      "WGSL"
-    ],
-    "color": "greybox",
-    "references": [
-      "CSmith"
-    ],
-    "author": [
-      "Lukas Bernhard",
-      "Nico Schiller",
-      "Moritz Schloegel",
-      "Nils Bars",
-      "Thorsten Holz"
-    ],
-    "toolurl": "https://github.com/wgslfuzz/darthshader",
-    "title": "DarthShader: Fuzzing WebGPU Shader Translators & Compilers",
-    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
-    "miscurl": [
-      "https://web3.arxiv.org/pdf/2409.01824"
-    ],
-    "keywords": [
-      "WGSL",
-      "shader"
-    ]
-  },
-  {
     "name": "DDRace",
     "year": 2023,
     "targets": [
@@ -1635,6 +1607,34 @@
       "javascript",
       "jit",
       "differential fuzzing"
+    ]
+  },
+  {
+    "name": "DarthShader",
+    "year": "2024",
+    "targets": [
+      "WGSL"
+    ],
+    "color": "greybox",
+    "references": [
+      "CSmith"
+    ],
+    "author": [
+      "Lukas Bernhard",
+      "Nico Schiller",
+      "Moritz Schloegel",
+      "Nils Bars",
+      "Thorsten Holz"
+    ],
+    "toolurl": "https://github.com/wgslfuzz/darthshader",
+    "title": "DarthShader: Fuzzing WebGPU Shader Translators & Compilers",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://web3.arxiv.org/pdf/2409.01824"
+    ],
+    "keywords": [
+      "WGSL",
+      "shader"
     ]
   },
   {
@@ -2241,6 +2241,36 @@
     "color": "greybox"
   },
   {
+    "name": "EcuFuzz",
+    "year": "2025",
+    "targets": [
+      "Firmware"
+    ],
+    "color": "blackbox",
+    "references": [
+      "SHiFT"
+    ],
+    "author": [
+      "Qicai Chen",
+      "Kun Hu",
+      "Sichen Gong",
+      "Bihuan Chen",
+      "Zikui Kong",
+      "Haowen Jiang",
+      "Bingkun Sun",
+      "You Lu",
+      "Xin Peng"
+    ],
+    "title": "Structure-Aware, Diagnosis-Guided ECU Firmware Fuzzing",
+    "booktitle": "Proceedings of the International Symposium on Software Testing and Analysis",
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3728914"
+    ],
+    "keywords": [
+      "ECU"
+    ]
+  },
+  {
     "name": "EnFuzz",
     "year": 2019,
     "author": [
@@ -2775,6 +2805,32 @@
     "booktitle": "Proceedings of the International Conference on Software Engineering",
     "miscurl": [
       "https://cs.stanford.edu/~anjiang/papers/WeiETAL22FreeFuzz.pdf"
+    ]
+  },
+  {
+    "name": "FreeWavm",
+    "year": "2025",
+    "targets": [
+      "WebAssembly"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "Peng Qian",
+      "Xinlei Ying",
+      "Jiashui Wang",
+      "Long Liu",
+      "Lun Zhang",
+      "Jianhai Chen",
+      "Qinming He"
+    ],
+    "toolurl": "https://github.com/Messi-Q/FreeWavm",
+    "title": "FreeWavm: Enhanced WebAssembly Runtime Fuzzing Guided by Parse Tree Mutation and Snapshot",
+    "booktitle": "Proceedings of the International Symposium on Software Testing and Analysis",
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3728877"
     ]
   },
   {
@@ -3373,6 +3429,34 @@
       "Redqueen"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "GzFuzz",
+    "year": "2025",
+    "targets": [
+      "Robotic Simulator"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL++"
+    ],
+    "author": [
+      "Zhilei Ren",
+      "Yitao Li",
+      "Xiaochen Li",
+      "Guanxiao Qi",
+      "Jifeng Xuan",
+      "He Jiang"
+    ],
+    "toolurl": "https://github.com/liyitao-code/GzFuzz",
+    "title": "Reinforcement Learning-based Fuzz Testing for the Gazebo Robotic Simulator",
+    "booktitle": "Proceedings of the International Symposium on Software Testing and Analysis",
+    "miscurl": [
+      "https://dl.acm.org/doi/10.1145/3728942"
+    ],
+    "keywords": [
+      "Reinforcement Learning"
+    ]
   },
   {
     "name": "HFL",
@@ -4330,6 +4414,31 @@
       "File"
     ],
     "color": "whitebox"
+  },
+  {
+    "name": "KRAKEN",
+    "year": "2025",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "Anshunkang Zhou",
+      "Heqing Huang",
+      "Charles Zhang"
+    ],
+    "toolurl": "https://github.com/seviezhou/Kraken",
+    "title": "KRAKEN: Program-Adaptive Parallel Fuzzing",
+    "booktitle": "Proceedings of the International Symposium on Software Testing and Analysis",
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3728882"
+    ],
+    "keywords": [
+      "Parallel Fuzzer"
+    ]
   },
   {
     "name": "KameleonFuzz",
@@ -7848,6 +7957,28 @@
     ]
   },
   {
+    "name": "SyzGPT",
+    "year": "2025",
+    "targets": [
+      "Kernel"
+    ],
+    "color": "greybox",
+    "references": [
+      "syzkaller"
+    ],
+    "author": [
+      "Zhiyu Zhang",
+      "Longxing Li",
+      "Ruigang Liang",
+      "Kai Chen"
+    ],
+    "toolurl": "https://github.com/QGrain/SyzGPT",
+    "title": "Proceedings of the International Symposium on Software Testing and Analysis",
+    "miscurl": [
+      "https://doi.org/10.1145/3728913"
+    ]
+  },
+  {
     "name": "SyzGen",
     "year": "2021",
     "targets": [
@@ -8839,6 +8970,31 @@
     "color": "greybox"
   },
   {
+    "name": "ZTaint-Havoc",
+    "year": "2025",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL++"
+    ],
+    "author": [
+      "Yuchong Xie",
+      "Wenhui Zhang",
+      "Dongdong She"
+    ],
+    "toolurl": "https://github.com/Yu3H0/ZTaint-Havoc",
+    "title": "ZTaint-Havoc: From Havoc Mode to Zero-Execution Fuzzing-Driven Taint Inference",
+    "booktitle": "Proceedings of the International Symposium on Software Testing and Analysis",
+    "miscurl": [
+      "https://doi.org/10.1145/3728916"
+    ],
+    "keywords": [
+      "Taint Inference"
+    ]
+  },
+  {
     "name": "Zeror",
     "year": 2020,
     "author": [
@@ -9387,6 +9543,32 @@
     ],
     "keywords": [
       "Dolev-Yao Model"
+    ]
+  },
+  {
+    "name": "xFUZZ",
+    "year": "2025",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "DongSong Yu",
+      "Yiyi Wang",
+      "Chao Zhang",
+      "Yang Lan",
+      "Zhiyuan Jiang",
+      "Shuitao Gan",
+      "Zheyu Ma",
+      "Wende Tan"
+    ],
+    "title": "xFUZZ: A Flexible Framework for Fine-Grained, Runtime-Adaptive Fuzzing Strategy Composition",
+    "booktitle": "Proceedings of the International Symposium on Software Testing and Analysis",
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3728873"
     ]
   },
   {
