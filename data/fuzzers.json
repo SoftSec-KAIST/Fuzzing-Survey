@@ -4152,6 +4152,28 @@
     "color": "blackbox"
   },
   {
+    "name": "ItyFuzz",
+    "year": "2023",
+    "targets": [
+      "Smart Contract"
+    ],
+    "color": "greybox",
+    "references": [
+      "SMARTIAN"
+    ],
+    "author": [
+      "Chaofan Shou",
+      "Shangyin Tan",
+      "Koushik Sen"
+    ],
+    "toolurl": "https://github.com/fuzzland/ityfuzz",
+    "title": "ItyFuzz: Snapshot-Based Fuzzer for Smart Contract",
+    "booktitle": "Proceedings of the International Symposium on Software Testing and Analysis",
+    "miscurl": [
+      "https://dl.acm.org/doi/10.1145/3597926.3598059"
+    ]
+  },
+  {
     "name": "IvySyn",
     "year": "2023",
     "targets": [
@@ -5042,6 +5064,34 @@
     ]
   },
   {
+    "name": "MLIRTracer",
+    "year": "2025",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "MLIRSmith"
+    ],
+    "author": [
+      "Weiyuan Tong",
+      "Zixu Wang",
+      "Zhanyong Tang",
+      "Jianbin Fang",
+      "Yuqun Zhang",
+      "Guixin Ye"
+    ],
+    "title": "Directed Testing in MLIR: Unleashing Its Potential by Overcoming the Limitations of Random Fuzzing",
+    "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
+    "miscurl": [
+      "https://doi.org/10.1145/3729372"
+    ],
+    "keywords": [
+      "Compiler Fuzzing",
+      "MLIR"
+    ]
+  },
+  {
     "name": "MOCK",
     "year": "2024",
     "targets": [
@@ -5292,6 +5342,29 @@
       "AFL"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "MendelFuzz",
+    "year": "2025",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL++"
+    ],
+    "author": [
+      "Han Zheng",
+      "Flavio Toffalini",
+      "Marcel Böhme",
+      "Mathias Payer"
+    ],
+    "toolurl": "https://github.com/HexHive/MendelFuzz-Artifact",
+    "title": "MendelFuzz: The Return of the Deterministic Stage",
+    "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
+    "miscurl": [
+      "https://doi.org/10.1145/3715713"
+    ]
   },
   {
     "name": "Metamong",
@@ -7211,7 +7284,7 @@
       "Alex Groce",
       "Sang Kil Cha"
     ],
-    "title": "SMARTIAM: Enhancing Smart Contract Fuzzing with Static and Dynamic Data-Flow Analyses",
+    "title": "SMARTIAN: Enhancing Smart Contract Fuzzing with Static and Dynamic Data-Flow Analyses",
     "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
     "toolurl": "https://github.com/SoftSec-KAIST/Smartian",
     "miscurl": [
@@ -8663,6 +8736,32 @@
       "AFL"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "Verite",
+    "year": "2025",
+    "targets": [
+      "Smart Contract"
+    ],
+    "color": "blackbox",
+    "references": [
+      "ItyFuzz"
+    ],
+    "author": [
+      "Ziqiao Kong",
+      "Cen Zhang",
+      "Maoyi Xie",
+      "Ming Hu",
+      "Yue Xue",
+      "Ye Liu",
+      "Haijun Wang",
+      "Yang Liu"
+    ],
+    "toolurl": "https://github.com/wtdcode/verite",
+    "title": "Smart Contract Fuzzing Towards Profitable Vulnerabilities",
+    "miscurl": [
+      "https://doi.org/10.1145/3715720"
+    ]
   },
   {
     "name": "ViDezzo",
