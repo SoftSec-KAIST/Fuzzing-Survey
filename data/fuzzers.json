@@ -800,7 +800,7 @@
     ],
     "toolurl": "https://github.com/GhabiX/CDFuzz",
     "title": "Tumbling Down the Rabbit Hole: How do Assisting Exploration Strategies Facilitate Grey-box Fuzzing? ",
-    "booktitle": "Proceedings of the 47th International Conference on Software Engineering (ICSE 2025)",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
     "miscurl": [
       "https://doi.org/10.48550/arXiv.2409.14541"
     ],
@@ -1517,7 +1517,7 @@
     ],
     "toolurl": "https://github.com/DFUZZ-ICSE/DFUZZ",
     "title": "Your Fix Is My Exploit: Enabling Comprehensive DL Library API Fuzzing with Large Language Models ",
-    "booktitle": "Proceedings of the 47th International Conference on Software Engineering (ICSE 2025)",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
     "miscurl": [
       "https://doi.org/10.48550/arXiv.2501.04312"
     ],
@@ -2584,7 +2584,6 @@
     ],
     "color": "greybox",
     "references": [
-      "Fluffy",
       "LOKI"
     ],
     "author": [
@@ -2595,7 +2594,7 @@
     ],
     "toolurl": "https://github.com/NetSP-KAIST/forky",
     "title": "Fork State-Aware Differential Fuzzing for Blockchain Consensus Implementations",
-    "booktitle": "Proceedings of the 47th International Conference on Software Engineering (ICSE)",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
     "miscurl": [
       "https://ieeexplore.ieee.org/document/11029786"
     ],
@@ -2652,7 +2651,7 @@
     ],
     "toolurl": "https://github.com/Redmept1on/FUTURE",
     "title": "The Seeds of the FUTURE Sprout from History: Fuzzing for Unveiling Vulnerabilities in Prospective Deep-Learning Libraries",
-    "booktitle": "Proceedings of the 47th International Conference on Software Engineering (ICSE 2025)",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
     "miscurl": [
       "https://arxiv.org/abs/2412.01317"
     ],
@@ -4165,11 +4164,10 @@
     "name": "IRFuzzer",
     "year": "2025",
     "targets": [
-      "compilers"
+      "Compiler"
     ],
     "color": "blackbox",
     "references": [
-      "AFL++",
       "CSmith"
     ],
     "author": [
@@ -4179,9 +4177,8 @@
       "Stephen Neuendorffer",
       "Hao Chen"
     ],
-    "toolurl": "-",
     "title": "IRFuzzer: Specialized Fuzzing for LLVM Backend Code Generation",
-    "booktitle": "Proceedings of the 46th IEEE/ACM International Conference on Software Engineering (ICSE)",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
     "miscurl": [
       "https://arxiv.org/abs/2402.05256"
     ],
@@ -4395,7 +4392,7 @@
     "name": "JITfuzz",
     "year": "2023",
     "targets": [
-      "File"
+      "Compiler"
     ],
     "color": "greybox",
     "author": [
@@ -5212,7 +5209,7 @@
     "name": "MLIRSmith",
     "year": "2023",
     "targets": [
-      "File"
+      "Compiler"
     ],
     "color": "blackbox",
     "references": [
@@ -5238,7 +5235,7 @@
     "name": "MLIRTracer",
     "year": "2025",
     "targets": [
-      "File"
+      "Compiler"
     ],
     "color": "greybox",
     "references": [
@@ -6273,8 +6270,7 @@
     ],
     "color": "greybox",
     "references": [
-      "Hopper",
-      "AFL++"
+      "Hopper"
     ],
     "author": [
       "Gabriel Sherman",
@@ -6282,7 +6278,7 @@
     ],
     "toolurl": "https://github.com/FuturesLab/OGHarn",
     "title": "No Harness, No Problem: Oracle-guided Harnessing for Auto-generating C API Fuzzing Harnesses",
-    "booktitle": "Proceedings of the 47th International Conference on Software Engineering (ICSE 2025)",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
     "miscurl": [
       "https://users.cs.utah.edu/~snagy/papers/25ICSE-b.pdf"
     ],
@@ -6363,7 +6359,7 @@
     "name": "Optimuzz",
     "year": "2025",
     "targets": [
-      "compilers"
+      "Compiler"
     ],
     "color": "greybox",
     "references": [
@@ -6378,7 +6374,7 @@
     ],
     "toolurl": "https://prosys.kaist.ac.kr/optimuzz",
     "title": "Optimization-Directed Compiler Fuzzing for Continuous Translation Validation",
-    "booktitle": "Proceedings of the ACM on Programming Languages, PLDI 2025",
+    "booktitle": "Proceedings of the ACM Conference on Programming Language Design and Implementation",
     "miscurl": [
       "https://doi.org/10.1145/3729275"
     ],
@@ -7057,7 +7053,7 @@
     ],
     "toolurl": "https://github.com/binsec/rosa ",
     "title": "ROSA: Finding Backdoors with Fuzzing",
-    "booktitle": "Proceedings of the 47th International Conference on Software Engineering (ICSE 2025)",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
     "miscurl": [
       "https://arxiv.org/abs/2505.08544 "
     ],
@@ -8258,7 +8254,7 @@
     "name": "SynthFuzz",
     "year": "2025",
     "targets": [
-      "compilers"
+      "Compiler"
     ],
     "color": "greybox",
     "references": [
@@ -8744,7 +8740,7 @@
     ],
     "toolurl": "https://github.com/Siyuan-Li201/TransferFuzz",
     "title": "TransferFuzz: Fuzzing with Historical Trace for Verifying Propagated Vulnerability Code",
-    "booktitle": "Proceedings of the 47th International Conference on Software Engineering (ICSE 2025)",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
     "miscurl": [
       "https://doi.org/10.48550/arXiv.2411.18347"
     ],
