@@ -780,6 +780,36 @@
     "color": "graybox"
   },
   {
+    "name": "CDFUZZ",
+    "year": "2025",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "Mingyuan Wu",
+      "Jiahong Xiang",
+      "Kunqiu Chen",
+      "Peng Di",
+      "Shin Hwei Tan",
+      "Heming Cui",
+      "Yuqun Zhang"
+    ],
+    "toolurl": "https://github.com/GhabiX/CDFuzz",
+    "title": "Tumbling Down the Rabbit Hole: How do Assisting Exploration Strategies Facilitate Grey-box Fuzzing? ",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "miscurl": [
+      "https://doi.org/10.48550/arXiv.2409.14541"
+    ],
+    "keywords": [
+      "dictionary strategy",
+      "exploration strategies "
+    ]
+  },
+  {
     "name": "CHIPSEC",
     "year": 2015,
     "author": [
@@ -1150,6 +1180,34 @@
     ]
   },
   {
+    "name": "ClozeMaster",
+    "year": "2025",
+    "targets": [
+      "Compiler"
+    ],
+    "color": "blackbox",
+    "references": [
+      "RustSmith"
+    ],
+    "author": [
+      "Hongyan Gao",
+      "Yibiao Yang",
+      "Maolin Sun",
+      "Jiangchang Wu",
+      "Yuming Zhou",
+      "Baowen Xu"
+    ],
+    "toolurl": "https://github.com/clozeMasterPro/clozeMaster",
+    "title": "Clozemaster: Fuzzing Rust Compiler by Harnessing Llms for Infilling Masked Real Programs",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "miscurl": [
+      "https://ieeexplore.ieee.org/document/11029729"
+    ],
+    "keywords": [
+      "LLM"
+    ]
+  },
+  {
     "name": "CoFuzz",
     "year": "2023",
     "targets": [
@@ -1415,34 +1473,6 @@
     ]
   },
   {
-    "name": "DarthShader",
-    "year": "2024",
-    "targets": [
-      "WGSL"
-    ],
-    "color": "greybox",
-    "references": [
-      "CSmith"
-    ],
-    "author": [
-      "Lukas Bernhard",
-      "Nico Schiller",
-      "Moritz Schloegel",
-      "Nils Bars",
-      "Thorsten Holz"
-    ],
-    "toolurl": "https://github.com/wgslfuzz/darthshader",
-    "title": "DarthShader: Fuzzing WebGPU Shader Translators & Compilers",
-    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
-    "miscurl": [
-      "https://web3.arxiv.org/pdf/2409.01824"
-    ],
-    "keywords": [
-      "WGSL",
-      "shader"
-    ]
-  },
-  {
     "name": "DDRace",
     "year": 2023,
     "targets": [
@@ -1493,6 +1523,35 @@
       "Network"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "DFUZZ",
+    "year": "2025",
+    "targets": [
+      "API"
+    ],
+    "color": "whitebox",
+    "references": [
+      "FuzzGPT"
+    ],
+    "author": [
+      "Kunpeng Zhang",
+      "Shuai Wang",
+      "Jitao Han",
+      "Xiaogang Zhu",
+      "Xian Li",
+      "Shaohua Wang",
+      "Sheng Wen"
+    ],
+    "toolurl": "https://github.com/DFUZZ-ICSE/DFUZZ",
+    "title": "Your Fix Is My Exploit: Enabling Comprehensive DL Library API Fuzzing with Large Language Models ",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "miscurl": [
+      "https://doi.org/10.48550/arXiv.2501.04312"
+    ],
+    "keywords": [
+      "deep learning libraries fuzzing"
+    ]
   },
   {
     "name": "DIANE",
@@ -1635,6 +1694,34 @@
       "javascript",
       "jit",
       "differential fuzzing"
+    ]
+  },
+  {
+    "name": "DarthShader",
+    "year": "2024",
+    "targets": [
+      "WGSL"
+    ],
+    "color": "greybox",
+    "references": [
+      "CSmith"
+    ],
+    "author": [
+      "Lukas Bernhard",
+      "Nico Schiller",
+      "Moritz Schloegel",
+      "Nils Bars",
+      "Thorsten Holz"
+    ],
+    "toolurl": "https://github.com/wgslfuzz/darthshader",
+    "title": "DarthShader: Fuzzing WebGPU Shader Translators & Compilers",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://web3.arxiv.org/pdf/2409.01824"
+    ],
+    "keywords": [
+      "WGSL",
+      "shader"
     ]
   },
   {
@@ -2241,6 +2328,36 @@
     "color": "greybox"
   },
   {
+    "name": "EcuFuzz",
+    "year": "2025",
+    "targets": [
+      "Firmware"
+    ],
+    "color": "blackbox",
+    "references": [
+      "SHiFT"
+    ],
+    "author": [
+      "Qicai Chen",
+      "Kun Hu",
+      "Sichen Gong",
+      "Bihuan Chen",
+      "Zikui Kong",
+      "Haowen Jiang",
+      "Bingkun Sun",
+      "You Lu",
+      "Xin Peng"
+    ],
+    "title": "Structure-Aware, Diagnosis-Guided ECU Firmware Fuzzing",
+    "booktitle": "Proceedings of the International Symposium on Software Testing and Analysis",
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3728914"
+    ],
+    "keywords": [
+      "ECU"
+    ]
+  },
+  {
     "name": "EnFuzz",
     "year": 2019,
     "author": [
@@ -2488,6 +2605,33 @@
     "color": "blackbox"
   },
   {
+    "name": "FORKY",
+    "year": "2025",
+    "targets": [
+      "Blockchain"
+    ],
+    "color": "greybox",
+    "references": [
+      "LOKI"
+    ],
+    "author": [
+      "Seongmin Kim",
+      "Jaeseong Kwon",
+      "Kihong Heo",
+      "Juneyoung Lee"
+    ],
+    "toolurl": "https://github.com/NetSP-KAIST/forky",
+    "title": "Fork State-Aware Differential Fuzzing for Blockchain Consensus Implementations",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "miscurl": [
+      "https://ieeexplore.ieee.org/document/11029786"
+    ],
+    "keywords": [
+      "blockchain",
+      "differential testing"
+    ]
+  },
+  {
     "name": "FOX",
     "year": "2024",
     "targets": [
@@ -2513,6 +2657,36 @@
     ],
     "keywords": [
       "frontier branch"
+    ]
+  },
+  {
+    "name": "FUTURE",
+    "year": "2024",
+    "targets": [
+      "API"
+    ],
+    "color": "greybox",
+    "references": [
+      "NablaFuzz"
+    ],
+    "author": [
+      "Zhiyuan Li",
+      "Jingzheng Wu",
+      "Xiang Ling",
+      "Tianyue Luo",
+      "Zhiqing Rui",
+      "Yanjun Wu"
+    ],
+    "toolurl": "https://github.com/Redmept1on/FUTURE",
+    "title": "The Seeds of the FUTURE Sprout from History: Fuzzing for Unveiling Vulnerabilities in Prospective Deep-Learning Libraries",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "miscurl": [
+      "https://arxiv.org/abs/2412.01317"
+    ],
+    "keywords": [
+      "deep learning libraries",
+      "LLM",
+      "differential testing"
     ]
   },
   {
@@ -2775,6 +2949,32 @@
     "booktitle": "Proceedings of the International Conference on Software Engineering",
     "miscurl": [
       "https://cs.stanford.edu/~anjiang/papers/WeiETAL22FreeFuzz.pdf"
+    ]
+  },
+  {
+    "name": "FreeWavm",
+    "year": "2025",
+    "targets": [
+      "WebAssembly"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "Peng Qian",
+      "Xinlei Ying",
+      "Jiashui Wang",
+      "Long Liu",
+      "Lun Zhang",
+      "Jianhai Chen",
+      "Qinming He"
+    ],
+    "toolurl": "https://github.com/Messi-Q/FreeWavm",
+    "title": "FreeWavm: Enhanced WebAssembly Runtime Fuzzing Guided by Parse Tree Mutation and Snapshot",
+    "booktitle": "Proceedings of the International Symposium on Software Testing and Analysis",
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3728877"
     ]
   },
   {
@@ -3375,6 +3575,34 @@
     "color": "greybox"
   },
   {
+    "name": "GzFuzz",
+    "year": "2025",
+    "targets": [
+      "Robotic Simulator"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL++"
+    ],
+    "author": [
+      "Zhilei Ren",
+      "Yitao Li",
+      "Xiaochen Li",
+      "Guanxiao Qi",
+      "Jifeng Xuan",
+      "He Jiang"
+    ],
+    "toolurl": "https://github.com/liyitao-code/GzFuzz",
+    "title": "Reinforcement Learning-based Fuzz Testing for the Gazebo Robotic Simulator",
+    "booktitle": "Proceedings of the International Symposium on Software Testing and Analysis",
+    "miscurl": [
+      "https://dl.acm.org/doi/10.1145/3728942"
+    ],
+    "keywords": [
+      "Reinforcement Learning"
+    ]
+  },
+  {
     "name": "HFL",
     "year": 2020,
     "author": [
@@ -3961,6 +4189,33 @@
     "booktitle": "Proceedings of the Network and Distributed System Security Symposium"
   },
   {
+    "name": "IRFuzzer",
+    "year": "2025",
+    "targets": [
+      "Compiler"
+    ],
+    "color": "blackbox",
+    "references": [
+      "CSmith"
+    ],
+    "author": [
+      "Yuyang Rong",
+      "Zhanghan Yu",
+      "Zhenkai Weng",
+      "Stephen Neuendorffer",
+      "Hao Chen"
+    ],
+    "title": "IRFuzzer: Specialized Fuzzing for LLVM Backend Code Generation",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "miscurl": [
+      "https://arxiv.org/abs/2402.05256"
+    ],
+    "keywords": [
+      "compiler backend",
+      "IR mutation"
+    ]
+  },
+  {
     "name": "InputBlaster",
     "year": "2024",
     "targets": [
@@ -4039,6 +4294,31 @@
     "color": "whitebox"
   },
   {
+    "name": "Invivo",
+    "year": "2025",
+    "targets": [
+      "API"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL++"
+    ],
+    "author": [
+      "Octavio Galland",
+      "Marcel Böhme"
+    ],
+    "toolurl": "https://github.com/OctavioGalland/afllive",
+    "title": "Invivo Fuzzing by Amplifying Actual Executions",
+    "booktitle": "Proceedings of the 46th IEEE/ACM International Conference on Software Engineering (ICSE)",
+    "miscurl": [
+      "https://ieeexplore.ieee.org/document/11029862"
+    ],
+    "keywords": [
+      "function-level fuzzing",
+      "constraint-aware fuzzing"
+    ]
+  },
+  {
     "name": "IoTFuzzer",
     "year": 2018,
     "author": [
@@ -4066,6 +4346,28 @@
       "TaintScope"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "ItyFuzz",
+    "year": "2023",
+    "targets": [
+      "Smart Contract"
+    ],
+    "color": "greybox",
+    "references": [
+      "SMARTIAN"
+    ],
+    "author": [
+      "Chaofan Shou",
+      "Shangyin Tan",
+      "Koushik Sen"
+    ],
+    "toolurl": "https://github.com/fuzzland/ityfuzz",
+    "title": "ItyFuzz: Snapshot-Based Fuzzer for Smart Contract",
+    "booktitle": "Proceedings of the International Symposium on Software Testing and Analysis",
+    "miscurl": [
+      "https://dl.acm.org/doi/10.1145/3597926.3598059"
+    ]
   },
   {
     "name": "IvySyn",
@@ -4118,7 +4420,7 @@
     "name": "JITfuzz",
     "year": "2023",
     "targets": [
-      "File"
+      "Compiler"
     ],
     "color": "greybox",
     "author": [
@@ -4330,6 +4632,31 @@
       "File"
     ],
     "color": "whitebox"
+  },
+  {
+    "name": "KRAKEN",
+    "year": "2025",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "Anshunkang Zhou",
+      "Heqing Huang",
+      "Charles Zhang"
+    ],
+    "toolurl": "https://github.com/seviezhou/Kraken",
+    "title": "KRAKEN: Program-Adaptive Parallel Fuzzing",
+    "booktitle": "Proceedings of the International Symposium on Software Testing and Analysis",
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3728882"
+    ],
+    "keywords": [
+      "Parallel Fuzzer"
+    ]
   },
   {
     "name": "KameleonFuzz",
@@ -4910,7 +5237,7 @@
     "name": "MLIRSmith",
     "year": "2023",
     "targets": [
-      "File"
+      "Compiler"
     ],
     "color": "blackbox",
     "references": [
@@ -4929,6 +5256,34 @@
     "title": "MLIRSmith: Random Program Generation for Fuzzing MLIR Compiler Infrastructure",
     "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
     "keywords": [
+      "MLIR"
+    ]
+  },
+  {
+    "name": "MLIRTracer",
+    "year": "2025",
+    "targets": [
+      "Compiler"
+    ],
+    "color": "greybox",
+    "references": [
+      "MLIRSmith"
+    ],
+    "author": [
+      "Weiyuan Tong",
+      "Zixu Wang",
+      "Zhanyong Tang",
+      "Jianbin Fang",
+      "Yuqun Zhang",
+      "Guixin Ye"
+    ],
+    "title": "Directed Testing in MLIR: Unleashing Its Potential by Overcoming the Limitations of Random Fuzzing",
+    "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
+    "miscurl": [
+      "https://doi.org/10.1145/3729372"
+    ],
+    "keywords": [
+      "Compiler Fuzzing",
       "MLIR"
     ]
   },
@@ -5183,6 +5538,29 @@
       "AFL"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "MendelFuzz",
+    "year": "2025",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL++"
+    ],
+    "author": [
+      "Han Zheng",
+      "Flavio Toffalini",
+      "Marcel Böhme",
+      "Mathias Payer"
+    ],
+    "toolurl": "https://github.com/HexHive/MendelFuzz-Artifact",
+    "title": "MendelFuzz: The Return of the Deterministic Stage",
+    "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
+    "miscurl": [
+      "https://doi.org/10.1145/3715713"
+    ]
   },
   {
     "name": "Metamong",
@@ -5913,6 +6291,30 @@
     "color": "greybox"
   },
   {
+    "name": "OGHARN",
+    "year": "2025",
+    "targets": [
+      "API"
+    ],
+    "color": "greybox",
+    "references": [
+      "Hopper"
+    ],
+    "author": [
+      "Gabriel Sherman",
+      "Stefan Nagy"
+    ],
+    "toolurl": "https://github.com/FuturesLab/OGHarn",
+    "title": "No Harness, No Problem: Oracle-guided Harnessing for Auto-generating C API Fuzzing Harnesses",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "miscurl": [
+      "https://users.cs.utah.edu/~snagy/papers/25ICSE-b.pdf"
+    ],
+    "keywords": [
+      "C API Fuzzing"
+    ]
+  },
+  {
     "name": "OddFuzz",
     "year": "2023",
     "targets": [
@@ -5979,6 +6381,34 @@
     "keywords": [
       "JavaScript",
       "JIT compiler"
+    ]
+  },
+  {
+    "name": "Optimuzz",
+    "year": "2025",
+    "targets": [
+      "Compiler"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFLGo",
+      "Fuzzilli"
+    ],
+    "author": [
+      "Jaeseong Kwon",
+      "Bongjun Jang",
+      "Juneyoung Lee",
+      "Kihong Heo"
+    ],
+    "toolurl": "https://prosys.kaist.ac.kr/optimuzz",
+    "title": "Optimization-Directed Compiler Fuzzing for Continuous Translation Validation",
+    "booktitle": "Proceedings of the ACM Conference on Programming Language Design and Implementation",
+    "miscurl": [
+      "https://doi.org/10.1145/3729275"
+    ],
+    "keywords": [
+      "compiler fuzzing",
+      "translation validation"
     ]
   },
   {
@@ -6634,6 +7064,33 @@
     "color": "greybox"
   },
   {
+    "name": "ROSA",
+    "year": "2025",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL++"
+    ],
+    "author": [
+      "Dimitri Kokkonis",
+      "Michaël Marcozzi",
+      "Emilien Decoux",
+      "Stefano Zacchiroli"
+    ],
+    "toolurl": "https://github.com/binsec/rosa ",
+    "title": "ROSA: Finding Backdoors with Fuzzing",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "miscurl": [
+      "https://arxiv.org/abs/2505.08544 "
+    ],
+    "keywords": [
+      "metamorphic testing",
+      "backdoor detection"
+    ]
+  },
+  {
     "name": "RPG",
     "year": "2024",
     "targets": [
@@ -6869,6 +7326,28 @@
     "color": "blackbox"
   },
   {
+    "name": "RustSmith",
+    "year": "2023",
+    "targets": [
+      "Compiler"
+    ],
+    "color": "blackbox",
+    "references": [
+      "CSmith"
+    ],
+    "author": [
+      "Mayank Sharma",
+      "Pingshi Yu",
+      "Alastair F. Donaldson"
+    ],
+    "toolurl": "https://github.com/rustsmith/rustsmith",
+    "title": "RustSmith: Random Differential Compiler Testing for Rust",
+    "booktitle": "Proceedings of the International Symposium on Software Testing and Analysis",
+    "miscurl": [
+      "https://dl.acm.org/doi/10.1145/3597926.3604919"
+    ]
+  },
+  {
     "name": "SAGE",
     "year": 2008,
     "author": [
@@ -7102,7 +7581,7 @@
       "Alex Groce",
       "Sang Kil Cha"
     ],
-    "title": "SMARTIAM: Enhancing Smart Contract Fuzzing with Static and Dynamic Data-Flow Analyses",
+    "title": "SMARTIAN: Enhancing Smart Contract Fuzzing with Static and Dynamic Data-Flow Analyses",
     "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
     "toolurl": "https://github.com/SoftSec-KAIST/Smartian",
     "miscurl": [
@@ -7822,6 +8301,33 @@
     "color": "blackbox"
   },
   {
+    "name": "SynthFuzz",
+    "year": "2025",
+    "targets": [
+      "Compiler"
+    ],
+    "color": "greybox",
+    "references": [
+      "MLIRSmith"
+    ],
+    "author": [
+      "Ben Limpanukorn",
+      "Jiyuan Wang",
+      "Hong Jin Kang",
+      "Zitong Zhou",
+      "Miryung Kim"
+    ],
+    "toolurl": "https://github.com/UCLA-SEAL/SynthFuzz",
+    "title": "Fuzzing MLIR Compilers with Custom Mutation Synthesis",
+    "booktitle": "Proceedings of the 46th IEEE/ACM International Conference on Software Engineering (ICSE)",
+    "miscurl": [
+      "https://ieeexplore.ieee.org/document/11029786"
+    ],
+    "keywords": [
+      "mutation synthesis"
+    ]
+  },
+  {
     "name": "SyzDirect",
     "year": "2023",
     "targets": [
@@ -7845,6 +8351,28 @@
     "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
     "miscurl": [
       "https://dl.acm.org/doi/pdf/10.1145/3576915.3623146"
+    ]
+  },
+  {
+    "name": "SyzGPT",
+    "year": "2025",
+    "targets": [
+      "Kernel"
+    ],
+    "color": "greybox",
+    "references": [
+      "syzkaller"
+    ],
+    "author": [
+      "Zhiyu Zhang",
+      "Longxing Li",
+      "Ruigang Liang",
+      "Kai Chen"
+    ],
+    "toolurl": "https://github.com/QGrain/SyzGPT",
+    "title": "Proceedings of the International Symposium on Software Testing and Analysis",
+    "miscurl": [
+      "https://doi.org/10.1145/3728913"
     ]
   },
   {
@@ -8241,6 +8769,37 @@
     "color": "greybox"
   },
   {
+    "name": "TransferFuzz",
+    "year": "2024",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "SelectFuzz"
+    ],
+    "author": [
+      "Siyuan Li",
+      "Yuekang Li",
+      "Zuxin Chen",
+      "Chaopeng Dong",
+      "Yongpan Wang",
+      "Hong Li",
+      "Yongle Chen",
+      "Hongsong Zhu "
+    ],
+    "toolurl": "https://github.com/Siyuan-Li201/TransferFuzz",
+    "title": "TransferFuzz: Fuzzing with Historical Trace for Verifying Propagated Vulnerability Code",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "miscurl": [
+      "https://doi.org/10.48550/arXiv.2411.18347"
+    ],
+    "keywords": [
+      "trace-guided",
+      "vulnerability verification"
+    ]
+  },
+  {
     "name": "Transynther",
     "year": 2020,
     "author": [
@@ -8532,6 +9091,32 @@
       "AFL"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "Verite",
+    "year": "2025",
+    "targets": [
+      "Smart Contract"
+    ],
+    "color": "blackbox",
+    "references": [
+      "ItyFuzz"
+    ],
+    "author": [
+      "Ziqiao Kong",
+      "Cen Zhang",
+      "Maoyi Xie",
+      "Ming Hu",
+      "Yue Xue",
+      "Ye Liu",
+      "Haijun Wang",
+      "Yang Liu"
+    ],
+    "toolurl": "https://github.com/wtdcode/verite",
+    "title": "Smart Contract Fuzzing Towards Profitable Vulnerabilities",
+    "miscurl": [
+      "https://doi.org/10.1145/3715720"
+    ]
   },
   {
     "name": "ViDezzo",
@@ -8837,6 +9422,31 @@
       "AFL"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "ZTaint-Havoc",
+    "year": "2025",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL++"
+    ],
+    "author": [
+      "Yuchong Xie",
+      "Wenhui Zhang",
+      "Dongdong She"
+    ],
+    "toolurl": "https://github.com/Yu3H0/ZTaint-Havoc",
+    "title": "ZTaint-Havoc: From Havoc Mode to Zero-Execution Fuzzing-Driven Taint Inference",
+    "booktitle": "Proceedings of the International Symposium on Software Testing and Analysis",
+    "miscurl": [
+      "https://doi.org/10.1145/3728916"
+    ],
+    "keywords": [
+      "Taint Inference"
+    ]
   },
   {
     "name": "Zeror",
@@ -9387,6 +9997,32 @@
     ],
     "keywords": [
       "Dolev-Yao Model"
+    ]
+  },
+  {
+    "name": "xFUZZ",
+    "year": "2025",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "DongSong Yu",
+      "Yiyi Wang",
+      "Chao Zhang",
+      "Yang Lan",
+      "Zhiyuan Jiang",
+      "Shuitao Gan",
+      "Zheyu Ma",
+      "Wende Tan"
+    ],
+    "title": "xFUZZ: A Flexible Framework for Fine-Grained, Runtime-Adaptive Fuzzing Strategy Composition",
+    "booktitle": "Proceedings of the International Symposium on Software Testing and Analysis",
+    "miscurl": [
+      "https://dl.acm.org/doi/pdf/10.1145/3728873"
     ]
   },
   {
