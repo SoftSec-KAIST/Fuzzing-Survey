@@ -1180,6 +1180,34 @@
     ]
   },
   {
+    "name": "ClozeMaster",
+    "year": "2025",
+    "targets": [
+      "Compiler"
+    ],
+    "color": "blackbox",
+    "references": [
+      "RustSmith"
+    ],
+    "author": [
+      "Hongyan Gao",
+      "Yibiao Yang",
+      "Maolin Sun",
+      "Jiangchang Wu",
+      "Yuming Zhou",
+      "Baowen Xu"
+    ],
+    "toolurl": "https://github.com/clozeMasterPro/clozeMaster",
+    "title": "Clozemaster: Fuzzing Rust Compiler by Harnessing Llms for Infilling Masked Real Programs",
+    "booktitle": "Proceedings of the International Conference on Software Engineering",
+    "miscurl": [
+      "https://ieeexplore.ieee.org/document/11029729"
+    ],
+    "keywords": [
+      "LLM"
+    ]
+  },
+  {
     "name": "CoFuzz",
     "year": "2023",
     "targets": [
@@ -7296,6 +7324,28 @@
       "Network"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "RustSmith",
+    "year": "2023",
+    "targets": [
+      "Compiler"
+    ],
+    "color": "blackbox",
+    "references": [
+      "CSmith"
+    ],
+    "author": [
+      "Mayank Sharma",
+      "Pingshi Yu",
+      "Alastair F. Donaldson"
+    ],
+    "toolurl": "https://github.com/rustsmith/rustsmith",
+    "title": "RustSmith: Random Differential Compiler Testing for Rust",
+    "booktitle": "Proceedings of the International Symposium on Software Testing and Analysis",
+    "miscurl": [
+      "https://dl.acm.org/doi/10.1145/3597926.3604919"
+    ]
   },
   {
     "name": "SAGE",
