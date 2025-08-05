@@ -780,6 +780,36 @@
     "color": "graybox"
   },
   {
+    "name": "CDFUZZ",
+    "year": "2025",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "Mingyuan Wu",
+      "Jiahong Xiang",
+      "Kunqiu Chen",
+      "Peng Di",
+      "Shin Hwei Tan",
+      "Heming Cui",
+      "Yuqun Zhang"
+    ],
+    "toolurl": "https://github.com/GhabiX/CDFuzz",
+    "title": "Tumbling Down the Rabbit Hole: How do Assisting Exploration Strategies Facilitate Grey-box Fuzzing? ",
+    "booktitle": "Proceedings of the 47th International Conference on Software Engineering (ICSE 2025)",
+    "miscurl": [
+      "https://doi.org/10.48550/arXiv.2409.14541"
+    ],
+    "keywords": [
+      "dictionary strategy",
+      "exploration strategies "
+    ]
+  },
+  {
     "name": "CHIPSEC",
     "year": 2015,
     "author": [
@@ -1465,6 +1495,35 @@
       "Network"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "DFUZZ",
+    "year": "2025",
+    "targets": [
+      "API"
+    ],
+    "color": "whitebox",
+    "references": [
+      "FuzzGPT"
+    ],
+    "author": [
+      "Kunpeng Zhang",
+      "Shuai Wang",
+      "Jitao Han",
+      "Xiaogang Zhu",
+      "Xian Li",
+      "Shaohua Wang",
+      "Sheng Wen"
+    ],
+    "toolurl": "https://github.com/DFUZZ-ICSE/DFUZZ",
+    "title": "Your Fix Is My Exploit: Enabling Comprehensive DL Library API Fuzzing with Large Language Models ",
+    "booktitle": "Proceedings of the 47th International Conference on Software Engineering (ICSE 2025)",
+    "miscurl": [
+      "https://doi.org/10.48550/arXiv.2501.04312"
+    ],
+    "keywords": [
+      "deep learning libraries fuzzing"
+    ]
   },
   {
     "name": "DIANE",
@@ -2518,6 +2577,34 @@
     "color": "blackbox"
   },
   {
+    "name": "FORKY",
+    "year": "2025",
+    "targets": [
+      "Blockchain"
+    ],
+    "color": "greybox",
+    "references": [
+      "Fluffy",
+      "LOKI"
+    ],
+    "author": [
+      "Seongmin Kim",
+      "Jaeseong Kwon",
+      "Kihong Heo",
+      "Juneyoung Lee"
+    ],
+    "toolurl": "https://github.com/NetSP-KAIST/forky",
+    "title": "Fork State-Aware Differential Fuzzing for Blockchain Consensus Implementations",
+    "booktitle": "Proceedings of the 47th International Conference on Software Engineering (ICSE)",
+    "miscurl": [
+      "https://ieeexplore.ieee.org/document/11029786"
+    ],
+    "keywords": [
+      "blockchain",
+      "differential testing"
+    ]
+  },
+  {
     "name": "FOX",
     "year": "2024",
     "targets": [
@@ -2543,6 +2630,36 @@
     ],
     "keywords": [
       "frontier branch"
+    ]
+  },
+  {
+    "name": "FUTURE",
+    "year": "2024",
+    "targets": [
+      "API"
+    ],
+    "color": "greybox",
+    "references": [
+      "NablaFuzz"
+    ],
+    "author": [
+      "Zhiyuan Li",
+      "Jingzheng Wu",
+      "Xiang Ling",
+      "Tianyue Luo",
+      "Zhiqing Rui",
+      "Yanjun Wu"
+    ],
+    "toolurl": "https://github.com/Redmept1on/FUTURE",
+    "title": "The Seeds of the FUTURE Sprout from History: Fuzzing for Unveiling Vulnerabilities in Prospective Deep-Learning Libraries",
+    "booktitle": "Proceedings of the 47th International Conference on Software Engineering (ICSE 2025)",
+    "miscurl": [
+      "https://arxiv.org/abs/2412.01317"
+    ],
+    "keywords": [
+      "deep learning libraries",
+      "LLM",
+      "differential testing"
     ]
   },
   {
@@ -4045,6 +4162,35 @@
     "booktitle": "Proceedings of the Network and Distributed System Security Symposium"
   },
   {
+    "name": "IRFuzzer",
+    "year": "2025",
+    "targets": [
+      "compilers"
+    ],
+    "color": "blackbox",
+    "references": [
+      "AFL++",
+      "CSmith"
+    ],
+    "author": [
+      "Yuyang Rong",
+      "Zhanghan Yu",
+      "Zhenkai Weng",
+      "Stephen Neuendorffer",
+      "Hao Chen"
+    ],
+    "toolurl": "-",
+    "title": "IRFuzzer: Specialized Fuzzing for LLVM Backend Code Generation",
+    "booktitle": "Proceedings of the 46th IEEE/ACM International Conference on Software Engineering (ICSE)",
+    "miscurl": [
+      "https://arxiv.org/abs/2402.05256"
+    ],
+    "keywords": [
+      "compiler backend",
+      "IR mutation"
+    ]
+  },
+  {
     "name": "InputBlaster",
     "year": "2024",
     "targets": [
@@ -4121,6 +4267,31 @@
       "QSYM"
     ],
     "color": "whitebox"
+  },
+  {
+    "name": "Invivo",
+    "year": "2025",
+    "targets": [
+      "API"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL++"
+    ],
+    "author": [
+      "Octavio Galland",
+      "Marcel Böhme"
+    ],
+    "toolurl": "https://github.com/OctavioGalland/afllive",
+    "title": "Invivo Fuzzing by Amplifying Actual Executions",
+    "booktitle": "Proceedings of the 46th IEEE/ACM International Conference on Software Engineering (ICSE)",
+    "miscurl": [
+      "https://ieeexplore.ieee.org/document/11029862"
+    ],
+    "keywords": [
+      "function-level fuzzing",
+      "constraint-aware fuzzing"
+    ]
   },
   {
     "name": "IoTFuzzer",
@@ -6095,6 +6266,31 @@
     "color": "greybox"
   },
   {
+    "name": "OGHARN",
+    "year": "2025",
+    "targets": [
+      "API"
+    ],
+    "color": "greybox",
+    "references": [
+      "Hopper",
+      "AFL++"
+    ],
+    "author": [
+      "Gabriel Sherman",
+      "Stefan Nagy"
+    ],
+    "toolurl": "https://github.com/FuturesLab/OGHarn",
+    "title": "No Harness, No Problem: Oracle-guided Harnessing for Auto-generating C API Fuzzing Harnesses",
+    "booktitle": "Proceedings of the 47th International Conference on Software Engineering (ICSE 2025)",
+    "miscurl": [
+      "https://users.cs.utah.edu/~snagy/papers/25ICSE-b.pdf"
+    ],
+    "keywords": [
+      "C API Fuzzing"
+    ]
+  },
+  {
     "name": "OddFuzz",
     "year": "2023",
     "targets": [
@@ -6842,6 +7038,33 @@
       "ILF"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "ROSA",
+    "year": "2025",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL++"
+    ],
+    "author": [
+      "Dimitri Kokkonis",
+      "Michaël Marcozzi",
+      "Emilien Decoux",
+      "Stefano Zacchiroli"
+    ],
+    "toolurl": "https://github.com/binsec/rosa ",
+    "title": "ROSA: Finding Backdoors with Fuzzing",
+    "booktitle": "Proceedings of the 47th International Conference on Software Engineering (ICSE 2025)",
+    "miscurl": [
+      "https://arxiv.org/abs/2505.08544 "
+    ],
+    "keywords": [
+      "metamorphic testing",
+      "backdoor detection"
+    ]
   },
   {
     "name": "RPG",
@@ -8032,6 +8255,33 @@
     "color": "blackbox"
   },
   {
+    "name": "SynthFuzz",
+    "year": "2025",
+    "targets": [
+      "compilers"
+    ],
+    "color": "greybox",
+    "references": [
+      "MLIRSmith"
+    ],
+    "author": [
+      "Ben Limpanukorn",
+      "Jiyuan Wang",
+      "Hong Jin Kang",
+      "Zitong Zhou",
+      "Miryung Kim"
+    ],
+    "toolurl": "https://github.com/UCLA-SEAL/SynthFuzz",
+    "title": "Fuzzing MLIR Compilers with Custom Mutation Synthesis",
+    "booktitle": "Proceedings of the 46th IEEE/ACM International Conference on Software Engineering (ICSE)",
+    "miscurl": [
+      "https://ieeexplore.ieee.org/document/11029786"
+    ],
+    "keywords": [
+      "mutation synthesis"
+    ]
+  },
+  {
     "name": "SyzDirect",
     "year": "2023",
     "targets": [
@@ -8471,6 +8721,37 @@
       "AFL"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "TransferFuzz",
+    "year": "2024",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "SelectFuzz"
+    ],
+    "author": [
+      "Siyuan Li",
+      "Yuekang Li",
+      "Zuxin Chen",
+      "Chaopeng Dong",
+      "Yongpan Wang",
+      "Hong Li",
+      "Yongle Chen",
+      "Hongsong Zhu "
+    ],
+    "toolurl": "https://github.com/Siyuan-Li201/TransferFuzz",
+    "title": "TransferFuzz: Fuzzing with Historical Trace for Verifying Propagated Vulnerability Code",
+    "booktitle": "Proceedings of the 47th International Conference on Software Engineering (ICSE 2025)",
+    "miscurl": [
+      "https://doi.org/10.48550/arXiv.2411.18347"
+    ],
+    "keywords": [
+      "trace-guided",
+      "vulnerability verification"
+    ]
   },
   {
     "name": "Transynther",
