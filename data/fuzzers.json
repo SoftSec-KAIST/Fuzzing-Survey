@@ -6164,6 +6164,34 @@
     ]
   },
   {
+    "name": "Optimuzz",
+    "year": "2025",
+    "targets": [
+      "compilers"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFLGo",
+      "Fuzzilli"
+    ],
+    "author": [
+      "Jaeseong Kwon",
+      "Bongjun Jang",
+      "Juneyoung Lee",
+      "Kihong Heo"
+    ],
+    "toolurl": "https://prosys.kaist.ac.kr/optimuzz",
+    "title": "Optimization-Directed Compiler Fuzzing for Continuous Translation Validation",
+    "booktitle": "Proceedings of the ACM on Programming Languages, PLDI 2025",
+    "miscurl": [
+      "https://doi.org/10.1145/3729275"
+    ],
+    "keywords": [
+      "compiler fuzzing",
+      "translation validation"
+    ]
+  },
+  {
     "name": "PATA",
     "year": 2022,
     "targets": [
