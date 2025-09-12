@@ -777,7 +777,7 @@
     "references": [
       "AFLGo"
     ],
-    "color": "graybox"
+    "color": "greybox"
   },
   {
     "name": "CDFUZZ",
@@ -5082,7 +5082,7 @@
     "targets": [
       "DL inference engine"
     ],
-    "color": "greykbox"
+    "color": "greybox"
   },
   {
     "name": "MALintent",
