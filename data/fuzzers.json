@@ -297,6 +297,32 @@
     "color": "blackbox"
   },
   {
+    "name": "ARG",
+    "year": "2025",
+    "targets": [
+      "DBMS"
+    ],
+    "color": "greybox",
+    "references": [
+      "SQLancer"
+    ],
+    "author": [
+      "Dawei Li",
+      "Yuxiao Guo",
+      "Qifan Liu",
+      "Jie Liang",
+      "Zhiyong Wu",
+      "Jingzhou Fu",
+      "Chi Zhang",
+      "Yu Jiang"
+    ],
+    "title": "ARG: Testing Query Rewriters via Abstract Rule Guided Fuzzing",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "miscurl": [
+      "http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/paper_from_25/arg_ase25.pdf"
+    ]
+  },
+  {
     "name": "Aafer et al.",
     "year": 2021,
     "author": [
@@ -1340,7 +1366,7 @@
     "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
     "toolurl": "https://github.com/gongbell/ContractFuzzer",
     "targets": [
-      "EVM"
+      "Smart Contract"
     ],
     "references": [
       "Echidna"
@@ -1603,6 +1629,32 @@
       "Kernel"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "DNAFuzz",
+    "year": "2025",
+    "targets": [
+      "Kernel"
+    ],
+    "color": "greybox",
+    "references": [
+      "USBFuzz"
+    ],
+    "author": [
+      "Zhengshu Wang",
+      "Peng He",
+      "Fuchen Ma",
+      "Yuanliang Chen",
+      "Shuoshuo Duan",
+      "Yiyuan Bai",
+      "Yu Jiang"
+    ],
+    "toolurl": "https://anonymous.4open.science/r/DNAFuzz",
+    "title": "DNAFuzz: Descriptor-Aware Fuzzing for USB Drivers",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "miscurl": [
+      "http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/DNAFuzz_Camera_Ready.pdf"
+    ]
   },
   {
     "name": "DOMFuzz",
@@ -2100,6 +2152,30 @@
     "color": "whitebox"
   },
   {
+    "name": "DualFuzz",
+    "year": "2025",
+    "targets": [
+      "WiFi"
+    ],
+    "color": "blackbox",
+    "references": [
+      "GREYHOUND"
+    ],
+    "author": [
+      "Yuanliang Chen",
+      "Fuchen Ma",
+      "Yanyang Zhao",
+      "Yuanyi Li",
+      "Yu Jiang"
+    ],
+    "toolurl": "https://anonymous.4open.science/r/DualFuzz-A6F0/README.md",
+    "title": "DualFuzz: Detecting Vulnerability in Wi-Fi NICs through Dual-Directional Fuzzing",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "miscurl": [
+      "http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/DualFuzz_Camera_Ready.pdf"
+    ]
+  },
+  {
     "name": "DynSQL",
     "year": 2023,
     "targets": [
@@ -2272,7 +2348,7 @@
     ],
     "toolurl": "https://github.com/crytic/echidna",
     "targets": [
-      "EVM"
+      "Smart Contract"
     ],
     "color": "greybox"
   },
@@ -2565,6 +2641,31 @@
       "Web"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "FLEX",
+    "year": "2025",
+    "targets": [
+      "Compiler"
+    ],
+    "color": "greybox",
+    "references": [
+      "MLIRSmith"
+    ],
+    "author": [
+      "Zeyu Sun",
+      "Jingjing Liang",
+      "Weiyi Wang",
+      "Chenyao Suo",
+      "Junjie Chen",
+      "Fanjiang Xu"
+    ],
+    "toolurl": "https://github.com/zys-szy/FLEX",
+    "title": "Interleaved Learning and Exploration: A Self-Adaptive Fuzz Testing Framework for MLIR",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "miscurl": [
+      "https://arxiv.org/pdf/2510.07815"
+    ]
   },
   {
     "name": "FLUX",
@@ -3034,7 +3135,7 @@
     "name": "FuzzDelSol",
     "year": "2023",
     "targets": [
-      "Solana Smart Contract"
+      "Smart Contract"
     ],
     "color": "greybox",
     "references": [
@@ -3440,6 +3541,28 @@
     "color": "blackbox"
   },
   {
+    "name": "GREYHOUND",
+    "year": "2020",
+    "targets": [
+      "WiFi"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFLGo"
+    ],
+    "author": [
+      "Matheus E. Garbelini",
+      "Chundong Wang",
+      "Sudipta Chattopadhyay"
+    ],
+    "toolurl": "https://github.com/asset-group/U-Fuzz",
+    "title": "GREYHOUND: Directed Greybox Wi-Fi Fuzzing",
+    "booktitle": "IEEE Transactions on Dependable and Secure Computing",
+    "miscurl": [
+      "https://asset-group.github.io/papers/Greyhound.pdf"
+    ]
+  },
+  {
     "name": "GRIFFIN",
     "year": 2022,
     "targets": [
@@ -3501,6 +3624,31 @@
       "File"
     ],
     "color": "whitebox"
+  },
+  {
+    "name": "GUIFUZZ++:",
+    "year": "2025",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL++"
+    ],
+    "author": [
+      "Dillon Otto",
+      "Tanner Rowlett",
+      "Stefan Nagy"
+    ],
+    "toolurl": "https://github.com/FuturesLab/GUIFuzzPlusPlus",
+    "title": "GUIFUZZ++: Unleashing Grey-box Fuzzing on Desktop Graphical User Interfacing Applications",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "miscurl": [
+      "https://futures.cs.utah.edu/papers/25ASE.pdf"
+    ],
+    "keywords": [
+      "GUI"
+    ]
   },
   {
     "name": "GraphFuzz",
@@ -3648,6 +3796,28 @@
     ]
   },
   {
+    "name": "HFuzzer",
+    "year": "2025",
+    "targets": [
+      "LLM"
+    ],
+    "color": "blackbox",
+    "references": [
+      "LLM-Fuzzer"
+    ],
+    "author": [
+      "Yukai Zhao",
+      "Menghan Wu ",
+      "Xing Hu",
+      "Xin Xia"
+    ],
+    "title": "HFUZZER: Testing Large Language Models for Package Hallucinations via Phrase-based Fuzzing",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "miscurl": [
+      "https://arxiv.org/pdf/2509.23835"
+    ]
+  },
+  {
     "name": "HTFuzz",
     "year": 2022,
     "targets": [
@@ -3729,7 +3899,7 @@
     "title": "Targeted Greybox Fuzzing with Static Lookahead Analysis",
     "booktitle": "Proceedings of the International Conference on Software Engineering",
     "targets": [
-      "EVM"
+      "Smart Contract"
     ],
     "references": [
       "AFLGo",
@@ -4135,7 +4305,7 @@
     ],
     "toolurl": "https://github.com/eth-sri/ilf",
     "targets": [
-      "EVM"
+      "Smart Contract"
     ],
     "references": [
       "Neuzz",
@@ -4164,6 +4334,37 @@
       "syzkaller"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "IMUFUZZER",
+    "year": "2025",
+    "targets": [
+      "Robot Vehicle"
+    ],
+    "color": "blackbox",
+    "references": [
+      "RVFuzzer"
+    ],
+    "author": [
+      "Sudharssan Mohan ",
+      "Kyeongseok Yang",
+      "Zelun Kong",
+      "Yonghwi Kwon",
+      "Junghwan Rhee",
+      "Tyler Summers",
+      "Hongjun Choi",
+      "Heejo Lee",
+      "Chung Hwan Kim"
+    ],
+    "toolurl": "https://gitlab.com/s3lab-code/public/imufuzzer",
+    "title": "IMUFUZZER: Resilience-based Discovery of Signal Injection Attacks on Robotic Aerial Vehicles",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "miscurl": [
+      "https://chungkim.io/doc/ase25-imufuzzer.pdf"
+    ],
+    "keywords": [
+      "RAV"
+    ]
   },
   {
     "name": "IPEA-Fuzz",
@@ -4920,6 +5121,35 @@
     ]
   },
   {
+    "name": "LSPFUZZ",
+    "year": "2025",
+    "targets": [
+      "Network"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFLNet"
+    ],
+    "author": [
+      "Hengcheng Zhu",
+      "Songqiang Chen",
+      "Valerio Terragni",
+      "Lili Wei",
+      "Yepang Liu",
+      "Jiarong Wu",
+      "Shing-Chi Cheung"
+    ],
+    "toolurl": "https://github.com/henryhchchc/lsp-fuzz",
+    "title": "LSPFUZZ: Hunting Bugs in Language Servers",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "miscurl": [
+      "https://arxiv.org/pdf/2510.00532"
+    ],
+    "keywords": [
+      "Language Server"
+    ]
+  },
+  {
     "name": "LTEFuzz",
     "year": 2019,
     "author": [
@@ -5120,7 +5350,7 @@
     "name": "MAU",
     "year": "2024",
     "targets": [
-      "EVM"
+      "Smart Contract"
     ],
     "color": "greybox",
     "author": [
@@ -6315,6 +6545,36 @@
     ]
   },
   {
+    "name": "ORFuzz",
+    "year": "2025",
+    "targets": [
+      "LLM"
+    ],
+    "color": "blackbox",
+    "references": [
+      "LLM-Fuzzer"
+    ],
+    "author": [
+      "Haonan Zhang",
+      "Dongxia Wang",
+      "Yi Liu",
+      "Kexin Chen",
+      "Jiashui Wang",
+      "Xinlei Ying",
+      "Long Liu",
+      "Wenhai Wang"
+    ],
+    "toolurl": "https://github.com/HotBento/ORFuzz",
+    "title": "ORFUZZ: Fuzzing the \"Other Side\" of LLM Safety – Testing Over-Refusal",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "miscurl": [
+      "https://arxiv.org/pdf/2508.11222"
+    ],
+    "keywords": [
+      "LLM Over-refusal"
+    ]
+  },
+  {
     "name": "OddFuzz",
     "year": "2023",
     "targets": [
@@ -6507,6 +6767,37 @@
       "RVFuzzer"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "PROMFUZZ",
+    "year": "2025",
+    "targets": [
+      "Smart Contract"
+    ],
+    "color": "blackbox",
+    "references": [
+      "ItyFuzz"
+    ],
+    "author": [
+      "Xingshuang Lin",
+      "Qinge Xie",
+      "Binbin Zhao",
+      "Yuan Tian",
+      "Saman Zonouz",
+      "Na Ruan",
+      "Jiliang Li",
+      "Raheem Beyah",
+      "Shouling Ji"
+    ],
+    "toolurl": "https://github.com/PROMFUZZ/promfuzz/tree/main/fuzzingengine",
+    "title": "PROMFUZZ: Leveraging LLM-Driven and Bug-Oriented Composite Analysis for Detecting Functional Bugs in Smart Contracts",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "miscurl": [
+      "https://arxiv.org/pdf/2503.23718"
+    ],
+    "keywords": [
+      "LLM"
+    ]
   },
   {
     "name": "PROTOS",
@@ -7049,14 +7340,14 @@
       "Zibin Zheng",
       "Xiapu Luo"
     ],
-    "title": "Effectively Generating Vunlerable Transaction Sequences in Smart Contracts with Reinforcement Learning-guided Fuzzing",
+    "title": "Effectively Generating Vulnerable Transaction Sequences in Smart Contracts with Reinforcement Learning-guided Fuzzing",
     "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
     "toolurl": "",
     "miscurl": [
       "https://dl.acm.org/doi/pdf/10.1145/3551349.3560429"
     ],
     "targets": [
-      "EVM"
+      "Smart Contract"
     ],
     "references": [
       "ILF"
@@ -7116,6 +7407,33 @@
     ],
     "keywords": [
       "Rust"
+    ]
+  },
+  {
+    "name": "RSFuzz",
+    "year": "2022",
+    "targets": [
+      "Swarm Algorithms"
+    ],
+    "color": "greybox",
+    "references": [
+      "SwarmFlawFinder"
+    ],
+    "author": [
+      "Ruoyu Zhou",
+      "Zhiwei Zhang",
+      "Haocheng Han",
+      "Xiaodong Zhang",
+      "Zehan Chen",
+      "Jun Sun",
+      "Yulong Shen",
+      "Dehai Xu"
+    ],
+    "toolurl": "https://github.com/Ruoyyy/RSFuzz",
+    "title": "RSFuzz: A Robustness-Guided Swarm Fuzzing Framework Based on Behavioral Constraints",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "miscurl": [
+      "https://arxiv.org/pdf/2409.04736"
     ]
   },
   {
@@ -7649,6 +7967,22 @@
       "FileFuzz"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "SQLancer",
+    "year": "2021",
+    "targets": [
+      "DBMS"
+    ],
+    "color": "greybox",
+    "references": [
+      "Squirrel"
+    ],
+    "author": [
+      "SQLancer"
+    ],
+    "toolurl": "https://github.com/sqlancer/sqlancer",
+    "title": "SQLancer"
   },
   {
     "name": "SSRFuzz",
@@ -8232,6 +8566,29 @@
       "LangFuzz"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "SwarmFlawFinder",
+    "year": "2022",
+    "targets": [
+      "Swarm Algorithms"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "Chijung Jung",
+      "Ali Ahad",
+      "Yuseok Jeon",
+      "Yonghwi Kwon"
+    ],
+    "toolurl": "https://github.com/adswarm/src",
+    "title": "SwarmFlawFinder: Discovering and Exploiting Logic Flaws of Swarm Algorithms",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://ieeexplore.ieee.org/document/9833685"
+    ]
   },
   {
     "name": "SyRust",
@@ -9925,7 +10282,7 @@
     "title": "sFuzz: An Efficient Adaptive Fuzzer for Solidity Smart Contracts",
     "booktitle": "Proceedings of the International Conference on Software Engineering",
     "targets": [
-      "EVM"
+      "Smart Contract"
     ],
     "toolurl": "https://sfuzz.github.io/",
     "references": [
