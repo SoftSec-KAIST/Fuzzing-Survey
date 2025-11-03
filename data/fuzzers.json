@@ -836,6 +836,28 @@
     ]
   },
   {
+    "name": "CHIMERA",
+    "year": "2025",
+    "targets": [
+      "P4"
+    ],
+    "color": "blackbox",
+    "references": [
+      "Gauntlet"
+    ],
+    "author": [
+      "Jiwon Kim",
+      "Dave (Jing) Tian",
+      "Benjamin E. Ujcich"
+    ],
+    "toolurl": "https://github.com/purseclab/Chimera",
+    "title": "CHIMERA: Fuzzing P4 Network Infrastructure for Multi-Plane Bug Detection and Vulnerability Discovery",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://kjw6855.github.io/assets/pdf/sp25_kim_chimera.pdf"
+    ]
+  },
+  {
     "name": "CHIPSEC",
     "year": 2015,
     "author": [
@@ -3651,6 +3673,28 @@
     ]
   },
   {
+    "name": "Gauntlet",
+    "year": "2020",
+    "targets": [
+      "P4"
+    ],
+    "color": "blackbox",
+    "references": [
+      "CSmith"
+    ],
+    "author": [
+      "Fabian Ruffy",
+      "Tao Wang",
+      "Anirudh Sivaraman"
+    ],
+    "toolurl": "https://github.com/nyu-systems/gauntlet",
+    "title": "Gauntlet: Finding Bugs in Compilers for Programmable Packet Processing",
+    "booktitle": "Proceedings of the USENIX Symposium on Operating Systems Design and Implementation",
+    "miscurl": [
+      "https://www.usenix.org/system/files/osdi20-ruffy.pdf"
+    ]
+  },
+  {
     "name": "GraphFuzz",
     "year": 2022,
     "targets": [
@@ -4054,6 +4098,31 @@
       "SlowFuzz"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "HouseFuzz",
+    "year": "2025",
+    "targets": [
+      "Firmware"
+    ],
+    "color": "greybox",
+    "references": [
+      "FIRM-AFL"
+    ],
+    "author": [
+      "Haoyu Xiao",
+      "Ziqi Wei",
+      "Jiarun Dai",
+      "Bowen Li",
+      "Yuan Zhang",
+      "Min Yang"
+    ],
+    "toolurl": "https://github.com/seclab-fudan/HouseFuzz",
+    "title": "HouseFuzz: Service-Aware Grey-Box Fuzzing for Vulnerability Detection in Linux-Based Firmware",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://yuanxzhang.github.io/paper/housefuzz-oakland25.pdf"
+    ]
   },
   {
     "name": "Householder",
@@ -4724,6 +4793,33 @@
     ]
   },
   {
+    "name": "JailFuzzer",
+    "year": "2025",
+    "targets": [
+      "Text-to-Image Models"
+    ],
+    "color": "blackbox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "Yingkai Dong",
+      "Xiangtao Meng",
+      "Ning Yu",
+      "Zheng Li",
+      "Shanqing Guo"
+    ],
+    "toolurl": "https://github.com/YingkaiD/JailFuzzer",
+    "title": "Fuzz-Testing Meets LLM-Based Agents: An Automated and Efficient Framework for Jailbreaking Text-To-Image Generation Models",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://arxiv.org/pdf/2408.00523"
+    ],
+    "keywords": [
+      "Text-to-Image Model Jailbreak"
+    ]
+  },
+  {
     "name": "Janus",
     "year": 2019,
     "author": [
@@ -5118,6 +5214,33 @@
     ],
     "references": [
       "Fluffy"
+    ]
+  },
+  {
+    "name": "LORIS",
+    "year": "2025",
+    "targets": [
+      "Firmware"
+    ],
+    "color": "whitebox",
+    "references": [
+      "Grimoire"
+    ],
+    "author": [
+      "Ali Ranjbar",
+      "Tianchang Yang",
+      "Kai Tu",
+      "Saaman Khalilollahi",
+      "Syed Rafiul Hussain"
+    ],
+    "toolurl": "https://github.com/SyNSec-den/Loris",
+    "title": "Stateful Analysis and Fuzzing of Commercial Baseband Firmware",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://ieeexplore.ieee.org/document/11023430/"
+    ],
+    "keywords": [
+      "Baseband firmware"
     ]
   },
   {
@@ -6769,6 +6892,29 @@
     "color": "greybox"
   },
   {
+    "name": "PREDATOR",
+    "year": "2025",
+    "targets": [
+      "Web"
+    ],
+    "color": "greybox",
+    "references": [
+      "Witcher"
+    ],
+    "author": [
+      "Chenlin Wang",
+      "Wei Meng",
+      "Changhua Luo",
+      "Penghui Li"
+    ],
+    "toolurl": "https://github.com/cuhk-seclab/Predator",
+    "title": "PREDATOR: Directed Web Application Fuzzing for Efficient Vulnerability Validation",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://peng-hui.github.io/data/paper/sp25:predator.pdf"
+    ]
+  },
+  {
     "name": "PROMFUZZ",
     "year": "2025",
     "targets": [
@@ -7303,6 +7449,28 @@
       "Sulley"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "RGFuzz",
+    "year": "2025",
+    "targets": [
+      "WebAssembly"
+    ],
+    "color": "blackbox",
+    "references": [
+      "Wasm-mutate"
+    ],
+    "author": [
+      "Junyoung Park",
+      "Yunho Kim",
+      "Insu Yun"
+    ],
+    "toolurl": "https://github.com/kaist-hacking/RGFuzz",
+    "title": "RGFUZZ: Rule-Guided Fuzzer for WebAssembly Runtimes",
+    "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
+    "miscurl": [
+      "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11023506"
+    ]
   },
   {
     "name": "RIoTFuzzer",
@@ -9604,6 +9772,29 @@
       "Windows"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "Wasm-mutate",
+    "year": "2022",
+    "targets": [
+      "WebAssembly"
+    ],
+    "color": "greybox",
+    "references": [
+      "LibFuzzer"
+    ],
+    "author": [
+      "Javier Cabrera Arteaga",
+      "Nicholas Fitzgerald",
+      "Martin Monperrus",
+      "Benoit Baudry"
+    ],
+    "toolurl": "https://crates.io/crates/wasm-mutate",
+    "title": "Wasm-mutate: Fuzzing WebAssembly Compilers with E-Graphs",
+    "booktitle": "E-Graph Research, Applications, Practices, and Human-factors Symposium",
+    "miscurl": [
+      "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11023506"
+    ]
   },
   {
     "name": "WhisperFuzz",
