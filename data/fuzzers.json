@@ -377,6 +377,42 @@
     "color": "blackbox"
   },
   {
+    "name": "AidFuzzer",
+    "year": "2025",
+    "targets": [
+      "Firmware"
+    ],
+    "color": "blackbox",
+    "references": [
+      "Fuzzware",
+      "Hoedur"
+    ],
+    "author": [
+      "Jianqiang Wang",
+      "Qinying Wang",
+      "Tobias Scharnowski",
+      "Li Shi",
+      "Simon Woerner",
+      "Thorsten Holz"
+    ],
+    "toolurl": "https://github.com/wjqsec/aidfuzzer",
+    "title": "AidFuzzer: Adaptive Interrupt-Driven Firmware Fuzzing via Run-Time State Recognition",
+    "booktitle": "Proceedings of the 34th USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/conference/usenixsecurity25/presentation/wang-jianqiang"
+    ],
+    "keywords": [
+      "firmware fuzzing",
+      "interrupts",
+      "RTOS",
+      "ARM Cortex-M",
+      "MMIO",
+      "rehosting",
+      "run-time state recognition",
+      "coverage-guided fuzzing"
+    ]
+  },
+  {
     "name": "Angora",
     "year": 2018,
     "author": [
@@ -1144,6 +1180,37 @@
     "color": "greybox"
   },
   {
+    "name": "ChainFuzz",
+    "year": "2025",
+    "targets": [
+      "Lib"
+    ],
+    "color": "blackbox",
+    "references": [
+      "AFLGo",
+      "AFL"
+    ],
+    "author": [
+      "Peng Deng",
+      "Lei Zhang",
+      "Yuchuan Meng",
+      "Zhemin Yang",
+      "Yuan Zhang",
+      "Min Yang"
+    ],
+    "toolurl": "https://zenodo.org/records/14732712",
+    "title": "ChainFuzz: Exploiting Upstream Vulnerabilities in Open-Source Supply Chains",
+    "booktitle": "Proceedings of the 34th USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/conference/usenixsecurity25/presentation/deng"
+    ],
+    "keywords": [
+      "fuzzing",
+      "directed greybox",
+      "software supply chain"
+    ]
+  },
+  {
     "name": "ChatAFL",
     "year": "2024",
     "targets": [
@@ -1502,6 +1569,40 @@
       "Web"
     ],
     "color": "whitebox"
+  },
+  {
+    "name": "CoreCrisis",
+    "year": "2025",
+    "targets": [
+      "Network"
+    ],
+    "color": "blackbox",
+    "references": [
+      "boofuzz",
+      "AFLNet"
+    ],
+    "author": [
+      "Yilu Dong",
+      "Tianchang Yang",
+      "Abdullah Al Ishtiaq",
+      "Syed Md Mukit Rashid",
+      "Ali Ranjbar",
+      "Kai Tu",
+      "Tianwei Wu",
+      "Md Sultan Mahmud",
+      "Syed Rafiul Hussain"
+    ],
+    "toolurl": "https://zenodo.org/records/14735880",
+    "title": "CoreCrisis: Threat-Guided and Context-Aware Iterative Learning and Fuzzing of 5G Core Networks",
+    "booktitle": "Proceedings of the 34th USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/conference/usenixsecurity25/presentation/dong-yilu"
+    ],
+    "keywords": [
+      "fuzzing",
+      "black-box",
+      "5G"
+    ]
   },
   {
     "name": "CountDown",
@@ -2605,6 +2706,39 @@
     "color": "greybox"
   },
   {
+    "name": "Encarsia",
+    "year": "2025",
+    "targets": [
+      "CPU"
+    ],
+    "color": "blackbox",
+    "references": [
+      "Cascade"
+    ],
+    "author": [
+      "Matej Bölcskei",
+      "Flavien Solt",
+      "Katharina Ceesay-Seitz",
+      "Kaveh Razavi"
+    ],
+    "toolurl": "https://comsec.ethz.ch/research/hardware-design-security/encarsia/",
+    "title": "Encarsia: Evaluating CPU Fuzzers via Automatic Bug Injection",
+    "booktitle": "Proceedings of the 34th USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/conference/usenixsecurity25/presentation/bolcskei"
+    ],
+    "keywords": [
+      "hardware fuzzing",
+      "CPU fuzzing",
+      "RISC-V",
+      "bug injection",
+      "RTL",
+      "formal verification",
+      "coverage metrics",
+      "fuzzer evaluation"
+    ]
+  },
+  {
     "name": "EnclaveFuzz",
     "year": "2024",
     "targets": [
@@ -3111,6 +3245,37 @@
     "toolurl": "https://github.com/sefcom/flakjack",
     "title": "Fuzz to the Future: Uncovering Occluded Future Vulnerabilities via Robust Fuzzing",
     "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security"
+  },
+  {
+    "name": "FlowFusion",
+    "year": "2025",
+    "targets": [
+      "PHP"
+    ],
+    "color": "blackbox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "Yuancheng Jiang",
+      "Chuqi Zhang",
+      "Bonan Ruan",
+      "Jiahao Liu",
+      "Manuel Rigger",
+      "Roland H. C. Yap",
+      "Zhenkai Liang"
+    ],
+    "toolurl": "https://github.com/php/flowfusion",
+    "title": "Fuzzing the PHP Interpreter via Dataflow Fusion",
+    "booktitle": "Proceedings of the 34th USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/conference/usenixsecurity25/presentation/jiang-yuancheng"
+    ],
+    "keywords": [
+      "fuzzing",
+      "PHP interpreter",
+      "dataflow fusion"
+    ]
   },
   {
     "name": "Fluffy",
@@ -3624,6 +3789,35 @@
     ]
   },
   {
+    "name": "G2FUZZ",
+    "year": "2025",
+    "targets": [
+      "FILE"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "Kunpeng Zhang",
+      "Zongjie Li",
+      "Daoyuan Wu",
+      "Shuai Wang",
+      "Xin Xia"
+    ],
+    "toolurl": "https://github.com/G2FUZZ/G2FUZZ",
+    "title": "Low-Cost and Comprehensive Non-textual Input Fuzzing with LLM-Synthesized Input Generators",
+    "booktitle": "Proceedings of the 34th USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/conference/usenixsecurity25/presentation/zhang-kunpeng"
+    ],
+    "keywords": [
+      "fuzzing",
+      "greybox",
+      "grammar-aware"
+    ]
+  },
+  {
     "name": "GLADE",
     "year": 2015,
     "author": [
@@ -3814,6 +4008,38 @@
     "booktitle": "Proceedings of the USENIX Symposium on Operating Systems Design and Implementation",
     "miscurl": [
       "https://www.usenix.org/system/files/osdi20-ruffy.pdf"
+    ]
+  },
+  {
+    "name": "GenHuzz",
+    "year": "2025",
+    "targets": [
+      "CPU"
+    ],
+    "color": "blackbox",
+    "references": [
+      "Cascade",
+      "DifuzzRTL"
+    ],
+    "author": [
+      "Lichao Wu",
+      "Mohamadreza Rostami",
+      "Huimin Li",
+      "Jeyavijayan Rajendran",
+      "Ahmad-Reza Sadeghi"
+    ],
+    "toolurl": "https://zenodo.org/records/14727632",
+    "title": "GenHuzz: An Efficient Generative Hardware Fuzzer",
+    "booktitle": "Proceedings of the 34th USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/conference/usenixsecurity25/presentation/lin-zihan"
+    ],
+    "keywords": [
+      "hardware fuzzing",
+      "white-box",
+      "reinforcement learning",
+      "language model",
+      "RISC-V"
     ]
   },
   {
@@ -5560,6 +5786,37 @@
     "color": "greybox"
   },
   {
+    "name": "Lyso",
+    "year": "2025",
+    "targets": [
+      "C API Fuzzing"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL",
+      "AFLGo"
+    ],
+    "author": [
+      "Andrew Bao",
+      "Wenjia Zhao",
+      "Yanhao Wang",
+      "Yueqiang Cheng",
+      "Stephen McCamant",
+      "Pen-Chung Yew"
+    ],
+    "title": "From Alarms to Real Bugs: Multi-target Multi-step Directed Greybox Fuzzing for Static Analysis Result Verification",
+    "booktitle": "Proceedings of the 34th USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/conference/usenixsecurity25/presentation/bao-andrew"
+    ],
+    "keywords": [
+      "fuzzing",
+      "directed greybox",
+      "static analysis",
+      "multi-target"
+    ]
+  },
+  {
     "name": "MALintent",
     "year": "2025",
     "targets": [
@@ -5608,6 +5865,39 @@
     "booktitle": "Proceedings of the IEEE Symposium on Security and Privacy",
     "miscurl": [
       "https://www.computer.org/csdl/proceedings-article/sp/2024/313000a195/1WPcYmDLzKo"
+    ]
+  },
+  {
+    "name": "MBFuzzer",
+    "year": "2025",
+    "targets": [
+      "MQTT"
+    ],
+    "color": "blackbox",
+    "references": [
+      "AFLNet",
+      "SGFuzz"
+    ],
+    "author": [
+      "Xiangpu Song",
+      "Jianliang Wu",
+      "Yingpei Zeng",
+      "Hao Pan",
+      "Chaoshun Zuo",
+      "Qingchuan Zhao",
+      "Shanqing Guo"
+    ],
+    "toolurl": "https://zenodo.org/records/14942763?utm_source=chatgpt.com",
+    "title": "MBFuzzer: A Multi-Party Protocol Fuzzer for MQTT Brokers",
+    "booktitle": "Proceedings of the 34th USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/conference/usenixsecurity25/presentation/song-xiangpu"
+    ],
+    "keywords": [
+      "fuzzing",
+      "MQTT",
+      "black-box",
+      "network protocol"
     ]
   },
   {
@@ -6914,6 +7204,40 @@
     "keywords": [
       "compiler fuzzing",
       "translation validation"
+    ]
+  },
+  {
+    "name": "PAPILLON",
+    "year": "2025",
+    "targets": [
+      "LLM"
+    ],
+    "color": "blackbox",
+    "author": [
+      "Xueluan Gong",
+      "Mingzhe Li",
+      "Yilin Zhang",
+      "Fengyuan Ran",
+      "Chen Chen",
+      "Yanjiao Chen",
+      "Qian Wang",
+      "Kwok-Yan Lam"
+    ],
+    "toolurl": "https://github.com/aaFrostnova/Papillon",
+    "title": "PAPILLON: Efficient and Stealthy Fuzz Testing-Powered Jailbreaks for LLMs",
+    "booktitle": "Proceedings of the 34th USENIX Security Symposium",
+    "miscurl": [
+      "https://doi.org/10.48550/arXiv.2409.14866"
+    ],
+    "keywords": [
+      "fuzzing",
+      "jailbreaking",
+      "LLM security",
+      "black-box fuzzing",
+      "prompt mutation",
+      "semantic coherence",
+      "jailbreak defenses",
+      "transferabilit"
     ]
   },
   {
@@ -8341,6 +8665,38 @@
       "Network"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "SPFuzz",
+    "year": "2025",
+    "targets": [
+      "FILE"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "Jifan Xiao",
+      "Peng Jiang",
+      "Zixi Zhao",
+      "Ruizhe Huang",
+      "Junlin Liu",
+      "Ding Li"
+    ],
+    "toolurl": "https://github.com/Nova-xiao/SPFuzz",
+    "title": "Robust, Efficient, and Widely Available Greybox Fuzzing for COTS Binaries with System Call Pattern Feedback",
+    "booktitle": "Proceedings of the 34th USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity25-xiao-jifan.pdf"
+    ],
+    "keywords": [
+      "greybox fuzzing",
+      "system call pattern coverage",
+      "COTS binaries",
+      "binary-only fuzzing",
+      "syscall tracing"
+    ]
   },
   {
     "name": "SPIKE",
@@ -10022,6 +10378,39 @@
     ]
   },
   {
+    "name": "WDFUZZ",
+    "year": "2025",
+    "targets": [
+      "Java"
+    ],
+    "color": "greybox",
+    "references": [
+      "Witcher"
+    ],
+    "author": [
+      "Zihan Lin",
+      "Yuan Zhang",
+      "Jiarun Dai",
+      "Xinyou Huang",
+      "Bocheng Xiang",
+      "Guangliang Yang",
+      "Letian Yuan",
+      "Lei Zhang",
+      "Fengyu Liu",
+      "Tian Chen",
+      "Min Yang"
+    ],
+    "toolurl": "https://zenodo.org/records/14718601",
+    "title": "Effective Directed Fuzzing with Hierarchical Scheduling for Web Vulnerability Detection",
+    "booktitle": "Proceedings of the 34th USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/conference/usenixsecurity25/presentation/lin-zihan"
+    ],
+    "keywords": [
+      "Java"
+    ]
+  },
+  {
     "name": "WINFUZZ",
     "year": "2023",
     "targets": [
@@ -10071,6 +10460,37 @@
       "Windows"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "Waltzz",
+    "year": "2025",
+    "targets": [
+      "JavaScript"
+    ],
+    "color": "blackbox",
+    "references": [
+      "Fuzzilli"
+    ],
+    "author": [
+      "Zhang",
+      "Lingming and Zhao",
+      "Binbin and Xu",
+      "Jiacheng and Liu",
+      "Peiyu and Xie",
+      "Qinge and Tian",
+      "Yuan and Chen",
+      "Jianhai and Ji",
+      "Shouling"
+    ],
+    "toolurl": "https://github.com/mobsceneZ/Waltzz",
+    "title": "Waltzz: WebAssembly Runtime Fuzzing with Stack-Invariant Transformation",
+    "booktitle": "Proceedings of the 34th USENIX Security Symposium",
+    "miscurl": [
+      "https://www.usenix.org/system/files/usenixsecurity25-zhang-lingming.pdf"
+    ],
+    "keywords": [
+      "Wasm"
+    ]
   },
   {
     "name": "Wasm-mutate",
