@@ -222,6 +222,35 @@
     "color": "greybox"
   },
   {
+    "name": "AHA-Fuzz",
+    "year": "2025",
+    "targets": [
+      "android"
+    ],
+    "color": "greybox",
+    "references": [
+      "APE"
+    ],
+    "author": [
+      "Seongyun Jeong",
+      "Minseong Choi",
+      "Haehyun Cho",
+      "Seokwoo Choi",
+      "Hyungsub Kim",
+      "Yuseok Jeon"
+    ],
+    "toolurl": "https://github.com/S2-Lab/AHA-fuzz",
+    "title": "Intent-aware Fuzzing for Android Hardened Application",
+    "booktitle": "Proceedings of the 2025 ACM SIGSAC Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://doi.org/10.1145/3719027.3744858"
+    ],
+    "keywords": [
+      "Android",
+      "hardened application"
+    ]
+  },
+  {
     "name": "AIFORE",
     "year": 2023,
     "targets": [
@@ -1228,6 +1257,35 @@
     ]
   },
   {
+    "name": "Circuzz",
+    "year": "2024",
+    "targets": [
+      "Smart Contract"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "Christoph Hochrainer",
+      "Anastasia Isychev",
+      "Valentin Wüstholz",
+      "Maria Christakis"
+    ],
+    "toolurl": "https://github.com/consensys/circuzz",
+    "title": "Fuzzing Processing Pipelines for Zero-Knowledge Circuits",
+    "booktitle": "Proceedings of the 2025 ACM SIGSAC Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://arxiv.org/abs/2411.02077"
+    ],
+    "keywords": [
+      "zero-knowledge proofs",
+      "metamorphic testing",
+      "constraint system generation",
+      "ZK compilers"
+    ]
+  },
+  {
     "name": "ClozeMaster",
     "year": "2025",
     "targets": [
@@ -1351,6 +1409,36 @@
     ],
     "miscurl": [
       "https://dl.acm.org/doi/pdf/10.1145/3611643.3616332"
+    ]
+  },
+  {
+    "name": "ConTest",
+    "year": "2025",
+    "targets": [
+      "Robot Vehicle"
+    ],
+    "color": "greybox",
+    "references": [
+      "RVFuzzer",
+      "PGFUZZ"
+    ],
+    "author": [
+      "Wang",
+      "Jinwen and Zhang",
+      "Hongchao and Jiang",
+      "Chuanrui and Clark",
+      "Andrew and Zhang",
+      "Ning"
+    ],
+    "title": "ConTest: Taming the Cyber-physical Input Space in Fuzz Testing with Control Theory",
+    "booktitle": "Proceedings of the 2025 ACM SIGSAC Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://doi.org/10.1145/3719027.3744858"
+    ],
+    "keywords": [
+      "cyber-physical system",
+      "fuzzing",
+      "system and software security"
     ]
   },
   {
@@ -2061,6 +2149,40 @@
     ],
     "keywords": [
       "distributed systems"
+    ]
+  },
+  {
+    "name": "DiveFuzz",
+    "year": "2025",
+    "targets": [
+      "CPU"
+    ],
+    "color": "whitebox",
+    "references": [
+      "DifuzzRTL",
+      "Cascade"
+    ],
+    "author": [
+      "Zihui Guo",
+      "Miaomiao Yuan",
+      "Yanqi Yang",
+      "Liwei Chen",
+      "Gang Shi",
+      "Dan Meng"
+    ],
+    "toolurl": "https://github.com/in2sec/DiveFuzz",
+    "title": "DiveFuzz: Enhancing CPU Fuzzing via Diverse Instruction Construction",
+    "booktitle": "Proceedings of the 2025 ACM SIGSAC Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://doi.org/10.1145/3719027.3765167"
+    ],
+    "keywords": [
+      "fuzzing",
+      "CPU fuzzing",
+      "RISC-V",
+      "hardware verification",
+      "test generation",
+      "instruction-level fuzzing"
     ]
   },
   {
@@ -7073,6 +7195,32 @@
     "color": "blackbox"
   },
   {
+    "name": "Pemu",
+    "year": "2025",
+    "targets": [
+      "Firmware"
+    ],
+    "color": "greybox",
+    "references": [
+      "Fuzzware",
+      "Hoedur"
+    ],
+    "author": [
+      "Moritz Bley",
+      "Tobias Scharnowski",
+      "Simon Wörner",
+      "Moritz Schloegel",
+      "Thorsten Holz"
+    ],
+    "toolurl": "https://github.com/MPI-SysSec/pemu",
+    "title": "Protocol-Aware Firmware Rehosting for Effective Fuzzing of Embedded Network Stacks",
+    "booktitle": "Proceedings of the 2025 ACM SIGSAC Conference on Computer and Communications Security",
+    "keywords": [
+      "protocol inference",
+      "rehosting"
+    ]
+  },
+  {
     "name": "PeriScope",
     "year": 2019,
     "title": "PeriScope: An Effective Probing and Fuzzing Framework for the Hardware-OS Boundary",
@@ -7222,6 +7370,38 @@
     "booktitle": "Proceedings of the Network and Distributed System Security Symposium"
   },
   {
+    "name": "PrintXPSurge",
+    "year": "2025",
+    "targets": [
+      "Kernel"
+    ],
+    "color": "greybox",
+    "references": [
+      "WINNIE"
+    ],
+    "author": [
+      "Yunpeng Tian",
+      "Feng Dong",
+      "Junhai Wang",
+      "Mu Zhang",
+      "Zhiniang Peng",
+      "Zesen Ye",
+      "Xiapu Luo",
+      "Haoyu Wang"
+    ],
+    "toolurl": "https://github.com/PrinterRepo/PrintXPSurge",
+    "title": "Error Messages to Fuzzing: Detecting XPS Parsing Vulnerabilities in Windows Printing Components",
+    "booktitle": "Proceedings of the 2025 ACM SIGSAC Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://doi.org/10.1145/3719027.3744807"
+    ],
+    "keywords": [
+      "printer",
+      "XPS",
+      "driver fuzzing"
+    ]
+  },
+  {
     "name": "ProFuzzer",
     "year": 2019,
     "author": [
@@ -7246,6 +7426,39 @@
       "Angora"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "PromeFuzz",
+    "year": "2025",
+    "targets": [
+      "API"
+    ],
+    "color": "blackbox",
+    "references": [
+      "PromptFuzz"
+    ],
+    "author": [
+      "Yuwei Liu",
+      "Junquan Deng",
+      "Xiangkun Jia",
+      "Yanhao Wang",
+      "Minghua Wang",
+      "Lin Huang",
+      "Tao Wei",
+      "Purui Su"
+    ],
+    "toolurl": "https://github.com/pvz122/PromeFuzz",
+    "title": "PromeFuzz: A Knowledge-Driven Approach to Fuzzing Harness Generation with Large Language Models",
+    "booktitle": "Proceedings of the 2025 ACM SIGSAC Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://doi.org/10.1145/3719027.3765222"
+    ],
+    "keywords": [
+      "api-level fuzzing",
+      "fuzzing",
+      "fuzzing harness generation",
+      "large language model"
+    ]
   },
   {
     "name": "PromptFuzz",
@@ -7660,6 +7873,31 @@
       "LibFuzzer"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "RVISmith",
+    "year": "2025",
+    "targets": [
+      "Compiler"
+    ],
+    "color": "greybox",
+    "references": [
+      "CSmith"
+    ],
+    "author": [
+      "Yibo He",
+      "Cunjian Huang",
+      "Xianmiao Qu",
+      "Hongdeng Chen",
+      "Wei Yang",
+      "Tao Xie"
+    ],
+    "toolurl": "https://github.com/yibo2000/RVISmith",
+    "title": "RVISmith: Fuzzing Compilers for RVV Intrinsics",
+    "booktitle": "Proceedings of the 2025 ACM SIGSAC Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://arxiv.org/abs/2507.03773"
+    ]
   },
   {
     "name": "RaceFuzzer",
@@ -8921,6 +9159,67 @@
     ],
     "miscurl": [
       "https://dl.acm.org/doi/pdf/10.1145/3460120.3484564"
+    ]
+  },
+  {
+    "name": "SyzParam",
+    "year": "2025",
+    "targets": [
+      "Kernel"
+    ],
+    "color": "greybox",
+    "references": [
+      "syzkaller"
+    ],
+    "author": [
+      "Yue Sun",
+      "Yan Kang",
+      "Chenggang Wu",
+      "Kangjie Lu",
+      "Jiming Wang",
+      "Xingwei Li",
+      "Yuhao Hu",
+      "Jikai Ren",
+      "Yuanming Lai",
+      "Mengyao Xie",
+      "Zhe Wang"
+    ],
+    "title": "SyzParam: Incorporating Runtime Parameters into Kernel Driver Fuzzing",
+    "booktitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://doi.org/10.1145/3719027.3744838"
+    ],
+    "keywords": [
+      "driver fuzzing",
+      "syscall fuzzing"
+    ]
+  },
+  {
+    "name": "SyzSpec",
+    "year": "2025",
+    "targets": [
+      "Kernel"
+    ],
+    "color": "greybox",
+    "references": [
+      "syzkaller",
+      "SyzGen"
+    ],
+    "author": [
+      "Yu Hao",
+      "Juefei Pu",
+      "Xingyu Li",
+      "Zhiyun Qian",
+      "Ardalan Amiri Sani"
+    ],
+    "toolurl": "https://github.com/seclab-ucr/SyzSpec",
+    "title": "SyzSpec: Specification Generation for Linux Kernel Fuzzing via Under-Constrained Symbolic Execution",
+    "booktitle": "Proceedings of the 2025 ACM SIGSAC Conference on Computer and Communications Security",
+    "miscurl": [
+      "https://doi.org/10.1145/3719027.3744811"
+    ],
+    "keywords": [
+      "kernel"
     ]
   },
   {
