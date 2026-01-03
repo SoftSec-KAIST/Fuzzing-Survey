@@ -660,6 +660,7 @@ d3.json("data/fuzzers.json")
     initStats(d.nodes);
     zoom.scaleTo(canvas, minScale);
     // Center the graph after a sec.
+    hideInfobox();
     setTimeout(function () {
       const key = getQueryVariable("k");
       const data = d.nodes.find(function (d) { return (d.name === key); });
