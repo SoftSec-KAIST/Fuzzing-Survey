@@ -249,6 +249,32 @@
     ]
   },
   {
+    "name": "ALGERNON",
+    "year": "2025",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "QSYM"
+    ],
+    "author": [
+      "Peng Deng",
+      "Lei Zhang",
+      "Jingqi Long",
+      "Wenzheng Hong",
+      "Zhemin Yang",
+      "Yuan Zhang",
+      "Donglai Zhu",
+      "Min Yang"
+    ],
+    "title": "ALGERNON: A Flag-Guided Hybrid Fuzzer for Unlocking Hidden Program Paths",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "miscurl": [
+      "https://yuanxzhang.github.io/paper/Algernon-ase25.pdf"
+    ]
+  },
+  {
     "name": "AMPFuzz",
     "year": 2022,
     "targets": [
@@ -468,6 +494,33 @@
     ],
     "targets": [],
     "color": "blackbox"
+  },
+  {
+    "name": "BCFuzz",
+    "year": "2025",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "Fuzzilli"
+    ],
+    "author": [
+      "Peng Deng",
+      "Lei Zhang",
+      "Jingqi Long",
+      "Wenzheng Hong",
+      "Zhemin Yang",
+      "Yuan Zhang",
+      "Donglai Zhu",
+      "Min Yang"
+    ],
+    "title": "BCFuzz: Bytecode-Driven Fuzzing for JavaScript Engines",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "keywords": [
+      "JavaScript",
+      "JIT compiler"
+    ]
   },
   {
     "name": "BEACON",
@@ -9871,6 +9924,33 @@
     ],
     "miscurl": [
       "https://www.usenix.org/system/files/usenixsecurity24-wang-mingzhe.pdf"
+    ]
+  },
+  {
+    "name": "WingMuzz",
+    "year": "2025",
+    "targets": [
+      "IoT"
+    ],
+    "color": "blackbox",
+    "references": [
+      "AFLNet"
+    ],
+    "author": [
+      "Xiaogang Zhu",
+      "Enze Dai",
+      "Xiaotao Feng",
+      "Shaohua Wang",
+      "Xin Xia",
+      "Sheng Wen",
+      "Kwok-Yan Lam",
+      "Yang Xiang"
+    ],
+    "toolurl": "https://github.com/nuwaLab/wingmuzz",
+    "title": "WingMuzz: Blackbox Testing of IoT Protocols via Two-dimensional Fuzzing Schedule",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "miscurl": [
+      "https://ieeexplore.ieee.org/document/11334343"
     ]
   },
   {
