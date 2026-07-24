@@ -727,6 +727,34 @@
     "color": "greybox"
   },
   {
+    "name": "BinGo",
+    "year": "2025",
+    "targets": [
+      "File"
+    ],
+    "color": "greybox",
+    "references": [
+      "PDGF"
+    ],
+    "author": [
+      "Peihong Lin",
+      "Pengfei Wang",
+      "Xu Zhou",
+      "Wei Xie",
+      "Xin Ren",
+      "Kai Lu"
+    ],
+    "title": "When Control Flows Deviate: Directed Grey-box Fuzzing with Probabilistic Reachability Analysis",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "miscurl": [
+      "https://dl.acm.org/doi/10.1109/ASE63991.2025.00065"
+    ],
+    "keywords": [
+      "COTS",
+      "directed fuzzing"
+    ]
+  },
+  {
     "name": "BitFuzz",
     "year": 2010,
     "author": [
@@ -9902,6 +9930,31 @@
       "AFL"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "Terminator",
+    "year": "2025",
+    "targets": [
+      "UI"
+    ],
+    "color": "greybox",
+    "references": [
+      "WINNIE"
+    ],
+    "author": [
+      "Jonas Zabel",
+      "Philip Kolvenbach",
+      "Steven Arzt"
+    ],
+    "toolurl": "https://github.com/Fraunhofer-SIT/ASE2025-Terminator",
+    "title": "Terminator: Enabling Efficient Fuzzing of Closed-Source GUI Programs by Automatic Coverage-Guided Termination",
+    "booktitle": "Proceedings of the International Conference on Automated Software Engineering",
+    "miscurl": [
+      "https://ieeexplore.ieee.org/document/11334615"
+    ],
+    "keywords": [
+      "GUI"
+    ]
   },
   {
     "name": "TheHuzz",
