@@ -27,6 +27,32 @@
     ]
   },
   {
+    "name": "ADGFuzz",
+    "year": "2026",
+    "targets": [
+      "Robot Vehicle"
+    ],
+    "color": "greybox",
+    "references": [
+      "PGFUZZ"
+    ],
+    "author": [
+      "Yuncheng Wang",
+      "Yaowen Zheng",
+      "Puzhuo Liu",
+      "Dongliang Fang",
+      "Jiaxing Cheng",
+      "Dingyi Shi",
+      "Limin Sun"
+    ],
+    "toolurl": "https://github.com/wyunc/ADGFuzz",
+    "title": "ADGFUZZ: Assignment Dependency-Guided Fuzzing for Robotic Vehicles",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/2026-s1014-paper.pdf"
+    ]
+  },
+  {
     "name": "AFL",
     "year": 2014,
     "author": [
@@ -649,6 +675,40 @@
     "booktitle": "Proceedings of the International Symposium on Foundations of Software Engineering",
     "miscurl": [
       "https://dl.acm.org/doi/pdf/10.1145/3643778"
+    ]
+  },
+  {
+    "name": "BSFuzzer",
+    "year": "2026",
+    "targets": [
+      "Network"
+    ],
+    "color": "blackbox",
+    "references": [
+      "Proteus"
+    ],
+    "author": [
+      "Ting Yang",
+      "Yue Qin",
+      "Lan Zhang",
+      "Zhiyuan Fu",
+      "Junfan Chen",
+      "Jice Wang",
+      "Shangru Zhao",
+      "Qi Li",
+      "Ruidong Li",
+      "He Wang",
+      "Yuqing Zhang"
+    ],
+    "toolurl": "https://github.com/yangting111/BSFuzz",
+    "title": "BSFuzzer",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/2026-f94-paper.pdf"
+    ],
+    "keywords": [
+      "BLE",
+      "LLM"
     ]
   },
   {
@@ -3268,6 +3328,36 @@
     "color": "blackbox"
   },
   {
+    "name": "FirmAgent",
+    "year": "2026",
+    "targets": [
+      "Firmware"
+    ],
+    "color": "greybox",
+    "references": [
+      "FIRM-AFL"
+    ],
+    "author": [
+      "Jiangan Ji",
+      "Chao Zhang",
+      "Shuitao Gan",
+      "Jian Lin",
+      "Hangtian Liu",
+      "Tieming Liu",
+      "Lei Zheng",
+      "Zhipeng Jia"
+    ],
+    "toolurl": "https://github.com/vul337/FirmAgent",
+    "title": "FirmAgent: Leveraging Fuzzing to Assist LLM Agents with IoT Firmware Vulnerability Discovery",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/2026-s1943-paper.pdf"
+    ],
+    "keywords": [
+      "LLM"
+    ]
+  },
+  {
     "name": "FishFuzz",
     "year": "2023",
     "targets": [
@@ -3746,6 +3836,32 @@
     "color": "blackbox"
   },
   {
+    "name": "Fuzzilicon",
+    "year": "2026",
+    "targets": [
+      "CPU"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "Johannes Lenzen",
+      "Mohamadreza Rostami",
+      "Lichao Wu",
+      "Ahmad-Reza Sadeghi"
+    ],
+    "toolurl": "https://github.com/0xCCF4/ufuzz",
+    "title": "Fuzzilicon: A Post-Silicon Microcode-Guided x86 CPU Fuzzer",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/2026-s1486-paper.pdf"
+    ],
+    "keywords": [
+      "Post-silicon CPU"
+    ]
+  },
+  {
     "name": "Fuzzilli",
     "year": 2019,
     "author": [
@@ -4121,6 +4237,29 @@
       "reinforcement learning",
       "language model",
       "RISC-V"
+    ]
+  },
+  {
+    "name": "GoldenFuzz",
+    "year": "2026",
+    "targets": [
+      "CPU"
+    ],
+    "color": "whitebox",
+    "references": [
+      "Cascade"
+    ],
+    "author": [
+      "Lichao Wu",
+      "Mohamadreza Rostami",
+      "Huimin Li",
+      "Nikhilesh Singh",
+      "Ahmad-Reza Sadeghi"
+    ],
+    "title": "GoldenFuzz: Generative Golden Reference Hardware Fuzzing",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/2026-s1663-paper.pdf"
     ]
   },
   {
@@ -4664,6 +4803,31 @@
       "SAGE"
     ],
     "color": "whitebox"
+  },
+  {
+    "name": "HyperMirage",
+    "year": "2026",
+    "targets": [
+      "Hypervisor"
+    ],
+    "color": "greybox",
+    "references": [
+      "Nyx"
+    ],
+    "author": [
+      "Manuel Andreas",
+      "Fabian Specht",
+      "Marius Momeu"
+    ],
+    "toolurl": "https://github.com/tum-itsec/hypermirage",
+    "title": "HyperMirage: Direct State Manipulation in Hybrid Virtual CPU Fuzzing",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/2026-s1763-paper.pdf"
+    ],
+    "keywords": [
+      "Hypervisor virtual-CPU interface"
+    ]
   },
   {
     "name": "HyperPill",
@@ -5840,6 +6004,34 @@
       "Lib"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "LogicFuzz",
+    "year": "2026",
+    "targets": [
+      "PLC"
+    ],
+    "color": "greybox",
+    "references": [
+      "ICSFuzz"
+    ],
+    "author": [
+      "Jiaxing Cheng",
+      "Ming Zhou",
+      "Haining Wang",
+      "Xin Chen",
+      "Yuncheng Wang",
+      "Yibo Qu",
+      "Limin Sun"
+    ],
+    "title": "An LLM-Driven Fuzzing Framework for Detecting Logic Instruction Bugs in PLCs",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/2026-f1081-paper.pdf"
+    ],
+    "keywords": [
+      "ICS"
+    ]
   },
   {
     "name": "Luo et al.",
@@ -7668,6 +7860,31 @@
     ]
   },
   {
+    "name": "PhyFuzz",
+    "year": "2026",
+    "targets": [
+      "Sensor"
+    ],
+    "color": "blackbox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "Zhicong Zheng",
+      "Jinghui Wu",
+      "Shilin Xiao",
+      "Yanze Ren",
+      "Chen Yan",
+      "Xiaoyu Ji",
+      "Wenyuan Xu"
+    ],
+    "title": "PhyFuzz: Detecting Sensor Vulnerabilities with Physical Signal Fuzzing",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/2026-f29-paper.pdf"
+    ]
+  },
+  {
     "name": "PolyFuzz",
     "year": 2023,
     "targets": [
@@ -8253,6 +8470,31 @@
     ]
   },
   {
+    "name": "RTCON",
+    "year": "2026",
+    "targets": [
+      "Firmware"
+    ],
+    "color": "greybox",
+    "references": [
+      "LibFuzzer"
+    ],
+    "author": [
+      "Eunkyu Lee",
+      "Junyoung Park",
+      "Insu Yun"
+    ],
+    "toolurl": "https://github.com/kaist-hacking/RTCon",
+    "title": "RTCON: Context-Adaptive Function-Level Fuzzing for RTOS Kernels",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/2026-f1600-paper.pdf"
+    ],
+    "keywords": [
+      "RTOS"
+    ]
+  },
+  {
     "name": "RVFuzzer",
     "year": 2019,
     "author": [
@@ -8345,6 +8587,31 @@
       "RaceFuzzer"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "ReFuzz",
+    "year": "2026",
+    "targets": [
+      "CPU"
+    ],
+    "color": "greybox",
+    "references": [
+      "TheHuzz"
+    ],
+    "author": [
+      "Chen Chen",
+      "Zaiyan Xu",
+      "Mohamadreza Rostami",
+      "David Liu",
+      "Dileep Kalathil",
+      "Ahmad-Reza Sadeghi",
+      "Jeyavijayan “JV” Rajendran"
+    ],
+    "title": "ReFuzz: Reusing Tests for Processor Fuzzing with Contextual Bandits",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/2026-f118-paper.pdf"
+    ]
   },
   {
     "name": "ReUSB",
@@ -8877,6 +9144,31 @@
       "AFL"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "SWIPE",
+    "year": "2026",
+    "targets": [
+      "DOM"
+    ],
+    "color": "greybox",
+    "references": [
+      "AFL"
+    ],
+    "author": [
+      "Nuno Sabino",
+      "Darion Cassel",
+      "Rui Abreu",
+      "Pedro Adão",
+      "Lujo Bauer",
+      "Limin Jia"
+    ],
+    "toolurl": "https://doi.org/10.5281/zenodo.15883603",
+    "title": "DOM-XSS Detection via Webpage Interaction Fuzzing and URL Component Synthesis",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/2026-s1467-paper.pdf"
+    ]
   },
   {
     "name": "SafireFuzz",
