@@ -1134,7 +1134,7 @@
     ],
     "toolurl": "https://github.com/CLIR479/CLIR",
     "title": "CLIR: Liveness-Driven and Structure-Aware Fuzzing for the Cranelift Compiler",
-    "booktitle": "CLIR: Liveness-Driven and Structure-Aware Fuzzing for the Cranelift Compiler",
+    "booktitle": "Proceedings of the International Symposium on Software Testing and Analysis",
     "miscurl": [
       "http://arxiv.org/abs/2606.26977"
     ]
