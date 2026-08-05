@@ -763,6 +763,34 @@
     ]
   },
   {
+    "name": "Belobog",
+    "year": "2026",
+    "targets": [
+      "Smart Contract"
+    ],
+    "color": "greybox",
+    "references": [
+      "ItyFuzz"
+    ],
+    "author": [
+      "Ziqiao Kong",
+      "Wanxu Xia",
+      "Zhengwei Li",
+      "Yi Lu",
+      "Pan Li",
+      "Liqun Yang",
+      "Yang Liu",
+      "Xiapu Luo",
+      "Shaohua Li"
+    ],
+    "toolurl": "https://github.com/abortfuzz/belobog",
+    "title": "Belobog: Move Language Fuzzing Framework For Real-World Smart Contracts",
+    "booktitle": "Proceedings of the International Symposium on Software Testing and Analysis",
+    "miscurl": [
+      "https://arxiv.org/abs/2512.02918"
+    ]
+  },
+  {
     "name": "BigFuzz",
     "year": 2020,
     "author": [
@@ -1084,6 +1112,32 @@
       "Hypervisor"
     ],
     "color": "blackbox"
+  },
+  {
+    "name": "CLIR",
+    "year": "2026",
+    "targets": [
+      "Compiler"
+    ],
+    "color": "blackbox",
+    "references": [
+      "RustSmith"
+    ],
+    "author": [
+      "Shangtong Cao",
+      "Tianlei Song",
+      "Qiuping Yi",
+      "Tianyu Chen",
+      "Guoai Xu",
+      "Ningyu He",
+      "Haoyu Wang"
+    ],
+    "toolurl": "https://github.com/CLIR479/CLIR",
+    "title": "CLIR: Liveness-Driven and Structure-Aware Fuzzing for the Cranelift Compiler",
+    "booktitle": "CLIR: Liveness-Driven and Structure-Aware Fuzzing for the Cranelift Compiler",
+    "miscurl": [
+      "http://arxiv.org/abs/2606.26977"
+    ]
   },
   {
     "name": "CLSmith",
