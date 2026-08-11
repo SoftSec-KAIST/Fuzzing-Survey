@@ -8873,6 +8873,31 @@
     ]
   },
   {
+    "name": "RTCON",
+    "year": "2026",
+    "targets": [
+      "Firmware"
+    ],
+    "color": "greybox",
+    "references": [
+      "LibFuzzer"
+    ],
+    "author": [
+      "Eunkyu Lee",
+      "Junyoung Park",
+      "Insu Yun"
+    ],
+    "toolurl": "https://github.com/kaist-hacking/RTCon",
+    "title": "RTCON: Context-Adaptive Function-Level Fuzzing for RTOS Kernels",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/2026-f1600-paper.pdf"
+    ],
+    "keywords": [
+      "RTOS"
+    ]
+  },
+  {
     "name": "RVFuzzer",
     "year": 2019,
     "author": [
@@ -8965,6 +8990,31 @@
       "RaceFuzzer"
     ],
     "color": "greybox"
+  },
+  {
+    "name": "ReFuzz",
+    "year": "2026",
+    "targets": [
+      "CPU"
+    ],
+    "color": "greybox",
+    "references": [
+      "TheHuzz"
+    ],
+    "author": [
+      "Chen Chen",
+      "Zaiyan Xu",
+      "Mohamadreza Rostami",
+      "David Liu",
+      "Dileep Kalathil",
+      "Ahmad-Reza Sadeghi",
+      "Jeyavijayan (JV) Rajendran"
+    ],
+    "title": "ReFuzz: Reusing Tests for Processor Fuzzing with Contextual Bandits",
+    "booktitle": "Proceedings of the Network and Distributed System Security Symposium",
+    "miscurl": [
+      "https://www.ndss-symposium.org/wp-content/uploads/2026-f118-paper.pdf"
+    ]
   },
   {
     "name": "ReUSB",
